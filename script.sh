@@ -9,9 +9,7 @@
 # a copy of the GNU General Public License along with this program.
 # If not, see <http://www.gnu.org/licenses/>.
 
-version="0.0"
-# Change log
-# 0.0 - initial version
+version="0.1"
 
 if [ -z $1 ]
 then
@@ -50,10 +48,10 @@ done
 
 if [[ $UID -ne 0 ]]
 then
-	if [ -f "/home/${SUDO_USER:-$USER}/.local/share/icons/Numix/" ]
+	if [ -d "/home/${SUDO_USER:-$USER}/.local/share/icons/Numix/" ]
 	then
-		cp -r "files/${style}/*" "/home/${SUDO_USER:-$USER}/.local/share/icons/Numix/"
-	elif [ -f "/home/${SUDO_USER:-$USER}/.icons/Numix"]
+		cp -r "files/${style}/*" "/home/${SUDO_USER:-$USER}/.local/share/icons/Numix"
+	elif [ -d "/home/${SUDO_USER:-$USER}/.icons/Numix" ]
 	then
 		cp -r "files/${style}/*" "/home/${SUDO_USER:-$USER}/.icons/Numix"
 	else
@@ -62,9 +60,9 @@ then
 		exit 0
 	fi
 else
-	if [ -f "/usr/share/icons/Numix/" ]
+	if [ -d "/usr/share/icons/Numix/" ]
 	then
-		cp -r "files/${style}/*" "/usr/share/icons/Numix/"
+		cp -rfv ./files/${style}/* /usr/share/icons/Numix/*
 	else
 		echo -e "You don't appear to have Numix installed globally."
 		sleep 3
