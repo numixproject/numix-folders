@@ -25,7 +25,9 @@ else
                 "\rstyles that can be used to replace the default.\n\n" \
                 "\r0 - default folder theme (uninstall)\n" \
                 "\r1 - original folders that came with circle\n" \
-                "\r2 - 1 with the colour scheme from 0"
+                "\r2 - 1 with the colour scheme from 0\n" \
+                "\r3 - new foler design with vibrant colours\n" \
+                "\r4 - 3 with the colour scheme from 1"
             exit 0 ;;
         -h|--help)
             echo -e \
