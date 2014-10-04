@@ -9,7 +9,7 @@
 # a copy of the GNU General Public License along with this program.
 # If not, see <http://www.gnu.org/licenses/>.
 
-version="0.4"
+version="0.4.1"
 
 # Allows timeout when launched vai 'Run in Terminal'
 function gerror() { sleep 3; exit 1; }
