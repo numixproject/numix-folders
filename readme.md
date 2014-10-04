@@ -1,8 +1,21 @@
-Folders
-=============
+# Folders
+This program provides and installs [alternate folders] for use with our [base icon theme](https://github.com/numixproject/numix-icon-theme). All work here is licensed under the GNU GPLv3+
 
-This program provides and installs alternate folders for use with our [base icon theme](https://github.com/numixproject/numix-icon-theme). To install simply download the repository and run the script. When prompted select the style number of your choice from the list below. All work here is licensed under the GNU GPLv3+
+## Install
+To use the script simply run the following commands
+```bash
+wget https://github.com/numixproject/numix-folders/archive/v0.4.tar.gz
+tar xf v0.4.tar.gz && rm v0.4.tar.gz
+cd numix-folders-0.4
+# Remove sudo if icons installed locally
+sudo ./script.sh
+# Pick a style from the list below
+cd ../
+rm -rf numix-folders-0.4/
+```
 
+
+## Styles
 | Style | Preview  | Description |
 | :------------: |:---------------:| :-----:|
 | **0** | - | The default in our base theme - choose this to revert back |
