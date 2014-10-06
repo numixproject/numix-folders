@@ -2,17 +2,7 @@
 This program provides and installs [alternate folders](https://github.com/numixproject/numix-folders/blob/master/readme.md#styles) for use with our [base icon theme](https://github.com/numixproject/numix-icon-theme). All work here is licensed under the GNU GPLv3+
 
 ## Install
-To use the script simply run the following commands
-```bash
-wget https://github.com/numixproject/numix-folders/archive/v0.4.1.tar.gz
-tar xf v0.4.1.tar.gz && rm v0.4.1.tar.gz
-cd numix-folders-0.4.1
-# Remove sudo if icons installed locally
-sudo ./script.sh
-# Pick a style from the list below
-cd ../
-rm -rf numix-folders-0.4.1/
-```
+To use the script simply download this repo, move into the repos directory and then run the script.
 
 
 ## Styles
