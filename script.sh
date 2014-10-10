@@ -62,40 +62,29 @@ else
     gerror
 fi
 
-if [[ $UID -ne 0 ]]; then
-    if [ -d /home/"${SUDO_USER:-$USER}"/.local/share/icons/Numix/ ]; then
-        cp -a files/"${style}"/* /home/"${SUDO_USER:-$USER}"/.local/share/icons/Numix/
-        echo "Folder change complete!"
-        sucess
-    elif [ -d /home/"${SUDO_USER:-$USER}"/.icons/Numix ]; then
-        cp -a files/"${style}"/* /home/"${SUDO_USER:-$USER}"/.icons/Numix/
-        echo "Folder change complete!"
-        sucess
-    elif [ -d "/usr/share/icons/Numix/" ]; then
+cuser="${SUDO_USER:-$USER}"
+if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
+    dir=/home/"$cuser"/.local/share/icons/Numix/
+elif [ -d /home/"$cuser"/.icons/Numix ]; then
+    dir=/home/"$cuser"/.icons/Numix
+elif [ -d /usr/share/icons/Numix/ ]; then
+    if [[ $UID -ne 0 ]]; then
         echo -e \
-            "You appear to have Numix installed globally. Please\n" \
-            "\rrun this script again as root."
+            "You appear to have Numix instaled globally.\n" \
+            "\rPlease run this script again as root"
         gerror
     else
-        echo -e \
-            "You don't appear to have Numix installed! Please\n" \
-            "\rinstall it and run this script again."
-        gerror
+        dir=/usr/share/icons/Numix/
     fi
 else
-    if [ -d "/usr/share/icons/Numix/" ]; then
-        cp -a files/"${style}"/* /usr/share/icons/Numix/
-        echo "Folder change complete!"
-        sucess
-    elif [ -d /home/"${SUDO_USER:-$USER}"/.local/share/icons/Numix/ ] || [ -d /home/"${SUDO_USER:-$USER}"/.icons/Numix ]; then
-        echo -e \
-            "You appear to have Numix installed locally. Please\n" \
-            "\rrun this script again without root."
-        gerror
-    else
-        echo -e \
-            "You don't appear to have Numix installed! Please\n" \
-            "\rinstall it and run this script again."
-        gerror
-    fi
+    echo -e \
+        "You don't appear to have Numix installed! Please\n" \
+        "\rinstall it and run this script again."
+    gerror
 fi
+
+cp -a files/"${style}"/* "$dir"
+chown -R "$cuser" "$dir"
+echo "Folder change complete!"
+sucess
+
