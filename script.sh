@@ -9,13 +9,13 @@
 # a copy of the GNU General Public License along with this program.
 # If not, see <http://www.gnu.org/licenses/>.
 
-version="0.4.1"
+version="0.4.2"
 
 # Allows timeout when launched vai 'Run in Terminal'
+function sucess() { sleep 3; exit 0; }
 function gerror() { sleep 3; exit 1; }
 
-if [ -z "$1" ]
-then
+if [ -z "$1" ]; then
     :
 else
     case "$1" in
@@ -28,7 +28,7 @@ else
                 "\r2 - 1 with the colour scheme from 0\n" \
                 "\r3 - new foler design with vibrant colours\n" \
                 "\r4 - 3 with the colour scheme from 1"
-            exit 0 ;;
+            sucess ;;
         -h|--help)
             echo -e \
                 "Usage: ./$(basename -- $0) [OPTION]\n" \
@@ -40,10 +40,10 @@ else
                 "\r  -l, --list \t\t List of available styles.\n" \
                 "\r  -h, --help \t\t Displays this help menu.\n" \
                 "\r  -v, --version \t Displays program version."
-            exit 0 ;;
+            sucess ;;
         -v|--version)
             echo -e "$(basename -- $0) $version\n"
-            exit 0 ;;
+            sucess ;;
         *)
             echo -e \
                 "$(basename -- $0): invalid option -- '$1'\n" \
@@ -62,25 +62,40 @@ else
     gerror
 fi
 
-if [[ $UID -ne 0 ]]
-then
-
-    if [ -d /home/"${SUDO_USER:-$USER}"/.local/share/icons/Numix/ ]
-    then
+if [[ $UID -ne 0 ]]; then
+    if [ -d /home/"${SUDO_USER:-$USER}"/.local/share/icons/Numix/ ]; then
         cp -a files/"${style}"/* /home/"${SUDO_USER:-$USER}"/.local/share/icons/Numix/
-    elif [ -d /home/"${SUDO_USER:-$USER}"/.icons/Numix ]
-    then
+        echo "Folder change complete!"
+        sucess
+    elif [ -d /home/"${SUDO_USER:-$USER}"/.icons/Numix ]; then
         cp -a files/"${style}"/* /home/"${SUDO_USER:-$USER}"/.icons/Numix/
+        echo "Folder change complete!"
+        sucess
+    elif [ -d "/usr/share/icons/Numix/" ]; then
+        echo -e \
+            "You appear to have Numix installed globally. Please\n" \
+            "\rrun this script again as root."
+        gerror
     else
-        echo "You don't appear to have Numix installed locally."
+        echo -e \
+            "You don't appear to have Numix installed! Please\n" \
+            "\rinstall it and run this script again."
         gerror
     fi
 else
-    if [ -d "/usr/share/icons/Numix/" ]
-    then
+    if [ -d "/usr/share/icons/Numix/" ]; then
         cp -a files/"${style}"/* /usr/share/icons/Numix/
+        echo "Folder change complete!"
+        sucess
+    elif [ -d /home/"${SUDO_USER:-$USER}"/.local/share/icons/Numix/ ] || [ -d /home/"${SUDO_USER:-$USER}"/.icons/Numix ]; then
+        echo -e \
+            "You appear to have Numix installed locally. Please\n" \
+            "\rrun this script again without root."
+        gerror
     else
-        echo "You don't appear to have Numix installed globally."
+        echo -e \
+            "You don't appear to have Numix installed! Please\n" \
+            "\rinstall it and run this script again."
         gerror
     fi
 fi
