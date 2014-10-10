@@ -83,7 +83,7 @@ else
     gerror
 fi
 
-cp -a files/"${style}"/* "$dir"
+cp -rH files/"${style}"/* "$dir"
 chown -R "$cuser" "$dir"
 echo "Folder change complete!"
 sucess
