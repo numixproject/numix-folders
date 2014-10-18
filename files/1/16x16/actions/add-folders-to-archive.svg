@@ -40,9 +40,9 @@
      inkscape:window-height="969"
      id="namedview20"
      showgrid="true"
-     inkscape:zoom="10.429825"
-     inkscape:cx="26.521711"
-     inkscape:cy="14.806526"
+     inkscape:zoom="20.85965"
+     inkscape:cx="2.9838202"
+     inkscape:cy="9.0945292"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -56,13 +56,17 @@
      inkscape:connector-curvature="0"
      id="path3782-3"
      d="M 2,4 C 1.503058,4 1,4.4696179 1,5 L 1,6 C 0.534823,6 -8.71e-4,6.4172975 0,7 l 0,8 c 0,0.60223 0.481939,1 1,1 l 12,0 c 0.537645,0 1.001045,-0.397772 1,-1 l 0,-6.9999999 c -6.31e-4,-0.603019 -0.474177,-1 -1,-1 l -1,0 L 12,5 C 12,4.442676 11.522336,4 11,4 z"
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#d19e73;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.81800002000000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#e9b080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.81800002000000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans" />
   <path
      style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32038838;fill-rule:nonzero;stroke:none;stroke-width:0.81800002;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
      d="M 2,4 C 1.503058,4 1,4.4696179 1,5 L 1,6 C 0.534823,6 -8.71e-4,6.4172976 0,7.0000001 L 0,15 c 0,0.60223 0.47015,1 1,1 l 12,0 c 0.541553,0 1.001045,-0.397772 1,-1 l 0,-6.9999999 c -6.31e-4,-0.603019 -0.48019,-0.920707 -1,-1 l -1,0 L 12,5 C 12,4.442676 11.522336,4 11,4 z M 1,7.0000001 8,7 l 0,1 5,10e-8 L 13,15 1,15 z"
      id="path3768-9"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ssccsssccscsssccccccc" />
+  <path
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.10196079;fill-rule:nonzero;stroke:none;stroke-width:0.81800002000000005;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     d="M 2 4 C 1.503058 4 1 4.4696179 1 5 L 1 6 C 0.534823 6 -0.000871 6.4172975 0 7 L 0 15 C 0 15.60223 0.481939 16 1 16 L 13 16 C 13.268822 16 13.504575 15.893471 13.6875 15.71875 C 13.786931 15.628343 13.851532 15.536122 13.90625 15.40625 C 13.957642 15.284271 14.000261 15.150557 14 15 L 14 8 C 13.999842 7.8492453 13.959419 7.7095718 13.90625 7.59375 C 13.857087 7.4799225 13.771333 7.3962986 13.6875 7.3125 C 13.501741 7.1268167 13.271734 7 13 7 L 12 7 L 12 5 C 12 4.442676 11.522336 4 11 4 L 2 4 z "
+     id="path2987" />
   <path
      sodipodi:nodetypes="ccccsssccccccc"
      inkscape:connector-curvature="0"
