@@ -72,10 +72,10 @@
          inkscape:connector-curvature="0"
          id="path2990"
          d="m 3,1036.3622 8.5,0 c 0.5,0 1,0.5 1,1 l 0,2 c 0,0.554 -0.223,1 -0.5,1 l -9,0 c -0.277,0 -0.5,-0.446 -0.5,-1 l 0,-3 z"
-         style="fill:#a57953;fill-opacity:1;stroke:none"
+         style="fill:#e9a439;fill-opacity:1;stroke:none"
          sodipodi:nodetypes="csssssscc" />
       <rect
-         style="fill:#a57953;fill-opacity:1;stroke:none"
+         style="fill:#e9a439;fill-opacity:1;stroke:none"
          id="rect2994"
          width="11"
          height="8.5"
@@ -88,13 +88,13 @@
          inkscape:connector-curvature="0"
          id="path2996"
          d="m 2.5,1036.8622 0,-0.5 c 0,-0.5 0,-1 0.5,-1 l 2,0 c 0.5,0 0.5,0.5 0.5,1 l 0,0.5 z"
-         style="fill:#a57953;fill-opacity:1;stroke:none" />
+         style="fill:#e9a439;fill-opacity:1;stroke:none" />
     </g>
     <path
        inkscape:connector-curvature="0"
        id="path2998"
        d="m 11,1038.3622 8.5,0 c 0.5,0 1,0.5 1,1 l 0,2 c 0,0.554 -0.223,1 -0.5,1 l -9,0 c -0.277,0 -0.5,-0.446 -0.5,-1 l 0,-3 z"
-       style="fill:#a57953;fill-opacity:1;stroke:none"
+       style="fill:#e9a439;fill-opacity:1;stroke:none"
        sodipodi:nodetypes="csssssscc" />
     <path
        style="opacity:0.02999998;fill:#000000;fill-opacity:1;stroke:none"
@@ -102,7 +102,7 @@
        id="path3807"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:#e9b080;fill-opacity:1;stroke:none"
+       style="fill:#f5c14e;fill-opacity:1;stroke:none"
        id="rect2990"
        width="11"
        height="8.5"
@@ -115,7 +115,7 @@
        inkscape:connector-curvature="0"
        id="path3000"
        d="m 10.5,1038.8622 0,-0.5 c 0,-0.5 0,-1 0.5,-1 l 2,0 c 0.5,0 0.5,0.5 0.5,1 l 0,0.5 z"
-       style="fill:#a57953;fill-opacity:1;stroke:none" />
+       style="fill:#e9a439;fill-opacity:1;stroke:none" />
     <path
        style="opacity:0.05;fill:#000000;fill-opacity:1;stroke:none"
        d="m 13.5,1038.3622 0,0.5 0.5,0 5.5,0 c 0.5,0 1,0.5 1,1 l 0,-0.5 c 0,-0.5 -0.5,-1 -1,-1 l -5.5,0 z"

@@ -68,7 +68,7 @@
     <path
        id="path3004"
        transform="translate(0,1036.3622)"
-       style="fill:#a57953;fill-opacity:1;stroke:none"
+       style="fill:#e9a439;fill-opacity:1;stroke:none"
        d="M 2.8125,0 C 1.3515161,0 1.0563883,0.70864348 1,2 L 4,0 z M 4,0 13.05,0 C 13.95,0 15,1 15,2 l 0,6 c 0,1.108 -0.8974,2 -1.95,2 L 3,10 C 1.9474,10 1,9.108 1,8 L 1,2 z" />
     <rect
        ry="1"
@@ -78,7 +78,7 @@
        height="11"
        width="16"
        id="rect2992"
-       style="fill:#e9b080;fill-opacity:1;stroke:none" />
+       style="fill:#f5c14e;fill-opacity:1;stroke:none" />
     <path
        style="opacity:0.1;fill:#ffffff;fill-opacity:1;stroke:none"
        d="M 1 5 C 0.446 5 0 5.446 0 6 L 16 6 C 16 5.446 15.554 5 15 5 L 1 5 z "
