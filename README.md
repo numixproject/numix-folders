@@ -1,3 +1,5 @@
+**IMPORTANT NOTE: styles 1, 3, 5 & 6 are still under development so using them won't have the expected affect**
+
 # Folders
 This program provides and installs [alternate folders](https://github.com/numixproject/numix-folders/blob/master/readme.md#styles) for use with our [base icon theme](https://github.com/numixproject/numix-icon-theme). To use the script simply download this repo, move into the repos directory and then run the script. All work here is licensed under the GNU GPLv3+
 
