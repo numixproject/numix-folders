@@ -11,11 +11,11 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3999"
-   height="16"
-   width="16"
+   height="22"
+   width="22"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-copy.svg">
+   sodipodi:docname="folder-move.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -29,9 +29,9 @@
      inkscape:window-height="998"
      id="namedview79"
      showgrid="true"
-     inkscape:zoom="33.245067"
-     inkscape:cx="10.122464"
-     inkscape:cy="8.5168307"
+     inkscape:zoom="16.622533"
+     inkscape:cx="15.969892"
+     inkscape:cy="2.7427347"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -337,8 +337,15 @@
     </rdf:RDF>
   </metadata>
   <path
-     style="opacity:1;fill:#c4905e;fill-opacity:1;stroke:none"
-     d="M 0,0 0,8 5,8 5,7 10,7 10,1 5,1 5,0 0,0 z m 6,8 0,8 10,0 0,-7 -5,0 0,-1 -5,0 z"
+     style="opacity:0.40000000000000002;fill:#c4905e;fill-opacity:1;stroke:none"
+     d="m 3,3 0,8 5,0 0,-1 5,0 0,-6 -5,0 0,-1 z"
      id="path3036"
-     inkscape:connector-curvature="0" />
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccccc" />
+  <path
+     style="opacity:1;fill:#c4905e;fill-opacity:1;stroke:none"
+     d="m 9,11 0,8 10,0 0,-7 -5,0 0,-1 z"
+     id="path3036-2"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="ccccccc" />
 </svg>

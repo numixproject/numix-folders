@@ -11,11 +11,11 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3508"
-   height="16"
-   width="16"
+   height="22"
+   width="22"
    version="1.0"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="fileopen.svg">
+   sodipodi:docname="document-open.svg">
   <metadata
      id="metadata62">
     <rdf:RDF>
@@ -42,8 +42,8 @@
      id="namedview60"
      showgrid="true"
      inkscape:zoom="16.622533"
-     inkscape:cx="4.735069"
-     inkscape:cy="8.6686664"
+     inkscape:cx="4.133476"
+     inkscape:cy="9.2702594"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -295,7 +295,7 @@
   </defs>
   <path
      style="opacity:1;fill:#c4905e;fill-opacity:1;stroke:none"
-     d="M 2,9.9999998e-8 2,16 l 10,0 2,0 0,-10.9999999 0,-3 L 11,9.9999999e-8 z M 4,2.0000001 l 6,0 0,1 2,0 0,6 -5,0 L 7,14 4,14 z M 8,10 l 4,0 -4,4 z"
+     d="m 5,3 0,16 10,0 2,0 0,-11 0,-3 -3,-2 z m 2,2 6,0 0,1 2,0 0,6 -5,0 0,5 -3,0 z m 4,8 4,0 -4,4 z"
      id="path3027"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccccccccccccccccc" />
