@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64pt" height="64pt" viewBox="0 0 64 64" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48pt" height="48pt" viewBox="0 0 48 48" version="1.1">
 <g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 4.0625 8 C 2.933594 8.109375 1.980469 9.179688 2 10.3125 L 2 53.6875 C 1.984375 54.902344 3.097656 56.015625 4.3125 56 L 59.6875 56 C 60.902344 56.015625 62.015625 54.902344 62 53.6875 L 62 14.3125 C 62.015625 13.097656 60.902344 11.984375 59.6875 12 L 38 12 L 38 10.3125 C 38.015625 9.117188 36.945312 8.019531 35.75 8 L 4.3125 8 C 4.230469 7.996094 4.144531 7.996094 4.0625 8 Z M 6 18 L 58 18 L 58 50 L 6 50 Z M 6 18 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 20 56 L 44 56 L 44 58 L 20 58 Z M 20 56 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 10 60 L 54 60 L 54 64 L 10 64 Z M 10 60 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 3.046875 6 C 2.199219 6.082031 1.484375 6.882812 1.5 7.734375 L 1.5 40.265625 C 1.488281 41.175781 2.324219 42.011719 3.234375 42 L 44.765625 42 C 45.675781 42.011719 46.511719 41.175781 46.5 40.265625 L 46.5 10.734375 C 46.511719 9.824219 45.675781 8.988281 44.765625 9 L 28.5 9 L 28.5 7.734375 C 28.511719 6.839844 27.707031 6.015625 26.8125 6 L 3.234375 6 C 3.171875 5.996094 3.109375 5.996094 3.046875 6 Z M 4.5 13.5 L 43.5 13.5 L 43.5 37.5 L 4.5 37.5 Z M 4.5 13.5 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 15 42 L 33 42 L 33 43.5 L 15 43.5 Z M 15 42 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 7.5 45 L 40.5 45 L 40.5 48 L 7.5 48 Z M 7.5 45 "/>
 </g>
 </svg>
