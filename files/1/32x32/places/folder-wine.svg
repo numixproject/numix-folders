@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="32"
+   height="32"
+   viewBox="0 0 32 32"
+   id="svg3153"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="folder-wine.svg">
+  <metadata
+     id="metadata3173">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3171" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
+     id="namedview3169"
+     showgrid="false"
+     inkscape:zoom="3.6875"
+     inkscape:cx="-4.093156"
+     inkscape:cy="-22.715202"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3153" />
+  <path
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#c4905e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.28612947;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     d="M 2.03125 4 C 1.4665378 4.055483 0.99079304 4.5888935 1 5.15625 L 1 26.84375 C 0.99302 27.451042 1.5489584 28.006984 2.15625 28 L 29.84375 28 C 30.451042 28.007 31.006984 27.451042 31 26.84375 L 31 7.15625 C 31.007 6.5489584 30.451042 5.9930157 29.84375 6 L 19 6 L 19 5.15625 C 19.0069 4.5593523 18.471863 4.0094527 17.875 4 L 2.15625 4 C 2.114625 3.99772 2.072875 3.99772 2.03125 4 z M 19.875 13 C 19.963811 13 20.039739 13.011788 20.125 13.03125 C 20.12855 13.03445 20.15275 13.02805 20.15625 13.03125 C 20.70687 13.501572 21.152588 14.06473 21.46875 14.6875 C 21.47225 14.69723 21.46525 14.71225 21.46875 14.71875 C 21.546902 14.92634 21.63705 15.140276 21.71875 15.40625 C 21.764932 15.552212 21.81461 15.71282 21.875 15.875 C 21.942496 16.192872 22 16.537666 22 16.875 C 22 19.813696 19.321479 23 16 23 C 12.891665 23 10.316162 20.082214 10 17.40625 C 10.085257 17.367327 11.744574 15.588165 15.0625 16.9375 C 19.098007 18.572272 20.895538 16.944129 21.0625 16.25 C 21.229462 15.555871 20.9839 14.25 20.3125 14.25 C 19.641099 14.25 18.823824 14.572687 18.9375 13.78125 C 19.004995 13.288224 19.430952 13.0065 19.875 13 z M 18.03125 13.59375 C 18.162688 13.59375 18.28125 13.695726 18.28125 13.8125 C 18.28125 13.926025 18.162688 14 18.03125 14 C 17.899811 14 17.8125 13.92603 17.8125 13.8125 C 17.8125 13.69573 17.899811 13.59375 18.03125 13.59375 z M 18.625 14.59375 C 18.809724 14.59375 18.9375 14.71282 18.9375 14.875 C 18.9375 15.040423 18.809724 15.1875 18.625 15.1875 C 18.440276 15.1875 18.28125 15.040423 18.28125 14.875 C 18.28125 14.71282 18.440276 14.59375 18.625 14.59375 z "
+     id="path3912" />
+</svg>

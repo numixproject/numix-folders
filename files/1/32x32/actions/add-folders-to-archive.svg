@@ -13,8 +13,8 @@
    height="32"
    width="32"
    version="1.0"
-   inkscape:version="0.48.3.1 r9886"
-   sodipodi:docname="folder-images.svg">
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="add-folders-to-archive.svg">
   <metadata
      id="metadata64">
     <rdf:RDF>
@@ -23,7 +23,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -37,14 +37,14 @@
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
      inkscape:window-width="1280"
-     inkscape:window-height="723"
+     inkscape:window-height="998"
      id="namedview62"
      showgrid="true"
-     inkscape:zoom="8.3968259"
-     inkscape:cx="58.683603"
-     inkscape:cy="-5.0927415"
+     inkscape:zoom="5.9374526"
+     inkscape:cx="-3.99434"
+     inkscape:cy="-4.8713014"
      inkscape:window-x="0"
-     inkscape:window-y="20"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3396">
     <inkscape:grid
@@ -294,9 +294,8 @@
     </linearGradient>
   </defs>
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;opacity:1.0;color:#000000;fill:#c4905e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.28612947;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
-     d="M 2.03125,4 C 1.4665378,4.0554827 0.99079302,4.5888935 1,5.15625 l 0,21.6875 C 0.99301567,27.451042 1.5489584,28.006984 2.15625,28 l 27.6875,0 C 30.451042,28.007 31.006984,27.451042 31,26.84375 L 31,7.15625 C 31.006984,6.5489584 30.451042,5.9930157 29.84375,6 L 19,6 19,5.15625 C 19.0069,4.5593523 18.471863,4.0094527 17.875,4 L 2.15625,4 C 2.114625,3.99772 2.072875,3.99772 2.03125,4 z m 18.28125,6.96875 c 0.377855,0.0043 0.6929,0.398128 0.6875,0.8125 l -0.01489,9.4375 c -0.0039,0.407873 -0.315584,0.774947 -0.6875,0.78125 l -8.625,0.03125 c -0.377845,0.0059 -0.71485,-0.366877 -0.71875,-0.78125 l 0.01489,-9.4375 C 10.962339,11.416752 11.265391,11.03375 11.625,11 l 0.0625,0 z M 12,12 l 0,7 8,0 0,-7 z"
-     id="path3912"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccccccccccccccccccccccccc" />
+     style="fill:#c4905e;fill-opacity:1;stroke:none"
+     d="m 8,2 -6,8 12,0 0,-8 -6,0 z m 10,0 0,8 12,0 -6,-8 -6,0 z m -16,10 0,18 16,0 0,-10 10,0 0,2 2,0 0,-10 -28,0 z m 18,10 0,10 12,0 0,-8 -6,0 0,-2 -6,0 z"
+     id="path3029"
+     inkscape:connector-curvature="0" />
 </svg>
