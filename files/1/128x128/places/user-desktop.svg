@@ -1,8 +1,8 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96px" height="96px" viewBox="0 0 96 96" version="1.1">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128px" height="128px" viewBox="0 0 128 128" version="1.1">
 <g id="surface1">
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 6.09375 12 C 4.398438 12.164062 2.96875 13.765625 3 15.46875 L 3 80.53125 C 2.976562 82.351562 4.648438 84.023438 6.46875 84 L 89.53125 84 C 91.351562 84.023438 93.023438 82.351562 93 80.53125 L 93 21.46875 C 93.023438 19.648438 91.351562 17.976562 89.53125 18 L 57 18 L 57 15.46875 C 57.023438 13.679688 55.414062 12.03125 53.625 12 L 6.46875 12 C 6.34375 11.992188 6.21875 11.992188 6.09375 12 Z M 9 27 L 87 27 L 87 75 L 9 75 Z M 9 27 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 30 84 L 66 84 L 66 87 L 30 87 Z M 30 84 "/>
-<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 15 90 L 81 90 L 81 96 L 15 96 Z M 15 90 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 8.125 16 C 5.863281 16.21875 3.957031 18.355469 4 20.625 L 4 107.375 C 3.96875 109.800781 6.199219 112.03125 8.625 112 L 119.375 112 C 121.800781 112.03125 124.03125 109.800781 124 107.375 L 124 28.625 C 124.03125 26.199219 121.800781 23.96875 119.375 24 L 76 24 L 76 20.625 C 76.03125 18.238281 73.886719 16.042969 71.5 16 L 8.625 16 C 8.457031 15.988281 8.292969 15.988281 8.125 16 Z M 12 36 L 116 36 L 116 100 L 12 100 Z M 12 36 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 40 112 L 88 112 L 88 116 L 40 116 Z M 40 112 "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;" d="M 20 120 L 108 120 L 108 128 L 20 128 Z M 20 120 "/>
 </g>
 </svg>
