@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="folder-music.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3886">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3888" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.19607843;"
+         offset="1"
+         id="stop3890" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3886"
+       id="radialGradient3892"
+       cx="24"
+       cy="40.5"
+       fx="24"
+       fy="40.5"
+       r="24"
+       gradientTransform="matrix(1,0,0,0.14583333,0,34.59375)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3886"
+       id="radialGradient3073"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.25,0,0,0.20833327,-6,31.562508)"
+       cx="24"
+       cy="40.5"
+       fx="24"
+       fy="40.5"
+       r="24" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.6803994"
+     inkscape:cx="3.7643129"
+     inkscape:cy="35.827423"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1004.3622)">
+    <path
+       style="opacity:0.10000000000000001;fill:url(#radialGradient3073);fill-opacity:1;stroke:none"
+       d="M 24 35 C 14.173451 35 5.4720297 35.783095 0 37 L 0 43 C 5.4720297 44.216905 14.173451 45 24 45 C 33.826549 45 42.52797 44.216905 48 43 L 48 37 C 42.52797 35.783095 33.826549 35 24 35 z "
+       transform="translate(0,1004.3622)"
+       id="path3868" />
+    <rect
+       style="fill:#f57c00;fill-opacity:1;stroke:none"
+       id="rect2987"
+       width="46"
+       height="32.000019"
+       x="1"
+       y="1014.3622"
+       rx="5"
+       ry="5" />
+    <path
+       style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 6,1014.3622 c -2.77,0 -5,2.23 -5,5 l 0,2 c 0,-2.77 2.23,-5 5,-5 l 36,0 c 2.77,0 5,2.23 5,5 l 0,-2 c 0,-2.77 -2.23,-5 -5,-5 l -36,0 z"
+       id="rect3797"
+       inkscape:connector-curvature="0" />
+    <path
+       style="fill:#ffb300;fill-opacity:1;stroke:none"
+       d="m 6,1022.3622 8,0 c 11,-1 9,-12 16,-12 l 12,0 c 2.77,0 5,2.23 5,5 l 0,26 c 0,2.77 -2.23,5 -5,5 l -36,0 c -2.77,0 -5,-2.23 -5,-5 l 0,-14 c 0,-3 2,-5 5,-5 z"
+       id="rect3776"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccsssssscc" />
+    <path
+       style="opacity:0.15;fill:#000000;fill-opacity:1;stroke:none"
+       d="m 1,1039.3622 0,2 c 0,2.77 2.23,5 5,5 l 36,0 c 2.77,0 5,-2.23 5,-5 l 0,-2 c 0,2.77 -2.23,5 -5,5 l -36,0 c -2.77,0 -5,-2.23 -5,-5 z"
+       id="path3786"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>
