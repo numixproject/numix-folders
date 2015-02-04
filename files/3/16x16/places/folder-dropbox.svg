@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,13 +11,45 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="16"
    height="16"
-   viewBox="0 0 12.8 12.8"
-   id="svg3009"
+   id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-dropbox.svg">
+   sodipodi:docname="folder-dropbox.svg"
+   inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
+   inkscape:export-xdpi="270"
+   inkscape:export-ydpi="270">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="245.50954"
+     inkscape:cx="8.8718835"
+     inkscape:cy="10.534714"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="1052"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
   <metadata
-     id="metadata3025">
+     id="metadata7">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -26,44 +60,16 @@
       </cc:Work>
     </rdf:RDF>
   </metadata>
-  <defs
-     id="defs3023" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="998"
-     id="namedview3021"
-     showgrid="true"
-     inkscape:zoom="10.269366"
-     inkscape:cx="-14.729791"
-     inkscape:cy="-6.3220805"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg3009">
-    <inkscape:grid
-       type="xygrid"
-       id="grid3027"
-       empspacing="5"
-       visible="true"
-       enabled="true"
-       snapvisiblegridlinesonly="true" />
-  </sodipodi:namedview>
-  <path
-     inkscape:connector-curvature="0"
-     id="path3019"
-     d="M 3.1999997,0.533867 0,2.933867 l 3.2,2.4 L -1e-7,8.0005338 6.3999999,12.2672 12.8,8.0005338 9.6,5.333867 l 3.2,-2.4 -3.2,-2.4 -3.2,2.4 z"
-     style="fill:#ea9036;fill-opacity:1;stroke-width:0.80000000999999998"
-     sodipodi:nodetypes="ccccccccccc" />
   <g
-     transform="matrix(0.38217989,0,0,0.38207068,64.228688,-4.60528)"
-     style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#ea9036;fill-opacity:1;stroke:none;font-family:Sans"
-     id="text3145" />
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1036.3622)">
+    <path
+       id="path3871"
+       d="m 3.9999998,1037.8622 -3.9999998,3 3.9999998,3 -3.9999998,3.5 7.9999996,5 8.0000004,-5 -4,-3.5 4,-3 -4,-3 -4.0000004,3 z"
+       style="line-height:normal;color:#000000;fill:#f2bb64;fill-opacity:1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccc" />
+  </g>
 </svg>
