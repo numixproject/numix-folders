@@ -11,8 +11,8 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg3999"
-   height="48px"
-   width="48px"
+   height="48"
+   width="48"
    version="1.1"
    inkscape:version="0.48.5 r10040"
    sodipodi:docname="folder-move.svg">
@@ -29,16 +29,20 @@
      inkscape:window-height="998"
      id="namedview79"
      showgrid="true"
-     inkscape:zoom="9.8333333"
-     inkscape:cx="53.125229"
-     inkscape:cy="26.156387"
+     inkscape:zoom="16.622533"
+     inkscape:cx="27.099363"
+     inkscape:cy="21.873393"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3999">
     <inkscape:grid
        type="xygrid"
-       id="grid4171" />
+       id="grid4171"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <defs
      id="defs4001">
@@ -49,7 +53,7 @@
        gradientUnits="userSpaceOnUse"
        x2="20.055"
        gradientTransform="matrix(0.48742,0,0,0.45266,18.787,22.581)"
-       y1="16.408"
+       y1="16.408001"
        x1="18.031" />
     <linearGradient
        id="linearGradient8265-821-176-38-919-66-249">
@@ -85,8 +89,8 @@
     <radialGradient
        id="radialGradient3064"
        gradientUnits="userSpaceOnUse"
-       cy="8.5609"
-       cx="7.8186"
+       cy="8.5608997"
+       cx="7.8186002"
        gradientTransform="matrix(1.831,0,0,1.1462,10.078,19.779)"
        r="11.268">
       <stop
@@ -106,10 +110,10 @@
        id="linearGradient3066"
        y2="4.303"
        gradientUnits="userSpaceOnUse"
-       x2="9.7046"
+       x2="9.7046003"
        gradientTransform="matrix(1.0776,0,0,1.0923,15.614,20.609)"
        y1="20.882"
-       x1="9.7046">
+       x1="9.7046003">
       <stop
          id="stop3624-7"
          style="stop-color:#bb2b12"
@@ -121,12 +125,12 @@
     </linearGradient>
     <linearGradient
        id="linearGradient3069"
-       y2="37.503"
+       y2="37.502998"
        xlink:href="#linearGradient11111"
        gradientUnits="userSpaceOnUse"
        x2="-28.531"
        gradientTransform="matrix(1.091,0,0,1.1016,53.483,2.7395)"
-       y1="17.956"
+       y1="17.955999"
        x1="-28.531" />
     <linearGradient
        id="linearGradient11111">
@@ -165,12 +169,12 @@
     </linearGradient>
     <linearGradient
        id="linearGradient3599"
-       y2="609.51"
+       y2="609.51001"
        gradientUnits="userSpaceOnUse"
-       x2="302.86"
-       gradientTransform="matrix(2.7744 0 0 1.9697 -1892.2 -872.89)"
-       y1="366.65"
-       x1="302.86">
+       x2="302.85999"
+       gradientTransform="matrix(2.7744,0,0,1.9697,-1892.2,-872.89)"
+       y1="366.64999"
+       x1="302.85999">
       <stop
          id="stop5050"
          style="stop-opacity:0"
@@ -187,8 +191,8 @@
        id="radialGradient3601"
        xlink:href="#linearGradient5060"
        gradientUnits="userSpaceOnUse"
-       cy="486.65"
-       cx="605.71"
+       cy="486.64999"
+       cx="605.71002"
        gradientTransform="matrix(2.7744,0,0,1.9697,-1891.6,-872.89)"
        r="117.14" />
     <linearGradient
@@ -205,8 +209,8 @@
        id="radialGradient3603"
        xlink:href="#linearGradient5060"
        gradientUnits="userSpaceOnUse"
-       cy="486.65"
-       cx="605.71"
+       cy="486.64999"
+       cx="605.71002"
        gradientTransform="matrix(-2.7744,0,0,1.9697,112.76,-872.89)"
        r="117.14" />
     <linearGradient
@@ -216,7 +220,7 @@
        gradientUnits="userSpaceOnUse"
        x2="20.055"
        gradientTransform="matrix(0.48742,0,0,0.45266,8.7867,4.5811)"
-       y1="16.408"
+       y1="16.408001"
        x1="18.031" />
     <radialGradient
        id="radialGradient3082"
@@ -241,8 +245,8 @@
     <radialGradient
        id="radialGradient3085"
        gradientUnits="userSpaceOnUse"
-       cy="8.5609"
-       cx="7.8186"
+       cy="8.5608997"
+       cx="7.8186002"
        gradientTransform="matrix(1.831,0,0,1.1462,0.078197,1.779)"
        r="11.268">
       <stop
@@ -258,10 +262,10 @@
        id="linearGradient3087"
        y2="4.303"
        gradientUnits="userSpaceOnUse"
-       x2="9.7046"
+       x2="9.7046003"
        gradientTransform="matrix(1.0776,0,0,1.0923,5.6143,2.6094)"
        y1="20.882"
-       x1="9.7046">
+       x1="9.7046003">
       <stop
          id="stop3981"
          style="stop-color:#666"
@@ -274,8 +278,8 @@
     <radialGradient
        id="radialGradient3583"
        gradientUnits="userSpaceOnUse"
-       cy="486.65"
-       cx="605.71"
+       cy="486.64999"
+       cx="605.71002"
        gradientTransform="matrix(2.7744,0,0,1.9697,-1891.6,-872.89)"
        r="117.14">
       <stop
@@ -289,8 +293,8 @@
     <radialGradient
        id="radialGradient3585"
        gradientUnits="userSpaceOnUse"
-       cy="486.65"
-       cx="605.71"
+       cy="486.64999"
+       cx="605.71002"
        gradientTransform="matrix(-2.7744,0,0,1.9697,112.76,-872.89)"
        r="117.14">
       <stop
@@ -303,10 +307,10 @@
     </radialGradient>
     <linearGradient
        id="linearGradient3995"
-       y2="37.503"
+       y2="37.502998"
        xlink:href="#linearGradient11111"
        gradientUnits="userSpaceOnUse"
-       y1="17.956"
+       y1="17.955999"
        gradientTransform="matrix(1.091,0,0,1.1016,43.498,-15.261)"
        x2="-28.531"
        x1="-28.531" />
@@ -333,15 +337,15 @@
     </rdf:RDF>
   </metadata>
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#c4905e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.00000023999999987;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
-     d="m 21.40625,25 c -0.731921,0.07672 -1.347686,0.764081 -1.34375,1.5 l 0,16.96875 c 7.9e-5,0.785377 0.714623,1.499921 1.5,1.5 l 22.96875,0 c 0.785377,-7.9e-5 1.499921,-0.714623 1.5,-1.5 l 0,-14.9375 c -7.9e-5,-0.785377 -0.714623,-1.499921 -1.5,-1.5 l -9.4375,0 0,-0.53125 c -7.9e-5,-0.785377 -0.714623,-1.499921 -1.5,-1.5 L 21.5625,25 c -0.05204,-0.0027 -0.104214,-0.0027 -0.15625,0 z"
-     id="path3912"
+     style="opacity:0.4;fill:#c4905e;fill-opacity:1;stroke:none"
+     d="m 8,8 0,16 10,0 0,-2 10,0 0,-12 -10,0 0,-2 z"
+     id="path3036"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccccccccccc" />
+     sodipodi:nodetypes="ccccccccc" />
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#c4905e;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.00000023999999987;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans;opacity:0.40000000000000002"
-     d="M 3.34375,3.03125 C 2.6118294,3.1079648 1.9960643,3.7953306 2,4.53125 L 2,21.5 c 7.86e-5,0.785377 0.7146233,1.499921 1.5,1.5 l 22.96875,0 c 0.785377,-7.9e-5 1.499921,-0.714623 1.5,-1.5 l 0,-14.96875 c -7.9e-5,-0.7853767 -0.714623,-1.4999214 -1.5,-1.5 l -9.4375,0 0,-0.5 c -7.9e-5,-0.7853767 -0.714623,-1.4999214 -1.5,-1.5 l -12.03125,0 c -0.052036,-0.00271 -0.1042138,-0.00271 -0.15625,0 z"
-     id="path3912-2"
+     style="fill:#c4905e;fill-opacity:1;stroke:none"
+     d="m 20,24 0,16 20,0 0,-14 -10,0 0,-2 z"
+     id="path3036-2"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccccccccccc" />
+     sodipodi:nodetypes="ccccccc" />
 </svg>

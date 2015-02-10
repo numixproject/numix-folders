@@ -41,8 +41,8 @@
      id="namedview62"
      showgrid="true"
      inkscape:zoom="9.9345611"
-     inkscape:cx="-0.68631814"
-     inkscape:cy="10.231269"
+     inkscape:cx="34.850219"
+     inkscape:cy="5.255265"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -294,9 +294,23 @@
     </linearGradient>
   </defs>
   <path
-     style="opacity:1;fill:#c4905e;fill-opacity:1;stroke:none"
-     d="m 3,4 0,13 9,0 0,-3 2,0 0,-2 4,0 0,2 1,0 0,-8 -8,0 0,-2 z m 12,9 0,2 -2,0 0,2 2,0 0,2 2,0 0,-2 2,0 0,-2 -2,0 0,-2 z"
+     style="fill:#c4905e;fill-opacity:1;stroke:none"
+     d="m 3,4 0,13 9,0 0,-3 2,0 0,-2 4,0 0,2 1,0 0,-8 -8,0 0,-2 z"
      id="path3027"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccccccccccccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccc" />
+  <rect
+     style="fill:#859900;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="rect3034"
+     width="2"
+     height="6"
+     x="15"
+     y="13" />
+  <rect
+     style="fill:#859900;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="rect3036"
+     width="6"
+     height="2"
+     x="13"
+     y="15" />
 </svg>

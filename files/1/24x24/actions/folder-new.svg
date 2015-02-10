@@ -40,9 +40,9 @@
      inkscape:window-height="998"
      id="namedview62"
      showgrid="true"
-     inkscape:zoom="28.099182"
-     inkscape:cx="16.680162"
-     inkscape:cy="11.712198"
+     inkscape:zoom="9.9345611"
+     inkscape:cx="34.850219"
+     inkscape:cy="5.255265"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -295,8 +295,22 @@
   </defs>
   <path
      style="fill:#c4905e;fill-opacity:1;stroke:none"
-     d="m 4,5 0,13 9,0 0,-3 2,0 0,-2 4,0 0,2 1,0 0,-8 -8,0 0,-2 z m 12,9 0,2 -2,0 0,2 2,0 0,2 2,0 0,-2 2,0 0,-2 -2,0 0,-2 z"
+     d="m 4,5 0,13 9,0 0,-3 2,0 0,-2 4,0 0,2 1,0 0,-8 -8,0 0,-2 z"
      id="path3027"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="cccccccccccccccccccccccccc" />
+     sodipodi:nodetypes="ccccccccccccc" />
+  <rect
+     style="fill:#859900;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="rect3034"
+     width="2"
+     height="6"
+     x="16"
+     y="14" />
+  <rect
+     style="fill:#859900;fill-opacity:1;fill-rule:evenodd;stroke:none"
+     id="rect3036"
+     width="6"
+     height="2"
+     x="14"
+     y="16" />
 </svg>
