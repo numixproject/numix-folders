@@ -54,13 +54,14 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ssccssssscccsss" />
   <path
-     style="fill:#000000;fill-opacity:0.32156864"
-     d="M 12.75,13 10,15.120028 12.75,16.93821 10,19.363636 15.499999,23 21,19.363636 18.25,16.93821 21,15.120028 18.25,13 15.499999,15.120028 z"
-     id="path3029" />
-  <path
      style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
      d="M 4,4 C 3.5084,4 3,4.4731186 3,5 L 3,6 C 2.313197,6 2.116465,6 1.5,6 0.520838,6 0,6.4829856 0,7.5 l 0,19 C 0,27.503839 0.500972,28 1.5,28 l 28.84375,0 C 31.21572,28 32,27.376781 32,26.5 L 32,9.551777 C 32,8.537794 31.580916,8 30.5,8 L 28,8 28,5 C 28,4.4731186 27.4916,4 27,4 z M 19,7 19,9 31,9 31,27 1,27 1,7 z"
      id="path3784"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ssccssssscccsssccccccc" />
+  <path
+     id="path3871"
+     d="M 12.500001,12 9,14.7575 12.500001,17.1212 9,20.2727 15.999999,25 l 7.000002,-4.7273 -3.5,-3.1515 3.5,-2.3637 -3.5,-2.7575 -3.500002,2.7575 L 12.500001,12 z"
+     style="line-height:normal;opacity:1;color:#000000;fill:#000000;fill-opacity:0.32156864000000002"
+     inkscape:connector-curvature="0" />
 </svg>
