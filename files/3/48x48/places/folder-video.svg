@@ -13,8 +13,8 @@
    height="48"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="folder-ubuntu.svg"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="folder-video.svg"
    inkscape:export-filename="/home/me4oslav/Desktop/folder.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,15 +28,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.39"
-     inkscape:cx="55.377749"
+     inkscape:cx="32.779643"
      inkscape:cy="22.92046"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1366"
-     inkscape:window-height="740"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -104,9 +104,9 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       id="path3923"
-       d="m 24,1024.3622 c -4.40649,0 -8,3.5944 -8,8 0,4.4055 3.59351,8 8,8 4.406489,0 8,-3.5945 8,-8 0,-4.4056 -3.593511,-8 -8,-8 z m 0,2 c 3.325497,0 6,2.6752 6,6 0,3.3248 -2.674503,6 -6,6 -3.325498,0 -6,-2.6752 -6,-6 0,-3.3248 2.674502,-6 6,-6 z m -2,2 0,8 6,-4 z"
-       style="line-height:normal;color:#000000;fill:#000000;fill-opacity:1;opacity:0.25"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       style="opacity:1;fill:#000000;fill-opacity:0.25098040999999999"
+       d="m 18,1024.3622 c -1.108,0 -2,0.892 -2,2 l 0,12 c 0,1.108 0.892,2 2,2 l 12,0 c 1.108,0 2,-0.892 2,-2 l 0,-12 c 0,-1.108 -0.892,-2 -2,-2 l -12,0 z m 0,2 2,0 0,2 -2,0 0,-2 z m 10,0 2,0 0,2 -2,0 0,-2 z m -10,5 2,0 0,2 -2,0 0,-2 z m 10,0 2,0 0,2 -2,0 0,-2 z m -10,5 2,0 0,2 -2,0 0,-2 z m 10,0 2,0 0,2 -2,0 0,-2 z"
+       id="rect3007" />
   </g>
 </svg>

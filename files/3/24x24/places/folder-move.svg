@@ -57,7 +57,8 @@
   </sodipodi:namedview>
   <g
      id="g3015"
-     style="opacity:0.5">
+     style="opacity:0.5"
+     transform="translate(-0.00625,0)">
     <rect
        y="4.9999809"
        x="2.0062499"
@@ -97,17 +98,17 @@
      id="rect3757"
      width="10.999999"
      height="4.0000005"
-     x="11.00625"
+     x="11"
      y="10.999983" />
   <path
      style="fill:#ea9036;fill-opacity:1;stroke:none"
-     d="m 12.00625,10.999982 c 0,-0.500001 0,-0.9999996 0.727273,-0.9999996 l 2.545455,0 c 0.727272,0 0.727272,0.4999986 0.727272,0.9999996 z"
+     d="m 12,10.999982 c 0,-0.500001 0,-1 0.727273,-1 l 2.545455,0 C 16,9.999982 16,10.499981 16,10.999982 z"
      id="path3759"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <rect
      y="11.999982"
-     x="12.00625"
+     x="12"
      height="4.0000005"
      width="9"
      id="rect3763"
@@ -117,11 +118,11 @@
      id="rect3761"
      width="8"
      height="2.2795949"
-     x="13.00625"
+     x="13"
      y="12.999982" />
   <path
      style="fill:#f2bb64;fill-opacity:1;stroke:none"
-     d="m 10.00625,13.999982 13,0 -0.65,7.000018 -11.7,0 z"
+     d="m 10,13.999982 13,0 L 22.35,21 10.65,21 z"
      id="path2987"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />

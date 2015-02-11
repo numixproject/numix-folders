@@ -40,9 +40,9 @@
      inkscape:window-height="998"
      id="namedview22"
      showgrid="true"
-     inkscape:zoom="4"
-     inkscape:cx="66.231245"
-     inkscape:cy="25.277541"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="53.265952"
+     inkscape:cy="33.545709"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -102,39 +102,39 @@
   </g>
   <path
      style="fill:#ea9036;fill-opacity:1;stroke:none"
-     d="m 49.999542,48 c 0,-1.999998 0,-4 2.54543,-4 l 8.909011,0 c 2.54543,0 2.54543,2.000002 2.54543,4 z"
+     d="m 50,48 c 0,-1.999998 0,-4 2.545454,-4 l 8.909092,0 C 64,44 64,46.000002 64,48 z"
      id="path3759"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <rect
      style="fill:#ea9036;fill-opacity:1;stroke:none"
      id="rect3757"
-     width="47.999561"
+     width="48"
      height="20"
-     x="43.999596"
+     x="44"
      y="46" />
   <path
      style="fill:#95989f;fill-opacity:1;stroke:none"
-     d="m 47.99956,50 41.999615,0 0,10 -41.999615,0 z"
+     d="m 48,50 42,0 0,10 -42,0 z"
      id="path3765"
      inkscape:connector-curvature="0" />
   <rect
      y="48"
-     x="51.999523"
+     x="52"
      height="26.000002"
-     width="35.999676"
+     width="36.000004"
      id="rect3763"
      style="fill:#d8d8da;fill-opacity:1;stroke:none" />
   <rect
      style="fill:#f9f9f9;fill-opacity:1;stroke:none"
      id="rect3761"
-     width="35.999676"
+     width="36.000004"
      height="24.000002"
-     x="49.999542"
+     x="50"
      y="52" />
   <path
      style="fill:#f2bb64;fill-opacity:1;stroke:none"
-     d="M 39.999633,54 95.804,54 89.999175,84 43.999597,84 z"
+     d="M 40,54 95.804878,54 90,84 44,84 z"
      id="path2987"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />

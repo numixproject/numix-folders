@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.39"
-     inkscape:cx="60.243435"
-     inkscape:cy="54.403334"
+     inkscape:zoom="5.225519"
+     inkscape:cx="39.504382"
+     inkscape:cy="36.399548"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -103,20 +103,10 @@
        id="path2987"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
-    <g
-       style="line-height:normal;opacity:0.25;color:#000000;fill:#000000;fill-opacity:1"
-       transform="matrix(2,0,0,2,2e-4,956.3622)"
-       id="g4033">
-      <path
-         inkscape:connector-curvature="0"
-         style="fill:#000000;fill-opacity:1;fill-rule:evenodd"
-         d="m 16.0001,22 -2e-4,2 1,0 0,-1.5 c 2e-4,-0.50672 0.5,-0.50672 0.5,-0.50672 l 1.5,0.007 0,-1 -1.9998,0 c 0,0 -1,0 -1,1 z m 12.9998,-1 0,1 1.5,0 c 0,0 0.5002,-0.007 0.5002,0.5 l -2e-4,1.5 1,0 2e-4,-2 c 0,-1 -1,-1 -1,-1 z m -13,11 2e-4,2 c 0,1 1,1 1,1 l 2,0 0,-1 -1.5002,0.007 c -0.4998,-0.007 -0.4998,-0.5 -0.4998,-0.5 l -2e-4,-1.5067 z m 15,0 0,1.5 c 2e-4,0.49328 -0.5,0.5 -0.5,0.5 l -1.5,0 0,1 2.0002,0 c 0,0 1,0 1,-1 l -2e-4,-2 z"
-         id="path4035" />
-      <path
-         inkscape:connector-curvature="0"
-         d="m 18.9999,24.99328 2e-4,4 c 5e-5,1 1,1 1,1 l 3,0 c 1,0 1,-1 1,-1 l -2e-4,-3 -2,-2 -1.9998,0 c 0,0 -1.00025,0 -1.0002,1 z m 1,0 2,0 0,1 1,0 2e-4,3 -3,0 z"
-         id="path4037"
-         style="fill:#000000;fill-opacity:1" />
-    </g>
+    <path
+       style="fill:#000000;fill-opacity:0.24705882"
+       d="m 36,996.3622 c -2.216,0 -4,1.784 -4,4 l 0,18 c 0,2.216 1.784,4 4,4 l 8,0 -4,4 c -2,2 -2,2 0,2 l 16,0 c 2,0 2,0 0,-2 l -4,-4 8,0 c 2.216,0 4,-1.784 4,-4 l 0,-18 c 0,-2.216 -1.784,-4 -4,-4 l -24,0 z m 0,4 24,0 0,18 -24,0 0,-18 z m 5.6875,2 c -0.562632,0.094 -1.68756,0.5 -1.6875,2 l 0,10 c 8e-5,2 2,2 2,2 l 8,0 c 2,0 2,-2 2,-2 l 0,-8 -4,-4 -6,0 c 0,0 -0.12496,-0.032 -0.3125,0 z m 0.3125,2 4,0 0,4 4,0 0,6 -8,0 0,-10 z"
+       id="path8"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

@@ -40,9 +40,9 @@
      inkscape:window-height="998"
      id="namedview26"
      showgrid="true"
-     inkscape:zoom="4.9166665"
-     inkscape:cx="53.18848"
-     inkscape:cy="16.494055"
+     inkscape:zoom="13.906433"
+     inkscape:cx="37.497313"
+     inkscape:cy="31.944218"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -61,7 +61,7 @@
      width="76"
      height="30"
      x="10"
-     y="19.999969" />
+     y="19.999966" />
   <path
      style="fill:#ea9036;fill-opacity:1;stroke:none"
      d="m 20,24 c 0,-4 0,-8 4,-8 l 14,0 c 4,0 4,4 4,8 z"
@@ -74,7 +74,7 @@
      id="path3765"
      inkscape:connector-curvature="0" />
   <rect
-     y="23.999969"
+     y="23.999966"
      x="22"
      height="40"
      width="56"
@@ -86,7 +86,7 @@
      width="56"
      height="40"
      x="20"
-     y="29.999969" />
+     y="29.999966" />
   <path
      style="fill:#f2bb64;fill-opacity:1;stroke:none"
      d="m 4,46 88,0 -8,34 -74,0 z"

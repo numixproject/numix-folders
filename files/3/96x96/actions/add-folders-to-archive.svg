@@ -40,9 +40,9 @@
      inkscape:window-height="998"
      id="namedview16"
      showgrid="true"
-     inkscape:zoom="2.4583334"
-     inkscape:cx="-12.996234"
-     inkscape:cy="35.101194"
+     inkscape:zoom="6.9532168"
+     inkscape:cx="34.596216"
+     inkscape:cy="35.557312"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -60,88 +60,88 @@
   <rect
      style="fill:#ea9036;fill-opacity:1;stroke:none"
      id="rect3757-2"
-     width="63.999557"
+     width="64"
      height="26"
-     x="5.9999585"
+     x="6"
      y="40" />
   <path
      style="fill:#ea9036;fill-opacity:1;stroke:none"
-     d="m 13.999903,42 c 0,-3 0,-6 3.636341,-6 l 12.727181,0 c 3.636339,0 3.636339,3 3.636339,6 z"
+     d="m 14,42 c 0,-3 0,-6 3.636366,-6 l 12.72727,0 C 34,36 34,39 34,42 z"
      id="path3759-6"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <path
      style="fill:#95989f;fill-opacity:1;stroke:none"
-     d="m 11.999917,44 53.999625,0 0,12.133332 -53.999625,0 z"
+     d="m 12,44 54,0 0,12.13333 -54,0 z"
      id="path3765-1"
      inkscape:connector-curvature="0" />
   <rect
      y="42"
-     x="15.999889"
+     x="16"
      height="34"
-     width="47.999668"
+     width="48"
      id="rect3763-1"
      style="fill:#d8d8da;fill-opacity:1;stroke:none" />
   <rect
      style="fill:#f9f9f9;fill-opacity:1;stroke:none"
      id="rect3761-7"
-     width="47.999668"
+     width="48"
      height="34.666668"
-     x="13.999903"
+     x="14"
      y="48" />
   <path
      style="fill:#f2bb64;fill-opacity:1;stroke:none"
-     d="M 0,50 76.266139,50 67.999528,92 5.9999584,92 z"
+     d="M 0,50 76.266668,50 68,92 6,92 z"
      id="path2987-5"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <path
      style="fill:#000000;fill-opacity:0.10196078;stroke:none"
-     d="m 17.567091,36 c -2.795916,0 -3.4047,1.806692 -3.550795,4 l -8.0360097,0 0,10 L 0,50 5.9802863,92 67.77658,92 l 8.222893,-42 -6.229465,0 0,-10 -35.944013,0 C 33.679896,37.806692 33.071115,36 30.2752,36 z"
+     d="m 17.567213,36 c -2.795936,0 -3.404724,1.80669 -3.55082,4 l -8.0360652,0 0,10 L 0,50 5.9803278,92 67.77705,92 76,50 l -6.229508,0 0,-10 -35.944262,0 c -0.1461,-2.19331 -0.754886,-4 -3.55082,-4 z"
      id="rect3048"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="sccccccccccss" />
   <rect
      style="fill:#ea9036;fill-opacity:1;stroke:none"
      id="rect3757"
-     width="63.999557"
+     width="64"
      height="26"
-     x="25.999819"
+     x="26"
      y="8" />
   <path
      style="fill:#ea9036;fill-opacity:1;stroke:none"
-     d="m 33.999764,10 c 0,-3 0,-6 3.636341,-6 l 12.727182,0 c 3.636338,0 3.636338,3 3.636338,6 z"
+     d="m 34,10 c 0,-3 0,-6 3.636366,-6 l 12.72727,0 C 54,4 54,7 54,10 z"
      id="path3759"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <path
      style="fill:#95989f;fill-opacity:1;stroke:none"
-     d="m 31.999778,12 53.999625,0 0,12.133332 -53.999625,0 z"
+     d="m 32,12 54,0 0,12.13333 -54,0 z"
      id="path3765"
      inkscape:connector-curvature="0" />
   <rect
      y="10"
-     x="35.999752"
+     x="36"
      height="34"
-     width="47.999668"
+     width="48"
      id="rect3763"
      style="fill:#d8d8da;fill-opacity:1;stroke:none" />
   <rect
      style="fill:#f9f9f9;fill-opacity:1;stroke:none"
      id="rect3761"
-     width="47.999668"
+     width="48"
      height="34.666668"
-     x="33.999763"
+     x="34"
      y="16" />
   <path
      style="fill:#f2bb64;fill-opacity:1;stroke:none"
-     d="M 19.999861,18 96.266,18 89.999375,60 25.99982,60 z"
+     d="M 20,18 96.266668,18 90,60 26,60 z"
      id="path2987"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <path
      style="fill:#859900"
-     d="m 91.999362,60 -15.999889,0 0,-16 -15.999889,0 0,16 -15.999889,0 0,16 15.999889,0 0,16 15.999889,0 0,-16 15.999889,0 z"
+     d="m 92,60 -16,0 0,-16 -16,0 0,16 -16,0 0,16 16,0 0,16 16,0 0,-16 16,0 z"
      id="path14"
      inkscape:connector-curvature="0" />
 </svg>

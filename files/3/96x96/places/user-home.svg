@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.2255191"
-     inkscape:cx="40.642612"
-     inkscape:cy="55.070153"
+     inkscape:zoom="10.451038"
+     inkscape:cx="53.235827"
+     inkscape:cy="33.449495"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -103,15 +103,10 @@
        id="path2987"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
-    <g
-       style="line-height:normal;opacity:0.25;color:#000000;fill:#000000;fill-opacity:1"
-       transform="matrix(2,0,0,2,32,-1076.3622)"
-       id="g4087">
-      <path
-         inkscape:connector-curvature="0"
-         d="m 8,1037.3622 -8,8 2,0 0,6 12,0 0,-6 2,0 -3,-3 0,-4 -2,0 0,2 z"
-         id="path4089"
-         style="fill:#000000;fill-opacity:1" />
-    </g>
+    <path
+       style="fill:#000000;fill-opacity:0.24705882"
+       d="m 48,996.8622 c -0.5,0 -1,0.5 -2,1.5 l -10,10 c -4.40678,4 -6,4 0,4 l 0,12 c 0,2.216 1.784,4 4,4 l 4,0 0,-12 8,0 0,12 4,0 c 2.216,0 4,-1.784 4,-4 l 0,-12 c 6,0 4.576272,0 0,-4 l 0,-8 c 0,-1.108 0,-2 -2,-2 -2,0 -2,0.892 -2,2 l 0,4 -6,-6 c -1,-1 -1.5,-1.5 -2,-1.5 z"
+       id="rect2989"
+       inkscape:connector-curvature="0" />
   </g>
 </svg>

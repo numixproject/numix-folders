@@ -66,38 +66,38 @@
     <rect
        style="fill:#ea9036;fill-opacity:1;stroke:none"
        id="rect3757"
-       width="18"
+       width="20"
        height="5"
-       x="2"
-       y="1035.3622" />
+       x="0.99999928"
+       y="1033.3622" />
     <path
        style="fill:#ea9036;fill-opacity:1;stroke:none"
-       d="m 4,1036.3622 c 0,-1 0,-2 0.9090909,-2 l 3.1818182,0 c 0.9090909,0 0.9090909,1 0.9090909,2 z"
+       d="m 3.9999992,1034.3622 c 0,-1 0,-2 0.909091,-2 l 3.181819,0 c 0.90909,0 0.90909,1 0.90909,2 z"
        id="path3759"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:#95989f;fill-opacity:1;stroke:none"
-       d="m 3,1036.3622 16,0 0,4 -16,0 z"
+       d="m 2,1034.3622 17.999998,0 0,4 -17.999998,0 z"
        id="path3765"
        inkscape:connector-curvature="0" />
     <rect
-       y="1036.3622"
-       x="5"
+       y="1034.3622"
+       x="4.999999"
        height="6"
-       width="13"
+       width="14"
        id="rect3763"
        style="fill:#d8d8da;fill-opacity:1;stroke:none" />
     <rect
        style="fill:#f9f9f9;fill-opacity:1;stroke:none"
        id="rect3761"
-       width="13"
+       width="14"
        height="3.0000174"
-       x="4"
-       y="1037.3622" />
+       x="3"
+       y="1035.3622" />
     <path
        style="fill:#f2bb64;fill-opacity:1;stroke:none"
-       d="m 1,1038.3622 20,0 -1,11 -18,0 z"
+       d="m 0,1036.3622 21.999999,0 -1,14 -19.9999994,0 z"
        id="path2987"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
