@@ -13,7 +13,7 @@
    height="32"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="user-desktop.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
@@ -28,15 +28,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.989691"
-     inkscape:cx="18.359592"
+     inkscape:cx="5.5032431"
      inkscape:cy="21.322029"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1023"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -107,27 +107,10 @@
        d="m 3.90625,1023.3622 c -0.4545454,0 -0.90625,0.5 -0.90625,1.5 l 0,1 c 0,-1 0.4517046,-1.5 0.90625,-1.5 l 5.1875,0 c 0.454546,0 0.90625,0.5 0.90625,1.5 l 0,-1 c 0,-1 -0.451704,-1.5 -0.90625,-1.5 l -5.1875,0 z"
        id="path3801"
        inkscape:connector-curvature="0" />
-    <g
-       style="opacity:0.25;fill:#3c2f1b;fill-opacity:1;enable-background:new"
-       id="g4113"
-       transform="translate(8,1031.3622)">
-      <path
-         sodipodi:nodetypes="sscsccccsccccccc"
-         d="M 3.9999999,4 4.0002,9 c 4e-5,1 1,1 1,1 l 3.9997999,0 c 1,0 1,-1 1,-1 l -2.002e-4,-4 -2,-2 -2.9995998,0 c 0,0 -1.0002401,0 -1.0002,1 z m 1,0 2,0 0,2 2,0 0,3 L 5.0002,9 z"
-         id="path8"
-         inkscape:connector-curvature="0"
-         style="fill:#3c2f1b;fill-opacity:1" />
-      <path
-         sodipodi:nodetypes="ccccccccc"
-         inkscape:connector-curvature="0"
-         id="path3838"
-         d="m 6,13 -2,2 c -1,1 -1,1 0,1 l 8,0 c 1,0 1,0 0,-1 l -2,-2 0,-1 -4,0 z"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
-      <path
-         id="rect3831"
-         d="M 2,0 C 0.892,0 0,0.892 0,2 l 0,9 c 0,1.108 0.892,2 2,2 l 12,0 c 1.108,0 2,-0.892 2,-2 L 16,2 C 16,0.892 15.108,0 14,0 L 2,0 z m 0,2 12,0 0,9 -12,0 0,-9 z"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none"
-         inkscape:connector-curvature="0" />
-    </g>
+    <path
+       style="opacity:1;fill:#3d311c;fill-opacity:0.24706091999999999"
+       d="M 11 12 C 9.892 12 9 12.892 9 14 L 9 21 C 9 22.108 9.892 23 11 23 L 14 23 L 12 25 C 11 26 11 26 12 26 L 20 26 C 21 26 21 26 20 25 L 18 23 L 21 23 C 22.108 23 23 22.108 23 21 L 23 14 C 23 12.892 22.108 12 21 12 L 11 12 z M 11 14 L 21 14 L 21 21 L 11 21 L 11 14 z M 13.34375 15 C 13.062428 15.046875 12.49995 15.25 12.5 16 L 12.5 19 C 12.500067 20 13.5 20 13.5 20 L 16.5 20 C 17.5 20 17.5 19 17.5 19 L 17.5 17 L 15.5 15 L 13.5 15 C 13.5 15 13.437524 14.984375 13.34375 15 z M 13.5 16 L 15 16 L 15 17.5 L 16.5 17.5 L 16.5 19 L 13.5 19 L 13.5 16 z "
+       transform="translate(0,1020.3622)"
+       id="path8-1" />
   </g>
 </svg>

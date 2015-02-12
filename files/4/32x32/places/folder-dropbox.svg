@@ -13,7 +13,7 @@
    height="32"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="folder-dropbox.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
@@ -28,15 +28,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.989691"
-     inkscape:cx="18.667529"
+     inkscape:cx="5.8111801"
      inkscape:cy="21.322029"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1023"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -108,9 +108,9 @@
        id="path3801"
        inkscape:connector-curvature="0" />
     <path
-       id="path3871"
-       d="m 11.5,1031.3622 -4.5,3.5 4.5,3 -4.5,4 9,6 9,-6 -4.5,-4 4.5,-3 -4.5,-3.5 -4.5,3.5 -4.5,-3.5 z"
-       style="line-height:normal;opacity:0.25;color:#000000;fill:#3c2f1b;fill-opacity:1"
+       id="path3871-1"
+       d="m 12.5,1033.3622 -3.5,2.7575 3.5,2.3637 -3.5,3.1515 6.999999,4.7273 7.000001,-4.7273 -3.5,-3.1515 3.5,-2.3637 -3.5,-2.7575 -3.500001,2.7575 L 12.5,1033.3622 z"
+       style="line-height:normal;opacity:1;color:#000000;fill:#3c301c;fill-opacity:0.25098040999999999"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

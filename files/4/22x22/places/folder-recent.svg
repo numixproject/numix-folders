@@ -13,7 +13,7 @@
    height="22"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="folder-recent.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
@@ -27,16 +27,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="55.720014"
-     inkscape:cx="9.4785894"
-     inkscape:cy="9.875288"
+     inkscape:zoom="27.860007"
+     inkscape:cx="11.207034"
+     inkscape:cy="9.7526801"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1023"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -108,10 +108,9 @@
        id="rect2991"
        inkscape:connector-curvature="0" />
     <path
-       id="path4105"
-       d="m 4.8750001,1037.3622 0,4.375 4.3749999,0 -1.503906,-1.504 c 0.8948092,-0.7024 2.028253,-1.121 3.253906,-1.121 2.899494,0 5.25,2.3505 5.25,5.25 0,2.8995 -2.350506,5.25 -5.25,5.25 -2.8994951,0 -5.2499999,-2.3505 -5.2499999,-5.25 0,-0.6131 0.107611,-1.203 0.3007813,-1.75 l -1.8320314,0 C 4.0755081,1043.1702 4,1043.7595 4,1044.3622 c 0,3.866 3.134007,7 7,7 3.865993,0 7,-3.134 7,-7 0,-3.866 -3.134007,-7 -7,-7 -1.712263,0 -3.2954204,0.5923 -4.5117186,1.6132 z m 6.0429689,2.5976 c -0.03699,0.01 -0.07355,0.016 -0.109375,0.027 -0.39126,0.088 -0.818246,0.4742 -0.808594,0.875 l 0,3.2266 c -0.0013,0.027 -0.0013,0.055 0,0.082 -0.05072,0.2218 0.114471,0.463 0.234375,0.6563 0.0089,0.01 0.01803,0.018 0.02734,0.027 0.0085,0.018 0.01761,0.036 0.02734,0.054 0.0089,0.01 0.01803,0.018 0.02734,0.027 0.0089,0.01 0.01803,0.018 0.02734,0.027 0.0089,0.01 0.01803,0.018 0.02734,0.027 0.0089,0.01 0.01803,0.018 0.02734,0.027 0.01791,0.01 0.03615,0.019 0.05469,0.027 0.0089,0.01 0.01803,0.018 0.02734,0.027 0.0089,0.01 0.01803,0.018 0.02734,0.027 0.01791,0.01 0.03615,0.019 0.05469,0.027 0.03514,0.02 0.07172,0.039 0.109375,0.054 l 2.160156,1.2578 c 0.400676,0.2252 0.969684,0.068 1.197739,-0.3312 0.228056,-0.399 0.07473,-0.9691 -0.322739,-1.2 L 12,1043.8378 l 0,-2.9804 c 0.01769,-0.4958 -0.588125,-0.9492 -1.082056,-0.9024 z"
-       style="line-height:normal;opacity:0.25;color:#000000;fill:#3c2f1b;fill-opacity:1"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccssssccssssccccccccccccccccccccsccccc" />
+       style="opacity:1;fill:#3c301c;fill-opacity:0.25098040999999999;stroke:none"
+       d="M 6 9 L 6 13 L 10 13 L 8.90625 11.90625 C 9.4481294 11.361885 10.171092 11 11 11 C 12.656854 11 14 12.3431 14 14 C 14 15.6569 12.656854 17 11 17 C 10.115532 17 9.3303238 16.6089 8.78125 16 L 6.4375 16 C 7.2117722 17.7595 8.9543075 19 11 19 C 13.761424 19 16 16.7614 16 14 C 16 11.2386 13.761424 9 11 9 C 9.6175594 9 8.4002865 9.5896426 7.5 10.5 L 6 9 z "
+       transform="translate(0,1030.3622)"
+       id="path3910" />
   </g>
 </svg>

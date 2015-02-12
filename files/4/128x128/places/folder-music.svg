@@ -13,7 +13,7 @@
    height="128"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.5 r10040"
    sodipodi:docname="folder-music.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
@@ -27,16 +27,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="12.989691"
-     inkscape:cx="18.359592"
-     inkscape:cy="21.322029"
+     inkscape:zoom="6.4948455"
+     inkscape:cx="31.831036"
+     inkscape:cy="56.296559"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1023"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -107,57 +107,10 @@
        d="m 15.625,936.36224 c -1.818182,0 -3.625,2 -3.625,6 l 0,4 c 0,-4 1.806818,-6 3.625,-6 l 20.75,0 c 1.818182,0 3.625,2 3.625,6 l 0,-4 c 0,-4 -1.806818,-6 -3.625,-6 l -20.75,0 z"
        id="path3801"
        inkscape:connector-curvature="0" />
-    <g
-       id="g3897"
-       transform="matrix(4,0,0,4,117.56064,-3127.1122)"
-       style="opacity:0.25">
-      <path
-         transform="matrix(1.6457927,0,0,1.7226703,-7.161196,1022.6419)"
-         d="m -4.9999999,8.2585173 c 0,0.9617941 -0.8161087,1.7414823 -1.8228298,1.7414823 -1.0067211,0 -1.8228299,-0.7796882 -1.8228299,-1.7414823 0,-0.9617942 0.8161088,-1.7414824 1.8228299,-1.7414824 1.0067211,0 1.8228298,0.7796882 1.8228298,1.7414824 z"
-         sodipodi:ry="1.7414824"
-         sodipodi:rx="1.8228298"
-         sodipodi:cy="8.2585173"
-         sodipodi:cx="-6.8228297"
-         id="path3001"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none"
-         sodipodi:type="arc" />
-      <path
-         sodipodi:type="arc"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none"
-         id="path3003"
-         sodipodi:cx="-6.8228297"
-         sodipodi:cy="8.2585173"
-         sodipodi:rx="1.8228298"
-         sodipodi:ry="1.7414824"
-         d="m -4.9999999,8.2585173 c 0,0.9617941 -0.8161087,1.7414823 -1.8228298,1.7414823 -1.0067211,0 -1.8228299,-0.7796882 -1.8228299,-1.7414823 0,-0.9617942 0.8161088,-1.7414824 1.8228299,-1.7414824 1.0067211,0 1.8228298,0.7796882 1.8228298,1.7414824 z"
-         transform="matrix(1.6457927,0,0,1.7226703,2.838804,1022.6419)" />
-      <rect
-         ry="1"
-         rx="1"
-         y="1025.8687"
-         x="-17.39016"
-         height="12"
-         width="2"
-         id="rect3005"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
-      <rect
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none"
-         id="rect3007"
-         width="2"
-         height="12"
-         x="-7.3901591"
-         y="1025.8687"
-         rx="1"
-         ry="1" />
-      <rect
-         ry="2"
-         rx="2"
-         y="1023.8686"
-         x="-17.39016"
-         height="5"
-         width="12"
-         id="rect3009"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
-    </g>
+    <path
+       style="opacity:1;fill:#3d311c;fill-opacity:0.24705882000000001;stroke:none"
+       d="M 56 52 C 51.568 52 48 55.463589 48 59.78125 L 48 60.21875 C 48 60.553436 48.020882 60.864156 48.0625 61.1875 C 48.011583 61.448359 48 61.723 48 62 L 48 84 C 43.581722 84 40 87.581722 40 92 C 40 96.418278 43.581722 100 48 100 C 52.418278 100 56 96.418278 56 92 L 56 68 L 80 68 L 80 84 C 75.581722 84 72 87.581722 72 92 C 72 96.418278 75.581722 100 80 100 C 84.418278 100 88 96.418278 88 92 L 88 60.21875 L 88 59.78125 C 88 55.463589 84.432 52 80 52 L 56 52 z "
+       transform="translate(0,924.3622)"
+       id="path3001-1" />
   </g>
 </svg>
