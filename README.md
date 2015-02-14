@@ -6,8 +6,8 @@ This program provides and installs alternate folders for use with our [base icon
 | :------------: |:---------------:| :-----:|
 | **0** | - | The default in our base theme - choose this to revert back |
 | **1** | ![1](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/1/preview.png) | The original folder design |
-| **2** | ![2](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/2/preview.png) | Plain desgin which matches our Legacy theme |
+| **2** | ![2](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/2/preview.png) | Plain design which matches our Legacy theme |
 | **3** | ![3](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/3/preview.png) | Tilted design which never made it to production |
 | **4** | ![4](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/4/preview.png) | One that launched with the redesign of Circle |
-| **5** | ![5](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/5/preview.png) | Curvey design which never made it to production |
+| **5** | ![5](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/5/preview.png) | Curvy design which never made it to production |
 | **6** | ![6](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/6/preview.png) | The current new design that landed in 2015 |
