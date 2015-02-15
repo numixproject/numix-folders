@@ -9,8 +9,6 @@
 # a copy of the GNU General Public License along with this program.
 # If not, see <http://www.gnu.org/licenses/>.
 
-version="0.4.2"
-
 # Allows timeout when launched vai 'Run in Terminal'
 function sucess() { sleep 3; exit 0; }
 function gerror() { sleep 3; exit 1; }
@@ -24,10 +22,12 @@ else
                 "This is a list of currently supported folder\n" \
                 "\rstyles that can be used to replace the default.\n\n" \
                 "\r0 - default folder theme (uninstall)\n" \
-                "\r1 - original folders that came with circle\n" \
-                "\r2 - 1 with the colour scheme from 0\n" \
-                "\r3 - new foler design with vibrant colours\n" \
-                "\r4 - 3 with the colour scheme from 1"
+                "\r1 - the original folder design\n" \
+                "\r2 - plain design which matches our Legacy themes\n" \
+                "\r3 - tilted design which never made it to production\n" \
+                "\r4 - one that launched with the redesign of Circle\n" \
+                "\r5 - curvy design which never made it to production\n" \
+                "\r6 - the current new design that landed in 2015"
             sucess ;;
         -h|--help)
             echo -e \
