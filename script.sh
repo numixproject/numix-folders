@@ -64,9 +64,9 @@ fi
 
 cuser="${SUDO_USER:-$USER}"
 if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
-    dir=/home/"$cuser"/.local/share/icons/
+    dir=/home/"$cuser"/.local/share/icons
 elif [ -d /home/"$cuser"/.icons/Numix ]; then
-    dir=/home/"$cuser"/.icons/
+    dir=/home/"$cuser"/.icons
 elif [ -d /usr/share/icons/Numix/ ]; then
     if [[ $UID -ne 0 ]]; then
         echo -e \
@@ -74,7 +74,7 @@ elif [ -d /usr/share/icons/Numix/ ]; then
             "\rPlease run this script again as root"
         gerror
     else
-        dir=/usr/share/icons/
+        dir=/usr/share/icons
     fi
 else
     echo -e \
@@ -83,8 +83,17 @@ else
     gerror
 fi
 
-cp -rH files/"${style}"/* "$dir"
-chown -R "$cuser" "$dir"
+cp -rH files/"${style}"/Numix/* "${dir}"/Numix/
+chown -R "$cuser" "${dir}"/Numix/
+if [ -d "${dir}"/Numix-Circle/ ]; then
+    cp -rH files/"${style}"/Numix-Circle/* "${dir}"/Numix-Circle/
+    chown -R "$cuser" "${dir}"/Numix-Circle/
+fi
+if [ -d "${dir}"/Numix-Square/ ]; then
+    cp -rH files/"${style}"/Numix-Square/* "${dir}"/Numix-Square/
+    chown -R "$cuser" "${dir}"/Numix-Square/
+fi
+
 echo "Folder change complete!"
 sucess
 
