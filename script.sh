@@ -64,9 +64,9 @@ fi
 
 cuser="${SUDO_USER:-$USER}"
 if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
-    dir=/home/"$cuser"/.local/share/icons/Numix/
+    dir=/home/"$cuser"/.local/share/icons/
 elif [ -d /home/"$cuser"/.icons/Numix ]; then
-    dir=/home/"$cuser"/.icons/Numix
+    dir=/home/"$cuser"/.icons/
 elif [ -d /usr/share/icons/Numix/ ]; then
     if [[ $UID -ne 0 ]]; then
         echo -e \
@@ -74,7 +74,7 @@ elif [ -d /usr/share/icons/Numix/ ]; then
             "\rPlease run this script again as root"
         gerror
     else
-        dir=/usr/share/icons/Numix/
+        dir=/usr/share/icons/
     fi
 else
     echo -e \
