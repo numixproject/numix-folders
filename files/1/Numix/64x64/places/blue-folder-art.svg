@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="64"
+   height="64"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="folder-art.svg"
+   inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
+   inkscape:export-xdpi="270"
+   inkscape:export-ydpi="270">
+  <defs
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient3958">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop3960" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop3962" />
+    </linearGradient>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3958"
+       id="radialGradient3964"
+       cx="32.5"
+       cy="56.5"
+       fx="32.5"
+       fy="56.5"
+       r="33.5"
+       gradientTransform="matrix(1,0,0,0.10447761,0,50.597015)"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="10.551073"
+     inkscape:cx="37.125466"
+     inkscape:cy="18.229623"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2985"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-988.3622)">
+    <path
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#42a5f5;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.28612947;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       d="M 6.0625 10 C 4.9330852 10.1109 3.9815877 11.17777 4 12.3125 L 4 51.6875 C 3.986 52.9021 5.097925 54.0139 6.3125 54 L 57.6875 54 C 58.902076 54.014 60.013966 52.9021 60 51.6875 L 60 16.3125 C 60.014 15.0979 58.902076 13.9861 57.6875 14 L 38 14 L 38 12.3125 C 38.01375 11.11867 36.943717 10.019 35.75 10 L 6.3125 10 C 6.22925 10 6.14575 9.9999 6.0625 10 z M 30.5 24 C 39.5 24 44 29.7146 44 34 C 44 36.857 42.5 44 32 44 C 29 44 27.5 42.5443 27.5 39.6875 C 27.5 36.829 26 36.875 24.5 36.875 C 23 36.875 20 36.9108 20 32.625 C 20 28.3396 24.509204 24.14 30.5 24 z M 27.5 26 C 26.671573 26 26 26.6716 26 27.5 C 26 28.3284 26.671573 29 27.5 29 C 28.328427 29 29 28.3284 29 27.5 C 29 26.6716 28.328427 26 27.5 26 z M 33.5 26 C 32.671573 26 32 26.6716 32 27.5 C 32 28.3284 32.671573 29 33.5 29 C 34.328427 29 35 28.3284 35 27.5 C 35 26.6716 34.328427 26 33.5 26 z M 39.5 30 C 38.671573 30 38 30.6716 38 31.5 C 38 32.3284 38.671573 33 39.5 33 C 40.328427 33 41 32.3284 41 31.5 C 41 30.6716 40.328427 30 39.5 30 z M 23.5 31 C 22.671573 31 22 31.6716 22 32.5 C 22 33.3284 22.671573 34 23.5 34 C 24.328427 34 25 33.3284 25 32.5 C 25 31.6716 24.328427 31 23.5 31 z M 32.5 37 C 31.119288 37 30 38.1193 30 39.5 C 30 40.8807 31.119288 42 32.5 42 C 33.880712 42 35 40.8807 35 39.5 C 35 38.1193 33.880712 37 32.5 37 z "
+       transform="translate(0,988.3622)"
+       id="path3912" />
+  </g>
+</svg>
