@@ -2,8 +2,8 @@
 This program provides and installs alternate folders for use with our [base icon theme](https://github.com/numixproject/numix-icon-theme). To use the script simply download this repo, move into the repos directory and then run the script. All work here is licensed under the GNU GPLv3+
 
 ## Styles
-| Style | Preview  | Description |
-| :------------: |:---------------:| :-----:|
+| Style | Preview  | Screenshot | Description |
+| :------------: |:---------------:|:-----:|:-----:|
 | **0** | - | The default in our base theme - choose this to revert back |
 | **1** | ![1](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/1/preview.png) | ![1](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/1/screenshot.png) | The original folder design |
 | **2** | ![2](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/2/preview.png) | ![2](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/2/screenshot.png) | Plain design which matches our Legacy theme |
