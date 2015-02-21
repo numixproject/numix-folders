@@ -5,7 +5,7 @@ This program provides and installs alternate folders for use with our [base icon
 | Style | Preview  | Screenshot | Description |
 | :------------: |:---------------:|:-----:|:-----:|
 | **0** | - | - | The default in our base theme - choose this to revert back |
-| **1** | ![1](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/1/preview.png) | [link](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/1/screenshot.png) | The original folder design |
+| **1** | ![1](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/1/preview.png) | [link](https://raw.githubusercontent.com/dirtydancing/numix-folders/master/files/1/screenshot.png) | The original folder design |
 | **2** | ![2](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/2/preview.png) | [link](https://raw.githubusercontent.com/dirtydancing/numix-folders/master/files/2/screenshot.png) | Plain design which matches our Legacy theme |
 | **3** | ![3](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/3/preview.png) | [link](https://raw.githubusercontent.com/dirtydancing/numix-folders/master/files/3/screenshot.png) | Tilted design which never made it to production |
 | **4** | ![4](https://raw.githubusercontent.com/numixproject/numix-folders/master/files/4/preview.png) | [link](https://raw.githubusercontent.com/dirtydancing/numix-folders/master/files/4/screenshot.png) | One that launched with the redesign of Circle |
