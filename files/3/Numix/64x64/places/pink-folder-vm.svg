@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-vm.svg"
+   sodipodi:docname="pink-folder-vm.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -53,7 +53,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.4607353"
-     inkscape:cx="30.829669"
+     inkscape:cx="8.4458163"
      inkscape:cy="20.589077"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -129,7 +129,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:0.25098040999999999;fill-rule:evenodd;stroke:none"
+       style="opacity:0.4;fill:#880e4f;fill-opacity:1;fill-rule:evenodd;stroke:none"
        d="M 26 26 C 25 26 24 27 24 28 L 40 28 C 40 27 39 26 38 26 L 26 26 z M 24 29 L 24 47 L 40 47 L 40 29 L 24 29 z M 27 31 L 37 31 L 37 33 L 27 33 L 27 31 z M 27 35 L 37 35 L 37 37 L 27 37 L 27 35 z M 32 39 C 33.104569 39 34 39.895431 34 41 C 34 42.104569 33.104569 43 32 43 C 30.895431 43 30 42.104569 30 41 C 30 39.895431 30.895431 39 32 39 z M 24 48 C 24 49 25 50 26 50 L 38 50 C 39 50 40 49 40 48 L 24 48 z "
        transform="translate(0,988.3622)"
        id="rect3865-5" />

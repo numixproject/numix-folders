@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-documents.svg"
+   sodipodi:docname="grey-folder-documents.svg"
    inkscape:export-filename="/home/me4oslav/Desktop/folder.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="14.058347"
-     inkscape:cx="42.85245"
+     inkscape:cx="19.592247"
      inkscape:cy="19.330385"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -102,7 +102,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:0.25098040999999999;stroke:none"
+       style="opacity:0.4;fill:#212121;fill-opacity:1;stroke:none"
        d="M 20 20 C 18.892 20 18 20.892 18 22 L 18 34 C 18 35.108 18.892 36 20 36 L 28 36 C 29.108 36 30 35.108 30 34 L 30 25 L 25 20 L 20 20 z M 20 22 L 25 22 L 25 25 L 28 25 L 28 34 L 20 34 L 20 22 z M 21.25 27 C 21.1115 27 21 27.1115 21 27.25 L 21 27.75 C 21 27.8885 21.1115 28 21.25 28 L 24.75 28 C 24.8885 28 25 27.8885 25 27.75 L 25 27.25 C 25 27.1115 24.8885 27 24.75 27 L 21.25 27 z M 21.25 29 C 21.1115 29 21 29.1115 21 29.25 L 21 29.75 C 21 29.8885 21.1115 30 21.25 30 L 26.75 30 C 26.8885 30 27 29.8885 27 29.75 L 27 29.25 C 27 29.1115 26.8885 29 26.75 29 L 21.25 29 z M 21.25 31 C 21.1115 31 21 31.1115 21 31.25 L 21 31.75 C 21 31.8885 21.1115 32 21.25 32 L 26.75 32 C 26.8885 32 27 31.8885 27 31.75 L 27 31.25 C 27 31.1115 26.8885 31 26.75 31 L 21.25 31 z "
        transform="translate(0,1004.3622)"
        id="rect2991-3" />

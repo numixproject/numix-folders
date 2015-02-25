@@ -13,7 +13,7 @@
    version="1.1"
    id="svg3058"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-documents.svg">
+   sodipodi:docname="green-folder-documents.svg">
   <metadata
      id="metadata3079">
     <rdf:RDF>
@@ -41,7 +41,7 @@
      id="namedview3075"
      showgrid="false"
      inkscape:zoom="1.475"
-     inkscape:cx="-11.645759"
+     inkscape:cx="-124.8661"
      inkscape:cy="180.25372"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -80,6 +80,6 @@
   <path
      id="path3073"
      d="M 76.8,76.8 C 69.709375,76.8 64,82.509376 64,89.6 l 0,64 c 0,7.09062 5.709375,12.8 12.8,12.8 l 51.2,0 c 7.09062,0 12.8,-5.70938 12.8,-12.8 l 0,-44.8 -32,-32 z m 0,12.8 32,0 0,19.2 19.2,0 0,44.8 -51.2,0 z m 8,25.6 c -0.887496,0 -1.6,0.7125 -1.6,1.6 l 0,3.2 c 0,0.8875 0.712504,1.6 1.6,1.6 l 22.4,0 c 0.8875,0 1.6,-0.7125 1.6,-1.6 l 0,-3.2 c 0,-0.8875 -0.7125,-1.6 -1.6,-1.6 z m 0,12.8 c -0.887496,0 -1.6,0.7125 -1.6,1.6 l 0,3.2 c 0,0.8875 0.712504,1.6 1.6,1.6 l 35.2,0 c 0.8875,0 1.6,-0.7125 1.6,-1.6 l 0,-3.2 c 0,-0.8875 -0.7125,-1.6 -1.6,-1.6 z m 0,12.8 c -0.887496,0 -1.6,0.7125 -1.6,1.6 l 0,3.2 c 0,0.8875 0.712504,1.6 1.6,1.6 l 35.2,0 c 0.8875,0 1.6,-0.7125 1.6,-1.6 l 0,-3.2 c 0,-0.8875 -0.7125,-1.6 -1.6,-1.6 z m 0,0"
-     style="fill:#000000;fill-opacity:0.25097997;fill-rule:nonzero;stroke:none"
+     style="fill:#103612;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4"
      inkscape:connector-curvature="0" />
 </svg>

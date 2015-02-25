@@ -13,7 +13,7 @@
    version="1.1"
    id="svg3438"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="user-desktop.svg">
+   sodipodi:docname="yellow-user-desktop.svg">
   <metadata
      id="metadata3459">
     <rdf:RDF>
@@ -41,8 +41,8 @@
      id="namedview3455"
      showgrid="true"
      inkscape:zoom="2.085965"
-     inkscape:cx="61.96629"
-     inkscape:cy="134.68749"
+     inkscape:cx="83.059645"
+     inkscape:cy="129.89355"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -88,6 +88,6 @@
   <path
      id="path3453"
      d="m 70.4,76.800001 c -7.090625,0 -12.8,5.709376 -12.8,12.8 L 57.6,134.4 c 0,7.09062 5.709375,12.8 12.8,12.8 l 19.2,0 -12.8,12.8 c -6.4,6.4 -6.4,6.4 0,6.4 l 51.2,0 c 6.4,0 6.4,0 0,-6.4 l -12.8,-12.8 19.2,0 c 7.09062,0 12.8,-5.70938 12.8,-12.8 l 0,-44.799999 c 0,-7.090624 -5.70938,-12.8 -12.8,-12.8 z m 0,12.8 64,0 0,44.799999 -64,0 z m 16,6.4 c 0,0 -6.4,0 -6.4,6.399999 l 0,19.2 c 0,6.4 6.4,6.4 6.4,6.4 l 19.2,0 c 6.4,0 6.4,-6.4 6.4,-6.4 l 0,-12.8 -12.8,-12.799999 z m 0,6.399999 9.6,0 0,9.6 9.6,0 0,9.6 -19.2,0 z m 0,0"
-     style="fill:#000000;fill-opacity:0.25097997;fill-rule:nonzero;stroke:none"
+     style="fill:#745100;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4"
      inkscape:connector-curvature="0" />
 </svg>

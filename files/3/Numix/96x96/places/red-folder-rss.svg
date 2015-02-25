@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-rss.svg">
+   sodipodi:docname="red-folder-rss.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -262,9 +262,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="8.815"
-     inkscape:cx="46.588719"
-     inkscape:cy="44.038438"
+     inkscape:zoom="6.2331463"
+     inkscape:cx="17.948818"
+     inkscape:cy="28.588194"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -340,18 +340,18 @@
        id="path3392"
        d="m 41.997766,1023.505 c -0.07786,2.7602 -2.38083,4.9346 -5.141538,4.855 -2.762028,-0.084 -4.935774,-2.382 -4.853994,-5.141 0.07784,-2.76 2.380832,-4.9348 5.14154,-4.8548 2.762028,0.084 4.935772,2.3822 4.853992,5.1408 m 0,0"
        inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:0.25098039;fill-rule:nonzero;stroke:none" />
+       style="fill:#460a0a;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4" />
     <path
        id="path3394"
        d="m 54,1028.3622 c -0.318864,-13.0444 -12.893104,-21.0738 -22,-22 l 0,6 c 7.331536,0.6028 15.91824,7.4454 16,16"
        inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:0.25098039;fill-rule:nonzero;stroke:none"
+       style="fill:#460a0a;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4"
        sodipodi:nodetypes="cccc" />
     <path
        id="path3396"
        d="m 64,1028.3622 c 0,-19.2086 -17.250182,-31.392 -32,-32 l 0,6 c 13.528868,1.4938 26.053572,12.5534 26,26"
        inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:0.25098039;fill-rule:nonzero;stroke:none"
+       style="fill:#460a0a;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4"
        sodipodi:nodetypes="cccc" />
   </g>
 </svg>

@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-cloud.svg"
+   sodipodi:docname="red-folder-cloud.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -53,7 +53,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="10.551073"
-     inkscape:cx="20.319149"
+     inkscape:cx="4.4913749"
      inkscape:cy="17.583328"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -129,7 +129,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:0.25098040999999999;stroke:none"
+       style="opacity:0.4;fill:#460a0a;fill-opacity:1;stroke:none"
        d="M 29 29 A 7 6.9999592 0 0 0 22 36 A 7 6.9999592 0 0 0 22.65625 39 L 22 39 L 22 39.09375 A 4.9999998 5.0000584 0 0 0 18 44 A 4.9999998 5.0000584 0 0 0 22 48.90625 L 22 49 L 23 49 L 23.34375 49 L 42 49 L 42 48.90625 A 4.9999998 4.9999958 0 0 0 46 44 A 4.9999998 4.9999958 0 0 0 42 39.09375 L 42 39 L 41 39 A 4.9999998 4.9999958 0 0 0 42 36 A 4.9999998 4.9999958 0 0 0 37 31 A 4.9999998 4.9999958 0 0 0 34.46875 31.6875 A 7 6.9999592 0 0 0 29 29 z "
        transform="translate(0,988.3622)"
        id="path3102" />

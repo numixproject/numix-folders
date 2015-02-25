@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-templates.svg"
+   sodipodi:docname="purple-folder-templates.svg"
    inkscape:export-filename="/home/me4oslav/Desktop/folder.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="10.451038"
-     inkscape:cx="33.511995"
-     inkscape:cy="40.545195"
+     inkscape:cx="42.889054"
+     inkscape:cy="37.100561"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -105,7 +105,7 @@
        sodipodi:nodetypes="ccccc" />
     <path
        inkscape:connector-curvature="0"
-       style="line-height:normal;color:#000000;fill:#000000;fill-opacity:0.25098039"
+       style="line-height:normal;color:#000000;fill:#150b3d;fill-opacity:1;opacity:0.4"
        d="m 34,996.3622 c 0,0 -2,0.076 -2,2 l 0,4 4,0 0,-2 2,0 0,-4 -3.8125,0 -0.1875,0 z m 6,0 0,4 4,0 0,-4 -4,0 z m 6,0 0,4 4,0 0,-4 -4,0 z m 6,0 0,4 4,0 0,-4 -4,0 z m 6,0 0,4 2,0 0,2 4,0 0,-4 c 0,-2 -2,-2 -2,-2 l -4,0 z m -26,8 0,4 4,0 0,-4 -4,0 z m 28,0 0,4 4,0 0,-4 -4,0 z m -28,6 0,4 4,0 0,-4 -4,0 z m 28,0 0,4 4,0 0,-4 -4,0 z m -28,6 0,4 4,0 0,-4 -4,0 z m 28,0 0,4 4,0 0,-4 -4,0 z m -28,6 0,4 c 0,2 2,2 2,2 l 4,0 0,-4 -2,0 0,-2 -4,0 z m 28,0 0,2 -2,0 0,4 4,0 c 0,0 2,0 2,-2 l 0,-4 -4,0 z m -20,2 0,4 4,0 0,-4 -4,0 z m 6,0 0,4 4,0 0,-4 -4,0 z m 6,0 0,4 4,0 0,-4 -4,0 z"
        id="path4019" />
   </g>

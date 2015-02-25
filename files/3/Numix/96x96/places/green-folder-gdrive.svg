@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-gdrive.svg">
+   sodipodi:docname="green-folder-gdrive.svg">
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -104,7 +104,7 @@
      id="namedview16"
      showgrid="true"
      inkscape:zoom="8"
-     inkscape:cx="40.189463"
+     inkscape:cx="19.314463"
      inkscape:cy="61.178251"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -157,7 +157,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <path
-     style="fill:#000000;fill-opacity:0.25098039;fill-rule:evenodd"
+     style="fill:#103612;fill-opacity:1;fill-rule:evenodd;opacity:0.4"
      d="M 42.5,40 54.25,60 66,60 54.25,40 42.5,40 z M 40.5625,41.1875 28,60.9375 l 6.3125,9.8125 12.25,-19.5 -6,-10.0625 z M 42.375,62 36,72 60,72 66,62 42.375,62 z"
      id="polygon3475-1"
      inkscape:connector-curvature="0" />

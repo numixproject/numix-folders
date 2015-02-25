@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-rss.svg"
+   sodipodi:docname="red-folder-rss.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -64,7 +64,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="22.60317"
-     inkscape:cx="20.410496"
+     inkscape:cx="13.022152"
      inkscape:cy="10.527152"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -140,7 +140,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#000000;fill-opacity:0.25098039;fill-rule:nonzero;stroke:none"
+       style="fill:#460a0a;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4"
        d="m 7,1037.3622 0,2 c 4.227771,0.4668 8.016741,3.7979 8,8 l 2,0 c 0,-6.0027 -5.390682,-9.81 -10,-10 z m 0,3 0,2 c 2.291105,0.1884 4.97445,2.3267 5,5 l 2,0 c -0.09965,-4.0764 -4.154095,-6.7106 -7,-7 z m 1.5,4 c -0.8284271,0 -1.5,0.6716 -1.5,1.5 0,0.8284 0.6715729,1.5 1.5,1.5 0.8284271,0 1.5,-0.6716 1.5,-1.5 0,-0.8284 -0.6715729,-1.5 -1.5,-1.5 z"
        id="path3394"
        inkscape:connector-curvature="0" />

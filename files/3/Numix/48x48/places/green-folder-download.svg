@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-download.svg"
+   sodipodi:docname="green-folder-download.svg"
    inkscape:export-filename="/home/me4oslav/Desktop/folder.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="9.9407525"
-     inkscape:cx="38.488952"
+     inkscape:cx="21.689419"
      inkscape:cy="22.92046"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -102,7 +102,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:0.25098039000000000;stroke:none"
+       style="opacity:0.4;fill:#103612;fill-opacity:1;stroke:none"
        d="M 24 21 C 22.892 21 22 21.892 22 23 L 22 28 L 20 28 C 19 28 19 28 20 29 L 23 32 C 24 33 24 33 25 32 L 28 29 C 29 28 29 28 28 28 L 26 28 L 26 23 C 26 21.892 25.108 21 24 21 z M 17 29 C 16.446 29 16 29.446 16 30 L 16 35 C 16 35.554 16.446 36 17 36 L 31 36 C 31.1385 36 31.255281 35.956719 31.375 35.90625 C 31.734156 35.754844 32 35.4155 32 35 L 32 30 C 32 29.446 31.554 29 31 29 C 30.446 29 30 29.446 30 30 L 30 34 L 18 34 L 18 30 C 18 29.446 17.554 29 17 29 z "
        transform="translate(0,1004.3622)"
        id="rect2989" />

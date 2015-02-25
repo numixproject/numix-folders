@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="user-desktop.svg"
+   sodipodi:docname="green-user-desktop.svg"
    inkscape:export-filename="/home/me4oslav/Desktop/folder.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="20.902076"
-     inkscape:cx="29.057959"
-     inkscape:cy="20.726947"
+     inkscape:zoom="10.451038"
+     inkscape:cx="11.67832"
+     inkscape:cy="27.651717"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -104,7 +104,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:0.24705882000000001"
+       style="opacity:0.4;fill:#103612;fill-opacity:1"
        d="M 18 20 C 16.892 20 16 20.892 16 22 L 16 31 C 16 32.108 16.892 33 18 33 L 22 33 L 20 35 C 19 36 19 36 20 36 L 28 36 C 29 36 29 36 28 35 L 26 33 L 30 33 C 31.108 33 32 32.108 32 31 L 32 22 C 32 20.892 31.108 20 30 20 L 18 20 z M 18 22 L 30 22 L 30 31 L 18 31 L 18 22 z M 20.84375 23 C 20.562434 23.046875 19.99997 23.25 20 24 L 20 29 C 20.00004 30 21 30 21 30 L 25 30 C 26 30 26 29 26 29 L 26 25 L 24 23 L 21 23 C 21 23 20.937522 22.984375 20.84375 23 z M 21 24 L 23 24 L 23 26 L 25 26 L 25 29 L 21 29 L 21 24 z "
        transform="translate(0,1004.3622)"
        id="path8" />

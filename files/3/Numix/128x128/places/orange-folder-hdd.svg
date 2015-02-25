@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-hdd.svg"
+   sodipodi:docname="orange-folder-hdd.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -53,7 +53,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.2755365"
-     inkscape:cx="94.402228"
+     inkscape:cx="62.74668"
      inkscape:cy="55.093617"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -129,13 +129,13 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#000000;fill-opacity:0.25098039;stroke:none"
+       style="fill:#3c2f1b;fill-opacity:1;stroke:none;opacity:0.4"
        d="m 48,976.3622 c -2.84914,0 -4,1.3408 -4,4 l 0,40 c 0,2.6592 1.15086,4 4,4 l 30.875,0 c 2.849144,0 5.125,-1.3408 5.125,-4 l 0,-40 c 0,-2.6592 -1.150856,-4 -4,-4 l -32,0 z m 3,4 c 1.656854,0 3,1.3432 3,3 0,1.6568 -1.343146,3 -3,3 -1.656854,0 -3,-1.3432 -3,-3 0,-1.6568 1.343146,-3 3,-3 z m 26,0 c 1.656854,0 3,1.3432 3,3 0,1.6568 -1.343146,3 -3,3 -1.656854,0 -3,-1.3432 -3,-3 0,-1.6568 1.343146,-3 3,-3 z m -13,4 c 4.418276,0 8,3.5816 8,8 0,4.4184 -3.581724,8 -8,8 -4.418276,0 -8,-3.5816 -8,-8 0,-4.4184 3.581724,-8 8,-8 z m -13,14 c 1.656854,0 3,1.3432 3,3 0,1.6568 -1.343146,3 -3,3 -1.656854,0 -3,-1.3432 -3,-3 0,-1.6568 1.343146,-3 3,-3 z m 26,0 c 1.656854,0 3,1.3432 3,3 0,1.6568 -1.343146,3 -3,3 -1.656854,0 -3,-1.3432 -3,-3 0,-1.6568 1.343146,-3 3,-3 z m -27,18 28,0 c 1.108,0 2,0.892 2,2 0,1.108 -0.892,2 -2,2 l -28,0 c -1.108,0 -2,-0.892 -2,-2 0,-1.108 0.892,-2 2,-2 z"
        id="rect3828"
        inkscape:connector-curvature="0" />
     <path
        sodipodi:type="arc"
-       style="fill:#000000;fill-opacity:0.25098039;fill-rule:evenodd;stroke:none"
+       style="fill:#3c2f1b;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:0.4"
        id="path2995"
        sodipodi:cx="32"
        sodipodi:cy="34"

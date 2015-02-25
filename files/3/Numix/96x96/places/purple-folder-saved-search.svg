@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-saved-search.svg"
+   sodipodi:docname="purple-folder-saved-search.svg"
    inkscape:export-filename="/home/me4oslav/Desktop/folder.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="9.9407525"
-     inkscape:cx="57.204116"
+     inkscape:cx="40.404583"
      inkscape:cy="43.397709"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -106,7 +106,7 @@
     <path
        id="path4156-1"
        d="m 60.752258,999.5964 c -4.330298,-4.3318 -11.331976,-4.3048 -15.662286,0.032 -3.68213,3.6832 -4.233936,9.2896 -1.659936,13.5512 l -10.682488,10.6862 c -0.99673,0.997 -0.99673,2.5916 0,3.5886 l 0.16064,0.16 c 0.996732,0.9972 2.59087,0.9972 3.587602,0 l 10.682488,-10.686 c 4.26616,2.5808 9.89186,2.0498 13.573988,-1.6336 4.330312,-4.3314 4.330306,-11.3624 0,-15.694 z m -2.436352,2.4368 c 2.978404,2.9796 2.978374,7.8408 0,10.8198 -2.950522,2.9516 -7.724672,2.9504 -10.709256,0.054 l -0.08034,-0.08 c -0.02664,-0.032 -0.05424,-0.054 -0.08034,-0.082 -2.89928,-2.9848 -2.871522,-7.7334 0.08034,-10.6856 2.978372,-2.9798 7.811178,-3.0066 10.78958,-0.032 z"
-       style="line-height:normal;color:#000000;fill:#000000;fill-opacity:0.25098039"
+       style="line-height:normal;color:#000000;fill:#150b3d;fill-opacity:1;opacity:0.4"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

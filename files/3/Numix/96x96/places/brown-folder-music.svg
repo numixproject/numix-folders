@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-music.svg"
+   sodipodi:docname="brown-folder-music.svg"
    inkscape:export-filename="/home/me4oslav/Desktop/folder.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="9.9407525"
-     inkscape:cx="55.590273"
-     inkscape:cy="43.945025"
+     inkscape:zoom="4.9703763"
+     inkscape:cx="7.5163542"
+     inkscape:cy="70.329573"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -104,7 +104,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#000000;fill-opacity:0.25098039;stroke:none"
+       style="fill:#241714;fill-opacity:1;stroke:none;opacity:0.4"
        d="m 44,996.3622 c -2.216,0 -4,1.784 -4,4 l 0,2 0,14.375 c -0.632944,-0.227 -1.288934,-0.375 -2,-0.375 -3.313708,0 -6,2.6862 -6,6 0,3.3138 2.686292,6 6,6 3.313708,0 6,-2.6862 6,-6 l 0,-16 16,0 0,10.375 c -0.632944,-0.227 -1.288934,-0.375 -2,-0.375 -3.313708,0 -6,2.6862 -6,6 0,3.3138 2.686292,6 6,6 3.313708,0 6,-2.6862 6,-6 l 0,-20 0,-2 c 0,-2.216 -1.784,-4 -4,-4 l -16,0 z"
        id="path3001"
        inkscape:connector-curvature="0" />

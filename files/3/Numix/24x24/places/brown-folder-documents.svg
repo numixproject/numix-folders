@@ -13,7 +13,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-documents.svg">
+   sodipodi:docname="brown-folder-documents.svg">
   <metadata
      id="metadata16">
     <rdf:RDF>
@@ -41,7 +41,7 @@
      id="namedview12"
      showgrid="true"
      inkscape:zoom="21.454545"
-     inkscape:cx="13.116982"
+     inkscape:cx="5.3330835"
      inkscape:cy="8.6591"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -94,7 +94,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <path
-     style="fill:#000000;fill-opacity:0.25098249;stroke:none"
+     style="fill:#241714;fill-opacity:1;stroke:none;opacity:0.4"
      d="M 9,9 C 8.446,9 8,9.446 8,10 l 0,8 c 0,0.554 0.446,1 1,1 l 6,0 c 0.554,0 1,-0.446 1,-1 l 0,-8 C 16,9.446 15.554,9 15,9 L 9,9 z m 1,1 4,0 0,1 1,0 0,6 c 0,0.554 -0.446,1 -1,1 l -4,0 C 9.446,18 9,17.554 9,17 l 0,-6 c 0,-0.554 0.446,-1 1,-1 z m 0.25,2 C 10.1115,12 10,12.1115 10,12.25 l 0,0.5 c 0,0.1385 0.1115,0.25 0.25,0.25 l 3.5,0 C 13.8885,13 14,12.8885 14,12.75 l 0,-0.5 C 14,12.1115 13.8885,12 13.75,12 l -3.5,0 z m 0,2 C 10.1115,14 10,14.1115 10,14.25 l 0,0.5 c 0,0.1385 0.1115,0.25 0.25,0.25 l 3.5,0 C 13.8885,15 14,14.8885 14,14.75 l 0,-0.5 C 14,14.1115 13.8885,14 13.75,14 l -3.5,0 z m 0,2 C 10.1115,16 10,16.1115 10,16.25 l 0,0.5 c 0,0.1385 0.1115,0.25 0.25,0.25 l 3.5,0 C 13.8885,17 14,16.8885 14,16.75 l 0,-0.5 C 14,16.1115 13.8885,16 13.75,16 l -3.5,0 z"
      id="rect3767"
      inkscape:connector-curvature="0" />
