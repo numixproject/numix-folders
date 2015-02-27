@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-wine.svg"
+   sodipodi:docname="purple-folder-wine.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="13.928809"
-     inkscape:cx="20.106385"
-     inkscape:cy="7.4333249"
+     inkscape:cx="0.21954471"
+     inkscape:cy="13.535785"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -108,7 +108,7 @@
        id="rect2991"
        inkscape:connector-curvature="0" />
     <path
-       style="line-height:normal;color:#000000;fill:#3c301c;fill-opacity:0.25098249"
+       style="line-height:normal;color:#000000;fill:#150b3d;fill-opacity:1;opacity:0.4"
        d="m 11.5,1038.3622 c -0.276142,0 -0.5,0.2238 -0.5,0.5 0,0.2762 0.223858,0.5 0.5,0.5 0.276142,0 0.5,-0.2238 0.5,-0.5 0,-0.2762 -0.223858,-0.5 -0.5,-0.5 z m 4.375,0 c -0.444165,0.01 -0.86757,0.2863 -0.9375,0.7813 -0.111888,0.7921 0.703671,0.4687 1.375,0.4687 0.671328,0 0.917832,1.3069 0.75,2 -0.167833,0.693 -1.966196,2.3247 -6,0.6875 -3.321097,-1.3477 -4.978821,0.4329 -5.0625,0.4688 0.314303,2.6776 2.89086,5.5937 6,5.5937 3.321433,0 6,-3.1859 6,-6.125 0,-0.3376 -0.05708,-0.6799 -0.125,-1 -0.06175,-0.1617 -0.110909,-0.3215 -0.15625,-0.4687 -0.08128,-0.2637 -0.171311,-0.4806 -0.25,-0.6875 -0.0034,-0.01 0.0035,-0.025 0,-0.031 -0.317939,-0.6249 -0.76152,-1.1874 -1.3125,-1.6562 -0.0025,-0.01 -0.02877,0.01 -0.03125,0 -0.0861,-0.019 -0.161168,-0.033 -0.25,-0.031 z m -1.875,2 c -0.552285,0 -1,0.4477 -1,1 0,0.5523 0.447715,1 1,1 0.552285,0 1,-0.4477 1,-1 0,-0.5523 -0.447715,-1 -1,-1 z"
        id="path3974-6"
        inkscape:connector-curvature="0" />

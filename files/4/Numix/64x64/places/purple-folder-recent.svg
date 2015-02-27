@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-recent.svg"
+   sodipodi:docname="purple-folder-recent.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="12.989691"
-     inkscape:cx="22.208798"
-     inkscape:cy="31.406949"
+     inkscape:zoom="9.1850986"
+     inkscape:cx="16.782394"
+     inkscape:cy="28.0067"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -108,7 +108,7 @@
        id="path3801"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:#3c301c;fill-opacity:0.25098040999999999;stroke:none"
+       style="opacity:0.4;fill:#150b3d;fill-opacity:1;stroke:none"
        d="M 18 24 L 18 34 L 28 34 L 24.21875 30.21875 C 26.211432 28.22875 28.962499 27 32 27 C 38.075132 27 43 31.9249 43 38 C 43 44.0751 38.075132 49 32 49 C 25.924868 49 21 44.0751 21 38 C 21 37.6624 21.03272 37.3299 21.0625 37 L 18.03125 37 C 18.00797 37.3301 18 37.664 18 38 C 18 45.732 24.268014 52 32 52 C 39.731986 52 46 45.732 46 38 C 46 30.268 39.731986 24 32 24 C 28.128254 24 24.626811 25.554903 22.09375 28.09375 L 18 24 z M 31.8125 28.9375 A 2.0002 2.0002 0 0 0 31.5625 29 A 2.0002 2.0002 0 0 0 30 31 L 30 38.375 A 2.0002 2.0002 0 0 0 30 38.5625 A 2.0002 2.0002 0 0 0 30.25 40.0625 A 2.0002 2.0002 0 0 0 30.3125 40.125 A 2.0002 2.0002 0 0 0 30.375 40.25 A 2.0002 2.0002 0 0 0 30.4375 40.3125 A 2.0002 2.0002 0 0 0 30.5 40.375 A 2.0002 2.0002 0 0 0 30.5625 40.4375 A 2.0002 2.0002 0 0 0 30.625 40.5 A 2.0002 2.0002 0 0 0 30.75 40.5625 A 2.0002 2.0002 0 0 0 30.8125 40.625 A 2.0002 2.0002 0 0 0 30.875 40.6875 A 2.0002 2.0002 0 0 0 31 40.75 A 2.0002 2.0002 0 0 0 31.25 40.875 L 36.1875 43.75 A 2.0155644 2.0155644 0 0 0 38.1875 40.25 L 34 37.8125 L 34 31 A 2.0002 2.0002 0 0 0 31.8125 28.9375 z "
        transform="translate(0,988.3622)"
        id="path4017" />

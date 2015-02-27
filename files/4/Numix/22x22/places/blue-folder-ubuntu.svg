@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-ubuntu.svg"
+   sodipodi:docname="blue-folder-ubuntu.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="19.7"
-     inkscape:cx="0.37662799"
-     inkscape:cy="13.220186"
+     inkscape:cx="3.625359"
+     inkscape:cy="10.834399"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -108,7 +108,7 @@
        id="rect2991"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:#3c301c;fill-opacity:0.25098040999999999;stroke:none"
+       style="opacity:0.4;fill:#072a5e;fill-opacity:1;stroke:none"
        d="M 14 8 C 13.447715 8 13 8.4477153 13 9 C 13 9.5522847 13.447715 10 14 10 C 14.552285 10 15 9.5522847 15 9 C 15 8.4477153 14.552285 8 14 8 z M 11 9 C 8.780506 9 6.934346 10.46725 6.28125 12.46875 C 6.720466 12.83555 7 13.3829 7 14 C 7 14.6171 6.720466 15.16435 6.28125 15.53125 C 6.934346 17.53265 8.780506 19 11 19 C 11.345178 19 11.674512 18.97325 12 18.90625 C 12.04933 17.84545 12.927106 17 14 17 C 14.291093 17 14.563018 17.076 14.8125 17.1875 C 15.542374 16.3185 16 15.2237 16 14 C 16 12.7763 15.542374 11.6815 14.8125 10.8125 C 14.563018 10.9243 14.291093 11 14 11 C 12.927106 11 12.049335 10.15445 12 9.09375 C 11.674512 9.02675 11.345178 9 11 9 z M 11 11 C 12.656854 11 14 12.3431 14 14 C 14 15.6569 12.656854 17 11 17 C 9.343146 17 8 15.6569 8 14 C 8 12.3431 9.343146 11 11 11 z M 5 13 C 4.4477153 13 4 13.447715 4 14 C 4 14.552285 4.4477153 15 5 15 C 5.5522847 15 6 14.552285 6 14 C 6 13.447715 5.5522847 13 5 13 z M 14 18 C 13.447715 18 13 18.447715 13 19 C 13 19.552285 13.447715 20 14 20 C 14.552285 20 15 19.552285 15 19 C 15 18.447715 14.552285 18 14 18 z "
        transform="translate(0,1030.3622)"
        id="path3030" />

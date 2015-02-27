@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-google-drive.svg"
+   sodipodi:docname="green-folder-google-drive.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -52,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="10.551073"
-     inkscape:cx="43.869709"
-     inkscape:cy="23.246187"
+     inkscape:zoom="7.4607353"
+     inkscape:cx="14.036746"
+     inkscape:cy="29.384582"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -133,7 +133,7 @@
        id="path3801"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:#3c301c;fill-opacity:0.25098040999999999;fill-rule:evenodd"
+       style="opacity:0.4;fill:#103612;fill-opacity:1;fill-rule:evenodd"
        d="M 28.6875 27 L 36.53125 41 L 44.40625 41 L 36.53125 27 L 28.6875 27 z M 27.40625 28.25 L 19.59375 40.875 L 23.25 48.1875 L 30.875 34.84375 L 27.40625 28.25 z M 28.5 43 L 24.53125 49 L 40.40625 49 L 44.40625 43 L 28.5 43 z "
        transform="translate(0,988.3622)"
        id="polygon3475-1" />

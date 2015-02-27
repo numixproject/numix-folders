@@ -13,8 +13,8 @@
    height="48"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="folder-download.svg"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="pink-folder-download.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -27,16 +27,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="19.696326"
-     inkscape:cx="9.2627322"
-     inkscape:cy="24.335958"
+     inkscape:zoom="9.848163"
+     inkscape:cx="9.0276998"
+     inkscape:cy="10.73231"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1023"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -106,54 +106,10 @@
        d="m 5,1019.3622 c -1.108,0 -2,0.892 -2,2 l 0,1 c 0,-1.108 0.892,-2 2,-2 l 38,0 c 1.108,0 2,0.892 2,2 l 0,-1 c 0,-1.108 -0.892,-2 -2,-2 l -38,0 z"
        id="rect2991"
        inkscape:connector-curvature="0" />
-    <g
-       id="g3838"
-       style="opacity:0.25"
-       transform="translate(31.607183,1.8748953)">
-      <rect
-         ry="1"
-         rx="1"
-         y="1034.4873"
-         x="-15.607183"
-         height="2"
-         width="16"
-         id="rect2989"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none"
-         id="rect2991-6"
-         width="7"
-         height="2"
-         x="1029.4873"
-         y="13.607183"
-         rx="1"
-         ry="1" />
-      <rect
-         ry="1"
-         rx="1"
-         y="-0.39281699"
-         x="1029.4873"
-         height="2"
-         width="7"
-         id="rect2993"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none"
-         transform="matrix(0,1,-1,0,0,0)" />
-      <path
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path2997-6"
-         d="m -6.607183,1032.4873 c -1,1 -1,1 -2,0 l -3,-3 c -1,-1 -1,-1 0,-1 l 8,0 c 1,0 1,0 0,1 z"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
-      <rect
-         ry="2"
-         rx="2"
-         y="1021.4873"
-         x="-9.6071835"
-         height="10"
-         width="4"
-         id="rect2995"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
-    </g>
+    <path
+       style="opacity:0.4;fill:#880e4f;fill-opacity:1;stroke:none"
+       d="M 24 19 C 22.892 19 22 19.892 22 21 L 22 26 L 20 26 C 19 26 19 26 20 27 L 23 30 C 24 31 24 31 25 30 L 28 27 C 29 26 29 26 28 26 L 26 26 L 26 21 C 26 19.892 25.108 19 24 19 z M 17 27 C 16.446 27 16 27.446 16 28 L 16 33 C 16 33.554 16.446 34 17 34 L 31 34 C 31.1385 34 31.255281 33.956719 31.375 33.90625 C 31.734156 33.754844 32 33.4155 32 33 L 32 28 C 32 27.446 31.554 27 31 27 C 30.446 27 30 27.446 30 28 L 30 32 L 18 32 L 18 28 C 18 27.446 17.554 27 17 27 z "
+       transform="translate(0,1004.3622)"
+       id="rect2989" />
   </g>
 </svg>

@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-hdd.svg"
+   sodipodi:docname="grey-folder-hdd.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -52,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.6377683"
-     inkscape:cx="135.96279"
-     inkscape:cy="128.97744"
+     inkscape:zoom="1.3188842"
+     inkscape:cx="9.6146283"
+     inkscape:cy="50.313322"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -133,13 +133,13 @@
        id="path3801"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#3c301c;fill-opacity:0.25098039;stroke:none"
+       style="fill:#212121;fill-opacity:1;stroke:none;opacity:0.4"
        d="m 96,900.3623 c -5.69828,0 -8,2.6816 -8,8 l 0,79.99992 c 0,5.3184 2.30172,8 8,8 l 61.75,0 c 5.69829,0 10.25,-2.6816 10.25,-8 l 0,-79.99992 c 0,-5.3184 -2.30171,-8 -8,-8 l -64,0 z m 6,8 c 3.31371,0 6,2.6864 6,6 0,3.3136 -2.68629,6 -6,6 -3.313708,0 -6,-2.6864 -6,-6 0,-3.3136 2.686292,-6 6,-6 z m 52,0 c 3.31371,0 6,2.6864 6,6 0,3.3136 -2.68629,6 -6,6 -3.31371,0 -6,-2.6864 -6,-6 0,-3.3136 2.68629,-6 6,-6 z m -26,8 c 8.83655,0 16,7.1632 16,16 0,8.8368 -7.16345,15.99996 -16,15.99996 -8.83655,0 -16,-7.16316 -16,-15.99996 0,-8.8368 7.16345,-16 16,-16 z m -26,28 c 3.31371,0 6,2.6864 6,5.99996 0,3.3136 -2.68629,6 -6,6 -3.313708,0 -6,-2.6864 -6,-6 0,-3.31356 2.686292,-5.99996 6,-5.99996 z m 52,0 c 3.31371,0 6,2.6864 6,5.99996 0,3.3136 -2.68629,6 -6,6 -3.31371,0 -6,-2.6864 -6,-6 0,-3.31356 2.68629,-5.99996 6,-5.99996 z m -54,35.99992 56,0 c 2.216,0 4,1.784 4,4 0,2.216 -1.784,4 -4,4 l -56,0 c -2.216,0 -4,-1.784 -4,-4 0,-2.216 1.784,-4 4,-4 z"
        id="rect3828"
        inkscape:connector-curvature="0" />
     <path
        sodipodi:type="arc"
-       style="fill:#3c301c;fill-opacity:0.25098039;fill-rule:evenodd;stroke:none"
+       style="fill:#212121;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:0.4"
        id="path2995"
        sodipodi:cx="32"
        sodipodi:cy="34"

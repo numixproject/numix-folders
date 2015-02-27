@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-saved-search.svg"
+   sodipodi:docname="purple-folder-saved-search.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="27.857618"
-     inkscape:cx="3.4845645"
-     inkscape:cy="6.3422419"
+     inkscape:cx="4.8845406"
+     inkscape:cy="6.7730038"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -108,7 +108,7 @@
        id="rect2991"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:#3c301c;fill-opacity:0.25098040999999999;stroke:none"
+       style="opacity:0.4;fill:#150b3d;fill-opacity:1;stroke:none"
        d="M 13 9 C 11.343146 9 10 10.3431 10 12 C 10 12.572053 10.159658 13.107618 10.4375 13.5625 L 7.125 16.875 C 6.9291314 17.070869 6.9291314 17.397881 7.125 17.59375 L 7.8125 18.3125 C 8.0083686 18.508369 8.3353814 18.508369 8.53125 18.3125 L 12.03125 14.8125 C 12.339888 14.919781 12.654822 15 13 15 C 14.656854 15 16 13.6569 16 12 C 16 10.3431 14.656854 9 13 9 z M 13 10 C 14.10457 10 15 10.8954 15 12 C 15 13.1046 14.10457 14 13 14 C 11.89543 14 11 13.1046 11 12 C 11 10.8954 11.89543 10 13 10 z "
        transform="translate(0,1030.3622)"
        id="path3953" />

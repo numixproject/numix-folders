@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-recent.svg"
+   sodipodi:docname="brown-folder-recent.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="4.5925493"
-     inkscape:cx="70.476745"
+     inkscape:cx="34.113499"
      inkscape:cy="55.304782"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -108,7 +108,7 @@
        id="path3801"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:#3c301c;fill-opacity:0.25098040999999999;stroke:none"
+       style="opacity:0.4;fill:#241714;fill-opacity:1;stroke:none"
        d="M 36 48 L 36 68 L 56 68 L 48.4375 60.4375 C 52.42195 56.464436 57.931016 54 64 54 C 76.150264 54 86 63.84974 86 76 C 86 88.1503 76.150264 98 64 98 C 51.849736 98 42 88.1503 42 76 C 42 75.32473 42.06544 74.65977 42.125 74 L 36.0625 74 C 36.01594 74.66014 36 75.32801 36 76 C 36 91.464 48.536028 104 64 104 C 79.463972 104 92 91.464 92 76 C 92 60.53603 79.463972 48 64 48 C 56.263871 48 49.283735 51.149557 44.21875 56.21875 L 36 48 z M 64.03125 57.84375 A 4.0004 4.0004 0 0 0 63.625 57.875 A 4.0004 4.0004 0 0 0 63.125 58 A 4.0004 4.0004 0 0 0 60 62 L 60 76.75 A 4.0004 4.0004 0 0 0 60 77.125 A 4.0004 4.0004 0 0 0 60.5 80.125 A 4.0004 4.0004 0 0 0 60.625 80.25 A 4.0004 4.0004 0 0 0 60.75 80.5 A 4.0004 4.0004 0 0 0 60.875 80.625 A 4.0004 4.0004 0 0 0 61 80.75 A 4.0004 4.0004 0 0 0 61.125 80.875 A 4.0004 4.0004 0 0 0 61.25 81 A 4.0004 4.0004 0 0 0 61.5 81.125 A 4.0004 4.0004 0 0 0 61.625 81.25 A 4.0004 4.0004 0 0 0 61.75 81.375 A 4.0004 4.0004 0 0 0 62 81.5 A 4.0004 4.0004 0 0 0 62.5 81.75 L 72.375 87.5 A 4.0311289 4.0311289 0 1 0 76.375 80.5 L 68 75.625 L 68 62 A 4.0004 4.0004 0 0 0 64.03125 57.84375 z "
        transform="translate(0,924.3622)"
        id="path4017" />

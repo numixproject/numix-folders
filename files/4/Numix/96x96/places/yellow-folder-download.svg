@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-download.svg"
+   sodipodi:docname="yellow-folder-download.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="13.927406"
-     inkscape:cx="63.000739"
-     inkscape:cy="41.007285"
+     inkscape:zoom="4.9240816"
+     inkscape:cx="20.554034"
+     inkscape:cy="38.031146"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -106,54 +106,10 @@
        d="m 10,986.36219 c -2.216,0 -4,1.784 -4,4 l 0,2 c 0,-2.216 1.784,-4 4,-4 l 76,0 c 2.216,0 4,1.784 4,4 l 0,-2 c 0,-2.216 -1.784,-4 -4,-4 l -76,0 z"
        id="rect2991"
        inkscape:connector-curvature="0" />
-    <g
-       id="g3838"
-       style="opacity:0.25"
-       transform="matrix(2,0,0,2.0000011,63.214366,-1048.6135)">
-      <rect
-         ry="1"
-         rx="1"
-         y="1034.4873"
-         x="-15.607183"
-         height="2"
-         width="16"
-         id="rect2989"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
-      <rect
-         transform="matrix(0,1,-1,0,0,0)"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none"
-         id="rect2991-6"
-         width="7"
-         height="2"
-         x="1029.4873"
-         y="13.607183"
-         rx="1"
-         ry="1" />
-      <rect
-         ry="1"
-         rx="1"
-         y="-0.39281699"
-         x="1029.4873"
-         height="2"
-         width="7"
-         id="rect2993"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none"
-         transform="matrix(0,1,-1,0,0,0)" />
-      <path
-         sodipodi:nodetypes="ccccccc"
-         inkscape:connector-curvature="0"
-         id="path2997-6"
-         d="m -6.607183,1032.4873 c -1,1 -1,1 -2,0 l -3,-3 c -1,-1 -1,-1 0,-1 l 8,0 c 1,0 1,0 0,1 z"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
-      <rect
-         ry="2"
-         rx="2"
-         y="1021.4873"
-         x="-9.6071835"
-         height="10"
-         width="4"
-         id="rect2995"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
-    </g>
+    <path
+       style="opacity:0.4;fill:#745100;fill-opacity:1;stroke:none"
+       d="M 48 38 C 45.784 38 44 39.783999 44 42 L 44 52 L 40 52 C 38 52 38 52 40 54 L 46 60 C 48 62 48 62 50 60 L 56 54 C 58 52 58 52 56 52 L 52 52 L 52 42 C 52 39.783999 50.216 38 48 38 z M 34 54 C 32.892 54 32 54.891999 32 56 L 32 66 C 32 67.108001 32.892 68 34 68 L 62 68 C 62.1385 68 62.27582 67.995305 62.40625 67.96875 C 63.319258 67.782867 64 66.969501 64 66 L 64 56 C 64 54.891999 63.108 54 62 54 C 60.892 54 60 54.891999 60 56 L 60 64 L 36 64 L 36 56 C 36 54.891999 35.108 54 34 54 z "
+       transform="translate(0,956.3622)"
+       id="rect2989" />
   </g>
 </svg>
