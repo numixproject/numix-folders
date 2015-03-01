@@ -1,3 +1,5 @@
+**WARNING: this script is only compatible with the Base theme from 1st March 2015 onward. Using it with any earlier version WILL break your theme**
+
 # Folders
 This program provides and installs alternate folders for use with our [base icon theme](https://github.com/numixproject/numix-icon-theme). To use the script simply download this repo, move into the repos directory and then run the script. All work here is licensed under the GNU GPLv3+
 
