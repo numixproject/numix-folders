@@ -53,7 +53,7 @@ else
 fi
 
 read -p "Which folder style do you want? " answer
-if [ -d files/"$answer" ]; then
+if [ -d files/"$answer" ] && [ "$answer" != colours ]; then
     style="$answer"
 else
     echo -e \
