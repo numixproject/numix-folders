@@ -68,16 +68,6 @@ else
     esac
 fi
 
-read -p "Which folder style do you want? " answer
-if [ -d files/"$answer" ] && [ "$answer" != colours ]; then
-    style="$answer"
-else
-    echo -e \
-        "Please choose a valid style number Run\n" \
-        "\r'$(basename) --list' for a complete list"
-    gerror
-fi
-
 cuser="${SUDO_USER:-$USER}"
 if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
     dir=/home/"$cuser"/.local/share/icons
@@ -96,6 +86,16 @@ else
     echo -e \
         "You don't appear to have Numix installed! Please\n" \
         "\rinstall it and run this script again."
+    gerror
+fi
+
+read -p "Which folder style do you want? " answer
+if [ -d files/"$answer" ] && [ "$answer" != colours ]; then
+    style="$answer"
+else
+    echo -e \
+        "Please choose a valid style number Run\n" \
+        "\r'$(basename) --list' for a complete list"
     gerror
 fi
 
