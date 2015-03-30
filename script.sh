@@ -94,8 +94,8 @@ if [ -d files/"$answer" ] && [ "$answer" != colours ]; then
     style="$answer"
 else
     echo -e \
-        "Please choose a valid style number Run\n" \
-        "\r'$(basename) --list' for a complete list"
+        "Oops! You've chosen an invalid style number.\n" \
+        "\rRun '$(basename -- $0) --styles' for an option list"
     gerror
 fi
 
