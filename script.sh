@@ -17,7 +17,22 @@ if [ -z "$1" ]; then
     :
 else
     case "$1" in
-        -l|--list)
+        -c|--colours)
+            echo -e \
+                "This is a list of currently supported folder\n" \
+                "\rcolours that can be used to replace the default.\n\n" \
+                "\rdefault - reverts any previous colour change\n" \
+                "\rblue    - 42a5f5\n" \
+                "\rbrown   - 8d6e63\n" \
+                "\rgreen   - 66bb6a\n" \
+                "\rgrey    - bdbdbd\n" \
+                "\rorange  - f57c00\n" \
+                "\rpink    - f06292\n" \
+                "\rpurple  - 7e57c2\n" \
+                "\rred     - ef5350\n" \
+                "\ryellow  - ffca28\n"
+            sucess ;;
+        -s|--styles)
             echo -e \
                 "This is a list of currently supported folder\n" \
                 "\rstyles that can be used to replace the default.\n\n" \
@@ -31,13 +46,14 @@ else
             sucess ;;
         -h|--help)
             echo -e \
-                "Usage: ./$(basename -- $0) [OPTION]\n" \
-                "\rScript for changing Numix base folder style.\n\n" \
+                "A script for changing the Numix base folder\n" \
+                "\rstyle and colour.\n\n" \
                 "\rRunning as root makes the change globally,\n" \
                 "\rotherwise it is only made locally. Run as\n" \
                 "\rappropriate to your Numix installation.\n\n" \
-                "\rCurrently supported options:\n" \
-                "\r  -l, --list \t\t List of available styles.\n" \
+                "\rUsage: ./$(basename -- $0) [OPTION]\n" \
+                "\r  -c, --colours \t List of available colours.\n" \
+                "\r  -s, --styles \t\t List of available styles.\n" \
                 "\r  -h, --help \t\t Displays this help menu.\n" \
                 "\r  -v, --version \t Displays program version."
             sucess ;;
