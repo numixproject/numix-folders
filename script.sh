@@ -99,7 +99,29 @@ else
     gerror
 fi
 
-cp -rH files/"${style}"/Numix/* "${dir}"/Numix/
+read -p "Which folder colour do you want? " answer
+if [[ "default,blue,green,grey,orange,pink,purple,red,yellow" == *$answer* ]]; then
+    colour="$answer"
+else
+    echo -e \
+        "Oops! You've chosen an invalid colour.\n" \
+        "\rRun '$(basename -- $0) --colours' for an option list"
+    gerror
+fi
+
+cp -rf files/"${style}"/Numix/* "${dir}"/Numix/
+
+CURRENTCOLOUR=`readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1`
+LINKS=`find -L ${dir}/Numix/*/{actions,places} -xtype l`
+for LINK in $LINKS; do
+	NEWLINK=`readlink $LINK`;
+	if [[ $NEWLINK == *"$CURRENTCOLOUR"* ]]; then
+		NEWLINK=${NEWLINK/${CURRENTCOLOUR}/${colour}};
+		rm -rf $LINK;
+		ln -sf $NEWLINK $LINK;
+	fi
+done
+
 chown -R "$cuser" "${dir}"/Numix/
 if [ -d "${dir}"/Numix-Circle/ ]; then
     cp -rH files/"${style}"/Numix-Circle/* "${dir}"/Numix-Circle/
@@ -112,4 +134,3 @@ fi
 
 echo "Folder change complete!"
 sucess
-
