@@ -11,7 +11,7 @@
 
 # Allows timeout when launched vai 'Run in Terminal'
 function sucess() { sleep 3; exit 0; }
-function gerror() { sleep 3; exit 1; }
+function gerror() { sleep 5; exit 1; }
 
 if [ -z "$1" ]; then
     :
