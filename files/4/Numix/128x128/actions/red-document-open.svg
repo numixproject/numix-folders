@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-drag-accept.svg"
+   sodipodi:docname="fileopen.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.144306"
-     inkscape:cx="10.433544"
-     inkscape:cy="83.045512"
+     inkscape:zoom="7.5551371"
+     inkscape:cx="66.929627"
+     inkscape:cy="104.45895"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -56,7 +56,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -65,15 +65,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-924.3622)">
-    <rect
-       style="fill:#d32f2f;fill-opacity:1;stroke:none"
+    <path
+       style="fill:#e3e1cf;fill-opacity:1;stroke:none"
+       d="m 17,8 c -2.77,0 -5,2.23 -5,5 l 0,47 c 0,2.77 2.23,5 5,5 l 94,0 c 2.77,0 5,-2.23 5,-5 L 116,19 105,8 z"
+       transform="translate(0,924.3622)"
        id="rect3839"
-       width="104"
-       height="46"
-       x="12"
-       y="943.36218"
-       rx="5"
-       ry="5" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ssssssccs" />
     <rect
        style="fill:#ef5350;fill-opacity:1;stroke:none"
        id="rect2990"
@@ -89,9 +87,43 @@
        id="rect3763"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.05"
-       d="M 17 19 C 14.23 19 12 21.23 12 24 L 12 26 C 12 23.23 14.23 21 17 21 L 111 21 C 113.77 21 116 23.23 116 26 L 116 24 C 116 21.23 113.77 19 111 19 L 17 19 z "
-       transform="translate(0,924.3622)"
-       id="rect2986" />
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 105,932.3622 0,11 11,0 z"
+       id="path3787"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
+    <path
+       sodipodi:nodetypes="cccc"
+       inkscape:connector-curvature="0"
+       id="path3789"
+       d="m 105,943.3622 11,0 0,11 z"
+       style="opacity:0.2;fill:#000000;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#a1a195;fill-opacity:1;stroke:none"
+       id="rect3794"
+       width="60"
+       height="4"
+       x="31"
+       y="943.36218"
+       rx="1"
+       ry="1" />
+    <rect
+       ry="1"
+       rx="1"
+       y="955.36218"
+       x="31"
+       height="4"
+       width="70"
+       id="rect3861"
+       style="fill:#a1a195;fill-opacity:1;stroke:none" />
+    <rect
+       style="fill:#a1a195;fill-opacity:1;stroke:none"
+       id="rect3863"
+       width="70"
+       height="4"
+       x="31"
+       y="967.36218"
+       rx="1"
+       ry="1" />
   </g>
 </svg>
