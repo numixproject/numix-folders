@@ -123,13 +123,16 @@ for LINK in $LINKS; do
 done
 
 chown -R "$cuser" "${dir}"/Numix/
+gtk-update-icon-cache -f "${dir}"/Numix/
 if [ -d "${dir}"/Numix-Circle/ ]; then
     cp -rH styles/"${style}"/Numix-Circle/* "${dir}"/Numix-Circle/
     chown -R "$cuser" "${dir}"/Numix-Circle/
+    gtk-update-icon-cache -f "${dir}"/Numix-Circle/
 fi
 if [ -d "${dir}"/Numix-Square/ ]; then
     cp -rH styles/"${style}"/Numix-Square/* "${dir}"/Numix-Square/
     chown -R "$cuser" "${dir}"/Numix-Square/
+    gtk-update-icon-cache -f "${dir}"/Numix-Square/
 fi
 
 echo "Folder change complete!"
