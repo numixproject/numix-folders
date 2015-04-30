@@ -89,19 +89,23 @@ else
     gerror
 fi
 
-read -p "Which folder style do you want? " answer
+read -p "Which folder style do you want? (default: 0)" answer
 if [ -d styles/"$answer" ]; then
     style="$answer"
+elif [ -z "$answer" ];
+    style="0"
 else
     echo -e \
-        "Oops! You've chosen an invalid style number.\n" \
+        "Oops! You've chosen an invalid style number\n" \
         "\rRun '$(basename -- $0) --styles' for an option list"
     gerror
 fi
 
-read -p "Which folder colour do you want? " answer
+read -p "Which folder colour do you want? (default: 'default')" answer
 if [ -d colours/"$answer" ]; then
     colour="$answer"
+elif [ -z "$answer" ];
+    style="default"
 else
     echo -e \
         "Oops! You've chosen an invalid colour.\n" \
