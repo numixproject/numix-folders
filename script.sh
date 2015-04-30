@@ -90,7 +90,7 @@ else
 fi
 
 read -p "Which folder style do you want? " answer
-if [ -d files/"$answer" ] && [ "$answer" != colours ]; then
+if [ -d styles/"$answer" ]; then
     style="$answer"
 else
     echo -e \
@@ -100,7 +100,7 @@ else
 fi
 
 read -p "Which folder colour do you want? " answer
-if [[ "default,blue,green,grey,orange,pink,purple,red,yellow" == *$answer* ]]; then
+if [ -d colours/"$answer" ]; then
     colour="$answer"
 else
     echo -e \
@@ -109,7 +109,7 @@ else
     gerror
 fi
 
-cp -rf files/"${style}"/Numix/* "${dir}"/Numix/
+cp -rf styles/"${style}"/Numix/* "${dir}"/Numix/
 
 CURRENTCOLOUR=`readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1`
 LINKS=`find -L ${dir}/Numix/*/{actions,places} -xtype l`
@@ -124,11 +124,11 @@ done
 
 chown -R "$cuser" "${dir}"/Numix/
 if [ -d "${dir}"/Numix-Circle/ ]; then
-    cp -rH files/"${style}"/Numix-Circle/* "${dir}"/Numix-Circle/
+    cp -rH styles/"${style}"/Numix-Circle/* "${dir}"/Numix-Circle/
     chown -R "$cuser" "${dir}"/Numix-Circle/
 fi
 if [ -d "${dir}"/Numix-Square/ ]; then
-    cp -rH files/"${style}"/Numix-Square/* "${dir}"/Numix-Square/
+    cp -rH styles/"${style}"/Numix-Square/* "${dir}"/Numix-Square/
     chown -R "$cuser" "${dir}"/Numix-Square/
 fi
 
