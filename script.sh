@@ -90,10 +90,11 @@ else
 fi
 
 read -p "Which folder style do you want? (default: 0)" answer
-if [ -d styles/"$answer" ]; then
-    style="$answer"
-elif [ -z "$answer" ]; then
+
+if [ -z "$answer" ]; then
     style="0"
+elif [ -d styles/"$answer" ]; then
+    style="$answer"
 else
     echo -e \
         "Oops! You've chosen an invalid style number\n" \
@@ -102,10 +103,11 @@ else
 fi
 
 read -p "Which folder colour do you want? (default: 'default')" answer
-if [ -d colours/"$answer" ]; then
-    colour="$answer"
-elif [ -z "$answer" ]; then
+
+if [ -z "$answer" ]; then
     style="default"
+elif [ -d colours/"$answer" ]; then
+    colour="$answer"
 else
     echo -e \
         "Oops! You've chosen an invalid colour.\n" \
