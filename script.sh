@@ -97,7 +97,7 @@ elif [ -d styles/"$answer" ]; then
     style="$answer"
 else
     echo -e \
-        "Oops! You've chosen an invalid style number\n" \
+        "Oops! You've chosen an invalid style number.\n" \
         "\rRun '$(basename -- $0) --styles' for an option list"
     gerror
 fi
@@ -105,7 +105,7 @@ fi
 read -p "Which folder colour do you want? (default: 'default')" answer
 
 if [ -z "$answer" ]; then
-    style="default"
+    colour="default"
 elif [ -d colours/"$answer" ]; then
     colour="$answer"
 else
