@@ -1,0 +1,7 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: numix-folders
+Source: https://github.com/numixproject/numix-folders
+
+Files: *
+Copyright: Numix Project Ltd.
+License: GNU GPLv3+

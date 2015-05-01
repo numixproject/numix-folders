@@ -1,0 +1,14 @@
+Source: numix-folders
+Section: utils
+Priority: optional
+Maintainer: Numix Project Ltd. <team@numixproject.org>
+Build-Depends: debhelper (>= 7.0.50~)
+Standards-Version: 3.9.5
+
+
+Package: numix-folders
+Architecture: all
+Depends: ${misc:Depends}
+Description: Numix Folders
+ This program provides and installs alternate folders for use with our
+ base icon theme.

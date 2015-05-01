@@ -1,0 +1,1 @@
+sudo ln -s /opt/numix-folders/script.sh /usr/bin/numix-folders
