@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Name=Numix Folders
+Comment= installs alternate folders for use with our base icon theme
+Exec=gnome-terminal -e "/opt/numix-folders/script.sh"
+Icon=utilities-terminal
+Terminal=false
+Type=Application
+Categories=Application;
