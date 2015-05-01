@@ -120,12 +120,12 @@ cp -rf styles/"${style}"/Numix/* "${dir}"/Numix/
 CURRENTCOLOUR=`readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1`
 LINKS=`find -L ${dir}/Numix/*/{actions,places} -xtype l`
 for LINK in $LINKS; do
-	NEWLINK=`readlink $LINK`;
-	if [[ $NEWLINK == *"$CURRENTCOLOUR"* ]]; then
-		NEWLINK=${NEWLINK/${CURRENTCOLOUR}/${colour}};
-		rm -rf $LINK;
-		ln -sf $NEWLINK $LINK;
-	fi
+    NEWLINK=`readlink $LINK`;
+    if [[ $NEWLINK == *"$CURRENTCOLOUR"* ]]; then
+        NEWLINK=${NEWLINK/${CURRENTCOLOUR}/${colour}};
+        rm -rf $LINK;
+        ln -sf $NEWLINK $LINK;
+    fi
 done
 
 chown -R "$cuser" "${dir}"/Numix/
