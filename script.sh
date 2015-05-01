@@ -89,8 +89,7 @@ else
     gerror
 fi
 
-read -p "Which folder style do you want? (default: 0)" answer
-
+read -p "Which folder style do you want? " answer
 if [ -z "$answer" ]; then
     style="0"
 elif [ -d styles/"$answer" ]; then
@@ -102,8 +101,7 @@ else
     gerror
 fi
 
-read -p "Which folder colour do you want? (default: 'default')" answer
-
+read -p "Which folder colour do you want? " answer
 if [ -z "$answer" ]; then
     colour="default"
 elif [ -d colours/"$answer" ]; then
@@ -117,14 +115,14 @@ fi
 
 cp -rf styles/"${style}"/Numix/* "${dir}"/Numix/
 
-CURRENTCOLOUR=`readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1`
-LINKS=`find -L ${dir}/Numix/*/{actions,places} -xtype l`
-for LINK in $LINKS; do
-    NEWLINK=`readlink $LINK`;
-    if [[ $NEWLINK == *"$CURRENTCOLOUR"* ]]; then
-        NEWLINK=${NEWLINK/${CURRENTCOLOUR}/${colour}};
-        rm -rf $LINK;
-        ln -sf $NEWLINK $LINK;
+currentcolour=`readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1`
+links=`find -L ${dir}/Numix/*/{actions,places} -xtype l`
+for link in $links; do
+    newlink=`readlink $link`;
+    if [[ $newlink == *"$currentcolour"* ]]; then
+        newlink=${newlink/${currentcolour}/${colour}};
+        rm -rf $link;
+        ln -sf $newlink $link;
     fi
 done
 
