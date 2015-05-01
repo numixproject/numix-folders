@@ -93,7 +93,7 @@ elif [ -d styles/"$answer" ]; then
 else
     echo -e \
         "Oops! You've chosen an invalid style number.\n" \
-        "\rVisit https://github.com/numixproject/numix-folders for an option list"
+        "\rRun '$(basename -- $0) --styles' for an option list"
     gerror
 fi
 
@@ -105,7 +105,7 @@ elif [ -d colours/"$answer" ]; then
 else
     echo -e \
         "Oops! You've chosen an invalid colour.\n" \
-        "\rVisit https://github.com/numixproject/numix-folders for an option list"
+        "\rRun '$(basename -- $0) --colours' for an option list"
     gerror
 fi
 
