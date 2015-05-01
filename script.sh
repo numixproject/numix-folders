@@ -89,8 +89,11 @@ else
     gerror
 fi
 
-read -p "Which folder style do you want? " answer
-if [ -d styles/"$answer" ]; then
+read -p "Which folder style do you want? (default: 0)" answer
+
+if [ -z "$answer" ]; then
+    style="0"
+elif [ -d styles/"$answer" ]; then
     style="$answer"
 else
     echo -e \
@@ -99,8 +102,11 @@ else
     gerror
 fi
 
-read -p "Which folder colour do you want? " answer
-if [ -d colours/"$answer" ]; then
+read -p "Which folder colour do you want? (default: 'default')" answer
+
+if [ -z "$answer" ]; then
+    colour="default"
+elif [ -d colours/"$answer" ]; then
     colour="$answer"
 else
     echo -e \
