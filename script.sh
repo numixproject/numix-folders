@@ -111,13 +111,13 @@ fi
 
 cp -rf styles/"${style}"/Numix/* "${dir}"/Numix/
 
-currentcolour=`readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1`
-links=`find -L ${dir}/Numix/*/{actions,places} -xtype l`
+currentcolour=$(readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1)
+links=$(find -L ${dir}/Numix/*/{actions,places} -xtype l)
 for link in $links; do
-    newlink=`readlink $link`;
+    newlink=$(readlink "${link}");
     if [[ $newlink == *"$currentcolour"* ]]; then
-        newlink=${newlink/${currentcolour}/${colour}};
-        ln -sf $newlink $link;
+        newlink=${newlink/${currentcolour}/${colour}}
+        ln -sf "${newlink}" "${link}"
     fi
 done
 
