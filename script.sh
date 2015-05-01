@@ -54,11 +54,7 @@ else
                 "\rUsage: ./$(basename -- $0) [OPTION]\n" \
                 "\r  -c, --colours \t List of available colours.\n" \
                 "\r  -s, --styles \t\t List of available styles.\n" \
-                "\r  -h, --help \t\t Displays this help menu.\n" \
-                "\r  -v, --version \t Displays program version."
-            sucess ;;
-        -v|--version)
-            echo -e "$(basename -- $0) $version\n"
+                "\r  -h, --help \t\t Displays this help menu."
             sucess ;;
         *)
             echo -e \
