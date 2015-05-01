@@ -121,7 +121,6 @@ for link in $links; do
     newlink=`readlink $link`;
     if [[ $newlink == *"$currentcolour"* ]]; then
         newlink=${newlink/${currentcolour}/${colour}};
-        rm -rf $link;
         ln -sf $newlink $link;
     fi
 done
