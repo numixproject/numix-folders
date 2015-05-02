@@ -1,3 +1,10 @@
+numix-folders (1.0.1-0ubuntu0) vivid; urgency=low
+
+  * Fixed not found resources bug.
+
+ -- Paolo Rotolo <paolorotolo@ubuntu.com>  Sat, 02 May 2015 20:30:17 +0100
+
+
 numix-folders (1.0.0-0ubuntu0) vivid; urgency=low
 
   * Initial release.

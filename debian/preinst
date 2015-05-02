@@ -1,1 +1,4 @@
-sudo mkdir /opt/numix-folders
+cd /usr/bin/
+sudo touch numix-folders
+sudo echo $'#!/bin/bash\ncd /opt/numix-folders && ./numix-folders "$1"' > numix-folders
+sudo chmod +x numix-folders

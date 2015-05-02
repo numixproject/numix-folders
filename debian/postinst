@@ -1,1 +1,3 @@
-sudo ln -s /opt/numix-folders/script.sh /usr/bin/numix-folders
+cd /usr/bin/
+sudo touch numix-folders
+echo $'#!/bin/bash \ncd /opt/numix-folders && ./numix-folders "$1"' > numix-folders && chmod a+x numix-folders
