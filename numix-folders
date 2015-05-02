@@ -51,15 +51,15 @@ else
                 "\rRunning as root makes the change globally,\n" \
                 "\rotherwise it is only made locally. Run as\n" \
                 "\rappropriate to your Numix installation.\n\n" \
-                "\rUsage: ./$(basename -- $0) [OPTION]\n" \
+                "\rUsage: numix-folders [OPTION]\n" \
                 "\r  -c, --colours \t List of available colours.\n" \
                 "\r  -s, --styles \t\t List of available styles.\n" \
                 "\r  -h, --help \t\t Displays this help menu."
             sucess ;;
         *)
             echo -e \
-                "$(basename -- $0): invalid option -- '$1'\n" \
-                "\rTry '$(basename -- $0) --help' for more information."
+                "numix-folders: invalid option -- '$1'\n" \
+                "\rTry 'numix-folders --help' for more information."
             gerror ;;
     esac
 fi
@@ -93,7 +93,7 @@ elif [ -d styles/"$answer" ]; then
 else
     echo -e \
         "Oops! You've chosen an invalid style number.\n" \
-        "\rRun '$(basename -- $0) --styles' for an option list"
+        "\rRun 'numix-folders --styles' for an option list"
     gerror
 fi
 
@@ -105,7 +105,7 @@ elif [ -d colours/"$answer" ]; then
 else
     echo -e \
         "Oops! You've chosen an invalid colour.\n" \
-        "\rRun '$(basename -- $0) --colours' for an option list"
+        "\rRun 'numix-folders --colours' for an option list"
     gerror
 fi
 
