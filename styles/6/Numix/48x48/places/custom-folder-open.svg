@@ -273,7 +273,7 @@
      id="layer1"
      transform="translate(0,-1004.3622)">
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        id="rect3799"
        width="34"
        height="22.999983"
@@ -301,7 +301,7 @@
          style="fill:#fff1ed;fill-opacity:1;stroke:none" />
     </g>
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 45,1022.3622 0,24 -42,0 0,-22 20,0 2,-4 18,0 c 1,0 2,1 2,2 z"
        id="rect2987"
        inkscape:connector-curvature="0"

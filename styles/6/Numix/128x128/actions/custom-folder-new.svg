@@ -152,7 +152,7 @@
        id="layer1-1"
        inkscape:label="Layer 1">
       <path
-         style="fill:#00ff00;fill-opacity:1;stroke:none"
+         style="fill:replacecolour2;fill-opacity:1;stroke:none"
          d="m 0,997.42103 0,42.82347 64,0 0,-21.4117 -3.047619,-18.353 L 37,1000.3622 l -3,-6 -30.952381,0 C 1.52381,994.3622 0,995.89161 0,997.42103 z"
          id="path3029"
          inkscape:connector-curvature="0"
@@ -176,7 +176,7 @@
          inkscape:connector-curvature="0"
          id="rect2987-9"
          d="m 64,1003.5387 0,42.8235 -64,0 0,-40 30,0 3,-6 27.952381,0.1176 c 1.523809,0 3.047619,1.5295 3.047619,3.0589 z"
-         style="fill:#ff0000;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour1;fill-opacity:1;stroke:none" />
       <path
          inkscape:connector-curvature="0"
          style="opacity:0.15;fill:#000000;fill-opacity:1;stroke:none"

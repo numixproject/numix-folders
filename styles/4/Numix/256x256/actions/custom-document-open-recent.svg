@@ -83,7 +83,7 @@
          height="140"
          width="240"
          id="rect2990-7"
-         style="fill:#ff0000;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour1;fill-opacity:1;stroke:none" />
       <path
          id="rect2994"
          d="m 24,892.36226 c -8.864,0 -16,6.244 -16,14 l 0,4 c 0,-7.756 7.136,-14 16,-14 l 208,0 c 8.864,0 16,6.244 16,14 l 0,-4 c 0,-7.756 -7.136,-14 -16,-14 l -208,0 z"

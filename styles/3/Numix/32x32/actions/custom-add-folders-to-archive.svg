@@ -58,14 +58,14 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <rect
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      id="rect3757-6"
      width="21"
      height="9"
      x="2"
      y="13" />
   <path
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      d="m 4,14 c 0,-1 0,-2 1.272728,-2 l 4.454545,0 C 11,12 11,13 11,14 z"
      id="path3759-4"
      inkscape:connector-curvature="0"
@@ -90,26 +90,26 @@
      x="4"
      y="16" />
   <path
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      d="M 0,17 25,17 23,30 2,30 z"
      id="path2987-1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <path
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      d="m 4.6666667,14 c 0,-1 0,-2 1.212122,-2 l 4.2424233,0 c 1.212121,0 1.212121,1 1.212121,2 z"
      id="path3759-6"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <rect
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      id="rect3757"
      width="21"
      height="9"
      x="9"
      y="3" />
   <path
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      d="m 11,4 c 0,-1 0,-2 1.272728,-2 l 4.454545,0 C 18,2 18,3 18,4 z"
      id="path3759"
      inkscape:connector-curvature="0"
@@ -138,7 +138,7 @@
      d="M 5.28125 12 C 4.4542918 12 4.1639457 12.429955 4.0625 13 L 2 13 L 2 17 L 0 17 L 2 30 L 23 30 L 25 17 L 23 17 L 23 13 L 11.28125 13 C 11.184635 12.429955 10.912579 12 10.125 12 L 9.71875 12 L 5.875 12 L 5.28125 12 z "
      id="rect3095" />
   <path
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      d="M 7,7 32,7 30,20 9,20 z"
      id="path2987"
      inkscape:connector-curvature="0"

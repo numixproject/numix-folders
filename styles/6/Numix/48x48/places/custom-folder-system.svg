@@ -277,7 +277,7 @@
        inkscape:connector-curvature="0"
        id="path3029"
        d="m 3,1014.3622 0,28 42,0 0,-14 -2,-12 -16,0 -2,-4 -20,0 c -1,0 -2,1 -2,2 z"
-       style="fill:#00ff00;fill-opacity:1;stroke:none" />
+       style="fill:replacecolour2;fill-opacity:1;stroke:none" />
     <rect
        style="fill:#fffdf0;fill-opacity:1;stroke:none"
        id="rect3799"
@@ -293,7 +293,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sscsccccccccs" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 45,1018.3622 0,28 -42,0 0,-26 20,0 2,-4 18,0 c 1,0 2,1 2,2 z"
        id="rect2987"
        inkscape:connector-curvature="0"

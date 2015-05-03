@@ -66,7 +66,7 @@
      id="layer1"
      transform="translate(0,-924.3622)">
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        id="rect3839"
        width="104"
        height="46"
@@ -75,7 +75,7 @@
        rx="5"
        ry="5" />
     <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        id="rect2990"
        width="120"
        height="60"

@@ -135,7 +135,7 @@
        d="m 6,93.5 a 15,5.5 0 1 1 -30,0 15,5.5 0 1 1 30,0 z"
        transform="matrix(6.6666667,0,0,4.5454545,124,604.3622)" />
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        id="rect3048"
        width="100"
        height="72"
@@ -163,7 +163,7 @@
          style="fill:#fff1ed;fill-opacity:1;stroke:none" />
     </g>
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 128,976.7152 0,69.647 -128,0 0,-64 60,0 6,-12 55.90476,0.2352 c 3.04762,0 6.09524,3.059 6.09524,6.1178 z"
        id="rect2987"
        inkscape:connector-curvature="0"

@@ -70,7 +70,7 @@
        inkscape:connector-curvature="0"
        id="path3029"
        d="m 0,1037.3622 0,13 16,0 0,-7 -1,-5 -5,0 -1,-2 -8,0 c -0.5,0 -1,0.5 -1,1 z"
-       style="fill:#00ff00;fill-opacity:1;stroke:none" />
+       style="fill:replacecolour2;fill-opacity:1;stroke:none" />
     <path
        style="fill:#000000;fill-opacity:1;stroke:none;opacity:0.03"
        d="M 1,0 C 0.5,0 0,0.5 0,1 L 0,2 C 0,1.5 0.5,1 1,1 L 8,1 9,3 15,3 16,8 16,7 15,2 10,2 9,0 z"
@@ -86,7 +86,7 @@
        x="2"
        y="1039.3622" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 16,1039.3622 0,13 -16,0 0,-12 7,0 1,-2 7,0 c 0.5,0 1,0.5 1,1 z"
        id="rect2987"
        inkscape:connector-curvature="0"

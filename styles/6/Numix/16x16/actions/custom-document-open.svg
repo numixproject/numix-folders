@@ -81,7 +81,7 @@
        x="4"
        y="1041.3622" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 16,1042.3622 0,10 -16,0 0,-9 7,0 1,-2 7,0 c 0.5,0 1,0.5 1,1 z"
        id="rect2987"
        inkscape:connector-curvature="0"

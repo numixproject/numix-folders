@@ -337,13 +337,13 @@
     </rdf:RDF>
   </metadata>
   <path
-     style="opacity:0.4;fill:#ff0000;fill-opacity:1;stroke:none"
+     style="opacity:0.4;fill:replacecolour1;fill-opacity:1;stroke:none"
      d="m 0,0 0,16 10,0 0,-2 10,0 0,-12 -10,0 0,-2 z"
      id="path3036"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccccc" />
   <path
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      d="m 12,16 0,16 20,0 0,-14 -10,0 0,-2 z"
      id="path3036-2"
      inkscape:connector-curvature="0"

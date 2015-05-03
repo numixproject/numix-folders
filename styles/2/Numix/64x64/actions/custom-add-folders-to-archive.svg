@@ -52,7 +52,7 @@
        id="grid3006" />
   </sodipodi:namedview>
   <path
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      d="m 9,24 c -1.463916,0 -3,1.526601 -3,3 l -1,0 -2,0 c -1.470099,0 -3,1.49533 -3,3 l 0,31 c 0,2 1,3 3,3 l 50,0 c 1.567614,0 3,-1.358342 3,-3 l 0,-27 c 0,-1.504928 -1.455038,-3 -3,-3 l -3,0 0,-4 c 0,-1.461156 -1.453219,-3 -3,-3 z"
      id="path6-9-7"
      inkscape:connector-curvature="0"
@@ -68,7 +68,7 @@
      d="M 9 24 C 7.536084 24 6 25.526601 6 27 L 5 27 L 3 27 C 1.529901 27 0 28.49533 0 30 L 0 61 C 0 63 1 64 3 64 L 53 64 C 54.567614 64 56 62.641658 56 61 L 56 34 C 56 32.495072 54.544962 31 53 31 L 50 31 L 50 27 C 50 25.538844 48.546781 24 47 24 L 9 24 z "
      id="path3029" />
   <path
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      d="M 17,0 C 15.536084,0 14,1.5266005 14,3 L 13,3 11,3 C 9.529901,3 8,4.49533 8,6 l 0,31 c 0,2 1,3 3,3 l 50,0 c 1.567614,0 3,-1.358342 3,-3 L 64,10 C 64,8.495072 62.544962,7.0000002 61,7.0000002 l -3,0 L 58,3 C 58,1.5388438 56.546781,0 55,0 z"
      id="path6-9"
      inkscape:connector-curvature="0"

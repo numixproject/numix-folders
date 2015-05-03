@@ -58,14 +58,14 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <rect
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      id="rect3757-6"
      width="42"
      height="18"
      x="4"
      y="26" />
   <path
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      d="m 8,28 c 0,-2 0,-4 2.545456,-4 l 8.90909,0 C 22,24 22,26 22,28 z"
      id="path3759-4"
      inkscape:connector-curvature="0"
@@ -90,26 +90,26 @@
      x="8"
      y="32" />
   <path
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      d="M 0,34 50,34 46,60 4,60 z"
      id="path2987-1"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <path
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      d="m 9.3333334,28 c 0,-2 0,-4 2.4242436,-4 l 8.484847,0 c 2.424242,0 2.424242,2 2.424242,4 z"
      id="path3759-6"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <rect
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      id="rect3757"
      width="42"
      height="18"
      x="18"
      y="6" />
   <path
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      d="m 22,8 c 0,-2 0,-4 2.545456,-4 l 8.90909,0 C 36,4 36,6 36,8 z"
      id="path3759"
      inkscape:connector-curvature="0"
@@ -139,7 +139,7 @@
      id="rect3095"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      d="m 14,14 50,0 -4,26 -42,0 z"
      id="path2987"
      inkscape:connector-curvature="0"

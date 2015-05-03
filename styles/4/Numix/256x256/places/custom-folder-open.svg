@@ -66,13 +66,13 @@
      id="layer1"
      transform="translate(0,-796.3622)">
     <path
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        d="m 224,906.36224 -188,0 c -8,0 -12,-1.00591 -12,-9.00478 l 0,-74.0023 c 0,-4.43137 3.7896,-6.99292 8,-6.99292 l 192,0 c 4.2104,0 8,3.56766 8,7.99903 l 0,82.00097 z"
        id="path3811"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csssssscc" />
     <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        id="rect2990-7"
        width="240"
        height="140"

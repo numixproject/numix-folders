@@ -78,7 +78,7 @@
        id="path3801"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        id="rect2987-5"
        width="14"
        height="9.9999599"
@@ -121,7 +121,7 @@
        id="rect3861-4"
        style="fill:#7a7a68;fill-opacity:1;stroke:none" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 2.521739,1045.3619 2.434783,0 c 3.347826,-0.3333 2.73913,-4 4.869565,-4 l 3.652174,0 c 0.843043,0 1.521739,0.7434 1.521739,1.6667 l 0,5.667 c 0,0.9233 -0.678696,1.6666 -1.521739,1.6666 l -10.956522,0 C 1.678696,1050.3622 1,1049.6189 1,1048.6956 l 0,-1.667 c 0,-1 0.608696,-1.6667 1.521739,-1.6667 z"
        id="rect3776"
        inkscape:connector-curvature="0"

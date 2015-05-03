@@ -312,7 +312,7 @@
      id="layer1"
      transform="translate(0,-956.3622)">
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        id="rect2987"
        width="92"
        height="64.000008"
@@ -354,7 +354,7 @@
        id="rect3812"
        style="fill:#7a7a68;fill-opacity:1;stroke:none" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 12,1004.3622 16,0 c 22,-1.5 18,-17.99997 32,-17.99997 l 24,0 c 5.54,0 10,3.34499 10,7.49999 l 0,38.99998 c 0,4.155 -4.46,7.5 -10,7.5 l -72,0 c -5.54,0 -10,-3.345 -10,-7.5 l 0,-21 c 0,-4.5 4,-7.5 10,-7.5 z"
        id="rect3776"
        inkscape:connector-curvature="0"

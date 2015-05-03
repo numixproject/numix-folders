@@ -78,7 +78,7 @@
        height="11"
        width="16"
        id="rect2992"
-       style="fill:#ff0000;fill-opacity:1;stroke:none" />
+       style="fill:replacecolour1;fill-opacity:1;stroke:none" />
     <path
        style="opacity:0.1;fill:#ffffff;fill-opacity:1;stroke:none"
        d="M 1 5 C 0.446 5 0 5.446 0 6 L 16 6 C 16 5.446 15.554 5 15 5 L 1 5 z "

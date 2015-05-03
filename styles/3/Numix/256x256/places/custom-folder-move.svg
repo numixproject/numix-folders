@@ -119,12 +119,12 @@
        inkscape:connector-curvature="0"
        id="path7459"
        d="m 8,40 136,0 0,56 -136,0 z m 0,0"
-       style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+       style="fill:replacecolour2;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <path
        inkscape:connector-curvature="0"
        id="path7461"
        d="m 24.10937,40 c 0,-4 0,-8 7.25,-8 L 56.75,32 C 64,32 64,36 64,40 z m 0,0"
-       style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+       style="fill:replacecolour2;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <path
        inkscape:connector-curvature="0"
        id="path7463"
@@ -144,18 +144,18 @@
        inkscape:connector-curvature="0"
        id="path7469"
        d="m 0,72 152,0 -10.85938,80 -130.28124,0 z m 0,0"
-       style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+       style="fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   </g>
   <path
      inkscape:connector-curvature="0"
      id="path3079"
      d="m 112,120 136,0 0,56 -136,0 z m 0,0"
-     style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:replacecolour2;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <path
      inkscape:connector-curvature="0"
      id="path3081"
      d="m 128.10937,120 c 0,-4 0,-8 7.25,-8 l 25.39063,0 c 7.25,0 7.25,4 7.25,8 z m 0,0"
-     style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:replacecolour2;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <path
      inkscape:connector-curvature="0"
      id="path3083"
@@ -175,5 +175,5 @@
      inkscape:connector-curvature="0"
      id="path3089"
      d="m 104,152 152,0 -10.85938,80 -130.28124,0 z m 0,0"
-     style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none" />
 </svg>

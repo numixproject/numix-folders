@@ -156,13 +156,13 @@
          height="18"
          width="26"
          id="rect3048"
-         style="fill:#00ff00;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour2;fill-opacity:1;stroke:none" />
       <path
          sodipodi:nodetypes="ccccccccc"
          inkscape:connector-curvature="0"
          id="rect2987-7"
          d="m 32,1033.0341 0,18.3281 -32,0 0,-17 15,0 1.5,-3 13.976191,0.062 c 0.761904,0 1.523809,0.8051 1.523809,1.61 z"
-         style="fill:#ff0000;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour1;fill-opacity:1;stroke:none" />
       <path
          inkscape:connector-curvature="0"
          style="opacity:0.15;fill:#000000;fill-opacity:1;stroke:none"

@@ -56,14 +56,14 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <rect
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      id="rect3757"
      width="52"
      height="20"
      x="6"
      y="12.000631" />
   <path
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      d="m 12,12.000666 c 0,-2 0,-4 2.90909,-4 l 10.18182,0 c 2.90909,0 2.90909,2 2.90909,4 l 0,2 -16,0 z"
      id="path3759"
      inkscape:connector-curvature="0"
@@ -93,7 +93,7 @@
      id="rect12"
      inkscape:connector-curvature="0" />
   <path
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      d="m 2,28.000666 60,0 -4.285714,28 -51.4285718,0 z"
      id="path2987"
      inkscape:connector-curvature="0"

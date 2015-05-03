@@ -69,19 +69,19 @@
        id="g3772"
        transform="translate(-25,13.000034)">
       <path
-         style="fill:#00ff00;fill-opacity:1;stroke:none"
+         style="fill:replacecolour2;fill-opacity:1;stroke:none"
          d="m 33,990.3622 23.5,0 c 1,0 1.5,0.4999 1.5,1.4996 l 0,3.4991 c 0,0.5538 -0.4737,0.4998 -1,0.4998 l -24,0 c -0.5263,0 -1,-0.4459 -1,-0.9997 l 0,-4.4988 z"
          id="path2990"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="csssssscc" />
       <path
-         style="fill:#00ff00;fill-opacity:1;stroke:none"
+         style="fill:replacecolour2;fill-opacity:1;stroke:none"
          d="m 32,992.3622 0,-2.5 c 0,-1 0.454546,-1.5 0.909091,-1.5 l 5.181818,0 c 0.454546,0 0.909091,0.5 0.909091,1.5 l 0,2.5 z"
          id="path2994"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="csssscc" />
       <rect
-         style="fill:#00ff00;fill-opacity:1;stroke:none"
+         style="fill:replacecolour2;fill-opacity:1;stroke:none"
          id="rect2996"
          width="30"
          height="20"
@@ -91,7 +91,7 @@
          ry="1.6666666" />
     </g>
     <path
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        d="m 32,1015.3622 23.5,0 c 1,0 1.5,0.4999 1.5,1.4996 l 0,3.4991 c 0,0.5538 -0.4737,0.4998 -1,0.4998 l -24,0 c -0.5263,0 -1,-0.4459 -1,-0.9997 l 0,-4.4988 z"
        id="path3811"
        inkscape:connector-curvature="0"
@@ -102,13 +102,13 @@
        id="path3807"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        d="m 31,1017.3622 0,-2.5 c 0,-1 0.454546,-1.5 0.909091,-1.5 l 5.181818,0 c 0.454546,0 0.909091,0.5 0.909091,1.5 l 0,2.5 z"
        id="rect3760"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csssscc" />
     <rect
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        id="rect2990"
        width="30"
        height="20"

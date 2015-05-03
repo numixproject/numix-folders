@@ -106,7 +106,7 @@
        d="m 64,1017.6954 c -26.20413,0 -49.40792,2.0884 -64,5.3336 l 0,16 c 14.59208,3.2448 37.79587,5.3332 64,5.3332 26.204132,0 49.40792,-2.0884 64,-5.3332 l 0,-16 c -14.59208,-3.2452 -37.795868,-5.3336 -64,-5.3336 z"
        id="path3868" />
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        id="rect2987"
        width="120"
        height="83.999817"
@@ -120,7 +120,7 @@
        id="rect3797"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 17.043478,972.3622 20.869566,0 c 28.695652,-2.6668 23.47826,-32 41.739128,-32 l 31.304348,0 c 7.22609,0 13.04348,5.9468 13.04348,13.3332 l 0,69.3336 c 0,7.3864 -5.81739,13.3332 -13.04348,13.3332 l -93.913042,0 C 9.8173912,1036.3622 4,1030.4154 4,1023.029 l 0,-37.3336 c 0,-8 5.2173912,-13.3332 13.043478,-13.3332 z"
        id="rect3776"
        inkscape:connector-curvature="0"

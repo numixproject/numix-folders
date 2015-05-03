@@ -61,19 +61,19 @@
      style="opacity:0.6"
      transform="matrix(2,0,0,2.0000013,0,-4.9e-5)">
     <path
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        d="m 7.95,11.000018 17.1,0 c 0.449999,0 0.958331,0.5001 0.949999,1 l -0.05,2.999999 c -0.0092,0.5539 -0.4237,1 -0.949999,1 l -17.1,0 c -0.5263,0 -0.956925,-0.446 -0.95,-1 L 7,11.000018 z"
        id="path3020"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csssssscc" />
     <path
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        d="m 7,11.500018 c 0,-1 0,-1.5 0.90909,-1.5 l 3.181819,0 c 0.909091,0 0.909091,0.5 0.909091,1.5 z"
        id="path3022"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="csscc" />
     <rect
-       style="fill:#00ff00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        id="rect3026"
        width="21"
        height="12.5"
@@ -83,13 +83,13 @@
        ry="1" />
   </g>
   <path
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      d="m 43.9,42.000015 34.2,0 c 0.899998,0 1.916662,1.0002 1.899998,2.000001 l -0.1,6.000002 c -0.0184,1.107801 -0.8474,2.000001 -1.899998,2.000001 l -34.2,0 c -1.0526,0 -1.91385,-0.892 -1.9,-2.000001 L 42,42.000015 z"
      id="path3811"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="csssssscc" />
   <path
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      d="m 42,43.000015 c 0,-2.000001 0,-3.000002 1.81818,-3.000002 l 6.363638,0 C 52,40.000013 52,41.000014 52,43.000015 z"
      id="rect3760"
      inkscape:connector-curvature="0"
@@ -101,7 +101,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <rect
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      id="rect2990"
      width="42"
      height="25.000017"

@@ -58,12 +58,12 @@
   <path
      id="path3441"
      d="m 19.2,38.400001 166.4,0 0,63.999999 -166.4,0 z m 0,0"
-     style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;fill-rule:nonzero;stroke:none"
      inkscape:connector-curvature="0" />
   <path
      id="path3443"
      d="m 38.4,38.400001 c 0,-6.4 0,-12.8 9.30625,-12.8 l 32.587502,0 c 9.306248,0 9.306248,6.4 9.306248,12.8 l 0,6.4 -51.2,0 z m 0,0"
-     style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;fill-rule:nonzero;stroke:none"
      inkscape:connector-curvature="0" />
   <path
      id="path3445"
@@ -83,7 +83,7 @@
   <path
      id="path3451"
      d="m 6.4,64.000001 192,0 L 184.6875,179.2 l -164.575,0 z m 0,0"
-     style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none"
      inkscape:connector-curvature="0" />
   <path
      id="path3453"

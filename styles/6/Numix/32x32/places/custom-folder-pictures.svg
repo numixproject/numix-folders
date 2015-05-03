@@ -149,7 +149,7 @@
        id="g3855"
        transform="matrix(0.5,0,0,0.5,39,520.6811)">
       <path
-         style="fill:#00ff00;fill-opacity:1;stroke:none"
+         style="fill:replacecolour2;fill-opacity:1;stroke:none"
          d="m -78,1008.421 0,42.8235 64,0 0,-21.4117 -3.047619,-18.353 L -41,1011.3622 l -3,-6 -30.952381,0 c -1.523809,0 -3.047619,1.5294 -3.047619,3.0588 z"
          id="path3029-0"
          inkscape:connector-curvature="0"
@@ -172,7 +172,7 @@
          inkscape:connector-curvature="0"
          id="rect2987-2"
          d="m -14,1014.5387 0,42.8235 -64,0 0,-40 30,0 3,-6 27.952381,0.1176 c 1.523809,0 3.047619,1.5295 3.047619,3.0589 z"
-         style="fill:#ff0000;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour1;fill-opacity:1;stroke:none" />
       <path
          inkscape:connector-curvature="0"
          style="opacity:0.15;fill:#000000;fill-opacity:1;stroke:none"

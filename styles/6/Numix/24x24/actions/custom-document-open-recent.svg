@@ -116,7 +116,7 @@
        style="opacity:0.25;fill:url(#radialGradient3766-6);fill-opacity:1;stroke:none"
        id="path2990" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 23,1037.4289 0,12.9333 -22,0 0,-12 11,0 1,-2 9,0 c 0.5,0 1,0.5333 1,1.0667 z"
        id="rect2987"
        inkscape:connector-curvature="0"

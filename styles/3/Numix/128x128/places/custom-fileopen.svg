@@ -51,12 +51,12 @@
      inkscape:connector-curvature="0"
      id="path5"
      d="m 12,24 104,0 0,40 -104,0 z m 0,0"
-     style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:replacecolour2;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <path
      inkscape:connector-curvature="0"
      id="path7"
      d="m 24,24 c 0,-4 0,-8 5.816406,-8 l 20.367188,0 C 56,16 56,20 56,24 l 0,4 -32,0 z m 0,0"
-     style="fill:#00ff00;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:replacecolour2;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <path
      inkscape:connector-curvature="0"
      id="path9"
@@ -81,7 +81,7 @@
      inkscape:connector-curvature="0"
      id="path17"
      d="m 4,56 120,0 -8.57031,56 -102.859378,0 z m 0,0"
-     style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <path
      inkscape:connector-curvature="0"
      id="path19"

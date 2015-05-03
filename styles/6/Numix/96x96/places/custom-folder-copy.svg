@@ -264,7 +264,7 @@
          inkscape:connector-curvature="0"
          id="path3811"
          d="m 21,1027.3622 0,14 21,0 0,-7 -1,-6 -8,0 -1,-2 -10,0 c -0.5,0 -1,0.5 -1,1 z"
-         style="fill:#00ff00;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour2;fill-opacity:1;stroke:none" />
       <path
          style="opacity:0.02999998;fill:#000000;fill-opacity:1;stroke:none"
          d="m 22,22 c -0.5,0 -1,0.5 -1,1 l 0,1 c 0,-0.5 0.5,-1 1,-1 l 9,0 1,2 9,0 1,6 0,-1 -1,-6 -8,0 -1,-2 z"
@@ -280,7 +280,7 @@
          x="23"
          y="1029.3622" />
       <path
-         style="fill:#ff0000;fill-opacity:1;stroke:none"
+         style="fill:replacecolour1;fill-opacity:1;stroke:none"
          d="m 42,1029.3622 0,14 -21,0 0,-13 10,0 1,-2 9,0 c 0.5,0 1,0.5 1,1 z"
          id="path3817"
          inkscape:connector-curvature="0"
@@ -309,7 +309,7 @@
        inkscape:connector-curvature="0"
        id="path3029"
        d="m 42,1002.3622 0,28 42,0 0,-14 -2,-12 -16,0 -2,-4 -20,0 c -1,0 -2,1 -2,2 z"
-       style="fill:#00ff00;fill-opacity:1;stroke:none" />
+       style="fill:replacecolour2;fill-opacity:1;stroke:none" />
     <path
        style="opacity:0.02999998;fill:#000000;fill-opacity:1;stroke:none"
        d="m 44,1000.3622 c -1,0 -2,1 -2,2 l 0,2 c 0,-1 1,-2 2,-2 l 18,0 2,4 18,0 2,12 0,-2 -2,-12 -16,0 -2,-4 z"
@@ -324,7 +324,7 @@
        x="46"
        y="1006.3622" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 84,1006.3622 0,28 -42,0 0,-26 20,0 2,-4 18,0 c 1,0 2,1 2,2 z"
        id="rect2987"
        inkscape:connector-curvature="0"

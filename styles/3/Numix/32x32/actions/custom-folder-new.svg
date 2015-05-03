@@ -52,14 +52,14 @@
        id="grid2984" />
   </sodipodi:namedview>
   <rect
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      id="rect3757"
      width="26"
      height="10"
      x="3"
      y="5.9999828" />
   <path
-     style="fill:#00ff00;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      d="M 6,6 C 6,5 6,4 7.454545,4 l 5.09091,0 C 14,4 14,5 14,6 l 0,1 -8,0 z"
      id="path3759"
      inkscape:connector-curvature="0"
@@ -84,7 +84,7 @@
      x="6"
      y="8.9999828" />
   <path
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      d="M 1,10 31,10 28.857143,28 3.1428571,28 z"
      id="path2987"
      inkscape:connector-curvature="0"

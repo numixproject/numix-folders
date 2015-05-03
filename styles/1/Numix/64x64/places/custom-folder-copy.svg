@@ -337,7 +337,7 @@
     </rdf:RDF>
   </metadata>
   <path
-     style="fill:#ff0000;fill-opacity:1;stroke:none"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
      d="m 0,0 0,32 20,0 0,-4 20,0 L 40,4 20,4 20,0 0,0 z m 24,32 0,32 40,0 0,-28 -20,0 0,-4 -20,0 z"
      id="path3036"
      inkscape:connector-curvature="0" />

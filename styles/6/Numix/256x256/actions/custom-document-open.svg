@@ -265,7 +265,7 @@
        x="47.999996"
        y="896.36224" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 256,905.06824 0,139.29396 -256,0 0,-127.99996 120,0 12,-24 111.80952,0.4704 c 6.09524,0 12.19048,6.118 12.19048,12.2356 z"
        id="rect2987"
        inkscape:connector-curvature="0"

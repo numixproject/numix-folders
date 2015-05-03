@@ -124,7 +124,7 @@ fi
 cp -rf styles/"${style}"/Numix/* "${dir}"/Numix/
 
 if [ "$colour" == "custom" ]; then
-    find ${dir}/Numix/*/{actions,places}/*custom* -exec sed -i --follow-symlinks "s/#ff0000/$colour1/g" {} \; -exec sed -i --follow-symlinks "s/#00ff00/$colour1/g" {} \; -exec sed -i --follow-symlinks "s/#0000ff/$colour3/g" {} \;
+    find ${dir}/Numix/*/{actions,places}/*custom* -exec sed -i --follow-symlinks "s/replacecolour1/$colour1/g" {} \; -exec sed -i --follow-symlinks "s/replacecolour2/$colour1/g" {} \; -exec sed -i --follow-symlinks "s/replacecolour3/$colour3/g" {} \;
 fi
 
 currentcolour=$(readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1)
