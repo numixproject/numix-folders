@@ -30,7 +30,8 @@ else
                 "\rpink    - f06292\n" \
                 "\rpurple  - 7e57c2\n" \
                 "\rred     - ef5350\n" \
-                "\ryellow  - ffca28\n"
+                "\ryellow  - ffca28\n" \
+                "\rcustom..- choose your own colours\n"
             sucess ;;
         -s|--styles)
             echo -e \
@@ -100,6 +101,17 @@ fi
 read -p "Which folder colour do you want? " answer
 if [ -z "$answer" ]; then
     colour="default"
+elif [ "$answer" == "custom" ]; then
+    colour="custom"
+    read -p "Choose first colour (main colour) in hex notation (e.g. #000000) " colour1
+    read -p "Choose first colour (background colour) in hex notation (e.g. #000000) " colour2
+    read -p "Choose first colour (dark background colour) in hex notation (e.g. #000000) " colour3
+    if ! [[ $colour1 =~ ^[0-9A-F]{6}$ ]] || [[ $colour2 =~ ^[0-9A-F]{6}$ ]] || [[ $colour3 =~ ^[0-9A-F]{6}$ ]]; then
+        echo -e \
+        "Oops! One or more of your chosen custom colours were invalid.\n" \
+        "\rBe sure to use valid hex values with six digits (e.g. #000000)"
+        gerror
+    fi
 elif [ -d colours/"$answer" ]; then
     colour="$answer"
 else
@@ -111,8 +123,13 @@ fi
 
 cp -rf styles/"${style}"/Numix/* "${dir}"/Numix/
 
+if [ "$colour" == "custom" ]; then
+    find ${dir}/Numix/*/{actions,places}/*custom* -exec sed -i --follow-symlinks "s/#ff0000/$colour1/g" {} \; -exec sed -i --follow-symlinks "s/#00ff00/$colour1/g" {} \; -exec sed -i --follow-symlinks "s/#0000ff/$colour3/g" {} \;
+fi
+
 currentcolour=$(readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1)
 links=$(find -L ${dir}/Numix/*/{actions,places} -xtype l)
+
 for link in $links; do
     newlink=$(readlink "${link}");
     if [[ $newlink == *"$currentcolour"* ]]; then
