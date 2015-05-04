@@ -112,7 +112,7 @@ elif [ "$answer" == "custom" ]; then
        echo -e \
            "Oops! One or more of your chosen custom colours were invalid.\n" \
            "\rBe sure to use valid hex values with six digits (e.g. 000000)"
-           gerror
+       gerror
     fi
 elif [ -d colours/"$answer" ]; then
     colour="$answer"
