@@ -108,7 +108,7 @@
        id="path3801"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.4;fill:#3c2f1b;fill-opacity:1"
+       style="opacity:0.4;fill:replacecolour3;fill-opacity:1"
        d="M 44 48 C 39.568 48 36 51.568 36 56 L 36 84 C 36 88.432 39.568 92 44 92 L 56 92 L 48 100 C 44 104 44 104 48 104 L 80 104 C 84 104 84 104 80 100 L 72 92 L 84 92 C 88.432 92 92 88.432 92 84 L 92 56 C 92 51.568 88.432 48 84 48 L 44 48 z M 44 56 L 84 56 L 84 84 L 44 84 L 44 56 z M 54 60 C 54 60 49.999734 60 50 64 L 50 76 C 50.000266 80 54 80 54 80 L 66 80 C 70 80 70 76 70 76 L 70 68 L 62 60 L 54 60 z M 54 64 L 60 64 L 60 70 L 66 70 L 66 76 L 54 76 L 54 64 z "
        transform="translate(0,924.3622)"
        id="path8-6" />

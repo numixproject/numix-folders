@@ -104,7 +104,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#3c2f1b;fill-opacity:1;opacity:0.4"
+       style="fill:replacecolour3;fill-opacity:1;opacity:0.4"
        d="m 36,996.3622 c -2.216,0 -4,1.784 -4,4 l 0,18 c 0,2.216 1.784,4 4,4 l 8,0 -4,4 c -2,2 -2,2 0,2 l 16,0 c 2,0 2,0 0,-2 l -4,-4 8,0 c 2.216,0 4,-1.784 4,-4 l 0,-18 c 0,-2.216 -1.784,-4 -4,-4 l -24,0 z m 0,4 24,0 0,18 -24,0 0,-18 z m 5.6875,2 c -0.562632,0.094 -1.68756,0.5 -1.6875,2 l 0,10 c 8e-5,2 2,2 2,2 l 8,0 c 2,0 2,-2 2,-2 l 0,-8 -4,-4 -6,0 c 0,0 -0.12496,-0.032 -0.3125,0 z m 0.3125,2 4,0 0,4 4,0 0,6 -8,0 0,-10 z"
        id="path8"
        inkscape:connector-curvature="0" />

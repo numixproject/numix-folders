@@ -129,7 +129,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="fill:#3c2f1b;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:0.4"
+       style="fill:replacecolour3;fill-opacity:1;fill-rule:evenodd;stroke:none;opacity:0.4"
        d="m 104,900.3622 c -4,0 -8,4 -8,8 l 64,0 c 0,-4 -4,-8 -8,-8 l -48,0 z m -8,12 0,72 64,0 0,-72 -64,0 z m 12,8 40,0 0,8 -40,0 0,-8 z m 0,16 40,0 0,8 -40,0 0,-8 z m 20,16 c 4.41828,0 8,3.5816 8,8 0,4.4184 -3.58172,8 -8,8 -4.41828,0 -8,-3.5816 -8,-8 0,-4.4184 3.58172,-8 8,-8 z m -32,36 c 0,4 4,8 8,8 l 48,0 c 4,0 8,-4 8,-8 l -64,0 z"
        id="rect3865-5"
        inkscape:connector-curvature="0" />

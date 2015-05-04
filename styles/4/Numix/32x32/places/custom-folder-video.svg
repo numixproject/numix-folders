@@ -110,7 +110,7 @@
     <path
        sodipodi:nodetypes="ssssssssscccccccccccccccccccccccccccccc"
        inkscape:connector-curvature="0"
-       style="opacity:0.4;fill:#3c2f1b;fill-opacity:1"
+       style="opacity:0.4;fill:replacecolour3;fill-opacity:1"
        d="m 11.5,1033.3622 c -0.831,0 -1.5,0.669 -1.5,1.5 l 0,9 c 0,0.831 0.669,1.5 1.5,1.5 l 9,0 c 0.831,0 1.5,-0.669 1.5,-1.5 l 0,-9 c 0,-0.831 -0.669,-1.5 -1.5,-1.5 z m 0.5,1 2,0 0,2 -2,0 z m 6,0 2,0 0,2 -2,0 z m -6,4 2,0 0,2 -2,0 z m 6,0 2,0 0,2 -2,0 z m -6,4 2,0 0,2 -2,0 z m 6,0 2,0 0,2 -2,0 z"
        id="rect3007-6" />
   </g>
