@@ -105,7 +105,7 @@ elif [ "$answer" == "custom" ]; then
     colour="custom"
     read -p "Choose first colour (main colour) in hex notation (e.g. 000000): " colour1
     read -p "Choose second colour (background colour) in hex notation (e.g. 000000): " colour2
-    read -p "Choose third colour (symbol colour) in hex notation (e.g. 000000): " colour3
+    read -p "Choose third colour (dark background colour) in hex notation (e.g. 000000): " colour3
     if ! [[ $colour1 =~ ^[0-9A-Fa-f]{6}$ ]] || ! [[ $colour2 =~ ^[0-9A-Fa-f]{6}$ ]] || ! [[ $colour3 =~ ^[0-9A-Fa-f]{6}$ ]]; then
         echo -e \
         "Oops! One or more of your chosen custom colours were invalid.\n" \

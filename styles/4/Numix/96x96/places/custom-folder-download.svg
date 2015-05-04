@@ -107,7 +107,7 @@
        id="rect2991"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.4;fill:replacecolour3;fill-opacity:1;stroke:none"
+       style="opacity:0.4;fill:#3c2f1b;fill-opacity:1;stroke:none"
        d="M 48 38 C 45.784 38 44 39.783999 44 42 L 44 52 L 40 52 C 38 52 38 52 40 54 L 46 60 C 48 62 48 62 50 60 L 56 54 C 58 52 58 52 56 52 L 52 52 L 52 42 C 52 39.783999 50.216 38 48 38 z M 34 54 C 32.892 54 32 54.891999 32 56 L 32 66 C 32 67.108001 32.892 68 34 68 L 62 68 C 63.108 68 64 67.108001 64 66 L 64 56 C 64 54.891999 63.108 54 62 54 C 60.892 54 60 54.891999 60 56 L 60 64 L 36 64 L 36 56 C 36 54.891999 35.108 54 34 54 z "
        transform="translate(0,956.3622)"
        id="rect2989" />
