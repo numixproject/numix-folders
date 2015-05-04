@@ -31,7 +31,7 @@ else
                 "\rpurple  - 7e57c2\n" \
                 "\rred     - ef5350\n" \
                 "\ryellow  - ffca28\n" \
-                "\rcustom..- choose your own colours\n"
+                "\rcustom  - choose your own colours"
             sucess ;;
         -s|--styles)
             echo -e \
