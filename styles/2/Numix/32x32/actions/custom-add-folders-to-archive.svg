@@ -12,8 +12,8 @@
    viewBox="0 0 32 32"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="add-folders-to-archive.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="custom-add-folders-to-archive.svg">
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -36,15 +36,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="998"
+     inkscape:window-width="1366"
+     inkscape:window-height="747"
      id="namedview16"
      showgrid="true"
-     inkscape:zoom="10.429825"
-     inkscape:cx="-9.4947817"
-     inkscape:cy="8.0684244"
+     inkscape:zoom="3.6875"
+     inkscape:cx="-59.03964"
+     inkscape:cy="23.535808"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="21"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -65,7 +65,7 @@
      sodipodi:nodetypes="ssccssssscccsssccccccc" />
   <path
      inkscape:connector-curvature="0"
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:0.10196288;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;fill-opacity:0.10196079;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate;fill:#000000"
      d="m 4.000001,12 c -0.4916,0 -1,0.473119 -1,1 l 0,1 -1.5,0 c -0.979161,0 -1.5,0.494034 -1.5,1.5 l 0,15 c 0,0.12548 0.0156,0.234113 0.03125,0.34375 0.01611,0.1223 0.02769,0.210193 0.0625,0.3125 0.03129,0.09384 0.07809,0.171912 0.125,0.25 0.05068,0.08671 0.08716,0.151525 0.15625,0.21875 0.126442,0.123034 0.282331,0.221208 0.46875,0.28125 C 1.03017,31.96629 1.255768,32 1.500001,32 l 24.84375,0 c 0.217993,0 0.428853,-0.05287 0.625,-0.125 0.588441,-0.216379 1.03125,-0.717414 1.03125,-1.375 l 0,-12.9375 c 0,-0.02262 4.2e-4,-0.04035 0,-0.0625 0,-0.941323 -0.425107,-1.5 -1.5,-1.5 l -2.5,0 0,-3 c 0,-0.526881 -0.5084,-1 -1,-1 l -19,0 z"
      id="path3029" />
   <path
