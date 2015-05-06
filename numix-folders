@@ -112,14 +112,9 @@ elif [ "$answer" == "custom" ]; then
     case "$style" in 
         "1")
             colour1="c28f5c"
-            colour2="c4905e"
             read -p "Choose primary colour in hex notation (default: $colour1): " colour1
-            read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
             if [ -z "$colour1" ]; then
                 colour1="c28f5c"
-            fi
-            if [ -z "$colour2" ]; then
-                colour2="c4905e"
             fi
             ;;
         "2")
