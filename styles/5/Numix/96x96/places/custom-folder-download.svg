@@ -314,7 +314,7 @@
        id="rect3876"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        id="rect2989"
        width="28"
        height="4"
@@ -330,11 +330,11 @@
        height="4"
        width="14"
        id="rect2991-6"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        transform="matrix(0,1,-1,0,0,0)" />
     <rect
        transform="matrix(0,1,-1,0,0,0)"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        id="rect2993"
        width="14"
        height="4"
@@ -343,13 +343,13 @@
        rx="2"
        ry="2" />
     <path
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        d="m 29.5,1020.3612 c -1.5,1.5 -1.5,1.5 -3,0 l -4.5,-4.5 c -1.5,-1.5 -1.5,-1.5 0,-1.5 l 12,0 c 1.5,0 1.5,0 0,1.5 z"
        id="path2997-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc" />
     <path
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        d="m 28,1000.3622 c -2.216,0 -4,1.784 -4,4 l 0,10 8,0 0,-10 c 0,-2.216 -1.784,-4 -4,-4 z"
        id="rect2995"
        inkscape:connector-curvature="0" />

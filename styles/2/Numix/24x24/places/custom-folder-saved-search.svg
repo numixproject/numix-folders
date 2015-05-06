@@ -48,19 +48,19 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3039" />
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
      d="m 4.0000115,3.0000005 c -0.5473306,0 -1,0.4096882 -1,1 l 0,1 -1,0 c -0.5019272,0 -0.9999999,0.3847489 -0.9999999,1 -1.534e-5,4.5937495 0,9.4062505 0,13.9999995 0,0.545771 0.4934173,1 0.9999999,1 l 20.0000005,0 c 0.515688,0 1,-0.437034 1,-1 l 0,-12.9999995 c 0,-0.5770209 -0.423105,-1 -1,-1 l -2,0 0,-2 c 0,-0.4874255 -0.401824,-1 -1,-1 z"
      id="path2995"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccccssssscssc" />
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
      d="m 4.0000115,3.0000005 c -0.5444543,0 -1,0.3988699 -1,1 l 0,1 -1,0 c -0.5067594,0 -0.9999999,0.3964676 -0.9999999,1 -2.604e-5,4.5937495 0,9.4062505 0,13.9999995 0,0.487177 0.4191985,1 0.9999999,1 l 20.0000005,0 c 0.521212,0 1,-0.442558 1,-1 l 0,-12.9999995 c 0,-0.5731146 -0.393904,-1 -1,-1 l -2,0 0,-2 c 0,-0.5585119 -0.457433,-1 -1,-1 z m 10.0000005,3 0,1 8,0 0,12.9999995 -20.0000005,0 0,-13.9999995 z"
      id="path3786"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ssccccssssscsssccccccc" />
   <path
-     style="fill:#000000;fill-opacity:0.32156863;stroke:none"
+     style="fill:replacecolour3;fill-opacity:1.;stroke:none"
      d="m 14,9 c -1.656854,0 -3,1.343146 -3,3 0,0.572037 0.159658,1.107618 0.4375,1.5625 L 8.125,16.875 c -0.1958686,0.195869 -0.1958686,0.522881 0,0.71875 l 0.6875,0.71875 c 0.1958686,0.195869 0.5228814,0.195869 0.71875,0 l 3.5,-3.5 C 13.339888,14.919784 13.654822,15 14,15 c 1.656854,0 3,-1.343146 3,-3 0,-1.656854 -1.343146,-3 -3,-3 z m 0,1 c 1.10457,0 2,0.895431 2,2 0,1.104569 -0.89543,2 -2,2 -1.10457,0 -2,-0.895431 -2,-2 0,-1.104569 0.89543,-2 2,-2 z"
      id="path3953"
      inkscape:connector-curvature="0" />

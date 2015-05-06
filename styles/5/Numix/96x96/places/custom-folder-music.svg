@@ -179,7 +179,7 @@
     </g>
     <g
        id="g3907"
-       style="fill:#fff8e1;fill-opacity:1"
+       style="fill:replacecolour3;fill-opacity:1"
        transform="matrix(2,0,0,2,0,-1054.3622)">
       <path
          transform="matrix(1.3714939,0,0,1.4355586,17.857469,1027.0066)"
@@ -189,11 +189,11 @@
          sodipodi:cy="8.2585173"
          sodipodi:cx="-6.8228297"
          id="path3001"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none"
+         style="fill:replacecolour3;fill-opacity:1;stroke:none"
          sodipodi:type="arc" />
       <path
          sodipodi:type="arc"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none"
+         style="fill:replacecolour3;fill-opacity:1;stroke:none"
          id="path3003"
          sodipodi:cx="-6.8228297"
          sodipodi:cy="8.2585173"
@@ -209,9 +209,9 @@
          height="11.000017"
          width="2"
          id="rect3005"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour3;fill-opacity:1;stroke:none" />
       <rect
-         style="fill:#fff8e1;fill-opacity:1;stroke:none"
+         style="fill:replacecolour3;fill-opacity:1;stroke:none"
          id="rect3007"
          width="2"
          height="11.000017"
@@ -227,7 +227,7 @@
          height="4.0000172"
          width="10"
          id="rect3009"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour3;fill-opacity:1;stroke:none" />
     </g>
   </g>
 </svg>

@@ -70,11 +70,11 @@
     <linearGradient
        id="linearGradient3844">
       <stop
-         style="stop-color:#000000;stop-opacity:0.39215687;"
+         style="stop-color:replacecolour3;stop-opacity:0.39215687;"
          offset="0"
          id="stop3846" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3848" />
     </linearGradient>
@@ -119,18 +119,18 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
      d="m 12.000041,12.000036 c -1.999999,0 -3.999998,1.999999 -3.999998,3.999998 l 0,3.999998 -1.999999,0 c -1.999999,0 -4.0111358,1.898413 -3.999998,3.999998 l 0,55.999972 C 2.000302,82.241469 4.075571,83.9998 6.3750438,84 L 89.625002,84 C 92.000001,84 94,82.000001 94,80.000002 l 0,-49.999975 c 0,-1.999999 -1.999999,-3.999998 -3.999998,-3.999998 l -3.999998,0 0,-9.999995 c 0,-1.999999 -1.999999,-3.999998 -3.999998,-3.999998 z"
      id="path3770"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="sscsccccccccsss" />
   <path
      inkscape:connector-curvature="0"
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
      d="m 12.000041,12.000036 c -1.999999,0 -3.999998,1.999999 -3.999998,3.999998 l 0,3.999998 -1.999999,0 c -1.999999,0 -4.0111358,1.898413 -3.999998,3.999998 l 0,55.999972 C 2.000302,82.241469 4.075571,83.9998 6.3750438,84 L 89.625002,84 C 92.000001,84 94,82.000001 94,80.000002 l 0,-49.999975 c 0,-1.999999 -1.999999,-3.999998 -3.999998,-3.999998 l -3.999998,0 0,-9.999995 c 0,-1.999999 -1.999999,-3.999998 -3.999998,-3.999998 l -69.999965,0 z m -5.999997,9.999995 47.999976,0 c 1.014627,0 1.999999,0.988334 1.999999,1.999999 l 0,3.999998 33.999983,0 c 1.081715,0 1.999999,0.943618 1.999999,1.999999 l 0,49.999975 c 0,1.107509 -0.90423,1.999999 -1.999999,1.999999 l -83.999958,0 c -1.0254515,0 -1.999999,-0.892492 -1.999999,-1.999999 l 0,-55.999972 c 0,-1.086635 0.9580835,-1.999999 1.999999,-1.999999 z"
      id="path3779" />
   <path
-     style="fill:#000000;fill-opacity:0.32156863;fill-rule:evenodd"
+     style="fill:replacecolour3;fill-opacity:1.;fill-rule:evenodd"
      d="m 42.49998,40.000022 11.749994,19.99999 11.749994,0 -11.749994,-19.99999 -11.749994,0 z m -1.937499,1.187499 -12.562494,19.749991 6.312497,9.812495 12.249994,-19.499991 -5.999997,-10.062495 z m 1.812499,20.81249 -6.374997,9.999995 23.999988,0 5.999997,-9.999995 -23.624988,0 z"
      id="polygon3475-1"
      inkscape:connector-curvature="0" />

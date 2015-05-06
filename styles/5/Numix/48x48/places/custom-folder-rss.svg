@@ -365,7 +365,7 @@
        style="fill:#000000;fill-opacity:0.09803922;fill-rule:nonzero;stroke:none"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="M 6 22 L 6 24 C 11.918927 24.6535 18.023438 30.117 18 36 L 20 36 C 20 27.5961 12.453097 22.266 6 22 z M 6 26 L 6 28 C 9.2075726 28.2637 13.96423 32.2573 14 36 L 16 36 C 15.860496 30.293 9.9842988 26.4052 6 26 z M 8 32 C 6.8954305 32 6 32.895431 6 34 C 6 35.104569 6.8954305 36 8 36 C 9.1045695 36 10 35.104569 10 34 C 10 32.895431 9.1045695 32 8 32 z "
        transform="translate(0,1004.3622)"
        id="path3394" />

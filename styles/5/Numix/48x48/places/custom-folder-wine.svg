@@ -325,7 +325,7 @@
        id="path3839"
        style="line-height:normal;color:#000000;fill:#000000;fill-opacity:0.09803922" />
     <path
-       style="line-height:normal;opacity:1;color:#000000;fill:#fff8e1;fill-opacity:1"
+       style="line-height:normal;opacity:1;color:#000000;fill:replacecolour3;fill-opacity:1"
        id="path3974"
        d="m 18.620948,1026.3629 c -0.567724,0.01 -1.126232,0.3811 -1.215615,1.0742 -0.143013,1.1089 0.929588,0.693 1.78767,0.693 0.858081,0 1.144108,1.8019 0.929588,2.7721 -0.21452,0.9703 -2.495283,3.2621 -7.651227,0.9703 -4.244971,-1.8868 -6.364407,0.6255 -6.471364,0.6757 0.401737,3.7486 3.677174,7.814 7.651226,7.814 4.245402,0 7.68698,-4.479 7.68698,-8.5936 0,-0.4726 -0.0562,-0.938 -0.143013,-1.3861 -0.07894,-0.2265 -0.156566,-0.4524 -0.21452,-0.6584 -0.103886,-0.3692 -0.221203,-0.6806 -0.321781,-0.9703 -0.0043,-0.01 0.0044,-0.025 0,-0.035 -0.406385,-0.8748 -0.976154,-1.6655 -1.680409,-2.3218 -0.0032,-0.01 -0.01471,0.01 -0.01788,0 -0.110053,-0.027 -0.226112,-0.036 -0.339657,-0.035 z"
        inkscape:connector-curvature="0" />
@@ -335,7 +335,7 @@
        id="path3841"
        style="line-height:normal;color:#000000;fill:#000000;fill-opacity:0.09803922" />
     <path
-       style="line-height:normal;opacity:1;color:#000000;fill:#fff8e1;fill-opacity:1"
+       style="line-height:normal;opacity:1;color:#000000;fill:replacecolour3;fill-opacity:1"
        id="path3976"
        d="m 18.401926,1030.2857 c 0,0.4281 -0.347033,0.7751 -0.775121,0.7751 -0.428087,0 -0.77512,-0.347 -0.77512,-0.7751 0,-0.4281 0.347033,-0.7752 0.77512,-0.7752 0.428088,0 0.775121,0.3471 0.775121,0.7752 z"
        inkscape:connector-curvature="0" />
@@ -345,7 +345,7 @@
        id="path3843"
        style="line-height:normal;color:#000000;fill:#000000;fill-opacity:0.09803922" />
     <path
-       style="line-height:normal;opacity:1;color:#000000;fill:#fff8e1;fill-opacity:1"
+       style="line-height:normal;opacity:1;color:#000000;fill:replacecolour3;fill-opacity:1"
        id="path3978"
        d="m 16.076565,1027.5727 c 0,0.2141 -0.173517,0.3876 -0.387561,0.3876 -0.214043,0 -0.38756,-0.1735 -0.38756,-0.3876 0,-0.2141 0.173517,-0.3875 0.38756,-0.3875 0.214044,0 0.387561,0.1734 0.387561,0.3875 z"
        inkscape:connector-curvature="0" />

@@ -383,7 +383,7 @@
     <path
        id="path3871"
        d="m 3.7500009,1040.7511 -1.7499999,1.5556 1.7499999,1.1666 -1.7499999,1.5556 3.4999993,2.3333 L 9,1045.0289 7.2500001,1043.4733 9,1042.3067 l -1.7499999,-1.5556 -1.7499998,1.5556 z"
-       style="line-height:normal;color:#000000;fill:#fff8e1;fill-opacity:1"
+       style="line-height:normal;color:#000000;fill:replacecolour3;fill-opacity:1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccc" />
   </g>

@@ -368,14 +368,14 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccsssss" />
     <path
-       style="fill:#fff8e1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="m 12,1000.3622 0,4 c 11.837854,1.307 23.046876,12.234 23,24 l 4,0 c 0,-16.8078 -14.093806,-27.468 -27,-28 z m 0,8 0,4 c 6.415145,0.5274 14.92846,8.5146 15,16 l 4,0 c -0.279008,-11.414 -11.031402,-19.1896 -19,-20 z"
        id="path3394"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
     <path
        sodipodi:type="arc"
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="path3809"
        sodipodi:cx="16.5"
        sodipodi:cy="67.5"

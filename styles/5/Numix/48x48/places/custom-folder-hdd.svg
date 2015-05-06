@@ -343,16 +343,16 @@
     <g
        id="g3038"
        transform="translate(5,1024.3622)"
-       style="opacity:1;fill:#fff8e1;fill-opacity:1">
+       style="opacity:1;fill:replacecolour3;fill-opacity:1">
       <path
          sodipodi:nodetypes="sssssssssssssssssssssssssssssssssssssssss"
          inkscape:connector-curvature="0"
          id="rect2984"
          d="M 3,2 C 1.892,2 1,2.892 1,4 l 0,10 c 0,1.108 0.892,2 2,2 l 10,0 c 1.108,0 2,-0.892 2,-2 L 15,4 C 15,2.892 14.108,2 13,2 z M 4,3 C 4.5522847,3 5,3.4477153 5,4 5,4.5522847 4.5522847,5 4,5 3.4477153,5 3,4.5522847 3,4 3,3.4477153 3.4477153,3 4,3 z m 8,0 c 0.552285,0 1,0.447715 1,1 0,0.552285 -0.447715,1 -1,1 C 11.447715,5 11,4.552285 11,4 11,3.447715 11.447715,3 12,3 z M 8,4 c 1.6568542,0 3,1.3431458 3,3 0,1.6568542 -1.3431458,3 -3,3 C 6.3431458,10 5,8.6568542 5,7 5,5.3431458 6.3431458,4 8,4 z M 4,9 C 4.5522847,9 5,9.447715 5,10 5,10.552285 4.5522847,11 4,11 3.4477153,11 3,10.552285 3,10 3,9.447715 3.4477153,9 4,9 z m 8,0 c 0.552285,0 1,0.447715 1,1 0,0.552285 -0.447715,1 -1,1 -0.552285,0 -1,-0.447715 -1,-1 0,-0.552285 0.447715,-1 1,-1 z m -8.5,5 9,0 c 0.277,0 0.5,0.223 0.5,0.5 0,0.277 -0.223,0.5 -0.5,0.5 l -9,0 C 3.223,15 3,14.777 3,14.5 3,14.223 3.223,14 3.5,14 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour3;fill-opacity:1;stroke:none" />
       <path
          sodipodi:type="arc"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none"
+         style="fill:replacecolour3;fill-opacity:1;stroke:none"
          id="path3007"
          sodipodi:cx="-5.5308571"
          sodipodi:cy="5.9514151"

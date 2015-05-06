@@ -343,7 +343,7 @@
          id="path4463" />
     </g>
     <g
-       style="fill:#fff8e1;fill-opacity:1;enable-background:new"
+       style="fill:replacecolour3;fill-opacity:1;enable-background:new"
        id="g4113"
        transform="matrix(1.75,0,0,1.75,12,1000.3622)">
       <path
@@ -351,17 +351,17 @@
          d="m 4.5714286,4.5714286 0,3.4285714 c 0,1.1544601 1.1428571,1.1428571 1.1428571,1.1428571 L 8,9.1428571 C 9.0000001,9.1428572 9.1428571,8 9.1428571,8 l 0,-3.4285714 L 8,3.4285714 l -2.2857143,0 c 0,0 -1.1428571,0.1428572 -1.1428571,1.1428572 z m 1.1428571,0 1.1428572,0 0,1.1428571 L 8,5.7142857 8,8 5.7142857,8 z"
          id="path8"
          inkscape:connector-curvature="0"
-         style="fill:#fff8e1;fill-opacity:1" />
+         style="fill:replacecolour3;fill-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="path3838"
          d="M 5.7142857,13.714286 3.4285714,16 l 9.1428576,0 -2.285715,-2.285714 0,-2.285715 -4.5714283,0 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour3;fill-opacity:1;stroke:none" />
       <path
          id="rect3831"
          d="M 2.2857143,0 C 1.1777143,0 0,1.1777143 0,2.2857143 l 0,7.9999997 c 0,1.108 1.1777143,2.285715 2.2857143,2.285715 l 11.4285717,0 C 14.822286,12.571429 16,11.393714 16,10.285714 L 16,2.2857143 C 16,1.1777143 14.822286,0 13.714286,0 z m 0,2.2857143 11.4285717,0 0,7.9999997 -11.4285717,0 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none"
+         style="fill:replacecolour3;fill-opacity:1;stroke:none"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="sssssssssccccc" />
     </g>

@@ -170,14 +170,14 @@
        id="path3786"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="m 2,1040.3622 0,1 c 2.9594397,0.3268 6.0117187,3.0585 6,6 l 1,0 c 0,-4.2019 -3.7734774,-6.867 -7,-7 z m 0,2 0,1 c 1.6037735,0.1319 3.982115,2.1287 4,4 l 1,0 c -0.069755,-2.8535 -3.0078665,-4.7974 -5,-5 z"
        id="path3394"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccc" />
     <path
        sodipodi:type="arc"
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="path5724"
        sodipodi:cx="3"
        sodipodi:cy="16"

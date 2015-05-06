@@ -392,7 +392,7 @@
          id="path3058" />
     </g>
     <g
-       style="fill:#fff8e1;fill-opacity:1;enable-background:new"
+       style="fill:replacecolour3;fill-opacity:1;enable-background:new"
        id="g4113"
        transform="matrix(0.4375,0,0,0.4375,3,1039.3622)">
       <path
@@ -400,11 +400,11 @@
          inkscape:connector-curvature="0"
          id="path3838"
          d="M 6.8571429,14.857143 4.5714286,16 l 6.8571424,0 -2.2857139,-1.142857 0,-3.428572 -2.2857142,0 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour3;fill-opacity:1;stroke:none" />
       <path
          id="rect3831"
          d="M 2.2857143,0 C 1.1777143,0 6.9250006e-8,1.1777143 0,2.2857143 L -5.7142857e-7,11.428571 C -6.4067857e-7,12.536571 1.1777137,13.714286 2.2857137,13.714286 l 11.4285723,0 C 14.822286,13.714286 16,12.536571 16,11.428571 L 16,2.2857143 C 16,1.1777143 14.822286,0 13.714286,0 z m 0,2.2857143 11.4285717,0 0,9.1428567 -11.4285723,0 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none"
+         style="fill:replacecolour3;fill-opacity:1;stroke:none"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="sssssssssccccc" />
     </g>
@@ -416,7 +416,7 @@
        id="rect3060"
        style="fill:#000000;fill-opacity:0.09803922;fill-rule:evenodd;stroke:none" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3052"
        width="2"
        height="2"

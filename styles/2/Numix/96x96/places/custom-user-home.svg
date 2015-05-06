@@ -56,18 +56,18 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
      d="m 12.000041,12.000037 c -1.999999,0 -3.999998,1.999998 -3.999998,3.999997 l 0,3.999998 -1.999999,0 c -1.999999,0 -4.0111358,1.898413 -3.999998,3.999998 l 0,55.999972 C 2.000302,82.241469 4.075571,83.9998 6.3750438,84 L 89.625002,84 C 92.000001,84 94,82.000001 94,80.000002 l 0,-49.999975 c 0,-1.999999 -1.999999,-3.999998 -3.999998,-3.999998 l -3.999998,0 0,-9.999995 c 0,-1.999999 -1.999999,-3.999997 -3.999998,-3.999997 z"
      id="path3770"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="sscsccccccccsss" />
   <path
      inkscape:connector-curvature="0"
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
      d="m 12.000041,12.000037 c -1.999999,0 -3.999998,1.999998 -3.999998,3.999997 l 0,3.999998 -1.999999,0 c -1.999999,0 -4.0111358,1.898413 -3.999998,3.999998 l 0,55.999972 C 2.000302,82.241469 4.075571,83.9998 6.3750438,84 L 89.625002,84 C 92.000001,84 94,82.000001 94,80.000002 l 0,-49.999975 c 0,-1.999999 -1.999999,-3.999998 -3.999998,-3.999998 l -3.999998,0 0,-9.999995 c 0,-1.999999 -1.999999,-3.999997 -3.999998,-3.999997 l -69.999965,0 z m -5.999997,9.999994 47.999976,0 c 1.014627,0 1.999999,0.988334 1.999999,1.999999 l 0,3.999998 33.999983,0 c 1.081715,0 1.999999,0.943618 1.999999,1.999999 l 0,49.999975 c 0,1.107509 -0.90423,1.999999 -1.999999,1.999999 l -83.999958,0 c -1.0254515,0 -1.999999,-0.892492 -1.999999,-1.999999 l 0,-55.999972 c 0,-1.086635 0.9580835,-1.999999 1.999999,-1.999999 z"
      id="path3779" />
   <path
-     style="fill:#000000;fill-opacity:0.32156863"
+     style="fill:replacecolour3;fill-opacity:1."
      d="M 48 40.5 C 47.5 40.5 47 41 46 42 L 36 52 C 31.593223 55.999998 30.000003 56 36 56 L 36 68 C 36 70.215999 37.784001 72 40 72 L 44 72 L 44 60 L 52 60 L 52 72 L 56 72 C 58.215999 72 60 70.215999 60 68 L 60 56 C 65.999997 56 64.57627 55.999998 60 52 L 60 44 C 60 42.892001 59.999999 42 58 42 C 56.000001 42 56 42.892001 56 44 L 56 48 L 50 42 C 49 41 48.5 40.5 48 40.5 z "
      id="rect2989" />
 </svg>

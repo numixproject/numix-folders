@@ -381,7 +381,7 @@
        inkscape:connector-curvature="0" />
     <path
        sodipodi:type="arc"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        id="path3001"
        sodipodi:cx="-6.8228297"
        sodipodi:cy="8.2585173"
@@ -397,10 +397,10 @@
        sodipodi:cy="8.2585173"
        sodipodi:cx="-6.8228297"
        id="path3003"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        sodipodi:type="arc" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        id="rect3005"
        width="1.0000002"
        height="5.5000095"
@@ -416,9 +416,9 @@
        height="5.5000095"
        width="0.99999976"
        id="rect3007-5"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+       style="fill:replacecolour3;fill-opacity:1;stroke:none" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        id="rect3009"
        width="5"
        height="2.0000091"

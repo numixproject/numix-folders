@@ -329,25 +329,25 @@
     <g
        id="g4056"
        transform="translate(5,1024.3622)"
-       style="opacity:1;fill:#fff8e1;fill-opacity:1">
+       style="opacity:1;fill:replacecolour3;fill-opacity:1">
       <path
          sodipodi:nodetypes="cssccccsscc"
          inkscape:connector-curvature="0"
          id="rect2989"
          d="m 2,8 0,6 c 0,1.108 0.892,2 2,2 l 2,0 0,-5 4,0 0,5 2,0 c 1.108,0 2,-0.892 2,-2 l 0,-6 z"
-         style="fill:#fff8e1;fill-opacity:1" />
+         style="fill:replacecolour3;fill-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="path3761"
          d="m 2,7 c -2.20338983,2 -3,2 0,2 l 12,0 c 3,0 2.288136,0 0,-2 L 9,2 C 8,1 8,1 7,2 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour3;fill-opacity:1;stroke:none" />
       <path
          sodipodi:nodetypes="ssccss"
          inkscape:connector-curvature="0"
          id="rect3763"
          d="m 13,2 c 1,0 1,0.446 1,1 l 0,4 -2,0 0,-4 c 0,-0.554 0,-1 1,-1 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour3;fill-opacity:1;stroke:none" />
     </g>
   </g>
 </svg>

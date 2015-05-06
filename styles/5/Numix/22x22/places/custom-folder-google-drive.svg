@@ -171,7 +171,7 @@
        d="m 4.40625,1041.3622 2.4375,3.9999 2.46875,0 -2.46875,-3.9999 z M 4,1042.0304 l -2.25,3.7381 1.09375,2.3437 2.3716643,-4.073 z m 0.53125,4.3318 -1.1875,2 4.78125,0 1.1875,-2 z"
        style="fill:#000000;fill-opacity:0.09803922;fill-rule:evenodd" />
     <path
-       style="fill:#fff8e1;fill-opacity:1;fill-rule:evenodd"
+       style="fill:replacecolour3;fill-opacity:1;fill-rule:evenodd"
        d="m 4.40625,10 2.4375,3.999875 2.46875,0 L 6.84375,10 z M 4,10.668188 1.75,14.40625 2.84375,16.75 5.2154143,12.676966 z M 4.53125,15 3.34375,17 8.125,17 9.3125,15 z"
        transform="translate(0,1030.3622)"
        id="polygon3475-1"

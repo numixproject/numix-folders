@@ -58,7 +58,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ssccssssscccsss" />
   <path
-     style="fill:#000000;stroke:none;fill-opacity:0.32156864"
+     style="fill:replacecolour3;stroke:none;fill-opacity:1."
      d="M 9 8 C 7.5360831 8 6 9.5112224 6 11 L 6 12 L 3 12 C 1.5299011 12 0 13.49533 0 15 L 0 53 C 0 55 1 56 3 56 L 61 56 C 62.567614 56 64 54.641658 64 53 L 64 20 C 64 18.495072 62.544962 17 61 17 L 58 17 L 58 11 C 58 9.5388438 56.546781 8 55 8 L 9 8 z M 3 14 L 37 14 C 37.590175 14 38 14.51477 38 15 L 38 19 L 61 19 C 61.505551 19 62 19.508742 62 20 L 62 53 C 62 53.521292 61.521234 54 61 54 L 3 54 C 2.5357049 54 2 53.603654 2 53 L 2 15 C 2 14.507595 2.5165286 14 3 14 z "
      id="path3778" />
 </svg>

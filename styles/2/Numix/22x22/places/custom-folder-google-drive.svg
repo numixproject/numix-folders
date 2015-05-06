@@ -36,11 +36,11 @@
        inkscape:collect="always"
        id="linearGradient3760">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:replacecolour3;stop-opacity:1;"
          offset="0"
          id="stop3762" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3764" />
     </linearGradient>
@@ -102,13 +102,13 @@
      id="layer1"
      transform="translate(0,-1030.3622)">
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 3.0000118,1032.3622 c -0.547331,0 -1,0.4097 -1,1 l 0,1 -1,0 c -0.50192754,0 -1.000000244444,0.3847 -1.000000244444,1 -1.53000008e-5,4.5937 0,9.4063 0,14 0,0.5458 0.493417304444,1 1.000000244444,1 l 20.0000002,0 c 0.515688,0 1,-0.437 1,-1 l 0,-13 c 0,-0.577 -0.423105,-1 -1,-1 l -2,0 0,-2 c 0,-0.4874 -0.401824,-1 -1,-1 z"
        id="path2995"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccssssscssc" />
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 3.0000118,1032.3622 c -0.544455,0 -1,0.3989 -1,1 l 0,1 -1,0 c -0.50675974,0 -1.000000244444,0.3965 -1.000000244444,1 -2.6e-5,4.5937 0,9.4063 0,14 0,0.4872 0.419198504444,1 1.000000244444,1 l 20.0000002,0 c 0.521212,0 1,-0.4426 1,-1 l 0,-13 c 0,-0.5731 -0.393904,-1 -1,-1 l -2,0 0,-2 c 0,-0.5585 -0.457433,-1 -1,-1 z m 10.0000002,3 0,1 8,0 0,13 -20.0000002,0 0,-14 z"
        id="path3786"
        inkscape:connector-curvature="0"
@@ -116,15 +116,15 @@
     <polygon
        id="polygon3475-1"
        transform="matrix(7.6973814e-5,0,0,7.8029168e-5,5.7504748,1039.3622)"
-       style="fill:#000000;fill-opacity:0.32156864000000002;fill-rule:evenodd;opacity:1"
+       style="fill:replacecolour3;fill-opacity:1.;fill-rule:evenodd;opacity:1"
        points="133156,76894 110963,115341 22194,115341 44385,76894 " />
     <polygon
        id="polygon3477-6"
        transform="matrix(7.8854581e-5,0,0,7.8029495e-5,5.5000394,1038.3622)"
-       style="fill:#000000;fill-opacity:0.32156864000000002;fill-rule:evenodd;opacity:1"
+       style="fill:replacecolour3;fill-opacity:1.;fill-rule:evenodd;opacity:1"
        points="133156,76894 88772,0 44385,0 88772,76894 " />
     <path
-       style="fill:#000000;fill-opacity:0.32156864000000002;fill-rule:evenodd;opacity:1"
+       style="fill:replacecolour3;fill-opacity:1.;fill-rule:evenodd;opacity:1"
        d="m 8.5356533,1038.9336 -3.3126087,5.7328 1.5511139,3.3323 L 10,1041.9336 z"
        id="polygon3479-9"
        inkscape:connector-curvature="0"

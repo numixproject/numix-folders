@@ -366,7 +366,7 @@
          id="path3053" />
     </g>
     <g
-       style="fill:#fff8e1;fill-opacity:1;enable-background:new"
+       style="fill:replacecolour3;fill-opacity:1;enable-background:new"
        id="g4113"
        transform="matrix(0.5625,0,0,0.5625,4.0000003,1035.3622)">
       <path
@@ -374,17 +374,17 @@
          d="m 3.555555,3.5555556 0,5.3333333 3.5555556,0 0,-5.3333333 z"
          id="path8"
          inkscape:connector-curvature="0"
-         style="fill:#fff8e1;fill-opacity:1" />
+         style="fill:replacecolour3;fill-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="path3838"
          d="M 5.3333328,14.222222 3.555555,16 l 8.888889,0 -1.777778,-1.777778 0,-3.555555 -5.3333332,0 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour3;fill-opacity:1;stroke:none" />
       <path
          id="rect3831"
          d="M 1.7777772,0 C 0.66977724,0 -5.3333333e-7,0.66977778 -5.3333333e-7,1.7777778 l 0,8.8888892 c 0,1.108 0.66977777333333,1.777777 1.77777773333333,1.777777 l 12.4444448,0 c 1.108,0 1.777777,-0.669777 1.777777,-1.777777 l 0,-8.8888892 C 15.999999,0.66977778 15.330222,0 14.222222,0 z m 0,1.7777778 12.4444448,0 0,8.8888892 -12.4444448,0 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none"
+         style="fill:replacecolour3;fill-opacity:1;stroke:none"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="sssssssssccccc" />
     </g>

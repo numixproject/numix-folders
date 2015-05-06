@@ -356,11 +356,11 @@
     <g
        id="g4017"
        transform="matrix(1.3846154,0,0,1.3846154,8,-420.7547)"
-       style="fill:#fff8e1;fill-opacity:1">
+       style="fill:replacecolour3;fill-opacity:1">
       <path
          id="path4019"
          d="m 1,1039.3622 c 0,0 -1,0.038 -1,1 l 0,1.8889 1.4444444,0 0,-1.4444 1.4444445,0 0,-1.4445 -1.7951389,0 z m 3.3333333,0 0,1.4445 1.4444445,0 0,-1.4445 z m 2.8888889,0 0,1.4445 1.4444445,0 0,-1.4445 z m 2.8888888,0 0,1.4445 1.444445,0 0,1.4444 1.444444,0 0,-1.8889 c 0,-1 -1,-1 -1,-1 z M 0,1043.6955 l 0,1.4445 1.4444444,0 0,-1.4445 z m 11.555556,0 0,1.4445 1.444444,0 0,-1.4445 z M 0,1046.5844 l 0,1.4445 1.4444444,0 0,-1.4445 z m 11.555556,0 0,1.4445 1.444444,0 0,-1.4445 z M 0,1049.4733 l 0,1.8889 c 0,1 1,1 1,1 l 1.8888889,0 0,-1.4444 -1.4444445,0 0,-1.4445 z m 11.555556,0 0,1.4445 -1.444445,0 0,1.4444 1.888889,0 c 0,0 1,0 1,-1 l 0,-1.8889 z m -7.2222227,1.4445 0,1.4444 1.4444445,0 0,-1.4444 z m 2.8888889,0 0,1.4444 1.4444445,0 0,-1.4444 z"
-         style="line-height:normal;color:#000000;fill:#fff8e1;fill-opacity:1"
+         style="line-height:normal;color:#000000;fill:replacecolour3;fill-opacity:1"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="csccccccccccccccccccccccscccccccccccccccccccccccscccccccccccscccccccccccc" />
     </g>

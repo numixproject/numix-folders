@@ -25,11 +25,11 @@
        inkscape:collect="always"
        id="linearGradient3760">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:replacecolour3;stop-opacity:1;"
          offset="0"
          id="stop3762" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3764" />
     </linearGradient>
@@ -70,11 +70,11 @@
        inkscape:collect="always"
        id="linearGradient3846">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:replacecolour3;stop-opacity:1;"
          offset="0"
          id="stop3849" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3852" />
     </linearGradient>
@@ -126,22 +126,22 @@
        inkscape:collect="always"
        id="linearGradient3861">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:replacecolour3;stop-opacity:1;"
          offset="0"
          id="stop3863" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3865" />
     </linearGradient>
     <linearGradient
        id="linearGradient3844">
       <stop
-         style="stop-color:#000000;stop-opacity:0.39215687;"
+         style="stop-color:replacecolour3;stop-opacity:0.39215687;"
          offset="0"
          id="stop3846" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3848" />
     </linearGradient>
@@ -290,19 +290,19 @@
      id="layer1"
      transform="translate(0,-1028.3622)">
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 4.0000118,1031.3622 c -0.547331,0 -1,0.4097 -1,1 l 0,1 -1,0 c -0.5019275,0 -1.0000002,0.3847 -1.0000002,1 -1.534e-5,4.5937 0,9.4063 0,14 0,0.5458 0.4934173,1 1.0000002,1 l 20.0000002,0 c 0.515688,0 1,-0.437 1,-1 l 0,-13 c 0,-0.577 -0.423105,-1 -1,-1 l -2,0 0,-2 c 0,-0.4874 -0.401824,-1 -1,-1 z"
        id="path2995"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccssssscssc" />
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 4.0000118,1031.3622 c -0.544455,0 -1,0.3989 -1,1 l 0,1 -1,0 c -0.5067597,0 -1.0000002,0.3965 -1.0000002,1 -2.604e-5,4.5937 0,9.4063 0,14 0,0.4872 0.4191985,1 1.0000002,1 l 20.0000002,0 c 0.521212,0 1,-0.4426 1,-1 l 0,-13 c 0,-0.5731 -0.393904,-1 -1,-1 l -2,0 0,-2 c 0,-0.5585 -0.457433,-1 -1,-1 z m 10.0000002,3 0,1 8,0 0,13 -20.0000002,0 0,-14 z"
        id="path3786"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssccccssssscsssccccccc" />
     <path
-       style="fill:#000000;fill-opacity:0.32156863;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1.;stroke:none"
        d="m 9,1037.3622 c -0.554,0 -1,0.446 -1,1 l 0,8 c 0,0.554 0.446,1 1,1 l 6,0 c 0.554,0 1,-0.446 1,-1 l 0,-8 c 0,-0.554 -0.446,-1 -1,-1 l -6,0 z m 0.5,1 c 0.2761424,0 0.5,0.2239 0.5,0.5 0,0.2761 -0.2238576,0.5 -0.5,0.5 -0.2761424,0 -0.5,-0.2239 -0.5,-0.5 0,-0.2761 0.2238576,-0.5 0.5,-0.5 z m 5,0 c 0.276142,0 0.5,0.2239 0.5,0.5 0,0.2761 -0.223858,0.5 -0.5,0.5 -0.276142,0 -0.5,-0.2239 -0.5,-0.5 0,-0.2761 0.223858,-0.5 0.5,-0.5 z m -2.5,1 c 0.552285,0 1,0.4477 1,1 0,0.5523 -0.447715,1 -1,1 -0.552285,0 -1,-0.4477 -1,-1 0,-0.5523 0.447715,-1 1,-1 z m -2.5,2 c 0.2761424,0 0.5,0.2239 0.5,0.5 0,0.2761 -0.2238576,0.5 -0.5,0.5 -0.2761424,0 -0.5,-0.2239 -0.5,-0.5 0,-0.2761 0.2238576,-0.5 0.5,-0.5 z m 5,0 c 0.276142,0 0.5,0.2239 0.5,0.5 0,0.2761 -0.223858,0.5 -0.5,0.5 -0.276142,0 -0.5,-0.2239 -0.5,-0.5 0,-0.2761 0.223858,-0.5 0.5,-0.5 z m -5.25,4 5.5,0 c 0.1385,0 0.25,0.1115 0.25,0.25 l 0,0.5 c 0,0.1385 -0.1115,0.25 -0.25,0.25 l -5.5,0 c -0.1385,0 -0.25,-0.1115 -0.25,-0.25 l 0,-0.5 c 0,-0.1385 0.1115,-0.25 0.25,-0.25 z"
        id="rect3828"
        inkscape:connector-curvature="0" />

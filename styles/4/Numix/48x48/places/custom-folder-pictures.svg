@@ -107,7 +107,7 @@
        id="rect2991"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.4;fill:replacecolour3;fill-opacity:1;fill-rule:evenodd"
+       style="opacity:1.0;fill:replacecolour3;fill-opacity:1;fill-rule:evenodd"
        d="M 18 19 C 16.892 19 16 19.892 16 21 L 16 29 L 16 33 C 16 34.108 16.892 35 18 35 L 30 35 C 31.108 35 32 34.108 32 33 L 32 32 L 32 21 C 32 19.892 31.108 19 30 19 L 18 19 z M 18 21 L 30 21 L 30 29.625 L 26.5 25.5 L 24.28125 27.6875 L 21 24 L 18 27 L 18 21 z "
        transform="translate(0,1004.3622)"
        id="path12" />

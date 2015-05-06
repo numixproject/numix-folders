@@ -350,7 +350,7 @@
        sodipodi:nodetypes="scscsssscccscssccsssscccsssss" />
     <path
        sodipodi:type="arc"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        id="path3001"
        sodipodi:cx="-6.8228297"
        sodipodi:cy="8.2585173"
@@ -366,10 +366,10 @@
        sodipodi:cy="8.2585173"
        sodipodi:cx="-6.8228297"
        id="path3003"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        sodipodi:type="arc" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        id="rect3005"
        width="3.9999995"
        height="28.285772"
@@ -385,9 +385,9 @@
        height="28.285772"
        width="3.9999998"
        id="rect3007-0"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+       style="fill:replacecolour3;fill-opacity:1;stroke:none" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        id="rect3009"
        width="23.999998"
        height="12.000209"

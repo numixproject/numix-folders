@@ -388,11 +388,11 @@
     <g
        id="g4017"
        transform="matrix(0.53846154,0,0,0.53846154,2,480.70563)"
-       style="fill:#fff8e1;fill-opacity:1">
+       style="fill:replacecolour3;fill-opacity:1">
       <path
          id="path4019"
          d="m 1,1039.3622 c 0,0 -1,0.038 -1,1 l 0,2.7143 1.8571429,0 0,-1.8572 1.8571428,0 0,-1.8571 -2.6205357,0 z m 8.2857143,0 0,1.8571 1.8571427,0 0,1.8572 1.857143,0 0,-2.7143 c 0,-1 -1,-1 -1,-1 z M 0,1048.6479 l 0,2.7143 c 0,1 1,1 1,1 l 2.7142857,0 0,-1.8571 -1.8571428,0 0,-1.8572 z m 11.142857,0 0,1.8572 -1.8571427,0 0,1.8571 2.7142857,0 c 0,0 1,0 1,-1 l 0,-2.7143 z"
-         style="line-height:normal;color:#000000;fill:#fff8e1;fill-opacity:1"
+         style="line-height:normal;color:#000000;fill:replacecolour3;fill-opacity:1"
          inkscape:connector-curvature="0"
          sodipodi:nodetypes="csccccccccccccscccscccccccccccscc" />
     </g>
@@ -404,7 +404,7 @@
        id="rect3892"
        style="fill:#000000;fill-opacity:0.09803922;fill-rule:evenodd;stroke:none" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3064"
        width="1"
        height="1"
@@ -418,7 +418,7 @@
        id="rect3894"
        style="fill:#000000;fill-opacity:0.09803922;fill-rule:evenodd;stroke:none" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3064-4"
        width="1"
        height="1"
@@ -432,7 +432,7 @@
        id="rect3896"
        style="fill:#000000;fill-opacity:0.09803922;fill-rule:evenodd;stroke:none" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3064-4-4"
        width="1"
        height="1"
@@ -446,7 +446,7 @@
        id="rect3898"
        style="fill:#000000;fill-opacity:0.09803922;fill-rule:evenodd;stroke:none" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3064-4-4-0"
        width="1"
        height="1"

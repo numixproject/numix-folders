@@ -21,11 +21,11 @@
     <linearGradient
        id="linearGradient3855">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:replacecolour3;stop-opacity:1;"
          offset="0"
          id="stop3857" />
       <stop
-         style="stop-color:#000000;stop-opacity:0.29411766;"
+         style="stop-color:replacecolour3;stop-opacity:0.29411766;"
          offset="1"
          id="stop3859" />
     </linearGradient>
@@ -77,22 +77,22 @@
        inkscape:collect="always"
        id="linearGradient3861">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:replacecolour3;stop-opacity:1;"
          offset="0"
          id="stop3863" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3865" />
     </linearGradient>
     <linearGradient
        id="linearGradient3844">
       <stop
-         style="stop-color:#000000;stop-opacity:0.39215687;"
+         style="stop-color:replacecolour3;stop-opacity:0.39215687;"
          offset="0"
          id="stop3846" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3848" />
     </linearGradient>
@@ -297,18 +297,18 @@
      id="layer1"
      transform="translate(0,-1004.3622)">
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 6.000023,1010.3622 c -1,0 -2,1 -2,2 l 0,2 -1,0 c -1,0 -2.00556897,0.9492 -2,2 l 0,28 c 1.28e-4,1.1207 1.037763,1.9999 2.1875,2 l 41.625,0 c 1.1875,0 2.1875,-1 2.1875,-2 l 0,-25 c 0,-1 -1,-2 -2,-2 l -2,0 0,-5 c 0,-1 -1,-2 -2,-2 z"
        id="path3770"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sscsccccccccsss" />
     <path
        inkscape:connector-curvature="0"
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 6.000023,1010.3622 c -1,0 -2,1 -2,2 l 0,2 -1,0 c -1,0 -2.00556897,0.9492 -2,2 l 0,28 c 1.28e-4,1.1207 1.037763,1.9999 2.1875,2 l 41.625,0 c 1.1875,0 2.1875,-1 2.1875,-2 l 0,-25 c 0,-1 -1,-2 -2,-2 l -2,0 0,-5 c 0,-1 -1,-2 -2,-2 l -35,0 z m -3,5 24,0 c 0.507314,0 1,0.4942 1,1 l 0,2 17,0 c 0.540858,0 1,0.4718 1,1 l 0,25 c 0,0.5538 -0.452115,1 -1,1 l -42,0 c -0.512726,0 -1,-0.4462 -1,-1 l 0,-28 c 0,-0.5433 0.479042,-1 1,-1 z"
        id="path3779" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:0.32156864000000002;fill-rule:nonzero;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none"
        d="M 16 20 L 16 23 C 22.764434 23.7469 29.026786 29.2767 29 36 L 32 36 C 32 26.3957 23.374909 20.304 16 20 z M 16 25 L 16 28 C 19.665768 28.3014 23.95912 31.7227 24 36 L 27 36 C 26.840568 29.4778 20.553448 25.4631 16 25 z M 18.5625 31 C 17.182146 30.96 16.03892 32.0575 16 33.4375 C 15.95911 34.817 17.056486 35.958 18.4375 36 C 19.817854 36.0398 20.96107 34.9426 21 33.5625 C 21.04089 32.1832 19.943514 31.042 18.5625 31 z "
        transform="translate(0,1004.3622)"
        id="path3392" />

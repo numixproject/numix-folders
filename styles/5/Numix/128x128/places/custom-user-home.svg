@@ -368,25 +368,25 @@
     <g
        id="g4056"
        transform="matrix(2.6675882,0,0,2.5714234,14.664824,979.2194)"
-       style="fill:#fff8e1;fill-opacity:1">
+       style="fill:replacecolour3;fill-opacity:1">
       <path
          sodipodi:nodetypes="cssccccsscc"
          inkscape:connector-curvature="0"
          id="rect2989"
          d="m 2,8 0,6 c 0,1.108 0.892,2 2,2 l 2.4984456,10e-6 0,-4.666676 2.9989638,0 0,4.666676 L 12,16 c 1.108,-4e-6 2,-0.892 2,-2 l 0,-6 z"
-         style="fill:#fff8e1;fill-opacity:1" />
+         style="fill:replacecolour3;fill-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="path3761"
          d="m 2,7 c -2.20338983,2 -2.99999994,2.7777751 10e-8,2.7777751 l 11.9958549,0 C 16.995855,9.7777751 16.288136,9 14,7 L 9,2 C 8,1 8,1 7,2 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour3;fill-opacity:1;stroke:none" />
       <path
          sodipodi:nodetypes="ssccss"
          inkscape:connector-curvature="0"
          id="rect3763"
          d="M 13.246114,2 C 13.793829,1.9999818 14,2.446 14,3 l 0,4 -1.503627,-0.3333423 0,-3.686674 c 0,-0.554 0.246114,-0.9799669 0.749741,-0.9799837 z"
-         style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+         style="fill:replacecolour3;fill-opacity:1;stroke:none" />
     </g>
   </g>
 </svg>

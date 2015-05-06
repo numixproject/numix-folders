@@ -194,13 +194,13 @@
        transform="translate(0,1020.3622)"
        id="path5070" />
     <path
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="M 4 15 L 4 17 C 7.8049938 17.4202 11.015067 20.2181 11 24 L 13 24 C 13 18.5976 8.1483865 15.171 4 15 z M 4 18 L 4 20 C 6.0619945 20.1696 7.977005 21.594 8 24 L 10 24 C 9.910315 20.3312 6.5613145 18.2605 4 18 z "
        transform="translate(0,1020.3622)"
        id="path3394" />
     <path
        sodipodi:type="arc"
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="path3016"
        sodipodi:cx="11.5"
        sodipodi:cy="23.5"

@@ -196,15 +196,15 @@
     <polygon
        id="polygon3475-1"
        transform="matrix(6.8311909e-5,0,0,5.202159e-5,3.9006019,1038.3621)"
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;fill-rule:evenodd"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;fill-rule:evenodd"
        points="110963,115341 22194,115341 44385,76894 133156,76894 " />
     <polygon
        id="polygon3477-6"
        transform="matrix(6.7518531e-5,0,0,6.5024579e-5,4.006245,1036.3622)"
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;fill-rule:evenodd"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;fill-rule:evenodd"
        points="44385,0 88772,76894 133156,76894 88772,0 " />
     <path
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;fill-rule:evenodd"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;fill-rule:evenodd"
        d="m 6.4284965,1036.6559 -2.5893512,4.6052 0.8706983,2.7589 3.0390417,-4.9401 z"
        id="polygon3479-9"
        inkscape:connector-curvature="0"

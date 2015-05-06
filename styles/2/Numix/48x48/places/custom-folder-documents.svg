@@ -52,18 +52,18 @@
        id="grid3001" />
   </sodipodi:namedview>
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
      d="m 6.000023,6 c -1,0 -2,1 -2,2 l 0,2 -1,0 c -1,0 -2.00556897,0.949207 -2,2 l 0,28 c 1.28e-4,1.120734 1.037763,1.9999 2.1875,2 l 41.625,0 c 1.1875,0 2.1875,-1 2.1875,-2 l 0,-25 c 0,-1 -1,-2 -2,-2 l -2,0 0,-5 c 0,-1 -1,-2 -2,-2 z"
      id="path3770"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="sscsccccccccsss" />
   <path
      inkscape:connector-curvature="0"
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
      d="m 6.000023,6 c -1,0 -2,1 -2,2 l 0,2 -1,0 c -1,0 -2.00556897,0.949207 -2,2 l 0,28 c 1.28e-4,1.120734 1.037763,1.9999 2.1875,2 l 41.625,0 c 1.1875,0 2.1875,-1 2.1875,-2 l 0,-25 c 0,-1 -1,-2 -2,-2 l -2,0 0,-5 c 0,-1 -1,-2 -2,-2 l -35,0 z m -3,5 24,0 c 0.507314,0 1,0.494167 1,1 l 0,2 17,0 c 0.540858,0 1,0.471809 1,1 l 0,25 c 0,0.553755 -0.452115,1 -1,1 l -42,0 c -0.512726,0 -1,-0.446246 -1,-1 l 0,-28 c 0,-0.543318 0.479042,-1 1,-1 z"
      id="path3779" />
   <path
-     style="opacity:1;fill:#000000;fill-opacity:0.32156864000000002;stroke:none"
+     style="opacity:1;fill:replacecolour3;fill-opacity:1.;stroke:none"
      d="M 20 20 C 18.892 20 18 20.892 18 22 L 18 34 C 18 35.108 18.892 36 20 36 L 28 36 C 29.108 36 30 35.108 30 34 L 30 25 L 25 20 L 20 20 z M 20 22 L 25 22 L 25 25 L 28 25 L 28 34 L 20 34 L 20 22 z M 21.25 27 C 21.1115 27 21 27.1115 21 27.25 L 21 27.75 C 21 27.8885 21.1115 28 21.25 28 L 24.75 28 C 24.8885 28 25 27.8885 25 27.75 L 25 27.25 C 25 27.1115 24.8885 27 24.75 27 L 21.25 27 z M 21.25 29 C 21.1115 29 21 29.1115 21 29.25 L 21 29.75 C 21 29.8885 21.1115 30 21.25 30 L 26.75 30 C 26.8885 30 27 29.8885 27 29.75 L 27 29.25 C 27 29.1115 26.8885 29 26.75 29 L 21.25 29 z M 21.25 31 C 21.1115 31 21 31.1115 21 31.25 L 21 31.75 C 21 31.8885 21.1115 32 21.25 32 L 26.75 32 C 26.8885 32 27 31.8885 27 31.75 L 27 31.25 C 27 31.1115 26.8885 31 26.75 31 L 21.25 31 z "
      id="rect2991-3" />
 </svg>

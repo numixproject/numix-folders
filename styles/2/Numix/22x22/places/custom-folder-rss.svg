@@ -36,11 +36,11 @@
        inkscape:collect="always"
        id="linearGradient3760">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:replacecolour3;stop-opacity:1;"
          offset="0"
          id="stop3762" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3764" />
     </linearGradient>
@@ -102,19 +102,19 @@
      id="layer1"
      transform="translate(0,-1030.3622)">
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 3.0000118,1032.3622 c -0.547331,0 -1,0.4097 -1,1 l 0,1 -1,0 c -0.50192753,0 -1.000000226667,0.3847 -1.000000226667,1 -1.53399997e-5,4.5937 0,9.4063 0,14 0,0.5458 0.493417296667,1 1.000000226667,1 l 20.0000002,0 c 0.515688,0 1,-0.437 1,-1 l 0,-13 c 0,-0.577 -0.423105,-1 -1,-1 l -2,0 0,-2 c 0,-0.4874 -0.401824,-1 -1,-1 z"
        id="path2995"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccssssscssc" />
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1.03313816;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 3.0000118,1032.3622 c -0.544455,0 -1,0.3989 -1,1 l 0,1 -1,0 c -0.50675973,0 -1.000000226667,0.3965 -1.000000226667,1 -2.604e-5,4.5937 0,9.4063 0,14 0,0.4872 0.419198496667,1 1.000000226667,1 l 20.0000002,0 c 0.521212,0 1,-0.4426 1,-1 l 0,-13 c 0,-0.5731 -0.393904,-1 -1,-1 l -2,0 0,-2 c 0,-0.5585 -0.457433,-1 -1,-1 z m 10.0000002,3 0,1 8,0 0,13 -20.0000002,0 0,-14 z"
        id="path3786"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssccccssssscsssccccccc" />
     <path
-       style="fill:#000000;fill-opacity:0.32156864000000002;fill-rule:nonzero;stroke:none;opacity:1"
+       style="fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;opacity:1"
        d="M 6 8 L 6 10 C 10.227771 10.4668 14.016741 13.7979 14 18 L 16 18 C 16 11.9973 10.609318 8.19 6 8 z M 6 11 L 6 13 C 8.291105 13.1884 10.97445 15.3267 11 18 L 13 18 C 12.90035 13.9236 8.845905 11.2894 6 11 z M 7.5 15 C 6.6715729 15 6 15.671573 6 16.5 C 6 17.328427 6.6715729 18 7.5 18 C 8.3284271 18 9 17.328427 9 16.5 C 9 15.671573 8.3284271 15 7.5 15 z "
        transform="translate(0,1030.3622)"
        id="path3394" />

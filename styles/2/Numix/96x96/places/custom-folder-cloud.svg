@@ -21,11 +21,11 @@
     <linearGradient
        id="linearGradient3855">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:replacecolour3;stop-opacity:1;"
          offset="0"
          id="stop3857" />
       <stop
-         style="stop-color:#000000;stop-opacity:0.29411766;"
+         style="stop-color:replacecolour3;stop-opacity:0.29411766;"
          offset="1"
          id="stop3859" />
     </linearGradient>
@@ -77,22 +77,22 @@
        inkscape:collect="always"
        id="linearGradient3861">
       <stop
-         style="stop-color:#000000;stop-opacity:1;"
+         style="stop-color:replacecolour3;stop-opacity:1;"
          offset="0"
          id="stop3863" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3865" />
     </linearGradient>
     <linearGradient
        id="linearGradient3844">
       <stop
-         style="stop-color:#000000;stop-opacity:0.39215687;"
+         style="stop-color:replacecolour3;stop-opacity:0.39215687;"
          offset="0"
          id="stop3846" />
       <stop
-         style="stop-color:#000000;stop-opacity:0;"
+         style="stop-color:replacecolour3;stop-opacity:0;"
          offset="1"
          id="stop3848" />
     </linearGradient>
@@ -257,20 +257,20 @@
      id="layer1"
      transform="translate(0,-956.3622)">
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 12.000041,968.36224 c -1.999999,0 -3.999998,2 -3.999998,3.99999 l 0,4 -1.999999,0 c -1.999999,0 -4.0111358,1.8984 -3.999998,4 l 0,55.99997 c 2.56e-4,2.2414 2.075525,3.9998 4.3749978,4 l 83.2499582,0 c 2.374999,0 4.374998,-2 4.374998,-4 l 0,-49.99997 c 0,-2 -1.999999,-4 -3.999998,-4 l -3.999998,0 0,-10 c 0,-1.99999 -1.999999,-3.99999 -3.999998,-3.99999 z"
        id="path3770"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sscsccccccccsss" />
     <path
        inkscape:connector-curvature="0"
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 12.000041,968.36224 c -1.999999,0 -3.999998,2 -3.999998,3.99999 l 0,4 -1.999999,0 c -1.999999,0 -4.0111358,1.8984 -3.999998,4 l 0,55.99997 c 2.56e-4,2.2414 2.075525,3.9998 4.3749978,4 l 83.2499582,0 c 2.374999,0 4.374998,-2 4.374998,-4 l 0,-49.99997 c 0,-2 -1.999999,-4 -3.999998,-4 l -3.999998,0 0,-10 c 0,-1.99999 -1.999999,-3.99999 -3.999998,-3.99999 l -69.999965,0 z m -5.999997,9.99999 47.999976,0 c 1.014627,0 1.999999,0.9884 1.999999,2 l 0,4 33.999983,0 c 1.081715,0 1.999999,0.9436 1.999999,2 l 0,49.99997 c 0,1.1076 -0.90423,2 -1.999999,2 l -83.999958,0 c -1.0254515,0 -1.999999,-0.8924 -1.999999,-2 l 0,-55.99997 c 0,-1.0866 0.9580835,-2 1.999999,-2 z"
        id="path3779" />
     <path
        inkscape:connector-curvature="0"
        id="rect3408"
-       style="fill:#000000;fill-opacity:0.32156863;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1.;stroke:none"
        d="m 46.5233,1008.3624 0.04426,0 c 0.390648,0 0.705139,0.3566 0.705139,0.7998 l 0,7.1998 c 0,0.4434 -0.314491,0.8002 -0.705139,0.8002 l -0.04426,0 c -0.390648,0 -0.70514,-0.3568 -0.70514,-0.8002 l 0,-7.1998 c 0,-0.4432 0.314492,-0.7998 0.70514,-0.7998 z m -2.523321,8.9998 a 5.9999966,6.9999901 0 0 1 -5.999997,7 5.9999966,6.9999901 0 0 1 -5.999997,-7 5.9999966,6.9999901 0 0 1 5.999997,-7 5.9999966,6.9999901 0 0 1 5.999997,7 z m 7.999996,-9 a 7.999996,7.9999892 0 0 1 -7.999996,8 7.999996,7.9999892 0 0 1 -7.999996,-8 7.999996,7.9999892 0 0 1 7.999996,-8 7.999996,7.9999892 0 0 1 7.999996,8 z m 7.999996,2.0002 a 5.9999968,5.999992 0 0 1 -5.999997,5.9998 5.9999968,5.999992 0 0 1 -5.999997,-5.9998 5.9999968,5.999992 0 0 1 5.999997,-6.0002 5.9999968,5.999992 0 0 1 5.999997,6.0002 z m 3.999998,7.9998 a 5.9999966,5.999992 0 0 1 -5.999997,6 5.9999966,5.999992 0 0 1 -5.999997,-6 5.9999966,5.999992 0 0 1 5.999997,-6 5.9999966,5.999992 0 0 1 5.999997,6 z m -26.181805,-9.2 19.636354,0 0,15.2 -19.636354,0 z" />
   </g>
 </svg>

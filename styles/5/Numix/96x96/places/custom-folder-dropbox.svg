@@ -328,7 +328,7 @@
     <path
        id="path3871"
        d="m 19.000001,1001.9178 -6.999999,6.2222 6.999999,4.6666 -6.999999,6.2222 13.999998,9.3334 14,-9.3334 -7,-6.2222 7,-4.6666 -7,-6.2222 -7,6.2222 z"
-       style="line-height:normal;color:#000000;fill:#fff8e1;fill-opacity:1"
+       style="line-height:normal;color:#000000;fill:replacecolour3;fill-opacity:1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccc" />
   </g>

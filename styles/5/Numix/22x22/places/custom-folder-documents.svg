@@ -170,7 +170,7 @@
        id="path3786"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        d="m 4,1040.3622 c -0.554,0 -1,0.446 -1,1 l 0,5 c 0,0.554 0.446,1 1,1 l 4,0 c 0.554,0 1,-0.446 1,-1 l 0,-4 0,-1 c 0,-0.554 -0.446,-1 -1,-1 l -1,0 -3,0 z m 1,1 2,0 0,1 1,0 0,3 c 0,0.554 -0.446,1 -1,1 l -2,0 c -0.554,0 -1,-0.446 -1,-1 l 0,-3 c 0,-0.554 0.446,-1 1,-1 z"
        id="rect3807"
        inkscape:connector-curvature="0" />
@@ -182,9 +182,9 @@
        height="1.0000174"
        width="1"
        id="rect3812"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+       style="fill:replacecolour3;fill-opacity:1;stroke:none" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        id="rect3814"
        width="2"
        height="1.0000174"
@@ -200,10 +200,10 @@
     <path
        id="path3848"
        d="m 4,1040.3622 c -0.554,0 -1,0.446 -1,1 l 0,5 c 0,0.554 0.446,1 1,1 l 4,0 c 0.554,0 1,-0.446 1,-1 l 0,-4 0,-1 c 0,-0.554 -0.446,-1 -1,-1 l -1,0 -3,0 z m 1,1 2,0 0,1 1,0 0,3 c 0,0.554 -0.446,1 -1,1 l -2,0 c -0.554,0 -1,-0.446 -1,-1 l 0,-3 c 0,-0.554 0.446,-1 1,-1 z"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;stroke:none"
        id="rect3850"
        width="1"
        height="1.0000174"
@@ -219,6 +219,6 @@
        height="1.0000174"
        width="2"
        id="rect3852"
-       style="fill:#fff8e1;fill-opacity:1;stroke:none" />
+       style="fill:replacecolour3;fill-opacity:1;stroke:none" />
   </g>
 </svg>

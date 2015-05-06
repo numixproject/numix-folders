@@ -170,7 +170,7 @@
        id="path3786"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;stroke:none"
        d="M 5 11 C 4.446 11 4 11.446 4 12 L 4 17 C 4 17.554 4.446 18 5 18 L 9 18 C 9.554 18 10 17.554 10 17 L 10 13 L 10 12 C 10 11.446 9.554 11 9 11 L 8 11 L 5 11 z M 6 12 L 8 12 L 8 13 L 9 13 L 9 16 C 9 16.554 8.554 17 8 17 L 6 17 C 5.446 17 5 16.554 5 16 L 5 13 C 5 12.446 5.446 12 6 12 z "
        id="rect3807"
        transform="translate(0,1028.3622)" />
@@ -182,9 +182,9 @@
        height="1.0000174"
        width="1"
        id="rect3812"
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;stroke:none" />
     <rect
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;stroke:none"
        id="rect3814"
        width="2"
        height="1.0000174"
@@ -201,9 +201,9 @@
        transform="translate(0,1028.3622)"
        id="path3848"
        d="M 5 11 C 4.446 11 4 11.446 4 12 L 4 17 C 4 17.554 4.446 18 5 18 L 9 18 C 9.554 18 10 17.554 10 17 L 10 13 L 10 12 C 10 11.446 9.554 11 9 11 L 8 11 L 5 11 z M 6 12 L 8 12 L 8 13 L 9 13 L 9 16 C 9 16.554 8.554 17 8 17 L 6 17 C 5.446 17 5 16.554 5 16 L 5 13 C 5 12.446 5.446 12 6 12 z "
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;stroke:none" />
     <rect
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;stroke:none"
        id="rect3850"
        width="1"
        height="1.0000174"
@@ -219,6 +219,6 @@
        height="1.0000174"
        width="2"
        id="rect3852"
-       style="opacity:1;fill:#fff8e1;fill-opacity:1;stroke:none" />
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;stroke:none" />
   </g>
 </svg>

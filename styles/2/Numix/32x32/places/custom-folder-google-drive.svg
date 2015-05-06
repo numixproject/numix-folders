@@ -27,11 +27,11 @@
       <stop
          id="stop3960"
          offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
+         style="stop-color:replacecolour3;stop-opacity:1;" />
       <stop
          id="stop3962"
          offset="1"
-         style="stop-color:#000000;stop-opacity:0;" />
+         style="stop-color:replacecolour3;stop-opacity:0;" />
     </linearGradient>
     <radialGradient
        gradientUnits="userSpaceOnUse"
@@ -72,11 +72,11 @@
       <stop
          id="stop3960-2"
          offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
+         style="stop-color:replacecolour3;stop-opacity:1;" />
       <stop
          id="stop3962-1"
          offset="1"
-         style="stop-color:#000000;stop-opacity:0;" />
+         style="stop-color:replacecolour3;stop-opacity:0;" />
     </linearGradient>
   </defs>
   <sodipodi:namedview
@@ -125,13 +125,13 @@
      id="layer1"
      transform="translate(0,-1020.3622)">
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 4,1024.3622 c -0.4916,0 -1,0.4731 -1,1 l 0,1 c -0.6666667,0 -0.8333333,0 -1.5,0 -0.9791617,0 -1.5,0.494 -1.5,1.5 l 0,19 c 0,1.0315 0.5230687,1.5 1.5,1.5 l 28.84375,0 c 0.871969,0 1.65625,-0.6232 1.65625,-1.5 l 0,-17 c 0,-0.9413 -0.425107,-1.5 -1.5,-1.5 l -2.5,0 0,-3 c 0,-0.5269 -0.508401,-1 -1,-1 z"
        id="path3004"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssccssssscccsss" />
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 4,1024.3622 c -0.4916,0 -1,0.4731 -1,1 l 0,1 c -0.6868035,0 -0.8835353,0 -1.5,0 -0.9791617,0 -1.5,0.483 -1.5,1.5 l 0,19 c 0,1.0038 0.5009716,1.5 1.5,1.5 l 28.84375,0 c 0.871969,0 1.65625,-0.6232 1.65625,-1.5 l 0,-16.9482 c 0,-1.014 -0.419084,-1.5518 -1.5,-1.5518 l -2.5,0 0,-3 c 0,-0.5269 -0.508401,-1 -1,-1 z m 15,3 0,2 12,0 0,18 -30,0 0,-20 z"
        id="path3784"
        inkscape:connector-curvature="0"
@@ -139,15 +139,15 @@
     <polygon
        id="polygon3475-1"
        transform="matrix(8.955039e-5,0,0,7.8028193e-5,10.271888,1034.3624)"
-       style="opacity:1;fill:#000000;fill-opacity:0.32156864000000002;fill-rule:evenodd"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1.;fill-rule:evenodd"
        points="44385,76894 133156,76894 110963,115341 22194,115341 " />
     <polygon
        id="polygon3477-6"
        transform="matrix(8.8510347e-5,0,0,9.1034411e-5,10.410376,1032.3623)"
-       style="opacity:1;fill:#000000;fill-opacity:0.32156864000000002;fill-rule:evenodd"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1.;fill-rule:evenodd"
        points="88772,76894 133156,76894 88772,0 44385,0 " />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:0.32156864000000002;fill-rule:evenodd"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1.;fill-rule:evenodd"
        d="m 13.710336,1032.9909 -3.910336,6.306 1.830997,3.6656 3.807912,-6.6716 z"
        id="polygon3479-9"
        inkscape:connector-curvature="0"

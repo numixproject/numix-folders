@@ -27,11 +27,11 @@
       <stop
          id="stop3960"
          offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
+         style="stop-color:replacecolour3;stop-opacity:1;" />
       <stop
          id="stop3962"
          offset="1"
-         style="stop-color:#000000;stop-opacity:0;" />
+         style="stop-color:replacecolour3;stop-opacity:0;" />
     </linearGradient>
     <radialGradient
        gradientUnits="userSpaceOnUse"
@@ -72,11 +72,11 @@
       <stop
          id="stop3960-2"
          offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
+         style="stop-color:replacecolour3;stop-opacity:1;" />
       <stop
          id="stop3962-1"
          offset="1"
-         style="stop-color:#000000;stop-opacity:0;" />
+         style="stop-color:replacecolour3;stop-opacity:0;" />
     </linearGradient>
   </defs>
   <sodipodi:namedview
@@ -125,19 +125,19 @@
      id="layer1"
      transform="translate(0,-1020.3622)">
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour1;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 4,1024.3622 c -0.4916,0 -1,0.4731 -1,1 l 0,1 c -0.6666667,0 -0.8333333,0 -1.5,0 -0.9791617,0 -1.5,0.494 -1.5,1.5 l 0,19 c 0,1.0315 0.5230687,1.5 1.5,1.5 l 28.84375,0 c 0.871969,0 1.65625,-0.6232 1.65625,-1.5 l 0,-17 c 0,-0.9413 -0.425107,-1.5 -1.5,-1.5 l -2.5,0 0,-3 c 0,-0.5269 -0.508401,-1 -1,-1 z"
        id="path3004"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssccssssscccsss" />
     <path
-       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#000000;fill-opacity:0.32156863;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+       style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:replacecolour3;fill:replacecolour3;fill-opacity:1.;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
        d="m 4,1024.3622 c -0.4916,0 -1,0.4731 -1,1 l 0,1 c -0.6868035,0 -0.8835353,0 -1.5,0 -0.9791617,0 -1.5,0.483 -1.5,1.5 l 0,19 c 0,1.0038 0.5009716,1.5 1.5,1.5 l 28.84375,0 c 0.871969,0 1.65625,-0.6232 1.65625,-1.5 l 0,-16.9482 c 0,-1.014 -0.419084,-1.5518 -1.5,-1.5518 l -2.5,0 0,-3 c 0,-0.5269 -0.508401,-1 -1,-1 z m 15,3 0,2 12,0 0,18 -30,0 0,-20 z"
        id="path3784"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ssccssssscccsssccccccc" />
     <path
-       style="opacity:1;fill:#000000;fill-opacity:0.32156864000000002;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1.;stroke:none"
        d="M 14.5 13.4375 A 3 2.9999825 0 0 0 11.71875 16.4375 A 3 2.9999825 0 0 0 12 17.71875 L 11.71875 17.71875 L 11.71875 17.75 A 2.1428571 2.1428822 0 0 0 10 19.84375 A 2.1428571 2.1428822 0 0 0 11.71875 21.96875 L 11.71875 22 L 11.9375 22 L 12.28125 22 L 19.65625 22 L 20 22 L 20.28125 22 L 20.28125 21.96875 A 2.1428571 2.1428553 0 0 0 22 19.84375 A 2.1428571 2.1428553 0 0 0 20.28125 17.75 L 20.28125 17.71875 L 20.0625 17.71875 L 19.84375 17.71875 A 2.1428571 2.1428553 0 0 0 20.28125 16.4375 A 2.1428571 2.1428553 0 0 0 18.15625 14.28125 A 2.1428571 2.1428553 0 0 0 17.0625 14.5625 A 3 2.9999825 0 0 0 14.71875 13.4375 A 3 2.9999825 0 0 0 14.5 13.4375 z "
        transform="translate(0,1020.3622)"
        id="path3102" />
