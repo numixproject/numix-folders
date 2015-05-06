@@ -111,44 +111,72 @@ elif [ "$answer" == "custom" ]; then
     
     case "$style" in 
         "1")
-            colour1="c28f5c"
-            colour2="c4905e"
             read -p "Choose primary colour in hex notation (default: $colour1): " colour1
             read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
+            if [ -z "$colour1" ]; then
+                colour1="c28f5c"
+            fi
+            if [ -z "$colour2" ]; then
+                colour2="c4905e"
+            fi
             ;;
         "2")
-            colour1="e8b07f"
             read -p "Choose primary colour in hex notation (default: $colour1): " colour1
+            if [ -z "$colour1" ]; then
+                colour1="e8b07f"
+            fi
             ;;
         "3")
-            colour1="f0ba63"
-            colour2="e88f35"
-            colour3="000000"
             read -p "Choose primary colour in hex notation (default: $colour1): " colour1
             read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
             read -p "Choose symbol colour in hex notation (will appear lighter in reality; default: $colour3): " colour3
+            if [ -z "$colour1" ]; then
+                colour1="f0ba63"
+            fi
+            if [ -z "$colour2" ]; then
+                colour2="e88f35"
+            fi
+            if [ -z "$colour3" ]; then
+                colour3="000000"
+            fi
             ;;
         "4")
-            colour1="f5c14e"
-            colour2="e9a439"
-            colour3="3d311c"
             read -p "Choose primary colour in hex notation (default: $colour1): " colour1
             read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
             read -p "Choose symbol colour in hex notation (will appear lighter in reality; default: $colour3): " colour3
+            if [ -z "$colour1" ]; then
+                colour1="f5c14e"
+            fi
+            if [ -z "$colour2" ]; then
+                colour2="e9a439"
+            fi
+            if [ -z "$colour3" ]; then
+                colour3="3d311c"
+            fi
             ;;
         "5")
-            colour1="ffb300"
-            colour2="f57c00"
             read -p "Choose primary colour in hex notation (default: $colour1): " colour1
             read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
+            if [ -z "$colour1" ]; then
+                colour1="ffb300"
+            fi
+            if [ -z "$colour2" ]; then
+                colour2="f57c00"
+            fi
             ;;
         "6")
-            colour1="ffa726"
-            colour2="ef6c00"
-            colour3="3c2f1b"
             read -p "Choose primary colour in hex notation (default: $colour1): " colour1
             read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
             read -p "Choose symbol colour in hex notation (will appear lighter in reality; default: $colour3): " colour3
+            if [ -z "$colour1" ]; then
+                colour1="ffa726"
+            fi
+            if [ -z "$colour2" ]; then
+                colour2="ef6c00"
+            fi
+            if [ -z "$colour3" ]; then
+                colour3="3c2f1b"
+            fi
             ;;
     esac
     if ! [[ $colour1 =~ ^[0-9A-Fa-f]{6}$ ]] || \
