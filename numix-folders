@@ -180,7 +180,7 @@ elif [ "$answer" == "custom" ]; then
                 colour3="fff8e1"
             fi
             ;;
-        "6")
+        "6" | "0")
             colour1="ffa726"
             colour2="ef6c00"
             colour3="b17621"
