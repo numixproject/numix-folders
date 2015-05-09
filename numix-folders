@@ -9,14 +9,14 @@
 # a copy of the GNU General Public License along with this program.
 # If not, see <http://www.gnu.org/licenses/>.
 
-# Allows timeout when launched vai 'Run in Terminal'
+# Allows timeout when launched via 'Run in Terminal'
 function sucess() { sleep 3; exit 0; }
 function gerror() { sleep 5; exit 1; }
 function checkhex() {
     if ! [[ $1 =~ ^[0-9A-Fa-f]{6}$ ]]; then
        echo -e \
-           "Oops! The colour: $1 is not a valid hex value\n" \
-           "\rTry again using six digit values!"
+           "Oops! The colour: $1 is an invalid hex value\n" \
+           "\rBe sure to use valid hex values with six digits (e.g. 000000)"
        gerror
     fi
     }
