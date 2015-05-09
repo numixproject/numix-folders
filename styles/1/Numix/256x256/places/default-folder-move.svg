@@ -12,8 +12,8 @@
    viewBox="0 0 204.8 204.8"
    version="1.1"
    id="svg3057"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-move.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="blue-folder-move.svg">
   <metadata
      id="metadata3068">
     <rdf:RDF>
@@ -36,29 +36,25 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="998"
+     inkscape:window-width="1366"
+     inkscape:window-height="747"
      id="namedview3064"
      showgrid="false"
      inkscape:zoom="0.5"
-     inkscape:cx="160"
+     inkscape:cx="-282"
      inkscape:cy="160"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="21"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3057" />
-  <g
-     id="surface1"
-     transform="scale(0.8,0.8)">
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#c28f5c;fill-opacity:0.4;fill-rule:nonzero;stroke:none"
-       d="m 0,0 0,128 80,0 0,-16 80,0 0,-96 -80,0 0,-16 z m 0,0"
-       id="path3060" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#c28f5c;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 96,128 0,128 160,0 0,-112 -80,0 0,-16 z m 0,0"
-       id="path3062" />
-  </g>
+  <path
+     id="path3060"
+     d="m 0,0 0,102.4 64,0 0,-12.8 64,0 0,-76.8 -64,0 L 64,0 Z m 0,0"
+     style="fill:#c4905e;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4"
+     inkscape:connector-curvature="0" />
+  <path
+     id="path3062"
+     d="m 76.8,102.4 0,102.4 128,0 0,-89.6 -64,0 0,-12.8 z m 0,0"
+     style="fill:#c4905e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     inkscape:connector-curvature="0" />
 </svg>

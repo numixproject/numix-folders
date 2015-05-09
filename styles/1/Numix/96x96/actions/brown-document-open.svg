@@ -13,8 +13,8 @@
    height="96"
    width="96"
    version="1.0"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="document-open.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="blue-document-open.svg">
   <metadata
      id="metadata64">
     <rdf:RDF>
@@ -36,15 +36,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="998"
+     inkscape:window-width="1366"
+     inkscape:window-height="747"
      id="namedview62"
      showgrid="true"
      inkscape:zoom="8.3968259"
-     inkscape:cx="66.715865"
+     inkscape:cx="40.396396"
      inkscape:cy="62.267649"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="21"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3396">
     <inkscape:grid
@@ -295,7 +295,7 @@
   </defs>
   <path
      inkscape:connector-curvature="0"
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#5d4037;fill-opacity:1;stroke:none;stroke-width:3.00000024;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#8d6e63;fill-opacity:1;stroke:none;stroke-width:3.00000024;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans;opacity:0.4"
      d="M 10.375614,16.000491 C 9.0228881,16.288402 7.970471,17.61777 8.0006324,19.000467 l 0,55.999557 C 8.0007896,76.570765 9.4298677,77.999842 11.000609,78 l 73.999415,0 C 86.570765,77.999842 87.999842,76.570765 88,75.000024 L 88,25.062918 C 87.999842,23.492177 86.570765,22.0631 85.000024,22.062942 l -28.999771,0 0,-3.062475 c -1.58e-4,-1.570741 -1.429235,-2.999819 -2.999977,-2.999976 l -41.999667,0 c -0.207575,-0.02174 -0.41742,-0.02174 -0.624995,0 z"
      id="path3912-0"
      sodipodi:nodetypes="ccccccccccccc" />

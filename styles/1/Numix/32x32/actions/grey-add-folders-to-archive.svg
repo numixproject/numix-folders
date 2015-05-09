@@ -12,8 +12,8 @@
    viewBox="0 0 32 32"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="add-folders-to-archive.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="blue-add-folders-to-archive.svg">
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -36,15 +36,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="998"
+     inkscape:window-width="1366"
+     inkscape:window-height="747"
      id="namedview16"
      showgrid="true"
-     inkscape:zoom="10.429825"
-     inkscape:cx="-9.4947817"
-     inkscape:cy="8.0684244"
+     inkscape:zoom="3.6875"
+     inkscape:cx="-37.700584"
+     inkscape:cy="8.7620759"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="21"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -52,7 +52,7 @@
        id="grid3006" />
   </sodipodi:namedview>
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#757575;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.28612947000000011;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#bdbdbd;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.28612947;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans;opacity:0.4"
      d="M 1.03125 12 C 0.46653784 12.05548 -0.0092069996 12.588893 0 13.15625 L 0 30.84375 C -0.00698 31.451042 0.54895844 32.006984 1.15625 32 L 18 32 L 18 28 L 12 28 L 12 18 L 18 18 L 18 14 L 16 14 L 16 13.15625 C 16.0069 12.559352 15.471863 12.009452 14.875 12 L 1.15625 12 C 1.114625 11.9977 1.072875 11.9977 1.03125 12 z "
      id="path3011" />
   <path
