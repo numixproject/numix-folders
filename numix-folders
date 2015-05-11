@@ -72,8 +72,8 @@ elif [ -d /home/"$cuser"/.icons/Numix ]; then
 elif [ -d /usr/share/icons/Numix/ ]; then
     if [[ $UID -ne 0 ]]; then
         echo -e \
-            "You appear to have Numix instaled globally.\n" \
-            "\rPlease run this script again as root"
+            "You appear to have Numix installed globally.\n" \
+            "\rPlease run this script again as root."
         gerror
     else
         dir=/usr/share/icons
@@ -93,7 +93,7 @@ elif [ -d styles/"$answer" ]; then
 else
     echo -e \
         "Oops! You've chosen an invalid style number.\n" \
-        "\rRun 'numix-folders --styles' for an option list"
+        "\rRun 'numix-folders --styles' for an option list."
     gerror
 fi
 
@@ -105,7 +105,7 @@ elif [ -d colours/"$answer" ]; then
 else
     echo -e \
         "Oops! You've chosen an invalid colour.\n" \
-        "\rRun 'numix-folders --colours' for an option list"
+        "\rRun 'numix-folders --colours' for an option list."
     gerror
 fi
 
