@@ -12,8 +12,8 @@
    viewBox="0 0 256 256"
    version="1.1"
    id="svg2"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-open.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="blue-folder-open.svg">
   <metadata
      id="metadata13">
     <rdf:RDF>
@@ -36,7 +36,7 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="668"
+     inkscape:window-width="841"
      inkscape:window-height="480"
      id="namedview9"
      showgrid="false"
@@ -44,14 +44,14 @@
      inkscape:cx="128"
      inkscape:cy="128"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="30"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <path
      inkscape:connector-curvature="0"
      id="path5"
      d="m 24.25,40.003906 c -4.515625,0.441406 -8.324219,4.710938 -8.25,9.25 L 16,206.75 c -0.05469,4.85937 4.394531,9.30469 9.25,9.25 l 205.5,0 c 4.85937,0.0547 9.30469,-4.39063 9.25,-9.25 l 0,-141.496094 c 0.0547,-4.859375 -4.39063,-9.308594 -9.25,-9.25 l -78.75,0 0,-6.75 c 0.0547,-4.777344 -4.22656,-9.175781 -9,-9.25 l -117.75,0 c -0.332031,-0.01953 -0.664062,-0.01953 -1,0 z m 0,0"
-     style="fill:#7e57c2;fill-opacity:0.40000001;fill-rule:nonzero;stroke:none" />
+     style="fill:#7e57c2;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4" />
   <path
      inkscape:connector-curvature="0"
      id="path7"

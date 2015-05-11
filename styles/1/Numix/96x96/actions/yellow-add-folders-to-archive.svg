@@ -12,8 +12,8 @@
    viewBox="0 0 96 96"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="add-folders-to-archive.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="blue-add-folders-to-archive.svg">
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -36,15 +36,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="998"
+     inkscape:window-width="1366"
+     inkscape:window-height="747"
      id="namedview16"
      showgrid="true"
-     inkscape:zoom="5.6568543"
-     inkscape:cx="53.039715"
-     inkscape:cy="55.93418"
+     inkscape:zoom="4"
+     inkscape:cx="17.050223"
+     inkscape:cy="60.943497"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="21"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2">
     <inkscape:grid
@@ -56,7 +56,7 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffb300;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.00000024;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#ffca28;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.00000024;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans;opacity:0.4"
      d="m 2.3753005,32.000395 c -1.3527272,0.28791 -2.40514416,1.617282 -2.37498435039,2.99998 l 0,53.999645 C 4.7414857e-4,90.570763 1.4295546,91.999842 3.0002964,92 l 52.9996506,0 0,-11.999921 -15.999894,0 0,-23.999842 15.999894,0 0,-15.999894 19.74987,0 c -0.462293,-1.091019 -1.55229,-1.937368 -2.749982,-1.937488 l -28.999809,0 0,-3.06248 c -1.58e-4,-1.570743 -1.429236,-2.999824 -2.99998,-2.99998 l -37.9997496,0 c -0.2075746,-0.02174 -0.4174193,-0.02174 -0.6249959,0 z"
      id="path2995"
      inkscape:connector-curvature="0" />

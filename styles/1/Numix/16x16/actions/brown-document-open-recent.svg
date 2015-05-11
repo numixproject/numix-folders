@@ -14,8 +14,8 @@
    height="16"
    width="16"
    version="1.0"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="document-open-recent.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="blue-document-open-recent.svg">
   <metadata
      id="metadata62">
     <rdf:RDF>
@@ -37,15 +37,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1280"
-     inkscape:window-height="998"
+     inkscape:window-width="1366"
+     inkscape:window-height="747"
      id="namedview60"
      showgrid="true"
-     inkscape:zoom="8.3112666"
-     inkscape:cx="-11.92394"
-     inkscape:cy="5.4701237"
+     inkscape:zoom="16.622533"
+     inkscape:cx="3.2869996"
+     inkscape:cy="9.3799347"
      inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:window-y="21"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3508"
      showguides="true"
@@ -294,7 +294,7 @@
     </linearGradient>
   </defs>
   <path
-     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#5d4037;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.21926904;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans"
+     style="font-size:medium;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-indent:0;text-align:start;text-decoration:none;line-height:normal;letter-spacing:normal;word-spacing:normal;text-transform:none;direction:ltr;block-progression:tb;writing-mode:lr-tb;text-anchor:start;baseline-shift:baseline;color:#000000;fill:#8d6e63;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.21926904;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate;font-family:Sans;-inkscape-font-specification:Sans;opacity:0.4"
      d="M 4.8101309e-8,11 16,11 16.000169,4.6352379 c 0.0084,-0.330749 -0.295535,-0.64365 -0.625,-0.635238 l -6.3125,0.0078 0,-1.4117345 C 9.054469,2.2757723 8.756722,1.9918505 8.437669,2.0000001 l -7.81249965,0 c -0.04152,-0.0043 -0.08348,-0.0043 -0.125,0 -0.2759054,0.050647 -0.4972391,0.3145056 -0.5000000019,0.5960657 z"
      id="path3912"
      inkscape:connector-curvature="0"
