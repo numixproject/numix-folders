@@ -9,9 +9,17 @@
 # a copy of the GNU General Public License along with this program.
 # If not, see <http://www.gnu.org/licenses/>.
 
-# Allows timeout when launched vai 'Run in Terminal'
+# Allows timeout when launched via 'Run in Terminal'
 function sucess() { sleep 3; exit 0; }
 function gerror() { sleep 5; exit 1; }
+function checkhex() {
+    if ! [[ $1 =~ ^[0-9A-Fa-f]{6}$ ]]; then
+       echo -e \
+           "Oops! The colour: $1 is an invalid hex value\n" \
+           "\rBe sure to use valid hex values with six digits (e.g. 000000)"
+       gerror
+    fi
+    }
 
 if [ -z "$1" ]; then
     :
@@ -30,7 +38,8 @@ else
                 "\rpink    - f06292\n" \
                 "\rpurple  - 7e57c2\n" \
                 "\rred     - ef5350\n" \
-                "\ryellow  - ffca28\n"
+                "\ryellow  - ffca28\n" \
+                "\rcustom  - choose your own colours"
             sucess ;;
         -s|--styles)
             echo -e \
@@ -97,9 +106,130 @@ else
     gerror
 fi
 
+
+
 read -p "Which folder colour do you want? " answer
 if [ -z "$answer" ]; then
     colour="default"
+elif [ "$answer" == "custom" ]; then
+    colour1="000000"
+    colour2="000000"
+    colour3="000000" 
+    colour="custom"
+    
+    case "$style" in 
+        "1")
+            colour1="c28f5c"
+            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
+            if [ -z "$colour1" ]; then
+                colour1="c28f5c"
+            fi
+            checkhex $colour1
+            ;;
+        "2")
+            colour1="e8b07f"
+            colour3="9e7757"
+            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
+            if [ -z "$colour1" ]; then
+                colour1="e8b07f"
+            fi
+            checkhex $colour1
+            
+            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
+            if [ -z "$colour3" ]; then
+                colour3="9e7757"
+            fi
+            checkhex $colour3
+            ;;
+        "3")
+            colour1="f0ba63"
+            colour2="e88f35"
+            colour3="b48b4a"
+            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
+            if [ -z "$colour1" ]; then
+                colour1="f0ba63"
+            fi
+            checkhex $colour1
+            
+            read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
+            if [ -z "$colour2" ]; then
+                colour2="e88f35"
+            fi
+            checkhex $colour2
+            
+            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
+            if [ -z "$colour3" ]; then
+                colour3="b48b4a"
+            fi
+            checkhex $colour3
+            ;;
+        "4")
+            colour1="f5c14e"
+            colour2="e9a439"
+            colour3="c79d41"
+            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
+            if [ -z "$colour1" ]; then
+                colour1="f5c14e"
+            fi
+            checkhex $colour1
+            
+            read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
+            if [ -z "$colour2" ]; then
+                colour2="e9a439"
+            fi
+            checkhex $colour2
+            
+            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
+            if [ -z "$colour3" ]; then
+                colour3="c79d41"
+            fi
+            checkhex $colour3
+            ;;
+        "5")
+            colour1="ffb300"
+            colour2="f57c00"
+            colour3="fff8e1"
+            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
+            if [ -z "$colour1" ]; then
+                colour1="ffb300"
+            fi
+            checkhex $colour1
+            
+            read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
+            if [ -z "$colour2" ]; then
+                colour2="f57c00"
+            fi
+            checkhex $colour2
+            
+            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
+            if [ -z "$colour3" ]; then
+                colour3="fff8e1"
+            fi
+            checkhex $colour3
+            ;;
+        "6" | "0")
+            colour1="ffa726"
+            colour2="ef6c00"
+            colour3="b17621"
+            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
+            if [ -z "$colour1" ]; then
+                colour1="ffa726"
+            fi
+            checkhex $colour1
+            
+            read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
+            if [ -z "$colour2" ]; then
+                colour2="ef6c00"
+            fi
+            checkhex $colour2
+            
+            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
+            if [ -z "$colour3" ]; then
+                colour3="b17621"
+            fi
+            checkhex $colour3
+            ;;
+    esac
 elif [ -d colours/"$answer" ]; then
     colour="$answer"
 else
@@ -111,8 +241,16 @@ fi
 
 cp -rf styles/"${style}"/Numix/* "${dir}"/Numix/
 
+if [ "$colour" == "custom" ]; then
+    find ${dir}/Numix/*/{actions,places}/*custom* \
+        -exec sed -i --follow-symlinks "s/replacecolour1/#$colour1/g" {} \; \
+        -exec sed -i --follow-symlinks "s/replacecolour2/#$colour2/g" {} \; \
+        -exec sed -i --follow-symlinks "s/replacecolour3/#$colour3/g" {} \;
+fi
+
 currentcolour=$(readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1)
 links=$(find -L ${dir}/Numix/*/{actions,places} -xtype l)
+
 for link in $links; do
     newlink=$(readlink "${link}");
     if [[ $newlink == *"$currentcolour"* ]]; then
