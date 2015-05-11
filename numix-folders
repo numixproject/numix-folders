@@ -109,6 +109,7 @@ fi
 
 
 read -p "Which folder colour do you want? " answer
+answer="$(tr [A-Z] [a-z] <<< "$answer")" #convert answer to lowercase
 if [ -z "$answer" ]; then
     colour="default"
 elif [ "$answer" == "custom" ]; then
