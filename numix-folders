@@ -15,8 +15,8 @@ function gerror() { sleep 5; exit 1; }
 function checkhex() {
     if ! [[ $1 =~ ^[0-9A-Fa-f]{6}$ ]]; then
        echo -e \
-           "Oops! The colour: $1 is an invalid hex value\n" \
-           "\rBe sure to use valid hex values with six digits (e.g. 000000)"
+           "Oops! The colour: $1 is an invalid hex value.\n" \
+           "\rBe sure to use valid hex values with six digits (e.g. 000000)."
        gerror
     fi
     }
@@ -109,6 +109,7 @@ fi
 
 
 read -p "Which folder colour do you want? " answer
+answer="$(tr [A-Z] [a-z] <<< "$answer")" #convert answer to lowercase
 if [ -z "$answer" ]; then
     colour="default"
 elif [ "$answer" == "custom" ]; then
