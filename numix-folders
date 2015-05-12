@@ -149,21 +149,21 @@ elif [ "$answer" == "custom" ]; then
         esac
         
         if grep -q "replacecolour1" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
-            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
+            read -p "Choose primary colour in hex notation (default: $coldef1): " colour1
             if [ -z "$colour1" ]; then
                 colour1=$col1def
             fi
             checkhex $colour1
         fi
         if grep -q "replacecolour2" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
-            read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
+            read -p "Choose secondary colour in hex notation (default: $coldef2): " colour2
             if [ -z "$colour2" ]; then
                 colour2=$col2def
             fi
             checkhex $colour2
         fi
         if grep -q "replacecolour3" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
-            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
+            read -p "Choose symbol colour in hex notation (default: $coldef3): " colour3
             if [ -z "$colour3" ]; then
                 colour3=$col3def
             fi
