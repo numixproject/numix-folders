@@ -120,117 +120,56 @@ elif [ "$answer" == "custom" ]; then
     
     case "$style" in 
         "1")
-            colour1="c28f5c"
-            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
-            if [ -z "$colour1" ]; then
-                colour1="c28f5c"
-            fi
-            checkhex $colour1
+            col1def="c28f5c"
             ;;
         "2")
-            colour1="e8b07f"
-            colour3="9e7757"
-            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
-            if [ -z "$colour1" ]; then
-                colour1="e8b07f"
-            fi
-            checkhex $colour1
-            
-            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
-            if [ -z "$colour3" ]; then
-                colour3="9e7757"
-            fi
-            checkhex $colour3
+            col1def="e8b07f"
+            col3def="9e7757"
             ;;
         "3")
-            colour1="f0ba63"
-            colour2="e88f35"
-            colour3="b48b4a"
-            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
-            if [ -z "$colour1" ]; then
-                colour1="f0ba63"
-            fi
-            checkhex $colour1
-            
-            read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
-            if [ -z "$colour2" ]; then
-                colour2="e88f35"
-            fi
-            checkhex $colour2
-            
-            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
-            if [ -z "$colour3" ]; then
-                colour3="b48b4a"
-            fi
-            checkhex $colour3
+            col1def="f0ba63"
+            col2def="e88f35"
+            col3def="b48b4a"
             ;;
         "4")
-            colour1="f5c14e"
-            colour2="e9a439"
-            colour3="c79d41"
-            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
-            if [ -z "$colour1" ]; then
-                colour1="f5c14e"
-            fi
-            checkhex $colour1
-            
-            read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
-            if [ -z "$colour2" ]; then
-                colour2="e9a439"
-            fi
-            checkhex $colour2
-            
-            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
-            if [ -z "$colour3" ]; then
-                colour3="c79d41"
-            fi
-            checkhex $colour3
+            col1def="f5c14e"
+            col2def="e9a439"
+            col3def="c79d41"
             ;;
         "5")
-            colour1="ffb300"
-            colour2="f57c00"
-            colour3="fff8e1"
-            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
-            if [ -z "$colour1" ]; then
-                colour1="ffb300"
-            fi
-            checkhex $colour1
-            
-            read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
-            if [ -z "$colour2" ]; then
-                colour2="f57c00"
-            fi
-            checkhex $colour2
-            
-            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
-            if [ -z "$colour3" ]; then
-                colour3="fff8e1"
-            fi
-            checkhex $colour3
+            col1def="ffb300"
+            col2def="f57c00"
+            col3def="fff8e1"
             ;;
         "6" | "0")
-            colour1="ffa726"
-            colour2="ef6c00"
-            colour3="b17621"
-            read -p "Choose primary colour in hex notation (default: $colour1): " colour1
+            col1def="ffa726"
+            col2def="ef6c00"
+            col3def="b17621"
+            ;;
+        esac
+        
+        if grep -q "replacecolour1" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
+            read -p "Choose primary colour in hex notation (default: $col1def): " colour1
             if [ -z "$colour1" ]; then
-                colour1="ffa726"
+                colour1=$col1def
             fi
             checkhex $colour1
-            
-            read -p "Choose secondary colour in hex notation (default: $colour2): " colour2
+        fi
+        if grep -q "replacecolour2" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
+            read -p "Choose secondary colour in hex notation (default: $col2def): " colour2
             if [ -z "$colour2" ]; then
-                colour2="ef6c00"
+                colour2=$col2def
             fi
             checkhex $colour2
-            
-            read -p "Choose symbol colour in hex notation (default: $colour3): " colour3
+        fi
+        if grep -q "replacecolour3" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
+            read -p "Choose symbol colour in hex notation (default: $col3def): " colour3
             if [ -z "$colour3" ]; then
-                colour3="b17621"
+                colour3=$col3def
             fi
             checkhex $colour3
-            ;;
-    esac
+        fi
+
 elif [ -d colours/"$answer" ]; then
     colour="$answer"
 else
