@@ -12,14 +12,6 @@
 # Allows timeout when launched via 'Run in Terminal'
 function sucess() { sleep 3; exit 0; }
 function gerror() { sleep 5; exit 1; }
-function checkhex() {
-    if ! [[ $1 =~ ^[0-9A-Fa-f]{6}$ ]]; then
-       echo -e \
-           "Oops! The colour: $1 is an invalid hex value.\n" \
-           "\rBe sure to use valid hex values with six digits (e.g. 000000)."
-       gerror
-    fi
-    }
 
 if [ -z "$1" ]; then
     :
@@ -29,18 +21,18 @@ else
             echo -e \
                 "This is a list of currently supported folder\n" \
                 "\rcolours that can be used to replace the default.\n\n" \
-                "\rdefault - reverts any previous colour change\n" \
-                "\rblue    - 42a5f5\n" \
-                "\rbrown   - 8d6e63\n" \
-                "\rgreen   - 66bb6a\n" \
-                "\rgrey    - bdbdbd\n" \
-                "\rorange  - f57c00\n" \
-                "\rpink    - f06292\n" \
-                "\rpurple  - 7e57c2\n" \
-                "\rred     - ef5350\n" \
-                "\ryellow  - ffca28\n" \
-                "\rstyle{#}- use colours from default style #\n" \
-                "\rcustom  - choose your own colours"
+                "\rdefault  - reverts any previous colour change\n" \
+                "\rblue     - 42a5f5\n" \
+                "\rbrown    - 8d6e63\n" \
+                "\rgreen    - 66bb6a\n" \
+                "\rgrey     - bdbdbd\n" \
+                "\rorange   - f57c00\n" \
+                "\rpink     - f06292\n" \
+                "\rpurple   - 7e57c2\n" \
+                "\rred      - ef5350\n" \
+                "\ryellow   - ffca28\n" \
+                "\rstyle{#} - use colours from default style #\n" \
+                "\rcustom   - choose your own colours"
             sucess ;;
         -s|--styles)
             echo -e \
@@ -107,10 +99,8 @@ else
     gerror
 fi
 
-
-
 read -p "Which folder colour do you want? " answer
-answer="$(tr [A-Z] [a-z] <<< "$answer")" #convert answer to lowercase
+answer="$(tr '[:upper:]' '[:lower:]' <<< "$answer")" #convert answer to lowercase
 if [ -z "$answer" ]; then
     colour="default"
 elif [ "$answer" == "custom" ] || [[ $answer == "style"[1-6] ]]; then
@@ -154,25 +144,33 @@ elif [ "$answer" == "custom" ] || [[ $answer == "style"[1-6] ]]; then
             col2def="ef6c00"
             col3def="b17621"
             ;;
-        esac
+    esac
 
+    function checkhex() {
+        if ! [[ $1 =~ ^[0-9A-Fa-f]{6}$ ]]; then
+           echo -e \
+               "Oops! The colour: $1 is an invalid hex value.\n" \
+               "\rBe sure to use valid hex values with six digits (e.g. 000000)."
+           gerror
+        fi
+    }
     
     if [[ $answer == "custom" ]]; then
-        if grep -q "replacecolour1" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
+        if grep -q "replacecolour1" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
             read -p "Choose primary colour in hex notation (default: $col1def): " colour1
             if [ -z "$colour1" ]; then
                 colour1=$col1def
             fi
             checkhex $colour1
         fi
-        if grep -q "replacecolour2" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
+        if grep -q "replacecolour2" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
             read -p "Choose secondary colour in hex notation (default: $col2def): " colour2
             if [ -z "$colour2" ]; then
                 colour2=$col2def
             fi
             checkhex $colour2
         fi
-        if grep -q "replacecolour3" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
+        if grep -q "replacecolour3" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
             read -p "Choose symbol colour in hex notation (default: $col3def): " colour3
             if [ -z "$colour3" ]; then
                 colour3=$col3def
