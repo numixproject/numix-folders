@@ -126,7 +126,7 @@ elif [ "$answer" == "custom" ] || [[ $answer == "style"[1-6] ]]; then
     case "$styledef" in 
         "1")
             col1def="c28f5c"
-            col2def="1976d2"
+            col2def="b07f51"
             col3def="f9f9f9"
             ;;
         "2")
