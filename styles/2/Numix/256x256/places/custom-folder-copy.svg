@@ -60,7 +60,7 @@
   <path
      sodipodi:nodetypes="sscsssssssscsssssscssssssss"
      inkscape:connector-curvature="0"
-     style="opacity:1;fill:replacecolour3;fill-opacity:1.;stroke:none"
+     style="opacity:1;fill:replacecolour2;fill-opacity:1.;stroke:none"
      d="m 36,31.000005 c -5.85566,0 -12,6 -12,12 l 0,4 -12,0 c -5.8804,0 -12,5.98132 -12,12 L 0,149 c 0,8 4,12 12,12 l 137,0 c 6.27045,0 12,-5.43338 12,-12 l 0,-80.999995 c 0,-6.01972 -5.82017,-12 -12,-12 l -12,0 0,-13 c 0,-5.84462 -5.81289,-12 -12,-12 z m -24,24 75.999996,0 c 2.3607,0 4,4 4,4 l 0,5 57.000004,0 c 2.0222,0 3.99999,2.03496 3.99999,4 l 0,80.999995 c 0,2.08516 -1.91505,4 -3.99999,4 l -137,0 c -1.85718,0 -4,-1.58538 -4,-4 L 8,59.000005 c 0,-1.96962 2.06612,-4 4,-4 z"
      id="path3778-8" />
   <path
@@ -77,7 +77,7 @@
   <path
      sodipodi:nodetypes="sscsssssssscsssssscssssssss"
      inkscape:connector-curvature="0"
-     style="fill:replacecolour3;fill-opacity:1.;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1.;stroke:none"
      d="m 132,95.999995 c -5.85566,0 -12,5.999995 -12,11.999995 l 0,4 -12,0 c -5.8804,0 -12.000005,5.98132 -12.000005,12 l 0,90.00001 c 0,8 4,12 12.000005,12 l 137,0 c 6.27046,0 12,-5.43338 12,-12 l 0,-81 c 0,-6.01973 -5.82016,-12.00001 -12,-12.00001 l -12,0 0,-13 c 0,-5.84462 -5.81289,-11.999995 -12,-11.999995 z m -24,23.999995 76,0 c 2.3607,0 4,4 4,4 l 0,5 57,0 c 2.0222,0 4,2.03497 4,4.00001 l 0,81 c 0,2.08516 -1.91506,4 -4,4 l -137,0 c -1.85718,0 -4,-1.58538 -4,-4 l 0,-90.00001 c 0,-1.96962 2.06612,-4 4,-4 z"
      id="path3778" />
 </svg>

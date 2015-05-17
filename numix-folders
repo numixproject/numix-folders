@@ -39,6 +39,7 @@ else
                 "\rpurple  - 7e57c2\n" \
                 "\rred     - ef5350\n" \
                 "\ryellow  - ffca28\n" \
+                "\rstyle{#}- use colours from default style #\n" \
                 "\rcustom  - choose your own colours"
             sucess ;;
         -s|--styles)
@@ -112,18 +113,25 @@ read -p "Which folder colour do you want? " answer
 answer="$(tr [A-Z] [a-z] <<< "$answer")" #convert answer to lowercase
 if [ -z "$answer" ]; then
     colour="default"
-elif [ "$answer" == "custom" ]; then
+elif [ "$answer" == "custom" ] || [[ $answer == "style"[1-6] ]]; then
     colour1="000000"
     colour2="000000"
     colour3="000000" 
     colour="custom"
     
-    case "$style" in 
+    styledef=$style
+    if [[ $answer == "style"[1-6] ]]; then
+        styledef=${answer#"style"}
+    fi
+    case "$styledef" in 
         "1")
             col1def="c28f5c"
+            col2def="b07f51"
+            col3def="f9f9f9"
             ;;
         "2")
             col1def="e8b07f"
+            col2def="9e7757"
             col3def="9e7757"
             ;;
         "3")
@@ -147,7 +155,9 @@ elif [ "$answer" == "custom" ]; then
             col3def="b17621"
             ;;
         esac
-        
+
+    
+    if [[ $answer == "custom" ]]; then
         if grep -q "replacecolour1" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
             read -p "Choose primary colour in hex notation (default: $col1def): " colour1
             if [ -z "$colour1" ]; then
@@ -169,7 +179,11 @@ elif [ "$answer" == "custom" ]; then
             fi
             checkhex $colour3
         fi
-
+    else
+        colour1=$col1def
+        colour2=$col2def
+        colour3=$col3def
+    fi
 elif [ -d colours/"$answer" ]; then
     colour="$answer"
 else
