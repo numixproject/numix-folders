@@ -39,7 +39,7 @@ else
                 "\rpurple  - 7e57c2\n" \
                 "\rred     - ef5350\n" \
                 "\ryellow  - ffca28\n" \
-                "\rstyle{#}- use colours from default styles\n" \
+                "\rstyle{#}- use colours from default style #\n" \
                 "\rcustom  - choose your own colours"
             sucess ;;
         -s|--styles)
@@ -120,44 +120,44 @@ elif [ "$answer" == "custom" ] || [[ $answer == "style"[1-6] ]]; then
     colour="custom"
     
     styledef=$style
-    for i in 1 2; do
-        if [ "$i" == "2" ] && [[ $answer == "style"[1-6] ]]; then
-            styledef=${answer#"style"}
-        elif [ "$i" == "2" ] && [[ $answer == "custom" ]]; then
-            break
-        fi
-        case "$styledef" in 
-            "1")
-                col1def="c28f5c"
-                ;;
-            "2")
-                col1def="e8b07f"
-                col3def="9e7757"
-                ;;
-            "3")
-                col1def="f0ba63"
-                col2def="e88f35"
-                col3def="b48b4a"
-                ;;
-            "4")
-                col1def="f5c14e"
-                col2def="e9a439"
-                col3def="c79d41"
-                ;;
-            "5")
-                col1def="ffb300"
-                col2def="f57c00"
-                col3def="fff8e1"
-                ;;
-            "6" | "0")
-                col1def="ffa726"
-                col2def="ef6c00"
-                col3def="b17621"
-                ;;
+    if [[ $answer == "style"[1-6] ]]; then
+        styledef=${answer#"style"}
+    fi
+    case "$styledef" in 
+        "1")
+            col1def="c28f5c"
+            col2def="1976d2"
+            col3def="f9f9f9"
+            ;;
+        "2")
+            col1def="e8b07f"
+            col2def="9e7757"
+            col3def="9e7757"
+            ;;
+        "3")
+            col1def="f0ba63"
+            col2def="e88f35"
+            col3def="b48b4a"
+            ;;
+        "4")
+            col1def="f5c14e"
+            col2def="e9a439"
+            col3def="c79d41"
+            ;;
+        "5")
+            col1def="ffb300"
+            col2def="f57c00"
+            col3def="fff8e1"
+            ;;
+        "6" | "0")
+            col1def="ffa726"
+            col2def="ef6c00"
+            col3def="b17621"
+            ;;
         esac
-    done
+
     
-    if [[ ! $answer == "style"[1-6] ]]; then
+    if [[ $answer == "custom" ]]; then
         if grep -q "replacecolour1" "styles/"${style}"/Numix/48x48/places/custom-folder-video.svg"; then
             read -p "Choose primary colour in hex notation (default: $col1def): " colour1
             if [ -z "$colour1" ]; then

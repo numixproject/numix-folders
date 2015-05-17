@@ -40,9 +40,9 @@
      inkscape:window-height="747"
      id="namedview16"
      showgrid="true"
-     inkscape:zoom="3.6875"
-     inkscape:cx="-7.6963382"
-     inkscape:cy="62.533759"
+     inkscape:zoom="1.84375"
+     inkscape:cx="22.117029"
+     inkscape:cy="115.6135"
      inkscape:window-x="0"
      inkscape:window-y="21"
      inkscape:window-maximized="1"
@@ -60,7 +60,7 @@
   <path
      sodipodi:nodetypes="sscsssssssscsssssscssssssss"
      inkscape:connector-curvature="0"
-     style="fill:replacecolour3;fill-opacity:1.;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1.;stroke:none"
      d="m 18,47 c -2.927834,0 -5.815733,3.005664 -6,6.000001 l 0,2 -6,0 c -2.940198,0 -6,2.99066 -6,6 L 0,122 c 0,4 2,6 6,6 l 100,0 c 3.13523,0 6,-2.71669 6,-6 l 0,-54 c 0,-3.009856 -2.91008,-6 -6,-6 l -6,0 0,-9 c 0,-2.922313 -2.90644,-6.000001 -6,-6.000001 z M 6,59.000001 62,59 c 1.18035,0 2.02528,1.029869 2,2 l 0,5 42,0 c 1.0111,0 2,1.017484 2,2 l 0,54 c 0,1.04258 -0.95753,2 -2,2 L 6,124 c -0.92859,0 -2,-0.79269 -2,-2 L 4,61.000001 c 0,-0.98481 1.033057,-2 2,-2 z"
      id="path3778-2" />
   <path
@@ -69,7 +69,7 @@
      id="path3029"
      inkscape:connector-curvature="0" />
   <path
-     style="fill-opacity:1;stroke:none"
+     style="fill-opacity:1;stroke:none;fill:replacecolour1"
      d="m 34,0 c -2.927834,0 -5.815733,3.0056644 -6,6.000001 l 0,2 -6,0 c -2.940198,0 -6,2.99066 -6,6 L 16,75 c 0,4 2,6 6,6 l 100,-10e-7 c 3.13523,0 6,-2.71669 6,-6 L 128,21 c 0,-3.009856 -2.91008,-6 -6,-6 l -6,0 0,-9 C 116,3.077687 113.09356,-1e-6 110,-1e-6 Z"
      id="path6-6"
      inkscape:connector-curvature="0"
@@ -77,7 +77,7 @@
   <path
      sodipodi:nodetypes="sscsssssssscsssssscssssssss"
      inkscape:connector-curvature="0"
-     style="fill:replacecolour3;fill-opacity:1.;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1.;stroke:none"
      d="m 34,0 c -2.927834,0 -5.815733,3.0056644 -6,6.000001 l 0,2 -6,0 c -2.940198,0 -6,2.99066 -6,6 L 16,75 c 0,4 2,6 6,6 l 100,-10e-7 c 3.13523,0 6,-2.71669 6,-6 L 128,21 c 0,-3.009856 -2.91008,-6 -6,-6 l -6,0 0,-9 C 116,3.077687 113.09356,-10e-7 110,-10e-7 z M 22,12.000001 78,12 c 1.18035,0 2.02528,1.029869 2,2 l 0,5 42,0 c 1.0111,0 2,1.017484 2,2 l 0,53.999999 c 0,1.04258 -0.95753,2 -2,2 L 22,77 c -0.92859,0 -2,-0.79269 -2,-2 l 0,-60.999999 c 0,-0.98481 1.033057,-2 2,-2 z"
      id="path3778" />
   <path
