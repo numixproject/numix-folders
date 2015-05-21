@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="default-folder-books.svg"
+   sodipodi:docname="custom-folder-books.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -53,7 +53,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="13.930004"
-     inkscape:cx="-4.1011044"
+     inkscape:cx="-19.212371"
      inkscape:cy="9.5521509"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -105,7 +105,7 @@
        inkscape:connector-curvature="0"
        id="path3029"
        d="m 1,1032.3622 0,14 22,0 0,-7 -1,-6 -8,0 -1,-2 -11,0 c -0.5,0 -1,0.5 -1,1 z"
-       style="fill:#ef6c00;fill-opacity:1;stroke:none" />
+       style="fill:replacecolour2;fill-opacity:1;stroke:none" />
     <path
        style="opacity:0.02999998;fill:#000000;fill-opacity:1;stroke:none"
        d="m 2,1031.3622 c -0.5,0 -1,0.5 -1,1 l 0,1 c 0,-0.5 0.5,-1 1,-1 l 10,0 1,2 9,0 0,6 0,-1 0,-6 -8,0 -1,-2 z"
@@ -120,7 +120,7 @@
        x="3"
        y="1034.3622" />
     <path
-       style="fill:#ffa726;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 23,1034.4289 0,14.9333 -22,0 0,-14 11,0 1,-2 9,0 c 0.5,0 1,0.5333 1,1.0667 z"
        id="rect2987"
        inkscape:connector-curvature="0"
@@ -146,7 +146,7 @@
        sodipodi:nodetypes="ccccccccccccccccccccc"
        id="path53"
        d="m 13,1047.3622 0,-6 -2,0 0,6 z m -3.0000002,-7 L 7,1038.196 l 0,6.25 2.9999998,2.0831 z M 17,1044.446 l 0,-6.25 -3,2.1662 0,6.1668 z m -0.625001,-7.0838 c -1.874999,0 -3.124999,0.625 -4.375,1.6667 -1.249999,-1.0417 -2.4999992,-1.6667 -4.3749985,-1.6667 l 3.3749995,2.5 2,0 z"
-       style="opacity:0.4;fill:#3c2f1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:1;fill:replacecolour3;fill-opacity:1;fill-rule:nonzero;stroke:none"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
