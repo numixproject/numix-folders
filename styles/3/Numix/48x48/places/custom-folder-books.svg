@@ -64,14 +64,14 @@
      id="layer1"
      transform="translate(0,-1004.3622)">
     <rect
-       style="fill:#ea9036;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        id="rect3757"
        width="38"
        height="15"
        x="5"
        y="1014.3622" />
     <path
-       style="fill:#ea9036;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        d="m 10,1016.3622 c 0,-2 0,-4 2,-4 l 7,0 c 2,0 2,2 2,4 z"
        id="path3759"
        inkscape:connector-curvature="0"
@@ -96,14 +96,14 @@
        x="10"
        y="1019.3622" />
     <path
-       style="fill:#f2bb64;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 2,1020.3622 44,0 -4,24 -37,0 z"
        id="path2987"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
        inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:0.25098039;fill-rule:nonzero;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1.0;fill-rule:nonzero;stroke:none"
        d="m 25,1040.3622 0,-10.5 -2,0 0,10.5 z m -3,-11 -6,-4 0,10 6,4 z m 10,6 0,-10 -6,3.9998 0,10.0003 z m -1,-11 c -3,0 -5,1 -7,2.6666 -2,-1.6666 -4,-2.6666 -7,-2.6666 l 6,4 2,0 z"
        id="path53"
        sodipodi:nodetypes="ccccccccccccccccccccc" />

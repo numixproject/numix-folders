@@ -90,7 +90,7 @@
        id="path3868"
        inkscape:connector-curvature="0" />
     <rect
-       style="fill:#f57c00;fill-opacity:1;stroke:none"
+       style="fill:replacecolour2;fill-opacity:1;stroke:none"
        id="rect2987"
        width="92"
        height="64.000038"
@@ -104,7 +104,7 @@
        id="rect3797"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:#ffb300;fill-opacity:1;stroke:none"
+       style="fill:replacecolour1;fill-opacity:1;stroke:none"
        d="m 12,992.3622 16,0 c 22,-2 18,-24 32,-24 l 24,0 c 5.54,0 10,4.46 10,10 l 0,52 c 0,5.54 -4.46,10 -10,10 l -72,0 c -5.54,0 -10,-4.46 -10,-10 l 0,-28 c 0,-6 4,-10 10,-10 z"
        id="rect3776"
        inkscape:connector-curvature="0"
@@ -124,7 +124,7 @@
        sodipodi:nodetypes="ccccccccccccccccccccc"
        id="path53"
        d="m 28,1028.3622 0,-19 -4,0 0,19 z m -6,-20.6255 -10,-6.4995 0,18.375 10,6.4995 z m 18,11.8755 0,-18.375 -10,6.4992 0,18.3756 z m -1.750001,-19.25 c -5.25,0 -8.75,1.75 -12.249999,4.6667 -3.5,-2.9167 -7,-4.6667 -12.249999,-4.6667 l 10.249999,7 4,0 z"
-       style="fill:#fff8e1;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:replacecolour3;fill-opacity:1;fill-rule:nonzero;stroke:none"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
