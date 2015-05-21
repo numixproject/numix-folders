@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="blue-folder.svg"
+   sodipodi:docname="grey-folder-projects.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -110,7 +110,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.518912"
-     inkscape:cx="181.36852"
+     inkscape:cx="42.782479"
      inkscape:cy="157.82788"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -138,7 +138,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -205,5 +205,11 @@
        id="path10643"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccc" />
+    <circle
+       style="opacity:0.4;fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path4156"
+       cx="105"
+       cy="929.36218"
+       r="8.5" />
   </g>
 </svg>
