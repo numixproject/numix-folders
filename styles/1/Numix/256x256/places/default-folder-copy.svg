@@ -59,7 +59,7 @@
      id="surface1"
      transform="scale(0.8,0.8)">
     <path
-       style="fill:#c28f5c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="fill:#c4905e;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="m 0,0 0,128 80,0 0,-16 80,0 0,-96 -80,0 0,-16 z m 96,128 0,128 160,0 0,-112 -80,0 0,-16 z m 0,0"
        id="path3016"
        inkscape:connector-curvature="0" />
