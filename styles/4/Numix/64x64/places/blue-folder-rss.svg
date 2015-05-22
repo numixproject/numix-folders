@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="blue-folder-rss.svg"
+   sodipodi:docname="orange-folder-rss.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -52,9 +52,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.2755365"
-     inkscape:cx="-6.7901312"
-     inkscape:cy="50.102953"
+     inkscape:zoom="10.551073"
+     inkscape:cx="11.706139"
+     inkscape:cy="23.025028"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -133,7 +133,7 @@
        id="path3801"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.4;fill:#072a5e;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:1.0;fill:#2a74b9;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="m 20,1014.3622 0,5 c 10.14665,1.1204 19.040178,8.915 19,19 l 5,0 c 0,-14.4064 -12.937636,-23.544 -24,-24 z m 0,8 0,5 c 5.498652,0.4522 10.93868,4.584 11,11 l 5,0 c -0.23916,-9.7834 -9.169828,-15.3054 -16,-16 z"
        id="path3394"
        inkscape:connector-curvature="0"
@@ -141,7 +141,7 @@
     <path
        transform="matrix(2.3333333,0,0,2.3333333,-3.3333333,980.02887)"
        sodipodi:type="arc"
-       style="opacity:0.4;fill:#072a5e;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="opacity:1.0;fill:#2a74b9;fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="path3016"
        sodipodi:cx="11.5"
        sodipodi:cy="23.5"

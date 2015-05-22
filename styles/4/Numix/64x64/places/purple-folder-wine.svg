@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="purple-folder-wine.svg"
+   sodipodi:docname="orange-folder-wine.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="9.1843088"
-     inkscape:cx="22.291353"
-     inkscape:cy="26.005648"
+     inkscape:cx="27.957167"
+     inkscape:cy="22.674488"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -108,7 +108,7 @@
        id="path3801"
        inkscape:connector-curvature="0" />
     <path
-       style="line-height:normal;opacity:0.4;color:#000000;fill:#150b3d;fill-opacity:1"
+       style="line-height:normal;opacity:1.0;color:#000000;fill:#54398d;fill-opacity:1"
        d="M 41.03125 26 C 39.994865 26.016 38.975669 26.65585 38.8125 27.84375 C 38.551428 29.74475 40.527317 29.03125 42.09375 29.03125 C 43.660183 29.03125 44.172857 32.11805 43.78125 33.78125 C 43.389641 35.44465 39.22471 39.3662 29.8125 35.4375 C 22.063276 32.2029 18.195251 36.50755 18 36.59375 C 18.733373 43.01985 24.714091 50 31.96875 50 C 39.71876 50 46 42.33475 46 35.28125 C 46 34.47115 45.908469 33.67435 45.75 32.90625 C 45.605902 32.51795 45.449545 32.1031 45.34375 31.75 C 45.154105 31.1172 44.933606 30.59045 44.75 30.09375 C 44.7421 30.07775 44.7581 30.04825 44.75 30.03125 C 44.008142 28.53175 42.973122 27.1875 41.6875 26.0625 C 41.6816 26.0495 41.66203 26.0765 41.65625 26.0625 C 41.455346 26.0155 41.238528 25.998 41.03125 26 z M 31 28 C 30.447716 28 30 28.4476 30 29 C 30 29.5524 30.447716 30 31 30 C 31.552284 30 32 29.5524 32 29 C 32 28.4476 31.552284 28 31 28 z M 36 30 C 34.89543 30 34 30.8954 34 32 C 34 33.1046 34.89543 34 36 34 C 37.10457 34 38 33.1046 38 32 C 38 30.8954 37.10457 30 36 30 z "
        transform="translate(0,988.3622)"
        id="path3974-8" />

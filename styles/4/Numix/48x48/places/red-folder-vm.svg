@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="red-folder-vm.svg">
+   sodipodi:docname="orange-folder-vm.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -301,8 +301,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="8.8150003"
-     inkscape:cx="11.923549"
-     inkscape:cy="3.5759484"
+     inkscape:cx="5.54281"
+     inkscape:cy="8.9144478"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -378,7 +378,7 @@
        id="rect2991"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.4;fill:#460a0a;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       style="opacity:1.0;fill:#ab3634;fill-opacity:1;fill-rule:evenodd;stroke:none"
        d="m 20,1023.3622 c -0.554,0 -1,0.446 -1,1 l 10,0 c 0,-0.554 -0.446,-1 -1,-1 z m -1,2 0,12 10,0 0,-12 z m 2,2 6,0 0,1 -6,0 z m 0,2 6,0 0,1 -6,0 z m 3,3 c 0.552285,0 1,0.4477 1,1 0,0.5523 -0.447715,1 -1,1 -0.552285,0 -1,-0.4477 -1,-1 0,-0.5523 0.447715,-1 1,-1 z m -5,6 c 0,0.554 0.446,1 1,1 l 8,0 c 0.554,0 1,-0.446 1,-1 z"
        id="rect3865-5"
        inkscape:connector-curvature="0"

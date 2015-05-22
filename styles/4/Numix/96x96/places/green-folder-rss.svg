@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="green-folder-rss.svg">
+   sodipodi:docname="orange-folder-rss.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -262,9 +262,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="4.4075"
-     inkscape:cx="8.2067522"
-     inkscape:cy="48.760743"
+     inkscape:zoom="3.1165731"
+     inkscape:cx="-1.6449746"
+     inkscape:cy="58.244468"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -340,7 +340,7 @@
        id="rect2991"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.4;fill:#103612;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:1.0;fill:#448647;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="m 32,994.36222 0,5.99998 c 13.528868,1.4938 26.053572,12.5534 26,26 l 6,0 c 0,-19.2086 -17.250182,-31.39198 -32,-31.99998 z m 0,9.99998 0,6 c 7.331536,0.6028 15.91824,7.4454 16,16 l 6,0 c -0.318864,-13.0444 -12.893104,-21.0738 -22,-22 z m 5.1875,11.875 c -2.792912,-0.082 -5.10876,2.1454 -5.1875,4.9376 -0.08274,2.7912 2.143252,5.1034 4.9375,5.1874 2.792912,0.08 5.10874,-2.145 5.1875,-4.9374 0.08274,-2.7908 -2.143252,-5.1036 -4.9375,-5.1876 z"
        id="path3392"
        inkscape:connector-curvature="0" />

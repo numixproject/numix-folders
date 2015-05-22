@@ -13,8 +13,8 @@
    height="48"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="folder-download.svg"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="orange-folder-download.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,15 +28,15 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="19.696326"
-     inkscape:cx="9.2627322"
+     inkscape:cx="0.78399358"
      inkscape:cy="24.335958"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1920"
-     inkscape:window-height="1023"
+     inkscape:window-width="1280"
+     inkscape:window-height="998"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -108,7 +108,7 @@
        inkscape:connector-curvature="0" />
     <g
        id="g3838"
-       style="opacity:0.25"
+       style="opacity:1.0"
        transform="translate(31.607183,1.8748953)">
       <rect
          ry="1"
@@ -118,10 +118,10 @@
          height="2"
          width="16"
          id="rect2989"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
+         style="fill:#c79d41;fill-opacity:1;stroke:none" />
       <rect
          transform="matrix(0,1,-1,0,0,0)"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none"
+         style="fill:#c79d41;fill-opacity:1;stroke:none"
          id="rect2991-6"
          width="7"
          height="2"
@@ -137,14 +137,14 @@
          height="2"
          width="7"
          id="rect2993"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none"
+         style="fill:#c79d41;fill-opacity:1;stroke:none"
          transform="matrix(0,1,-1,0,0,0)" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="path2997-6"
          d="m -6.607183,1032.4873 c -1,1 -1,1 -2,0 l -3,-3 c -1,-1 -1,-1 0,-1 l 8,0 c 1,0 1,0 0,1 z"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
+         style="fill:#c79d41;fill-opacity:1;stroke:none" />
       <rect
          ry="2"
          rx="2"
@@ -153,7 +153,7 @@
          height="10"
          width="4"
          id="rect2995"
-         style="fill:#3c2f1b;fill-opacity:1;stroke:none" />
+         style="fill:#c79d41;fill-opacity:1;stroke:none" />
     </g>
   </g>
 </svg>

@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="grey-folder-dropbox.svg"
+   sodipodi:docname="orange-folder-dropbox.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="27.860007"
-     inkscape:cx="9.359963"
-     inkscape:cy="11.732919"
+     inkscape:cx="6.5961446"
+     inkscape:cy="10.943257"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -110,7 +110,7 @@
     <path
        id="path3871-9"
        d="m 8.5,1039.3622 -2.5,1.9286 2.5,1.6071 -2.5,2.25 5,3.2143 5,-3.2143 -2.5,-2.25 2.5,-1.6071 -2.5,-1.9286 -2.5,1.9286 z"
-       style="line-height:normal;color:#000000;fill:#212121;fill-opacity:1;opacity:0.4"
+       style="line-height:normal;color:#000000;fill:#7f7f7f;fill-opacity:1;opacity:1.0"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccc" />
   </g>

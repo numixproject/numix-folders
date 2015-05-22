@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="red-folder-download.svg"
+   sodipodi:docname="orange-folder-download.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,8 +28,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="12.989691"
-     inkscape:cx="5.6572118"
-     inkscape:cy="12.545839"
+     inkscape:cx="6.4270531"
+     inkscape:cy="11.622029"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -108,7 +108,7 @@
        id="path3801"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.4;fill:#460a0a;fill-opacity:1;stroke:none"
+       style="opacity:1.0;fill:#ab3634;fill-opacity:1;stroke:none"
        d="M 16 13 C 15.446 13 15 13.446 15 14 L 15 19 L 13 19 C 12 19 12 19 13 20 L 15 22 C 16 23 16 23 17 22 L 19 20 C 20 19 20 19 19 19 L 17 19 L 17 14 C 17 13.446 16.554 13 16 13 z M 9.96875 20 C 9.4344431 20 9 20.446 9 21 L 9 24.9375 L 9 25 L 9 25.0625 C 9 25.099036 9.0270869 25.120807 9.03125 25.15625 C 9.0461095 25.246873 9.0571815 25.325799 9.09375 25.40625 C 9.1945779 25.628073 9.3750493 25.810656 9.59375 25.90625 C 9.6947752 25.951606 9.7898768 25.989113 9.90625 26 C 9.9390644 26.00307 9.9663108 26 10 26 L 10.03125 26 L 21.96875 26 L 22 26 C 22.01123 26 22.020112 26.000346 22.03125 26 C 22.052203 26 22.073137 26.001351 22.09375 26 C 22.210123 25.989113 22.305225 25.951606 22.40625 25.90625 C 22.521713 25.855781 22.631588 25.809125 22.71875 25.71875 C 22.809125 25.632658 22.855781 25.520295 22.90625 25.40625 C 22.942819 25.325799 22.953891 25.246873 22.96875 25.15625 C 22.974304 25.122379 22.997796 25.097463 23 25.0625 L 23 24.9375 L 23 21 C 23 20.446 22.565557 20 22.03125 20 L 21.96875 20 C 21.434443 20 21 20.446 21 21 L 21 24 L 11 24 L 11 21 C 11 20.446 10.565557 20 10.03125 20 L 9.96875 20 z "
        transform="translate(0,1020.3622)"
        id="rect2989-0" />

@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="green-user-home.svg"
+   sodipodi:docname="orange-user-home.svg"
    inkscape:export-filename="/home/josh/Programs/Icons/Numix/Desktop/numix-folders/files/3/preview.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90">
@@ -27,9 +27,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.732452"
-     inkscape:cx="22.221724"
-     inkscape:cy="54.215975"
+     inkscape:zoom="5.2784842"
+     inkscape:cx="25.6512"
+     inkscape:cy="47.216334"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -109,25 +109,25 @@
     <g
        id="g4056"
        transform="matrix(1.9999913,0,0,1.9999913,31.999035,994.36191)"
-       style="opacity:0.4;fill:#103612;fill-opacity:1">
+       style="opacity:1.0;fill:#448647;fill-opacity:1">
       <path
          sodipodi:nodetypes="cssccccsscc"
          inkscape:connector-curvature="0"
          id="rect2989"
          d="m 2,7 0,7 c 0,1.108 0.892,2 2,2 l 2,0 0,-6 4,0 0,6 2,0 c 1.108,0 2,-0.892 2,-2 l 0,-7 z"
-         style="fill:#103612;fill-opacity:1" />
+         style="fill:#448647;fill-opacity:1" />
       <path
          sodipodi:nodetypes="ccccccc"
          inkscape:connector-curvature="0"
          id="path3761"
          d="m 2,6 c -2.20338983,2 -3,2 0,2 l 12,0 c 3,0 2.288136,0 0,-2 L 9,1 C 8,0 8,0 7,1 z"
-         style="fill:#103612;fill-opacity:1;stroke:none" />
+         style="fill:#448647;fill-opacity:1;stroke:none" />
       <path
          sodipodi:nodetypes="ssccss"
          inkscape:connector-curvature="0"
          id="rect3763"
          d="m 13,1 c 1,0 1,0.446 1,1 l 0,4 -2,0 0,-4 c 0,-0.554 0,-1 1,-1 z"
-         style="fill:#103612;fill-opacity:1;stroke:none" />
+         style="fill:#448647;fill-opacity:1;stroke:none" />
     </g>
   </g>
 </svg>
