@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="brown-folder-gdrive.svg">
+   sodipodi:docname="orange-folder-gdrive.svg">
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -153,7 +153,7 @@
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
   <path
-     style="opacity:0.4;fill:#241714;fill-opacity:1;fill-rule:evenodd"
+     style="opacity:1.0;fill:#634b43;fill-opacity:1;fill-rule:evenodd"
      d="M 21.25 20 L 27.125 30 L 33 30 L 27.125 20 L 21.25 20 z M 20.28125 20.59375 L 14 30.46875 L 17.15625 35.375 L 23.28125 25.625 L 20.28125 20.59375 z M 21.1875 31 L 18 36 L 30 36 L 33 31 L 21.1875 31 z "
      id="polygon3475-1" />
 </svg>

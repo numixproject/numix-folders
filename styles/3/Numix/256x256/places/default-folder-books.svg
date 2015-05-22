@@ -55,12 +55,12 @@
      inkscape:connector-curvature="0"
      id="path5"
      d="m 24,48 208,0 0,80 -208,0 z m 0,0"
-     style="fill:#e68f33;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#ea9036;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <path
      inkscape:connector-curvature="0"
      id="path7"
      d="m 48,48 c 0,-8 0,-16 11.632812,-16 l 40.734378,0 C 112,32 112,40 112,48 l 0,8 -64,0 z m 0,0"
-     style="fill:#e68f33;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#ea9036;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <path
      inkscape:connector-curvature="0"
      id="path9"
@@ -80,11 +80,11 @@
      inkscape:connector-curvature="0"
      id="path15"
      d="m 8,80 240,0 -17.14063,144 -205.718745,0 z m 0,0"
-     style="fill:#f0b861;fill-opacity:1;fill-rule:nonzero;stroke:none" />
+     style="fill:#f2bb64;fill-opacity:1;fill-rule:nonzero;stroke:none" />
   <path
      sodipodi:nodetypes="ccccccccccccccccccccc"
      id="path53-8"
      d="M 136,199.99998 136,136 l -16,2e-5 L 120,200 Z M 112,131.99803 79.999995,108.002 l 0,64.00198 L 112,196 Z m 64,40.00595 0,-64.00198 -32,23.99503 0,64.00399 z M 170,104 c -18,-1e-5 -30,5.99999 -42,16 -12,-10.00001 -24,-16.00001 -41.999995,-16 L 120,127.99999 l 16,0 z"
-     style="fill:#000000;fill-opacity:0.25098039;fill-rule:nonzero;stroke:none"
+     style="fill:#b58c4b;fill-opacity:1.0;fill-rule:nonzero;stroke:none"
      inkscape:connector-curvature="0" />
 </svg>

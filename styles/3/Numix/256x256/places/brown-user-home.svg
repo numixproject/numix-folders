@@ -13,7 +13,7 @@
    version="1.1"
    id="svg3461"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="brown-user-home.svg">
+   sodipodi:docname="orange-user-home.svg">
   <metadata
      id="metadata3482">
     <rdf:RDF>
@@ -41,8 +41,8 @@
      id="namedview3478"
      showgrid="true"
      inkscape:zoom="2.085965"
-     inkscape:cx="94.551326"
-     inkscape:cy="128.9251"
+     inkscape:cx="-64.12823"
+     inkscape:cy="128.44571"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -88,6 +88,6 @@
   <path
      id="path3476"
      d="m 102.4,78.4 c -1.6,0 -3.2,1.6 -6.4,4.8 l -25.6,25.6 c -14.103125,12.8 -19.2,12.8 0,12.8 l 0,32 c 0,7.09062 5.709375,12.8 12.8,12.8 l 9.6,0 0,-32 19.2,0 0,32 9.6,0 c 7.09062,0 12.8,-5.70938 12.8,-12.8 l 0,-32 c 19.2,0 14.64375,0 0,-12.8 l 0,-19.2 c 0,-3.546872 0,-6.4 -6.4,-6.4 -6.4,0 -6.4,2.853128 -6.4,6.4 l 0,6.4 -12.8,-12.8 C 105.6,80 104,78.4 102.4,78.4 z m 0,0"
-     style="fill:#241714;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4"
+     style="fill:#634b43;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:1.0"
      inkscape:connector-curvature="0" />
 </svg>

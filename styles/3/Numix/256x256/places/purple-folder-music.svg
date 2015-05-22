@@ -13,7 +13,7 @@
    version="1.1"
    id="svg3175"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="purple-folder-music.svg">
+   sodipodi:docname="orange-folder-music.svg">
   <metadata
      id="metadata3196">
     <rdf:RDF>
@@ -41,8 +41,8 @@
      id="namedview3192"
      showgrid="false"
      inkscape:zoom="2.085965"
-     inkscape:cx="60.15895"
-     inkscape:cy="93.891755"
+     inkscape:cx="61.117739"
+     inkscape:cy="103.00025"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -80,6 +80,6 @@
   <path
      id="path3190"
      d="m 89.6,83.2 c -7.090624,0 -12.8,5.540624 -12.8,12.45 l 0,0.7 c 0,0.534376 0.03438,1.031248 0.1,1.55 -0.08125,0.418752 -0.1,0.856248 -0.1,1.3 l 0,35.2 c -7.06875,0 -12.8,5.73125 -12.8,12.8 0,7.06875 5.73125,12.8 12.8,12.8 7.068752,0 12.8,-5.73125 12.8,-12.8 l 0,-38.4 38.4,0 0,25.6 c -7.06875,0 -12.8,5.73125 -12.8,12.8 0,7.06875 5.73125,12.8 12.8,12.8 7.06875,0 12.8,-5.73125 12.8,-12.8 l 0,-51.55 C 140.8,88.740624 135.09062,83.2 128,83.2 z m 0,0"
-     style="fill:#150b3d;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4"
+     style="fill:#54398d;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:1.0"
      inkscape:connector-curvature="0" />
 </svg>

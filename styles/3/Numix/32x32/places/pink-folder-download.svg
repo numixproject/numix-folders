@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="pink-folder-download.svg"
+   sodipodi:docname="orange-folder-download.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -87,7 +87,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="10.883917"
-     inkscape:cx="-7.4599583"
+     inkscape:cx="-25.835696"
      inkscape:cy="3.0597765"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -163,7 +163,7 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccc" />
     <path
-       style="opacity:0.4;fill:#880e4f;fill-opacity:1;stroke:none"
+       style="opacity:1.0;fill:#c64077;fill-opacity:1;stroke:none"
        d="M 16 12 C 15.446 12 15 12.446 15 13 L 15 18 L 13 18 C 12 18 12 18 13 19 L 15 21 C 16 22 16 22 17 21 L 19 19 C 20 18 20 18 19 18 L 17 18 L 17 13 C 17 12.446 16.554 12 16 12 z M 9.96875 19 C 9.4344431 19 9 19.446 9 20 L 9 23.9375 L 9 24 L 9 24.0625 C 9 24.099036 9.0270869 24.120807 9.03125 24.15625 C 9.0461095 24.246873 9.0571815 24.325799 9.09375 24.40625 C 9.1945779 24.628073 9.3750493 24.810656 9.59375 24.90625 C 9.6947752 24.951606 9.7898768 24.989113 9.90625 25 C 9.9390644 25.00307 9.9663108 25 10 25 L 10.03125 25 L 21.96875 25 L 22 25 C 22.01123 25 22.020112 25.000346 22.03125 25 C 22.052203 25 22.073137 25.001351 22.09375 25 C 22.210123 24.989113 22.305225 24.951606 22.40625 24.90625 C 22.521713 24.855781 22.631588 24.809125 22.71875 24.71875 C 22.809125 24.632658 22.855781 24.520295 22.90625 24.40625 C 22.942819 24.325799 22.953891 24.246873 22.96875 24.15625 C 22.974304 24.122379 22.997796 24.097463 23 24.0625 L 23 23.9375 L 23 20 C 23 19.446 22.565557 19 22.03125 19 L 21.96875 19 C 21.434443 19 21 19.446 21 20 L 21 23 L 11 23 L 11 20 C 11 19.446 10.565557 19 10.03125 19 L 9.96875 19 z "
        transform="translate(0,1020.3622)"
        id="rect2989" />
