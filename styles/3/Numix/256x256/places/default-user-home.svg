@@ -13,7 +13,7 @@
    version="1.1"
    id="svg3461"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="user-home.svg">
+   sodipodi:docname="orange-user-home.svg">
   <metadata
      id="metadata3482">
     <rdf:RDF>
@@ -41,7 +41,7 @@
      id="namedview3478"
      showgrid="true"
      inkscape:zoom="2.085965"
-     inkscape:cx="176.04838"
+     inkscape:cx="-64.12823"
      inkscape:cy="128.44571"
      inkscape:window-x="0"
      inkscape:window-y="0"
@@ -55,43 +55,39 @@
        enabled="true"
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
-  <g
-     id="surface1"
-     transform="scale(0.8,0.8)">
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#e68f33;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 24,48 208,0 0,80 -208,0 z m 0,0"
-       id="path3464" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#e68f33;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 48,48 c 0,-8 0,-16 11.632812,-16 l 40.734378,0 C 112,32 112,40 112,48 l 0,8 -64,0 z m 0,0"
-       id="path3466" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#94979c;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 40,64 176,0 0,39.74219 -176,0 z m 0,0"
-       id="path3468" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#d7d7d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 56,56 152,0 0,104 -152,0 z m 0,0"
-       id="path3470" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#f8f8f8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 48,72 152,0 0,104 -152,0 z m 0,0"
-       id="path3472" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#f0b861;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 8,80 240,0 -17.14063,144 -205.718745,0 z m 0,0"
-       id="path3474" />
-    <path
-       inkscape:connector-curvature="0"
-       style="fill:#000000;fill-opacity:0.25097997;fill-rule:nonzero;stroke:none"
-       d="m 128,98 c -2,0 -4,2 -8,6 l -32,32 c -17.628906,16 -24,16 0,16 l 0,40 c 0,8.86328 7.136719,16 16,16 l 12,0 0,-40 24,0 0,40 12,0 c 8.86328,0 16,-7.13672 16,-16 l 0,-40 c 24,0 18.30469,0 0,-16 l 0,-24 c 0,-4.43359 0,-8 -8,-8 -8,0 -8,3.56641 -8,8 l 0,8 -16,-16 c -4,-4 -6,-6 -8,-6 z m 0,0"
-       id="path3476" />
-  </g>
+  <path
+     id="path3464"
+     d="m 19.2,38.4 166.4,0 0,64 -166.4,0 z m 0,0"
+     style="fill:#ea9036;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     inkscape:connector-curvature="0" />
+  <path
+     id="path3466"
+     d="m 38.4,38.4 c 0,-6.4 0,-12.8 9.30625,-12.8 l 32.587502,0 C 89.6,25.6 89.6,32 89.6,38.4 l 0,6.4 -51.2,0 z m 0,0"
+     style="fill:#ea9036;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     inkscape:connector-curvature="0" />
+  <path
+     id="path3468"
+     d="m 32,51.2 140.8,0 0,31.793752 -140.8,0 z m 0,0"
+     style="fill:#94979c;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     inkscape:connector-curvature="0" />
+  <path
+     id="path3470"
+     d="m 44.8,44.8 121.6,0 0,83.2 -121.6,0 z m 0,0"
+     style="fill:#d7d7d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     inkscape:connector-curvature="0" />
+  <path
+     id="path3472"
+     d="m 38.4,57.6 121.6,0 0,83.2 -121.6,0 z m 0,0"
+     style="fill:#f8f8f8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     inkscape:connector-curvature="0" />
+  <path
+     id="path3474"
+     d="m 6.4,64 192,0 -13.7125,115.2 -164.575,0 z m 0,0"
+     style="fill:#f2bb64;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     inkscape:connector-curvature="0" />
+  <path
+     id="path3476"
+     d="m 102.4,78.4 c -1.6,0 -3.2,1.6 -6.4,4.8 l -25.6,25.6 c -14.103125,12.8 -19.2,12.8 0,12.8 l 0,32 c 0,7.09062 5.709375,12.8 12.8,12.8 l 9.6,0 0,-32 19.2,0 0,32 9.6,0 c 7.09062,0 12.8,-5.70938 12.8,-12.8 l 0,-32 c 19.2,0 14.64375,0 0,-12.8 l 0,-19.2 c 0,-3.546872 0,-6.4 -6.4,-6.4 -6.4,0 -6.4,2.853128 -6.4,6.4 l 0,6.4 -12.8,-12.8 C 105.6,80 104,78.4 102.4,78.4 z m 0,0"
+     style="fill:#b58c4b;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:1.0"
+     inkscape:connector-curvature="0" />
 </svg>

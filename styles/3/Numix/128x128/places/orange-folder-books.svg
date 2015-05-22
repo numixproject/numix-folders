@@ -13,7 +13,7 @@
    version="1.1"
    id="svg2"
    inkscape:version="0.91 r"
-   sodipodi:docname="orange-folder-books.svg">
+   sodipodi:docname="default-folder-books.svg">
   <metadata
      id="metadata21">
     <rdf:RDF>
@@ -41,7 +41,7 @@
      id="namedview17"
      showgrid="true"
      inkscape:zoom="1.84375"
-     inkscape:cx="-50.169492"
+     inkscape:cx="64"
      inkscape:cy="20.610169"
      inkscape:window-x="0"
      inkscape:window-y="21"
@@ -85,6 +85,6 @@
      sodipodi:nodetypes="ccccccccccccccccccccc"
      id="path53-8"
      d="M 68,99.99999 68,68 60,68.00001 60,100 Z M 56,65.99902 40,54.00101 40,86.002 56,98.00001 Z M 88,86.002 88,54.00101 72,65.99852 l 0,32.002 z M 85,52 C 76,52 70,55 64,60 58,55 52,52 43,52 l 17,12 8,0 z"
-     style="fill:#3c2f1b;fill-opacity:1;fill-rule:nonzero;stroke:none;opacity:0.4"
+     style="fill:#ab5d0b;fill-opacity:1.0;fill-rule:nonzero;stroke:none"
      inkscape:connector-curvature="0" />
 </svg>

@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="default-folder-books.svg"
+   sodipodi:docname="custom-folder-books.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -53,7 +53,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="39.4"
-     inkscape:cx="12.270238"
+     inkscape:cx="6.9275984"
      inkscape:cy="8.2851012"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -146,7 +146,7 @@
        sodipodi:nodetypes="ccccccccccccccccccccc"
        id="path53"
        d="m 12,1048.3622 0,-6 -2,0 0,6 z m -3,-7.0831 -3.0000001,-2.0831 0,6.25 L 9,1047.5291 Z m 7,4.1669 0,-6.25 -3,2.0829 0,6.2501 z m -0.625001,-7.0838 c -1.874999,0 -3.124999,0.625 -4.375,1.6667 -1.2499996,-1.0417 -2.499999,-1.6667 -4.3749986,-1.6667 l 3.3749996,2.5 2,0 z"
-       style="opacity:0.4;fill:#3c2f1b;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       style="opacity:1;fill:#ab5d0b;fill-opacity:1;fill-rule:nonzero;stroke:none"
        inkscape:connector-curvature="0" />
   </g>
 </svg>

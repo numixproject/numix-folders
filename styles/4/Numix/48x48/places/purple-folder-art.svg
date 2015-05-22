@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="purple-folder-art.svg">
+   sodipodi:docname="orange-folder-art.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -296,7 +296,7 @@
        clipPathUnits="userSpaceOnUse"
        id="clipPath3839">
       <rect
-         style="opacity:0.43162393;fill:#3c301c;fill-opacity:0.4;fill-rule:evenodd;stroke:none"
+         style="opacity:1.03162393;fill:#3c301c;fill-opacity:1.0;fill-rule:evenodd;stroke:none"
          id="rect3841"
          width="460.00012"
          height="369.99997"
@@ -312,8 +312,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="8.8150005"
-     inkscape:cx="9.3305637"
-     inkscape:cy="2.1528534"
+     inkscape:cx="8.6518619"
+     inkscape:cy="5.4953905"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -389,7 +389,7 @@
        id="rect2991"
        inkscape:connector-curvature="0" />
     <path
-       style="opacity:0.4;fill:#150b3d;fill-opacity:1;stroke:none"
+       style="opacity:1.0;fill:#54398d;fill-opacity:1;stroke:none"
        d="m 23,1024.3622 c -3.993863,0.097 -7,3 -7,6 0,3 2,3 3,3 1,0 2,0 2,2 0,2 1,3 3,3 7,0 8,-5 8,-7 0,-3 -3,-7 -9,-7 z m -2,2 c 0.552285,0 1,0.4477 1,1 0,0.5523 -0.447715,1 -1,1 -0.552285,0 -1,-0.4477 -1,-1 0,-0.5523 0.447715,-1 1,-1 z m 4,0 c 0.552285,0 1,0.4477 1,1 0,0.5523 -0.447715,1 -1,1 -0.552285,0 -1,-0.4477 -1,-1 0,-0.5523 0.447715,-1 1,-1 z m 4,2 c 0.552285,0 1,0.4477 1,1 0,0.5523 -0.447715,1 -1,1 -0.552285,0 -1,-0.4477 -1,-1 0,-0.5523 0.447715,-1 1,-1 z m -11,1 c 0.552285,0 1,0.4477 1,1 0,0.5523 -0.447715,1 -1,1 -0.552285,0 -1,-0.4477 -1,-1 0,-0.5523 0.447715,-1 1,-1 z m 6.5,5 c 0.828427,0 1.5,0.6716 1.5,1.5 0,0.8284 -0.671573,1.5 -1.5,1.5 -0.828427,0 -1.5,-0.6716 -1.5,-1.5 0,-0.8284 0.671573,-1.5 1.5,-1.5 z"
        id="path3843"
        inkscape:connector-curvature="0" />

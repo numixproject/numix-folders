@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="brown-folder-google-drive.svg"
+   sodipodi:docname="orange-folder-google-drive.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -87,7 +87,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="18.950001"
-     inkscape:cx="6.3875311"
+     inkscape:cx="0.055077657"
      inkscape:cy="10.099884"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -165,15 +165,15 @@
     <polygon
        id="polygon3475-1"
        transform="matrix(8.955039e-5,0,0,7.8028193e-5,10.271888,1036.3624)"
-       style="opacity:0.4;fill:#241714;fill-opacity:1;fill-rule:evenodd"
+       style="opacity:1.0;fill:#634b43;fill-opacity:1;fill-rule:evenodd"
        points="44385,76894 133156,76894 110963,115341 22194,115341 " />
     <polygon
        id="polygon3477-6"
        transform="matrix(8.8510347e-5,0,0,9.1034411e-5,10.410376,1034.3623)"
-       style="opacity:0.4;fill:#241714;fill-opacity:1;fill-rule:evenodd"
+       style="opacity:1.0;fill:#634b43;fill-opacity:1;fill-rule:evenodd"
        points="88772,76894 133156,76894 88772,0 44385,0 " />
     <path
-       style="opacity:0.4;fill:#241714;fill-opacity:1;fill-rule:evenodd"
+       style="opacity:1.0;fill:#634b43;fill-opacity:1;fill-rule:evenodd"
        d="m 13.710336,1034.9909 -3.910336,6.306 1.830997,3.6656 3.807912,-6.6716 z"
        id="polygon3479-9"
        inkscape:connector-curvature="0"

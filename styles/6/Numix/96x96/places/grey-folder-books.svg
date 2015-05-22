@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="default-folder-books.svg">
+   sodipodi:docname="custom-folder-books.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -49,7 +49,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="14.31821"
-     inkscape:cx="37.833227"
+     inkscape:cx="23.131669"
      inkscape:cy="39.426167"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -144,7 +144,7 @@
        d="m 50,978.3622 -4,8 -40,0 0,2 42,0 4,-8 34,0 c 2,0 4,2 4,4 l 0,-2 c 0,-2 -2,-4 -4,-4 z"
        style="opacity:0.02999998;fill:#000000;fill-opacity:1;stroke:none" />
     <g
-       style="opacity:0.4;fill:#212121;fill-opacity:1"
+       style="opacity:1;fill:#7f7f7f;fill-opacity:1"
        id="layer3-1"
        inkscape:label="Symbol"
        transform="matrix(7.0866141,0,0,7.0866141,31.999999,932.36219)">
@@ -152,7 +152,7 @@
          sodipodi:nodetypes="ccccccccccccccccccccc"
          id="path53"
          d="m 2.5400002,13.546668 0,-3.104444 -0.5644445,0 0,3.104444 z M 1.6933336,10.301113 -3.1968253e-7,9.1722236 l 0,2.9633334 L 1.6933336,13.264446 Z m 2.8222227,1.834444 0,-2.9633334 -1.6933337,1.1288414 0,2.963428 z M 4.2333338,9.0311124 C 3.386667,9.0311123 2.8222225,9.3133345 2.257778,9.7837051 1.6933334,9.3133345 1.1288889,9.0311123 0.28222213,9.0311124 l 1.69333357,1.1288886 0.5644445,0 z"
-         style="fill:#212121;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         style="fill:#7f7f7f;fill-opacity:1;fill-rule:nonzero;stroke:none"
          inkscape:connector-curvature="0" />
     </g>
   </g>

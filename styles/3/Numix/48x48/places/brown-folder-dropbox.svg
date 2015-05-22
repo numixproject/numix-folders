@@ -14,7 +14,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.5 r10040"
-   sodipodi:docname="brown-folder-dropbox.svg"
+   sodipodi:docname="orange-folder-dropbox.svg"
    inkscape:export-filename="/home/me4oslav/Desktop/folder.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -28,7 +28,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="9.9407525"
-     inkscape:cx="21.689419"
+     inkscape:cx="9.6178982"
      inkscape:cy="22.92046"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -106,7 +106,7 @@
     <path
        id="path3871-8"
        d="m 19.5,1024.3622 -4.5,4 4.5,3 -4.5,4 9,6 9.000001,-6 -4.5,-4 4.5,-3 -4.5,-4 -4.500001,4 z"
-       style="line-height:normal;opacity:0.4;color:#000000;fill:#241714;fill-opacity:1"
+       style="line-height:normal;opacity:1.0;color:#000000;fill:#634b43;fill-opacity:1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccccccc" />
   </g>
