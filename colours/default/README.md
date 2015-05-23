@@ -1,1 +1,1 @@
-As it currently stands it's not possible to use the default colour from one style with another (e.g. the colour from 2 with the style from 4). However, it has been [requested on GitHub](https://github.com/numixproject/numix-folders/issues/7) that we add this feature. Hopefully at some point we'll have the time do add this option in.
+You can use any styles default colours by choosing `style{#}` as colour option, when running the script.
