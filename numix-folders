@@ -204,6 +204,9 @@ currentcolour=$(readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1)
 links=$(find -L ${dir}/Numix/*/{actions,places} -xtype l)
 
 for link in $links; do
+    if [[ $link == *folder_color* ]]; then 
+        continue
+    fi
     newlink=$(readlink "${link}");
     if [[ $newlink == *"$currentcolour"* ]]; then
         newlink=${newlink/${currentcolour}/${colour}}
