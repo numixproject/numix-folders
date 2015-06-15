@@ -10,7 +10,7 @@
    viewBox="0 0 48 48"
    id="svg4334"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
+   inkscape:version="0.91 r"
    width="100%"
    height="100%"
    sodipodi:docname="mansa.svg">
@@ -67,30 +67,6 @@
          stop-opacity="1"
          id="stop4341" />
     </linearGradient>
-    <clipPath
-       id="clipPath-141243315">
-      <g
-         transform="translate(0,-1004.3622)"
-         id="g4344">
-        <path
-           d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
-           transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
-           id="path4346" />
-      </g>
-    </clipPath>
-    <clipPath
-       id="clipPath-149311055">
-      <g
-         transform="translate(0,-1004.3622)"
-         id="g4349">
-        <path
-           d="m -24 13 c 0 1.105 -0.672 2 -1.5 2 -0.828 0 -1.5 -0.895 -1.5 -2 0 -1.105 0.672 -2 1.5 -2 0.828 0 1.5 0.895 1.5 2 z"
-           transform="matrix(15.333333,0,0,11.5,414.99999,878.8622)"
-           fill="#1890d0"
-           id="path4351" />
-      </g>
-    </clipPath>
   </defs>
   <g
      id="g4353">
