@@ -191,7 +191,7 @@ else
     gerror
 fi
 
-cp -rf --remove-destination styles/"${style}"/Numix/* "${dir}"/Numix/
+cp -r --remove-destination styles/"${style}"/Numix/* "${dir}"/Numix/
 
 if [ "$colour" == "custom" ]; then
     find ${dir}/Numix/*/{actions,places}/*custom* \
