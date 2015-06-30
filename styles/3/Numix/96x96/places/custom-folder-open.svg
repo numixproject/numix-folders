@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32"
-   viewBox="0 0 32 32"
-   height="32"
+   width="96"
+   viewBox="0 0 96 96"
+   height="96"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="pink-folder-open.svg">
+   sodipodi:docname="custom-folder-open.svg">
   <metadata
      id="metadata30">
     <rdf:RDF>
@@ -41,9 +41,9 @@
      inkscape:window-height="998"
      id="namedview26"
      showgrid="true"
-     inkscape:zoom="19.666666"
-     inkscape:cx="19.289861"
-     inkscape:cy="17.775707"
+     inkscape:zoom="4.9166665"
+     inkscape:cx="31.443931"
+     inkscape:cy="12.354833"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -57,21 +57,21 @@
        snapvisiblegridlinesonly="true" />
   </sodipodi:namedview>
   <rect
-     style="fill:#ec407a;fill-opacity:1;stroke:none"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
      id="rect3757"
-     width="26"
-     height="10"
-     x="3"
-     y="5.9999828" />
+     width="76"
+     height="30"
+     x="10"
+     y="19.999966" />
   <path
-     style="fill:#ec407a;fill-opacity:1;stroke:none"
-     d="M 6,6 C 6,5 6,4 7.4545454,4 L 12.545455,4 C 14,4 14,5 14,6 l 0,1 -8,0 z"
+     style="fill:replacecolour2;fill-opacity:1;stroke:none"
+     d="m 20,24 c 0,-4 0,-8 4,-8 l 14,0 c 4,0 4,4 4,8 z"
      id="path3759"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccccc" />
+     sodipodi:nodetypes="ccccc" />
   <path
-     style="fill:#f06292;fill-opacity:1;stroke:none"
-     d="M 1,14 31,14 28.857143,28 3.1428571,28 z"
+     style="fill:replacecolour1;fill-opacity:1;stroke:none"
+     d="m 4,46 88,0 -8,34 -74,0 z"
      id="path2987"
      inkscape:connector-curvature="0"
      sodipodi:nodetypes="ccccc" />
