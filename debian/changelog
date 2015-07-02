@@ -1,3 +1,9 @@
+numix-folders (1.0.2-0ubuntu0) vivid; urgency=low
+
+  * Fixed typo in bash script.
+
+ -- Paolo Rotolo <paolorotolo@ubuntu.com>  Thu, 02 Jul 2015 11:01:17 +0100
+
 numix-folders (1.0.1-0ubuntu0) vivid; urgency=low
 
   * Fixed not found resources bug.
