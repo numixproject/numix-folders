@@ -1,0 +1,399 @@
+#!/usr/bin/python3
+
+from gi.repository import Gtk, Gdk
+from shutil import copy
+import sys, re
+
+def get_default_color(color1, color2, color3):
+    for d in defaults:
+        if [color1, color2, color3] == defaults[d]:
+            return d
+        else:
+            continue
+    return "custom"
+
+def gdk_to_hex(gdk_color):
+    colors = gdk_color.to_floats()
+    return "#" + "".join(["%02x" % (color * 255) for color in colors])
+
+
+def check_hex(color):
+    match = re.search(r'^#(?:[0-9a-fA-F]{3}){1,2}$', color)
+    if match:
+        return True
+    else:
+        return False
+
+defaults = {"blue": ["#42a5f5", "#1976d2", "#2a74b9"], "brown": ["#8d6e63", "#5d4037", "#634b43"], "green": ["#66bb6a", "#388e3c", "#448647"],
+         "grey": ["#bdbdbd", "#757575", "#7f7f7f"], "orange": ["#f57c00", "#e65100", "#ab5d0b"], "pink": ["#f06292", "#ec407a", "#c64077"],
+         "purple": ["#7e57c2", "#512da8", "#54398d"], "red": ["#ef5350", "#d32f2f", "#ab3634"], "yellow": ["#ffca28", "#ffb300", "#c79a18"],
+         "style 1": ["#c4905e", "#b07f51", "#f9f9f9"], "style 2": ["#e8b07f", "#9e7757", "#9e7757"], "style 3": ["#f2bb64", "#ea9036", "#b58c4b"],
+         "style 4": ["#f5c14e", "#e9a439", "#c79d41"], "style 5": ["#ffb300", "#f57c00", "#fff8e1"], "style 6": ["#ffa726", "#ef6c00", "#b17621"]
+        }
+
+colors = ["Default", "Blue", "Brown", "Green", "Grey", "Orange", "Pink", "Purple","Red", "Yellow", "Style 1", "Style 2", "Style 3",
+            "Style 4", "Style 5", "Style 6", "Custom"]
+
+if len(sys.argv) > 1:
+    style=sys.argv[1]
+else:
+    style="6"
+
+try:
+    if int(style) not in range(1,7):
+        style = "6"
+except:
+    style = "6"
+
+if len(sys.argv) > 2:
+    color=sys.argv[2].lower()
+else:
+    color = "default"
+
+if color == "custom":
+    color1 = sys.argv[3] if len(sys.argv) > 3 and check_hex(sys.argv[3]) else "#000000"  
+    color2 = sys.argv[4] if len(sys.argv) > 4 and check_hex(sys.argv[4]) else "#000000"
+    color3 = sys.argv[5] if len(sys.argv) > 5 and check_hex(sys.argv[5]) else "#000000"
+elif color == "default":
+    col = defaults["style 6"]
+    color1 = col[0]
+    color2 = col[1]
+    color3 = col[2]
+else:
+    try:
+        col = defaults[color]
+        color1 = col[0]
+        color2 = col[1]
+        color3 = col[2]
+    except:
+        color = "default"
+        col = defaults["style 6"]
+        color1 = col[0]
+        color2 = col[1]
+        color3 = col[2]
+
+
+
+class NumixFoldersGUI(Gtk.Window):
+
+    def __init__(self, style, color, color1, color2, color3):
+        self.quit = 1
+        self.color1 = color1
+        self.color2 = color2
+        self.color3 = color3
+        
+        win = Gtk.Window.__init__(self, title="Numix folders GUI")
+        self.set_border_width(20)
+
+
+        #boxes
+        vboxmain = Gtk.VBox(spacing=20)
+        hboxmain = Gtk.HBox(spacing=0)
+        hboxleft = Gtk.HBox()
+        vboxpics = Gtk.VBox(homogeneous=True)
+        vboxradio = Gtk.VBox(spacing=12, homogeneous=True)
+        vboxright = Gtk.VBox(homogeneous=False)
+        hboxcombo = Gtk.HBox()
+        hboxcolor1 = Gtk.HBox()
+        hboxcolor2 = Gtk.HBox()
+        hboxcolor3 = Gtk.HBox()
+        hboxbuttons = Gtk.HBox()
+        self.add(vboxmain)
+        
+        
+        #pixmaps
+        self.image1 = Gtk.Image()
+        self.image1.set_from_file("./user-home_style1.svg")
+        self.image1.show()
+        fixed1 = Gtk.Fixed()
+        fixed1.put(self.image1, 0, 0)
+        vboxpics.pack_start(fixed1, True, True, 0)
+        self.image2 = Gtk.Image()
+        self.image2.set_from_file("./user-home_style2.svg")
+        self.image2.show()
+        fixed2 = Gtk.Fixed()
+        fixed2.put(self.image2, 0, 0)
+        vboxpics.pack_start(fixed2, True, True, 0)
+        self.image3 = Gtk.Image()
+        self.image3.set_from_file("./user-home_style3.svg")
+        self.image3.show()
+        fixed3 = Gtk.Fixed()
+        fixed3.put(self.image3, 0, 0)
+        vboxpics.pack_start(fixed3, True, True, 0)
+        self.image4 = Gtk.Image()
+        self.image4.set_from_file("./user-home_style4.svg")
+        self.image4.show()
+        fixed4 = Gtk.Fixed()
+        fixed4.put(self.image4, 0, 0)
+        vboxpics.pack_start(fixed4, True, True, 0)
+        self.image5 = Gtk.Image()
+        self.image5.set_from_file("./user-home_style5.svg")
+        self.image5.show()
+        fixed5 = Gtk.Fixed()
+        fixed5.put(self.image5, 0, 0)
+        vboxpics.pack_start(fixed5, True, True, 0)
+        self.image6 = Gtk.Image()
+        self.image6.set_from_file("./user-home_style6.svg")
+        self.image6.show()
+        fixed6 = Gtk.Fixed()
+        fixed6.put(self.image6, 0, 0)
+        vboxpics.pack_start(fixed6, True, True,2)
+        
+        
+        #radiobuttons
+        self.buttonradio1 = Gtk.RadioButton("Style 1")
+        vboxradio.pack_start(self.buttonradio1, False, False, 0)
+        self.buttonradio2 = Gtk.RadioButton(group=self.buttonradio1)
+        self.buttonradio2.set_label("Style 2")
+        vboxradio.pack_start(self.buttonradio2, False, False, 0)
+        self.buttonradio3 = Gtk.RadioButton(group=self.buttonradio1)
+        self.buttonradio3.set_label("Style 3")
+        vboxradio.pack_start(self.buttonradio3, False, False, 0)
+        self.buttonradio4 = Gtk.RadioButton(group=self.buttonradio1)
+        self.buttonradio4.set_label("Style 4")
+        vboxradio.pack_start(self.buttonradio4, False, False, 0)
+        self.buttonradio5 = Gtk.RadioButton(group=self.buttonradio1)
+        self.buttonradio5.set_label("Style 5")
+        vboxradio.pack_start(self.buttonradio5, False, False, 0)
+        self.buttonradio6 = Gtk.RadioButton(group=self.buttonradio1)
+        self.buttonradio6.set_label("Style 6")
+        vboxradio.pack_start(self.buttonradio6, False, False, 2)
+        eval('self.buttonradio'+style+'.set_active(True)')
+        
+        
+        #comboboxentry
+        colors_store = Gtk.ListStore(str)
+        for col in colors:
+            colors_store.append([col])
+        self.colors_combo = Gtk.ComboBox.new_with_model(colors_store)
+        renderer_text = Gtk.CellRendererText()
+        self.colors_combo.pack_start(renderer_text, True)
+        self.colors_combo.add_attribute(renderer_text, "text", 0)
+        if color and color in [x.lower() for x in colors]: 
+            ind = [x.lower() for x in colors].index(color)
+            self.colors_combo.set_active(ind)
+        hboxcombo.pack_start(self.colors_combo, True, True, 30)
+        
+        
+        #colorchooser
+        color11 = Gdk.color_parse(self.color1)
+        color21 = Gdk.color_parse(self.color2)
+        color31 = Gdk.color_parse(self.color3)
+        
+        self.colorbutton1 = Gtk.ColorButton()
+        self.colorbutton1.set_color(color11)
+        self.colorentry1 = Gtk.Entry()
+        self.colorentry1.set_text(color1)
+        self.colorentry1.set_width_chars(5)
+        hboxcolor1.pack_start(self.colorbutton1, False, False, 10)
+        hboxcolor1.pack_start(self.colorentry1, False, False, 0)
+        
+        self.colorbutton2 = Gtk.ColorButton()
+        self.colorbutton2.set_color(color21)
+        self.colorentry2 = Gtk.Entry()
+        self.colorentry2.set_text(color2)
+        self.colorentry2.set_width_chars(5)
+        hboxcolor2.pack_start(self.colorbutton2, False, False, 10)
+        hboxcolor2.pack_start(self.colorentry2, False, False, 0)
+        
+        self.colorbutton3 = Gtk.ColorButton()
+        self.colorbutton3.set_color(color31)
+        self.colorentry3 = Gtk.Entry()
+        self.colorentry3.set_text(color3)
+        self.colorentry3.set_width_chars(5)
+        hboxcolor3.pack_start(self.colorbutton3, False, False,10)
+        hboxcolor3.pack_start(self.colorentry3, False, False, 0)
+        
+        
+        #buttons
+        buttonclose = Gtk.Button("_Cancel", use_underline=True)
+        buttonok = Gtk.Button("_OK", use_underline=True)
+        hboxbuttons.pack_end(buttonok, False, False, 0)
+        hboxbuttons.pack_end(buttonclose, False, False, 0)
+        
+        
+        #packing
+        vboxmain.pack_start(hboxmain, False, False, 0)
+        vboxmain.pack_end(hboxbuttons, True, True, 4)
+        
+        hboxmain.pack_start(hboxleft, False, False, 0)
+        hboxmain.pack_start(vboxright, False, False, 25)
+        
+        hboxleft.pack_start(vboxpics, True, True, 5)
+        hboxleft.pack_end(vboxradio, True, True, 5)
+        
+        vboxright.pack_start(hboxcombo, False, False, 70)
+        vboxright.pack_start(hboxcolor1, False, False, 5)
+        vboxright.pack_start(hboxcolor2, False, False, 5)
+        vboxright.pack_start(hboxcolor3, False, False, 5)
+        
+        
+        #conect signals
+        self.colors_combo.connect("changed", self.update_combo)
+        self.colorbutton1.connect("color_set", self.update_entry, 1)
+        self.colorentry1.connect("changed", self.update_colorbutton, 1)
+        self.colorbutton2.connect("color_set", self.update_entry, 2)
+        self.colorentry2.connect("changed", self.update_colorbutton, 2)
+        self.colorbutton3.connect("color_set", self.update_entry, 3)
+        self.colorentry3.connect("changed", self.update_colorbutton, 3)
+        buttonclose.connect("clicked", self.on_close_clicked)
+        buttonok.connect("clicked", self.on_ok_clicked)
+        self.update_combo(self.colors_combo)
+        if color in ("Custom", "custom"):
+            self.update_images(self.color1, self.color2, self.color3)
+        
+
+    def update_combo(self, widget):
+        ind = widget.get_active()
+        color = colors[ind].lower()
+        if color == "custom":
+            return
+        elif color == "default":
+            (self.color1, self.color2, self.color3) = defaults["style 6"]
+            for j in range(1, 7):
+                self.update_images_style(str(j), *defaults["style "+str(j)])
+        else:
+            (self.color1, self.color2, self.color3) = defaults[color]
+            self.update_images(self.color1, self.color2, self.color3)
+        self.colorbutton1.handler_block_by_func(self.update_entry)
+        self.colorbutton2.handler_block_by_func(self.update_entry)
+        self.colorbutton3.handler_block_by_func(self.update_entry)
+        self.colorentry1.handler_block_by_func(self.update_colorbutton)
+        self.colorentry2.handler_block_by_func(self.update_colorbutton)
+        self.colorentry3.handler_block_by_func(self.update_colorbutton)
+        self.colorentry1.set_text(self.color1)
+        self.colorentry2.set_text(self.color2)
+        self.colorentry3.set_text(self.color3)
+        self.colorbutton1.set_color(Gdk.color_parse(self.color1))
+        self.colorbutton2.set_color(Gdk.color_parse(self.color2))
+        self.colorbutton3.set_color(Gdk.color_parse(self.color3))
+        self.colorbutton1.handler_unblock_by_func(self.update_entry)
+        self.colorbutton2.handler_unblock_by_func(self.update_entry)
+        self.colorbutton3.handler_unblock_by_func(self.update_entry)
+        self.colorentry1.handler_unblock_by_func(self.update_colorbutton)
+        self.colorentry2.handler_unblock_by_func(self.update_colorbutton)
+        self.colorentry3.handler_unblock_by_func(self.update_colorbutton)
+
+        
+    def update_entry(self, widget, arg):
+        color = widget.get_color()
+        if arg==1:
+            self.color1 = gdk_to_hex(color)
+            self.colorentry1.handler_block_by_func(self.update_colorbutton)
+            self.colorentry1.set_text(self.color1)
+            self.colorentry1.handler_unblock_by_func(self.update_colorbutton)
+        elif arg==2:
+            self.color2 = gdk_to_hex(color)
+            self.colorentry2.handler_block_by_func(self.update_colorbutton)
+            self.colorentry2.set_text(self.color2)
+            self.colorentry2.handler_unblock_by_func(self.update_colorbutton)
+        elif arg==3:
+            self.color3 = gdk_to_hex(color)
+            self.colorentry3.handler_block_by_func(self.update_colorbutton)
+            self.colorentry3.set_text(self.color3)
+            self.colorentry3.handler_unblock_by_func(self.update_colorbutton)
+        color = get_default_color(self.color1, self.color2, self.color3)
+        ind = [x.lower() for x in colors].index(color)
+        self.update_images(self.color1, self.color2, self.color3)
+        self.colors_combo.handler_block_by_func(self.update_combo)
+        self.colors_combo.set_active(ind)
+        self.colors_combo.handler_unblock_by_func(self.update_combo)
+        
+
+    def update_colorbutton(self, widget, arg):
+        entry = widget.get_text()
+        if len(entry) != 7:
+            return
+        match = re.search(r'^#(?:[0-9a-fA-F]{3}){1,2}$', entry)
+        if not match:
+            return
+        try:
+            color = Gdk.color_parse(entry)
+        except:
+            return
+        if arg==1:
+            self.color1 = entry
+            self.colorbutton1.handler_block_by_func(self.update_entry)
+            self.colorbutton1.set_color(color)
+            self.colorbutton1.handler_unblock_by_func(self.update_entry)
+        elif arg==2:
+            self.color2 = entry
+            self.colorbutton2.handler_block_by_func(self.update_entry)
+            self.colorbutton2.set_color(color)
+            self.colorbutton2.handler_unblock_by_func(self.update_entry)
+        elif arg==3:
+            self.color3 = entry
+            self.colorbutton3.handler_block_by_func(self.update_entry)
+            self.colorbutton3.set_color(color)
+            self.colorbutton3.handler_unblock_by_func(self.update_entry)
+        color = get_default_color(self.color1, self.color2, self.color3)
+        ind = [x.lower() for x in colors].index(color)
+        self.update_images(self.color1, self.color2, self.color3)
+        self.colors_combo.handler_block_by_func(self.update_combo)
+        self.colors_combo.set_active(ind)
+        self.colors_combo.handler_unblock_by_func(self.update_combo)
+
+
+    def update_images(self, col1, col2, col3):
+        for i in range(1,7):
+            filename = "./user-home_style"+str(i)+".svg"
+            copy("./styles/"+str(i)+"/Numix/48x48/places/custom-user-home.svg", filename)
+            with open(filename, "r") as content_file:
+                svg = content_file.read()
+            svg = svg.replace("replacecolour1", col1)
+            svg = svg.replace("replacecolour2", col2)
+            svg = svg.replace("replacecolour3", col3)
+            f = open(filename,'w')
+            f.write(svg)
+            f.close()
+        self.image1.set_from_file("./user-home_style1.svg")
+        self.image2.set_from_file("./user-home_style2.svg")
+        self.image3.set_from_file("./user-home_style3.svg")
+        self.image4.set_from_file("./user-home_style4.svg")
+        self.image5.set_from_file("./user-home_style5.svg")
+        self.image6.set_from_file("./user-home_style6.svg")
+    
+    
+    def update_images_style(self, style, col1, col2, col3):
+        filename = "./user-home_style"+str(style)+".svg"
+        copy("./styles/"+str(style)+"/Numix/48x48/places/custom-user-home.svg", filename)
+        with open(filename, "r") as content_file:
+            svg = content_file.read()
+        svg = svg.replace("replacecolour1", col1)
+        svg = svg.replace("replacecolour2", col2)
+        svg = svg.replace("replacecolour3", col3)
+        f = open(filename,'w')
+        f.write(svg)
+        f.close()
+        eval('self.image'+str(style)+'.set_from_file("./user-home_style'+str(style)+'.svg")')
+        
+
+    def on_close_clicked(self, button):
+        self.quit = 1
+        Gtk.main_quit()
+    
+    
+    def on_ok_clicked(self, button):
+        self.quit = 0
+        Gtk.main_quit()
+
+
+win = NumixFoldersGUI(style, color, color1, color2, color3)
+win.connect("delete-event", Gtk.main_quit)
+win.set_resizable(False)
+win.show_all()
+Gtk.main()
+
+
+style = [win.buttonradio1.get_group()[::-1].index(r)+1 for r in win.buttonradio1.get_group() if r.get_active()][0]
+color = colors[win.colors_combo.get_active()].lower()
+if not win.quit:
+    print(style)
+    print(color)
+    print(win.color1)
+    print(win.color2)
+    print(win.color3)
+else:
+    sys.exit("Terminated")
+
+
