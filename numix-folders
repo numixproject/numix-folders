@@ -15,7 +15,7 @@ function sucess() { sleep 3; exit 0; }
 function gerror() { sleep 5; exit 1; }
 
 if [ -z "$1" ]; then
-    runmode=0
+    runmode=2
 else
     case "$1" in
         -c|--colours)
@@ -58,10 +58,13 @@ else
                 "\r  -c, --colours \t List of available colours.\n" \
                 "\r  -s, --styles \t\t List of available styles.\n" \
                 "\r  -h, --help \t\t Displays this help menu.\n"\
-                "\r  -p, --prev \t\t Use previous settings."
+                "\r  -p, --prev \t\t Use previous settings.\n"\
+                "\r  -t, --cli \t\t Use script in terminal"
             sucess ;;
         -p|--prev)
                 runmode=1;;
+        -t|--cli)
+                runmode=0;;
         *)
             echo -e \
                 "numix-folders: invalid option -- '$1'\n" \
@@ -75,163 +78,193 @@ cuser="${SUDO_USER:-$USER}"
 config_file=/home/"$cuser"/.config/numix-folders
 if [ ! -f "$config_file" ];then
   touch "$config_file"
-  runmode=0
 fi
 
-if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
-    dir=/home/"$cuser"/.local/share/icons
-elif [ -d /home/"$cuser"/.icons/Numix ]; then
-    dir=/home/"$cuser"/.icons
-elif [ -d /usr/share/icons/Numix/ ]; then
-    if [[ $UID -ne 0 ]]; then
-        echo -e \
-            "You appear to have Numix installed globally.\n" \
-            "\rPlease run this script again as root."
-        gerror
+if [ "$runmode" -eq 2 ]; then
+    if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
+        dir=/home/"$cuser"/.local/share/icons
+    elif [ -d /home/"$cuser"/.icons/Numix ]; then
+        dir=/home/"$cuser"/.icons
+    elif [ -d /usr/share/icons/Numix/ ]; then
+        if [[ $UID -ne 0 ]]; then
+            scriptname=$(readlink -f "$0")
+            exec gksu $scriptname
+        else
+            dir=/usr/share/icons
+        fi
     else
-        dir=/usr/share/icons
+        zenity --error --text\
+            "You don't appear to have Numix installed! Please install it and run this script again."
+        exit
     fi
-else
-    echo -e \
-        "You don't appear to have Numix installed! Please\n" \
-        "\rinstall it and run this script again."
-    gerror
-fi
+    style=`sed -n 1p $config_file`
+    colour=`sed -n 2p $config_file`
+    colour1=`sed -n 3p $config_file`
+    colour2=`sed -n 4p $config_file`
+    colour3=`sed -n 5p $config_file`
+    vars=`./gui/gui $style $colour $colour1 $colour2 $colour3`
+    style=$(echo $vars | awk '{print $1}')
+    colour=$(echo $vars | awk '{print $2}')
+    colour1=$(echo $vars | awk '{print $3}')
+    colour2=$(echo $vars | awk '{print $4}')
+    colour3=$(echo $vars | awk '{print $5}')
 
-exitloop=0
-until [ "$exitloop" -eq 1 ]; do
-    case $runmode in
-        1)
-            echo "Trying to use previously stored settings"
-            style=`sed -n 1p $config_file`
-            colour=`sed -n 2p $config_file`
-            colour1=`sed -n 3p $config_file`
-            colour2=`sed -n 4p $config_file`
-            colour3=`sed -n 5p $config_file`
-            if [[ "$style" -gt 6 || "$style" -lt 1 ]] || [[ -z $colour ]]; then
-                exitloop=0
-                runmode=0
-                echo "There were errors in your config file!"
-                continue
-            fi
-            if [ "$colour" == "custom" ]; then
-                if ! [[ "$colour1" =~ ^[0-9A-Fa-f]{6}$ ]] || ! [[ "$colour2" =~ ^[0-9A-Fa-f]{6}$ ]] || ! [[ "$colour3" =~ ^[0-9A-Fa-f]{6}$ ]]; then
+else
+    if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
+        dir=/home/"$cuser"/.local/share/icons
+    elif [ -d /home/"$cuser"/.icons/Numix ]; then
+        dir=/home/"$cuser"/.icons
+    elif [ -d /usr/share/icons/Numix/ ]; then
+        if [[ $UID -ne 0 ]]; then
+            echo -e \
+                "You appear to have Numix installed globally.\n" \
+                "\rPlease run this script again as root."
+            gerror
+        else
+            dir=/usr/share/icons
+        fi
+    else
+        echo -e \
+            "You don't appear to have Numix installed! Please\n" \
+            "\rinstall it and run this script again."
+        gerror
+    fi
+
+    exitloop=0
+    until [ "$exitloop" -eq 1 ]; do
+        case $runmode in
+            1)
+                echo "Trying to use previously stored settings"
+                style=`sed -n 1p $config_file`
+                colour=`sed -n 2p $config_file`
+                colour1=`sed -n 3p $config_file`
+                colour2=`sed -n 4p $config_file`
+                colour3=`sed -n 5p $config_file`
+                if [[ "$style" -gt 6 || "$style" -lt 1 ]] || [[ -z $colour ]]; then
                     exitloop=0
                     runmode=0
                     echo "There were errors in your config file!"
                     continue
                 fi
-            fi
-            exitloop=1
-            ;;
-        0)
-            read -p "Which folder style do you want? " answer
-            if [ -z "$answer" ]; then
-                style="0"
-            elif [ -d styles/"$answer" ]; then
-                style="$answer"
-            else
-                echo -e \
-                    "Oops! You've chosen an invalid style number.\n" \
-                    "\rRun 'numix-folders --styles' for an option list."
-                gerror
-            fi
-
-            read -p "Which folder colour do you want? " answer
-            answer="$(tr '[:upper:]' '[:lower:]' <<< "$answer")" #convert answer to lowercase
-            colour1="000000"
-            colour2="000000"
-            colour3="000000"
-            if [ -z "$answer" ]; then
-                colour="default"
-            elif [ "$answer" == "custom" ] || [[ $answer == "style"[1-6] ]]; then
-                colour="custom"
-                
-                styledef=$style
-                if [[ $answer == "style"[1-6] ]]; then
-                    styledef=${answer#"style"}
+                if [ "$colour" == "custom" ]; then
+                    if ! [[ "$colour1" =~ ^[0-9A-Fa-f]{6}$ ]] || ! [[ "$colour2" =~ ^[0-9A-Fa-f]{6}$ ]] || ! [[ "$colour3" =~ ^[0-9A-Fa-f]{6}$ ]]; then
+                        exitloop=0
+                        runmode=0
+                        echo "There were errors in your config file!"
+                        continue
+                    fi
                 fi
-                case "$styledef" in 
-                    "1")
-                        col1def="c4905e"
-                        col2def="b07f51"
-                        col3def="f9f9f9"
-                        ;;
-                    "2")
-                        col1def="e8b07f"
-                        col2def="9e7757"
-                        col3def="9e7757"
-                        ;;
-                    "3")
-                        col1def="f2bb64"
-                        col2def="ea9036"
-                        col3def="b58c4b"
-                        ;;
-                    "4")
-                        col1def="f5c14e"
-                        col2def="e9a439"
-                        col3def="c79d41"
-                        ;;
-                    "5")
-                        col1def="ffb300"
-                        col2def="f57c00"
-                        col3def="fff8e1"
-                        ;;
-                    "6" | "0")
-                        col1def="ffa726"
-                        col2def="ef6c00"
-                        col3def="b17621"
-                        ;;
-                esac
-
-                function checkhex() {
-                    if ! [[ $1 =~ ^[0-9A-Fa-f]{6}$ ]]; then
-                       echo -e \
-                           "Oops! The colour: $1 is an invalid hex value.\n" \
-                           "\rBe sure to use valid hex values with six digits (e.g. 000000)."
-                       gerror
-                    fi
-                }
-                
-                if [[ $answer == "custom" ]]; then
-                    if grep -q "replacecolour1" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
-                        read -p "Choose primary colour in hex notation (default: $col1def): " colour1
-                        if [ -z "$colour1" ]; then
-                            colour1=$col1def
-                        fi
-                        checkhex $colour1
-                    fi
-                    if grep -q "replacecolour2" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
-                        read -p "Choose secondary colour in hex notation (default: $col2def): " colour2
-                        if [ -z "$colour2" ]; then
-                            colour2=$col2def
-                        fi
-                        checkhex $colour2
-                    fi
-                    if grep -q "replacecolour3" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
-                        read -p "Choose symbol colour in hex notation (default: $col3def): " colour3
-                        if [ -z "$colour3" ]; then
-                            colour3=$col3def
-                        fi
-                        checkhex $colour3
-                    fi
+                exitloop=1
+                ;;
+            0)
+                read -p "Which folder style do you want? " answer
+                if [ -z "$answer" ]; then
+                    style="0"
+                elif [ -d styles/"$answer" ]; then
+                    style="$answer"
                 else
-                    colour1=$col1def
-                    colour2=$col2def
-                    colour3=$col3def
+                    echo -e \
+                        "Oops! You've chosen an invalid style number.\n" \
+                        "\rRun 'numix-folders --styles' for an option list."
+                    gerror
                 fi
-            elif [ -d colours/"$answer" ]; then
-                colour="$answer"
-            else
-                echo -e \
-                    "Oops! You've chosen an invalid colour.\n" \
-                    "\rRun 'numix-folders --colours' for an option list."
-                gerror
-            fi
-            exitloop=1
-            ;;
-    esac
-done
+
+                read -p "Which folder colour do you want? " answer
+                answer="$(tr '[:upper:]' '[:lower:]' <<< "$answer")" #convert answer to lowercase
+                colour1="000000"
+                colour2="000000"
+                colour3="000000"
+                if [ -z "$answer" ]; then
+                    colour="default"
+                elif [ "$answer" == "custom" ] || [[ $answer == "style"[1-6] ]]; then
+                    colour="custom"
+                    
+                    styledef=$style
+                    if [[ $answer == "style"[1-6] ]]; then
+                        styledef=${answer#"style"}
+                    fi
+                    case "$styledef" in 
+                        "1")
+                            col1def="c4905e"
+                            col2def="b07f51"
+                            col3def="f9f9f9"
+                            ;;
+                        "2")
+                            col1def="e8b07f"
+                            col2def="9e7757"
+                            col3def="9e7757"
+                            ;;
+                        "3")
+                            col1def="f2bb64"
+                            col2def="ea9036"
+                            col3def="b58c4b"
+                            ;;
+                        "4")
+                            col1def="f5c14e"
+                            col2def="e9a439"
+                            col3def="c79d41"
+                            ;;
+                        "5")
+                            col1def="ffb300"
+                            col2def="f57c00"
+                            col3def="fff8e1"
+                            ;;
+                        "6" | "0")
+                            col1def="ffa726"
+                            col2def="ef6c00"
+                            col3def="b17621"
+                            ;;
+                    esac
+
+                    function checkhex() {
+                        if ! [[ $1 =~ ^[0-9A-Fa-f]{6}$ ]]; then
+                           echo -e \
+                               "Oops! The colour: $1 is an invalid hex value.\n" \
+                               "\rBe sure to use valid hex values with six digits (e.g. 000000)."
+                           gerror
+                        fi
+                    }
+                    
+                    if [[ $answer == "custom" ]]; then
+                        if grep -q "replacecolour1" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
+                            read -p "Choose primary colour in hex notation (default: $col1def): " colour1
+                            if [ -z "$colour1" ]; then
+                                colour1=$col1def
+                            fi
+                            checkhex $colour1
+                        fi
+                        if grep -q "replacecolour2" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
+                            read -p "Choose secondary colour in hex notation (default: $col2def): " colour2
+                            if [ -z "$colour2" ]; then
+                                colour2=$col2def
+                            fi
+                            checkhex $colour2
+                        fi
+                        if grep -q "replacecolour3" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
+                            read -p "Choose symbol colour in hex notation (default: $col3def): " colour3
+                            if [ -z "$colour3" ]; then
+                                colour3=$col3def
+                            fi
+                            checkhex $colour3
+                        fi
+                    else
+                        colour1=$col1def
+                        colour2=$col2def
+                        colour3=$col3def
+                    fi
+                elif [ -d colours/"$answer" ]; then
+                    colour="$answer"
+                else
+                    echo -e \
+                        "Oops! You've chosen an invalid colour.\n" \
+                        "\rRun 'numix-folders --colours' for an option list."
+                    gerror
+                fi
+                exitloop=1
+                ;;
+        esac
+    done
+fi
 
 cp -rf styles/"${style}"/Numix/* "${dir}"/Numix/
 
