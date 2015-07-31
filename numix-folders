@@ -52,7 +52,7 @@ else
                 "A script for changing the Numix base folder\n" \
                 "\rstyle and colour.\n\n" \
                 "\rRunning as root makes the change globally,\n" \
-                "\rotherwise it     is only made locally. Run as\n" \
+                "\rotherwise it is only made locally. Run as\n" \
                 "\rappropriate to your Numix installation.\n\n" \
                 "\rUsage: numix-folders [OPTION]\n" \
                 "\r  -c, --colours \t List of available colours.\n" \
