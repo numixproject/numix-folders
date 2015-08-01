@@ -4,9 +4,9 @@ from gi.repository import Gtk, Gdk
 from shutil import copy
 import sys, re
 
-def get_default_colour(colour1, colour2, colour3):
+def get_default_colour(colour):
     for d in defaults:
-        if [colour1, colour2, colour3] == defaults[d]:
+        if colour == defaults[d]:
             return d
         else:
             continue
@@ -23,11 +23,11 @@ def check_hex(colour):
     else:
         return False
 
-defaults = {"blue": ["#42a5f5", "#1976d2", "#2a74b9"], "brown": ["#8d6e63", "#5d4037", "#634b43"], "green": ["#66bb6a", "#388e3c", "#448647"],
-         "grey": ["#bdbdbd", "#757575", "#7f7f7f"], "orange": ["#f57c00", "#e65100", "#ab5d0b"], "pink": ["#f06292", "#ec407a", "#c64077"],
-         "purple": ["#7e57c2", "#512da8", "#54398d"], "red": ["#ef5350", "#d32f2f", "#ab3634"], "yellow": ["#ffca28", "#ffb300", "#c79a18"],
-         "style 1": ["#c4905e", "#b07f51", "#f9f9f9"], "style 2": ["#e8b07f", "#9e7757", "#9e7757"], "style 3": ["#f2bb64", "#ea9036", "#b58c4b"],
-         "style 4": ["#f5c14e", "#e9a439", "#c79d41"], "style 5": ["#ffb300", "#f57c00", "#fff8e1"], "style 6": ["#ffa726", "#ef6c00", "#b17621"]
+defaults = {"blue": ("#42a5f5", "#1976d2", "#2a74b9"), "brown": ("#8d6e63", "#5d4037", "#634b43"), "green": ("#66bb6a", "#388e3c", "#448647"),
+         "grey": ("#bdbdbd", "#757575", "#7f7f7f"), "orange": ("#f57c00", "#e65100", "#ab5d0b"), "pink": ("#f06292", "#ec407a", "#c64077"),
+         "purple": ("#7e57c2", "#512da8", "#54398d"), "red": ("#ef5350", "#d32f2f", "#ab3634"), "yellow": ("#ffca28", "#ffb300", "#c79a18"),
+         "style 1": ("#c4905e", "#b07f51", "#f9f9f9"), "style 2": ("#e8b07f", "#9e7757", "#9e7757"), "style 3": ("#f2bb64", "#ea9036", "#b58c4b"),
+         "style 4": ("#f5c14e", "#e9a439", "#c79d41"), "style 5": ("#ffb300", "#f57c00", "#fff8e1"), "style 6": ("#ffa726", "#ef6c00", "#b17621")
         }
 
 colours = ["Default", "Blue", "Brown", "Green", "Grey", "Orange", "Pink", "Purple","Red", "Yellow", "Style 1", "Style 2", "Style 3",
@@ -208,11 +208,11 @@ class NumixFoldersGUI(Gtk.Window):
         if colour == "custom":
             return
         elif colour == "default":
-            self.colour = defaults["style 6"]
+            self.colour = list(defaults["style 6"])
             for j in range(1, number_styles+1):
                 self.update_images(j, *defaults["style "+str(j)])
         else:
-            self.colour = defaults[colour]
+            self.colour = list(defaults[colour])
             self.update_images(list(range(1, number_styles+1)), *self.colour)
         for j, but in enumerate(self.colourbuttons): 
             but.handler_block_by_func(self.update_entry)
@@ -230,7 +230,7 @@ class NumixFoldersGUI(Gtk.Window):
         self.colourentries[arg].handler_block_by_func(self.update_colourbutton)
         self.colourentries[arg].set_text(self.colour[arg])
         self.colourentries[arg].handler_unblock_by_func(self.update_colourbutton)
-        colour = get_default_colour(*self.colour)
+        colour = get_default_colour(tuple(self.colour))
         ind = [x.lower() for x in colours].index(colour)
         self.update_images(list(range(1, number_styles+1)), *self.colour)
         self.colours_combo.handler_block_by_func(self.update_combo)
@@ -254,7 +254,7 @@ class NumixFoldersGUI(Gtk.Window):
         self.colourbuttons[arg].set_color(colour)
         self.colourbuttons[arg].handler_unblock_by_func(self.update_entry)
         
-        colour = get_default_colour(*self.colour)
+        colour = get_default_colour(tuple(self.colour))
         ind = [x.lower() for x in colours].index(colour)
         self.update_images(list(range(1, number_styles+1)), *self.colour)
         self.colours_combo.handler_block_by_func(self.update_combo)
