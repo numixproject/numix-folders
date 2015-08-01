@@ -108,6 +108,9 @@ if [ "$runmode" -eq 2 ]; then
     colour1=$(echo $vars | awk '{print $3}')
     colour2=$(echo $vars | awk '{print $4}')
     colour3=$(echo $vars | awk '{print $5}')
+    if [[ "$style" -eq "Cancel" ]]; then 
+        exit
+    fi
 
 else
     if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
