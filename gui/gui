@@ -30,8 +30,8 @@ defaults = {"blue": ("#42a5f5", "#1976d2", "#2a74b9"), "brown": ("#8d6e63", "#5d
          "style 4": ("#f5c14e", "#e9a439", "#c79d41"), "style 5": ("#ffb300", "#f57c00", "#fff8e1"), "style 6": ("#ffa726", "#ef6c00", "#b17621")
         }
 
-colours = ["Default", "Blue", "Brown", "Green", "Grey", "Orange", "Pink", "Purple","Red", "Yellow", "Style 1", "Style 2", "Style 3",
-            "Style 4", "Style 5", "Style 6", "Custom"]
+colours = ("Default", "Blue", "Brown", "Green", "Grey", "Orange", "Pink", "Purple","Red", "Yellow", "Style 1", "Style 2", "Style 3",
+            "Style 4", "Style 5", "Style 6", "Custom")
 
 number_styles = 6
 number_colours = 3
