@@ -33,16 +33,20 @@ defaults = {"blue": ["#42a5f5", "#1976d2", "#2a74b9"], "brown": ["#8d6e63", "#5d
 colours = ["Default", "Blue", "Brown", "Green", "Grey", "Orange", "Pink", "Purple","Red", "Yellow", "Style 1", "Style 2", "Style 3",
             "Style 4", "Style 5", "Style 6", "Custom"]
 
+number_styles = 6
+number_colours = 3
+default_style = 6
+
 if len(sys.argv) > 1:
     style=sys.argv[1]
 else:
-    style="6"
+    style=str(default_style)
 
 try:
-    if int(style) not in range(1,7):
-        style = "6"
+    if int(style) not in range(1,style+1):
+        style = str(default_style)
 except:
-    style = "6"
+    style = str(default_style)
 
 if len(sys.argv) > 2:
     colour=sys.argv[2].lower()
@@ -54,7 +58,7 @@ if colour == "custom":
     colour2 = sys.argv[4] if len(sys.argv) > 4 and check_hex(sys.argv[4]) else "#000000"
     colour3 = sys.argv[5] if len(sys.argv) > 5 and check_hex(sys.argv[5]) else "#000000"
 elif colour == "default":
-    col = defaults["style 6"]
+    col = defaults["style %s"%(default_style)]
     colour1 = col[0]
     colour2 = col[1]
     colour3 = col[2]
@@ -66,7 +70,7 @@ else:
         colour3 = col[2]
     except:
         colour = "default"
-        col = defaults["style 6"]
+        col = defaults["style %s"%(default_style)]
         colour1 = col[0]
         colour2 = col[1]
         colour3 = col[2]
@@ -77,9 +81,7 @@ class NumixFoldersGUI(Gtk.Window):
 
     def __init__(self, style, colour, colour1, colour2, colour3):
         self.quit = 1
-        self.colour1 = colour1
-        self.colour2 = colour2
-        self.colour3 = colour3
+        self.colour = [colour1, colour2, colour3]
         
         win = Gtk.Window.__init__(self, title="Numix folders GUI")
         self.set_border_width(20)
@@ -93,71 +95,32 @@ class NumixFoldersGUI(Gtk.Window):
         vboxradio = Gtk.VBox(spacing=12, homogeneous=True)
         vboxright = Gtk.VBox(homogeneous=False)
         hboxcombo = Gtk.HBox()
-        hboxcolour1 = Gtk.HBox()
-        hboxcolour2 = Gtk.HBox()
-        hboxcolour3 = Gtk.HBox()
+        hboxcolour = [] #filled later
         hboxbuttons = Gtk.HBox()
         self.add(vboxmain)
         
         
         #pixmaps
-        self.image1 = Gtk.Image()
-        self.image1.set_from_file("./user-home_style1.svg")
-        self.image1.show()
-        fixed1 = Gtk.Fixed()
-        fixed1.put(self.image1, 0, 0)
-        vboxpics.pack_start(fixed1, True, True, 0)
-        self.image2 = Gtk.Image()
-        self.image2.set_from_file("./user-home_style2.svg")
-        self.image2.show()
-        fixed2 = Gtk.Fixed()
-        fixed2.put(self.image2, 0, 0)
-        vboxpics.pack_start(fixed2, True, True, 0)
-        self.image3 = Gtk.Image()
-        self.image3.set_from_file("./user-home_style3.svg")
-        self.image3.show()
-        fixed3 = Gtk.Fixed()
-        fixed3.put(self.image3, 0, 0)
-        vboxpics.pack_start(fixed3, True, True, 0)
-        self.image4 = Gtk.Image()
-        self.image4.set_from_file("./user-home_style4.svg")
-        self.image4.show()
-        fixed4 = Gtk.Fixed()
-        fixed4.put(self.image4, 0, 0)
-        vboxpics.pack_start(fixed4, True, True, 0)
-        self.image5 = Gtk.Image()
-        self.image5.set_from_file("./user-home_style5.svg")
-        self.image5.show()
-        fixed5 = Gtk.Fixed()
-        fixed5.put(self.image5, 0, 0)
-        vboxpics.pack_start(fixed5, True, True, 0)
-        self.image6 = Gtk.Image()
-        self.image6.set_from_file("./user-home_style6.svg")
-        self.image6.show()
-        fixed6 = Gtk.Fixed()
-        fixed6.put(self.image6, 0, 0)
-        vboxpics.pack_start(fixed6, True, True,2)
-        
+        self.image = []
+        for i in range(number_styles):
+            self.image.append(Gtk.Image())
+            self.image[i].set_from_file("./user-home_style%s.svg"%(i+1))
+            self.image[i].show()
+            fixed = Gtk.Fixed()
+            fixed.put(self.image[i], 0, 0)
+            vboxpics.pack_start(fixed, True, True, 0)
+            
         
         #radiobuttons
-        self.buttonradio1 = Gtk.RadioButton("Style 1")
-        vboxradio.pack_start(self.buttonradio1, False, False, 0)
-        self.buttonradio2 = Gtk.RadioButton(group=self.buttonradio1)
-        self.buttonradio2.set_label("Style 2")
-        vboxradio.pack_start(self.buttonradio2, False, False, 0)
-        self.buttonradio3 = Gtk.RadioButton(group=self.buttonradio1)
-        self.buttonradio3.set_label("Style 3")
-        vboxradio.pack_start(self.buttonradio3, False, False, 0)
-        self.buttonradio4 = Gtk.RadioButton(group=self.buttonradio1)
-        self.buttonradio4.set_label("Style 4")
-        vboxradio.pack_start(self.buttonradio4, False, False, 0)
-        self.buttonradio5 = Gtk.RadioButton(group=self.buttonradio1)
-        self.buttonradio5.set_label("Style 5")
-        vboxradio.pack_start(self.buttonradio5, False, False, 0)
-        self.buttonradio6 = Gtk.RadioButton(group=self.buttonradio1)
-        self.buttonradio6.set_label("Style 6")
-        vboxradio.pack_start(self.buttonradio6, False, False, 2)
-        eval('self.buttonradio'+style+'.set_active(True)')
+        self.radiobuttons = []
+        for i in range(number_styles):
+            if i==0:
+                self.radiobuttons.append(Gtk.RadioButton("Style %s"%(i+1)))
+            else:
+                self.radiobuttons.append(Gtk.RadioButton(group=self.radiobuttons[0]))
+                self.radiobuttons[i].set_label("Style %s"%(i+1))
+            vboxradio.pack_start(self.radiobuttons[i], False, False, 0)
+        self.radiobuttons[int(style)-1].set_active(True)
         
         
         #comboboxentry
@@ -174,37 +137,19 @@ class NumixFoldersGUI(Gtk.Window):
         hboxcombo.pack_start(self.colours_combo, True, True, 30)
         
         
-        #colourchooser
-        colour11 = Gdk.color_parse(self.colour1)
-        colour21 = Gdk.color_parse(self.colour2)
-        colour31 = Gdk.color_parse(self.colour3)
-        
-        self.colourbutton1 = Gtk.ColorButton()
-        self.colourbutton1.set_color(colour11)
-        self.colourentry1 = Gtk.Entry()
-        self.colourentry1.set_text(colour1)
-        self.colourentry1.set_max_width_chars(7)
-        self.colourentry1.set_max_length(7)
-        hboxcolour1.pack_start(self.colourbutton1, False, False, 10)
-        hboxcolour1.pack_start(self.colourentry1, False, False, 0)
-        
-        self.colourbutton2 = Gtk.ColorButton()
-        self.colourbutton2.set_color(colour21)
-        self.colourentry2 = Gtk.Entry()
-        self.colourentry2.set_text(colour2)
-        self.colourentry2.set_max_width_chars(7)
-        self.colourentry2.set_max_length(7)
-        hboxcolour2.pack_start(self.colourbutton2, False, False, 10)
-        hboxcolour2.pack_start(self.colourentry2, False, False, 0)
-        
-        self.colourbutton3 = Gtk.ColorButton()
-        self.colourbutton3.set_color(colour31)
-        self.colourentry3 = Gtk.Entry()
-        self.colourentry3.set_text(colour3)
-        self.colourentry3.set_max_width_chars(7)
-        self.colourentry3.set_max_length(7)
-        hboxcolour3.pack_start(self.colourbutton3, False, False,10)
-        hboxcolour3.pack_start(self.colourentry3, False, False, 0)
+        #colourchooser widgets
+        self.colourbuttons = []
+        self.colourentries = []
+        for i in range(number_colours):
+            self.colourbuttons.append(Gtk.ColorButton())
+            self.colourbuttons[i].set_color(Gdk.color_parse(self.colour[i]))
+            self.colourentries.append(Gtk.Entry())
+            self.colourentries[i].set_text(colour1)
+            self.colourentries[i].set_max_width_chars(7)
+            self.colourentries[i].set_max_length(7)
+            hboxcolour.append(Gtk.HBox())
+            hboxcolour[i].pack_start(self.colourbuttons[i], False, False, 10)
+            hboxcolour[i].pack_start(self.colourentries[i], False, False, 0)
         
         
         #buttons
@@ -225,37 +170,35 @@ class NumixFoldersGUI(Gtk.Window):
         hboxleft.pack_end(vboxradio, True, True, 5)
         
         vboxright.pack_start(hboxcombo, False, False, 70)
-        vboxright.pack_start(hboxcolour1, False, False, 5)
-        vboxright.pack_start(hboxcolour2, False, False, 5)
-        vboxright.pack_start(hboxcolour3, False, False, 5)
+        for hbox in hboxcolour:
+            vboxright.pack_start(hbox, False, False, 5)
         
         
         #conect signals
         self.colours_combo.connect("changed", self.update_combo)
-        self.colourbutton1.connect("color_set", self.update_entry, 1)
-        self.colourentry1.connect("changed", self.update_colourbutton, 1)
-        self.colourbutton2.connect("color_set", self.update_entry, 2)
-        self.colourentry2.connect("changed", self.update_colourbutton, 2)
-        self.colourbutton3.connect("color_set", self.update_entry, 3)
-        self.colourentry3.connect("changed", self.update_colourbutton, 3)
-        self.buttonradio1.connect("toggled", self.update_style)
+        for j, but in enumerate(self.colourbuttons):
+            but.connect("color_set", self.update_entry, j)
+        for j, ent in enumerate(self.colourentries):
+            ent.connect("changed", self.update_colourbutton, j)
+        self.radiobuttons[0].connect("toggled", self.update_style, 1, 2)
         buttonclose.connect("clicked", self.on_close_clicked)
         buttonok.connect("clicked", self.on_ok_clicked)
+        
+        
+        #a little bit of initializing
         self.update_combo(self.colours_combo)
         if colour == "custom":
-            self.update_images(self.colour1, self.colour2, self.colour3)
+            self.update_images(list(range(1, number_styles+1)), *self.colour)
         
-    def update_style(self, widget, *arg):
-        if widget.get_active():
-            self.colourbutton2.set_sensitive(False)
-            self.colourbutton3.set_sensitive(False)
-            self.colourentry2.set_sensitive(False)
-            self.colourentry3.set_sensitive(False)
-        else:
-            self.colourbutton2.set_sensitive(True)
-            self.colourbutton3.set_sensitive(True)
-            self.colourentry2.set_sensitive(True)
-            self.colourentry3.set_sensitive(True)
+    def update_style(self, widget, *args):
+        if not hasattr(args, '__contains__'): args = [args]
+        for i in args:
+            if widget.get_active():
+                self.colourbuttons[i].set_sensitive(False)
+                self.colourentries[i].set_sensitive(False)
+            else:
+                self.colourbuttons[i].set_sensitive(True)
+                self.colourentries[i].set_sensitive(True)
 
     def update_combo(self, widget):
         ind = widget.get_active()
@@ -263,52 +206,31 @@ class NumixFoldersGUI(Gtk.Window):
         if colour == "custom":
             return
         elif colour == "default":
-            (self.colour1, self.colour2, self.colour3) = defaults["style 6"]
-            for j in range(1, 7):
-                self.update_images_style(str(j), *defaults["style "+str(j)])
+            self.colour = defaults["style 6"]
+            for j in range(1, number_styles+1):
+                self.update_images(j, *defaults["style "+str(j)])
         else:
-            (self.colour1, self.colour2, self.colour3) = defaults[colour]
-            self.update_images(self.colour1, self.colour2, self.colour3)
-        self.colourbutton1.handler_block_by_func(self.update_entry)
-        self.colourbutton2.handler_block_by_func(self.update_entry)
-        self.colourbutton3.handler_block_by_func(self.update_entry)
-        self.colourentry1.handler_block_by_func(self.update_colourbutton)
-        self.colourentry2.handler_block_by_func(self.update_colourbutton)
-        self.colourentry3.handler_block_by_func(self.update_colourbutton)
-        self.colourentry1.set_text(self.colour1)
-        self.colourentry2.set_text(self.colour2)
-        self.colourentry3.set_text(self.colour3)
-        self.colourbutton1.set_color(Gdk.color_parse(self.colour1))
-        self.colourbutton2.set_color(Gdk.color_parse(self.colour2))
-        self.colourbutton3.set_color(Gdk.color_parse(self.colour3))
-        self.colourbutton1.handler_unblock_by_func(self.update_entry)
-        self.colourbutton2.handler_unblock_by_func(self.update_entry)
-        self.colourbutton3.handler_unblock_by_func(self.update_entry)
-        self.colourentry1.handler_unblock_by_func(self.update_colourbutton)
-        self.colourentry2.handler_unblock_by_func(self.update_colourbutton)
-        self.colourentry3.handler_unblock_by_func(self.update_colourbutton)
+            self.colour = defaults[colour]
+            self.update_images(list(range(1, number_styles+1)), *self.colour)
+        for j, but in enumerate(self.colourbuttons): 
+            but.handler_block_by_func(self.update_entry)
+            but.set_color(Gdk.color_parse(self.colour[j]))
+            but.handler_unblock_by_func(self.update_entry)
+        for j, ent in enumerate(self.colourentries): 
+            ent.handler_block_by_func(self.update_colourbutton)
+            ent.set_text(self.colour[j])
+            ent.handler_unblock_by_func(self.update_colourbutton)
 
         
     def update_entry(self, widget, arg):
         colour = widget.get_color()
-        if arg==1:
-            self.colour1 = gdk_to_hex(colour)
-            self.colourentry1.handler_block_by_func(self.update_colourbutton)
-            self.colourentry1.set_text(self.colour1)
-            self.colourentry1.handler_unblock_by_func(self.update_colourbutton)
-        elif arg==2:
-            self.colour2 = gdk_to_hex(colour)
-            self.colourentry2.handler_block_by_func(self.update_colourbutton)
-            self.colourentry2.set_text(self.colour2)
-            self.colourentry2.handler_unblock_by_func(self.update_colourbutton)
-        elif arg==3:
-            self.colour3 = gdk_to_hex(colour)
-            self.colourentry3.handler_block_by_func(self.update_colourbutton)
-            self.colourentry3.set_text(self.colour3)
-            self.colourentry3.handler_unblock_by_func(self.update_colourbutton)
-        colour = get_default_colour(self.colour1, self.colour2, self.colour3)
+        self.colour[arg] = gdk_to_hex(colour)
+        self.colourentries[arg].handler_block_by_func(self.update_colourbutton)
+        self.colourentries[arg].set_text(self.colour[arg])
+        self.colourentries[arg].handler_unblock_by_func(self.update_colourbutton)
+        colour = get_default_colour(*self.colour)
         ind = [x.lower() for x in colours].index(colour)
-        self.update_images(self.colour1, self.colour2, self.colour3)
+        self.update_images(list(range(1, number_styles+1)), *self.colour)
         self.colours_combo.handler_block_by_func(self.update_combo)
         self.colours_combo.set_active(ind)
         self.colours_combo.handler_unblock_by_func(self.update_combo)
@@ -325,31 +247,22 @@ class NumixFoldersGUI(Gtk.Window):
             colour = Gdk.color_parse(entry)
         except:
             return
-        if arg==1:
-            self.colour1 = entry
-            self.colourbutton1.handler_block_by_func(self.update_entry)
-            self.colourbutton1.set_color(colour)
-            self.colourbutton1.handler_unblock_by_func(self.update_entry)
-        elif arg==2:
-            self.colour2 = entry
-            self.colourbutton2.handler_block_by_func(self.update_entry)
-            self.colourbutton2.set_color(colour)
-            self.colourbutton2.handler_unblock_by_func(self.update_entry)
-        elif arg==3:
-            self.colour3 = entry
-            self.colourbutton3.handler_block_by_func(self.update_entry)
-            self.colourbutton3.set_color(colour)
-            self.colourbutton3.handler_unblock_by_func(self.update_entry)
-        colour = get_default_colour(self.colour1, self.colour2, self.colour3)
+        self.colour[arg] = entry
+        self.colourbuttons[arg].handler_block_by_func(self.update_entry)
+        self.colourbuttons[arg].set_color(colour)
+        self.colourbuttons[arg].handler_unblock_by_func(self.update_entry)
+        
+        colour = get_default_colour(*self.colour)
         ind = [x.lower() for x in colours].index(colour)
-        self.update_images(self.colour1, self.colour2, self.colour3)
+        self.update_images(list(range(1, number_styles+1)), *self.colour)
         self.colours_combo.handler_block_by_func(self.update_combo)
         self.colours_combo.set_active(ind)
         self.colours_combo.handler_unblock_by_func(self.update_combo)
 
 
-    def update_images(self, col1, col2, col3):
-        for i in range(1,7):
+    def update_images(self, style, col1, col2, col3):
+        if not hasattr(style, '__contains__'): style = [style] #check if iterable
+        for i in style:
             filename = "./user-home_style"+str(i)+".svg"
             copy("./styles/"+str(i)+"/Numix/48x48/places/custom-user-home.svg", filename)
             with open(filename, "r") as content_file:
@@ -360,27 +273,8 @@ class NumixFoldersGUI(Gtk.Window):
             f = open(filename,'w')
             f.write(svg)
             f.close()
-        self.image1.set_from_file("./user-home_style1.svg")
-        self.image2.set_from_file("./user-home_style2.svg")
-        self.image3.set_from_file("./user-home_style3.svg")
-        self.image4.set_from_file("./user-home_style4.svg")
-        self.image5.set_from_file("./user-home_style5.svg")
-        self.image6.set_from_file("./user-home_style6.svg")
+            self.image[int(i)-1].set_from_file(filename)
     
-    
-    def update_images_style(self, style, col1, col2, col3):
-        filename = "./user-home_style"+str(style)+".svg"
-        copy("./styles/"+str(style)+"/Numix/48x48/places/custom-user-home.svg", filename)
-        with open(filename, "r") as content_file:
-            svg = content_file.read()
-        svg = svg.replace("replacecolour1", col1)
-        svg = svg.replace("replacecolour2", col2)
-        svg = svg.replace("replacecolour3", col3)
-        f = open(filename,'w')
-        f.write(svg)
-        f.close()
-        eval('self.image'+str(style)+'.set_from_file("./user-home_style'+str(style)+'.svg")')
-        
 
     def on_close_clicked(self, button):
         self.quit = 1
@@ -399,16 +293,16 @@ win.show_all()
 Gtk.main()
 
 try:
-    style = [win.buttonradio1.get_group()[::-1].index(r)+1 for r in win.buttonradio1.get_group() if r.get_active()][0]
+    style = [win.radiobuttons[0].get_group()[::-1].index(r)+1 for r in win.radiobuttons[0].get_group() if r.get_active()][0]
     colour = colours[win.colours_combo.get_active()].lower()
 except:
     sys.exit("Cancel")
 if not win.quit:
     print(style)
     print(colour)
-    print(win.colour1)
-    print(win.colour2)
-    print(win.colour3)
+    print(win.colour[0])
+    print(win.colour[1])
+    print(win.colour[2])
 else:
     sys.exit("Cancel")
 
