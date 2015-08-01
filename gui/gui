@@ -155,7 +155,7 @@ class NumixFoldersGUI(Gtk.Window):
         #buttons
         buttonclose = Gtk.Button("_Cancel", use_underline=True)
         buttonok = Gtk.Button("_OK", use_underline=True)
-        hboxbuttons.pack_end(buttonok, False, False, 0)
+        hboxbuttons.pack_end(buttonok, False, False, 5)
         hboxbuttons.pack_end(buttonclose, False, False, 0)
         
         
@@ -180,7 +180,7 @@ class NumixFoldersGUI(Gtk.Window):
             but.connect("color_set", self.update_entry, j)
         for j, ent in enumerate(self.colourentries):
             ent.connect("changed", self.update_colourbutton, j)
-        self.radiobuttons[0].connect("toggled", self.update_style, 1, 2)
+        self.radiobuttons[0].connect("toggled", self.update_style, 1, 2) #colour 2 & 3 do not exist for style1
         buttonclose.connect("clicked", self.on_close_clicked)
         buttonok.connect("clicked", self.on_ok_clicked)
         
