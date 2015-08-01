@@ -190,6 +190,7 @@ class NumixFoldersGUI(Gtk.Window):
         if colour == "custom":
             self.update_images(list(range(1, number_styles+1)), *self.colour)
         
+        
     def update_style(self, widget, *args):
         if not hasattr(args, '__contains__'): args = [args]
         for i in args:
@@ -199,6 +200,7 @@ class NumixFoldersGUI(Gtk.Window):
             else:
                 self.colourbuttons[i].set_sensitive(True)
                 self.colourentries[i].set_sensitive(True)
+
 
     def update_combo(self, widget):
         ind = widget.get_active()
