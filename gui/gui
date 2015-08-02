@@ -43,7 +43,7 @@ else:
     style=str(default_style)
 
 try:
-    if int(style) not in range(1,style+1):
+    if int(style) not in range(1,int(style)+1):
         style = str(default_style)
 except:
     style = str(default_style)
