@@ -14,6 +14,7 @@
 function sucess() { sleep 3; exit 0; }
 function gerror() { sleep 5; exit 1; }
 
+
 if [ -z "$1" ]; then
     runmode=2
 else
@@ -93,8 +94,7 @@ if [ "$runmode" -eq 2 ]; then
             dir=/usr/share/icons
         fi
     else
-        zenity --error --text\
-            "You don't appear to have Numix installed! Please install it and run this script again."
+        ./gui/guierror
         exit
     fi
     style=`sed -n 1p $config_file`
