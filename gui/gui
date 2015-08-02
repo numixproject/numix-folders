@@ -75,8 +75,6 @@ else:
         colour2 = col[1]
         colour3 = col[2]
 
-
-
 class NumixFoldersGUI(Gtk.Window):
 
     def __init__(self, style, colour, colour1, colour2, colour3):
@@ -144,7 +142,7 @@ class NumixFoldersGUI(Gtk.Window):
             self.colourbuttons.append(Gtk.ColorButton())
             self.colourbuttons[i].set_color(Gdk.color_parse(self.colour[i]))
             self.colourentries.append(Gtk.Entry())
-            self.colourentries[i].set_text(colour1)
+            self.colourentries[i].set_text(self.colour[i])
             self.colourentries[i].set_max_width_chars(7)
             self.colourentries[i].set_max_length(7)
             hboxcolour.append(Gtk.HBox())
@@ -187,8 +185,13 @@ class NumixFoldersGUI(Gtk.Window):
         
         #a little bit of initializing
         self.update_combo(self.colours_combo)
-        if colour == "custom":
+        if colour == "custom": #that's necessary if the default colour is style # because that's nothing else than "custom"
+            colour = get_default_colour(tuple(self.colour))
+            ind = [x.lower() for x in colours].index(colour)
             self.update_images(list(range(1, number_styles+1)), *self.colour)
+            self.colours_combo.handler_block_by_func(self.update_combo)
+            self.colours_combo.set_active(ind)
+            self.colours_combo.handler_unblock_by_func(self.update_combo)
         
         
     def update_style(self, widget, *args):
@@ -297,14 +300,15 @@ Gtk.main()
 try:
     style = [win.radiobuttons[0].get_group()[::-1].index(r)+1 for r in win.radiobuttons[0].get_group() if r.get_active()][0]
     colour = colours[win.colours_combo.get_active()].lower()
+    if colour.startswith("style"): colour = "custom"
 except:
     sys.exit("Cancel")
 if not win.quit:
     print(style)
     print(colour)
-    print(win.colour[0])
-    print(win.colour[1])
-    print(win.colour[2])
+    print(win.colour[0].replace("#",""))
+    print(win.colour[1].replace("#",""))
+    print(win.colour[2].replace("#",""))
 else:
     sys.exit("Cancel")
 

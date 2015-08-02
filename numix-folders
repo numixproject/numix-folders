@@ -15,6 +15,7 @@ function sucess() { sleep 3; exit 0; }
 function gerror() { sleep 5; exit 1; }
 
 
+
 if [ -z "$1" ]; then
     runmode=2
 else
@@ -102,7 +103,7 @@ if [ "$runmode" -eq 2 ]; then
     colour1=`sed -n 3p $config_file`
     colour2=`sed -n 4p $config_file`
     colour3=`sed -n 5p $config_file`
-    vars=`./gui/gui $style $colour $colour1 $colour2 $colour3`
+    vars=`./gui/gui $style $colour "#$colour1" "#$colour2" "#$colour3"`
     style=$(echo $vars | awk '{print $1}')
     colour=$(echo $vars | awk '{print $2}')
     colour1=$(echo $vars | awk '{print $3}')
