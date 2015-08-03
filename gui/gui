@@ -16,7 +16,7 @@ def gdk_to_hex(gdk_colour):
     return "#" + "".join(["%02x" % (colour * 255) for colour in colours])
 
 def check_hex(colour):
-    match = re.search(r'^#(?:[0-9a-fA-F]{3}){1,2}$', colour)
+    match = re.search(r'#[a-fA-F0-9]{6}$', colour)
     if match:
         return True
     else:
@@ -265,7 +265,7 @@ class NumixFoldersGUI(Gtk.Window):
 
     def entry_changed(self, widget, arg):
         entry = widget.get_text()
-        match = re.search(r'#[a-fA-F0-9]{6}$', entry)
+        match = check_hex(entry)
         if not match:
             return
         try:
