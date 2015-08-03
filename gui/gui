@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 from gi.repository import Gtk, Gdk, GdkPixbuf
-from shutil import copy
 import sys, re
 
 def get_default_colour(colour):
