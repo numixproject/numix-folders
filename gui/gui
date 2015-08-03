@@ -57,7 +57,7 @@ if colour == "custom":
     colour2 = sys.argv[4] if len(sys.argv) > 4 and check_hex(sys.argv[4]) else "#000000"
     colour3 = sys.argv[5] if len(sys.argv) > 5 and check_hex(sys.argv[5]) else "#000000"
 elif colour == "default":
-    col = defaults["style %s"%(default_style)]
+    col = defaults["style %s"%(style)]
     colour1 = col[0]
     colour2 = col[1]
     colour3 = col[2]
@@ -69,16 +69,19 @@ else:
         colour3 = col[2]
     except:
         colour = "default"
-        col = defaults["style %s"%(default_style)]
+        col = defaults["style %s"%(style)]
         colour1 = col[0]
         colour2 = col[1]
         colour3 = col[2]
+        
 
 class NumixFoldersGUI(Gtk.Window):
 
     def __init__(self, style, colour, colour1, colour2, colour3):
         self.quit = 1
         self.colour = [colour1, colour2, colour3]
+        self.global_colour = colour
+        self.style = style
         
         win = Gtk.Window.__init__(self, title="Numix folders GUI")
         self.set_border_width(20)
@@ -173,29 +176,45 @@ class NumixFoldersGUI(Gtk.Window):
             vboxright.pack_start(hbox, False, False, 5)
         
         
-        #conect signals
-        self.colours_combo.connect("changed", self.update_combo)
+        #connect signals
+        self.colours_combo.connect("changed", self.combo_changed)
         for j, but in enumerate(self.colourbuttons):
-            but.connect("color_set", self.update_entry, j)
+            but.connect("color_set", self.colorbutton_changed, j)
         for j, ent in enumerate(self.colourentries):
-            ent.connect("changed", self.update_colourbutton, j)
-        self.radiobuttons[0].connect("toggled", self.update_style, 1, 2) #colour 2 & 3 do not exist for style1
+            ent.connect("changed", self.entry_changed, j)
+        for j, rad in enumerate(self.radiobuttons):
+            rad.connect("toggled", self.radio_toggled, j)
+        self.radiobuttons[0].connect("toggled", self.set_radio_sensitive, 1, 2) #colour 2 & 3 do not exist for style1
         buttonclose.connect("clicked", self.on_close_clicked)
         buttonok.connect("clicked", self.on_ok_clicked)
         
         
         #a little bit of initializing
-        self.update_combo(self.colours_combo)
+        self.combo_changed(self.colours_combo)
         if colour == "custom": #that's necessary if the default colour is style # because that's nothing else than "custom"
             colour = get_default_colour(tuple(self.colour))
             ind = [x.lower() for x in colours].index(colour)
             self.update_images(list(range(1, number_styles+1)), *self.colour)
-            self.colours_combo.handler_block_by_func(self.update_combo)
+            self.colours_combo.handler_block_by_func(self.combo_changed)
             self.colours_combo.set_active(ind)
-            self.colours_combo.handler_unblock_by_func(self.update_combo)
+            self.colours_combo.handler_unblock_by_func(self.combo_changed)
         
+    def radio_toggled(self, widget, arg):
+        if widget.get_active():
+            self.style = arg+1
+        if self.global_colour == "default":
+            colours = list(defaults["style %s"%(self.style)])
+            for j, but in enumerate(self.colourbuttons): 
+                but.handler_block_by_func(self.colorbutton_changed)
+                but.set_color(Gdk.color_parse(colours[j]))
+                but.handler_unblock_by_func(self.colorbutton_changed)
+            for j, ent in enumerate(self.colourentries): 
+                ent.handler_block_by_func(self.entry_changed)
+                ent.set_text(colours[j])
+                ent.handler_unblock_by_func(self.entry_changed)
+            
         
-    def update_style(self, widget, *args):
+    def set_radio_sensitive(self, widget, *args):
         if not hasattr(args, '__contains__'): args = [args]
         for i in args:
             if widget.get_active():
@@ -206,43 +225,45 @@ class NumixFoldersGUI(Gtk.Window):
                 self.colourentries[i].set_sensitive(True)
 
 
-    def update_combo(self, widget):
+    def combo_changed(self, widget):
         ind = widget.get_active()
         colour = colours[ind].lower()
+        self.global_colour = colour
         if colour == "custom":
             return
         elif colour == "default":
-            self.colour = list(defaults["style 6"])
+            self.colour = list(defaults["style %s"%(self.style)])
             for j in range(1, number_styles+1):
                 self.update_images(j, *defaults["style "+str(j)])
         else:
             self.colour = list(defaults[colour])
             self.update_images(list(range(1, number_styles+1)), *self.colour)
         for j, but in enumerate(self.colourbuttons): 
-            but.handler_block_by_func(self.update_entry)
+            but.handler_block_by_func(self.colorbutton_changed)
             but.set_color(Gdk.color_parse(self.colour[j]))
-            but.handler_unblock_by_func(self.update_entry)
+            but.handler_unblock_by_func(self.colorbutton_changed)
         for j, ent in enumerate(self.colourentries): 
-            ent.handler_block_by_func(self.update_colourbutton)
+            ent.handler_block_by_func(self.entry_changed)
             ent.set_text(self.colour[j])
-            ent.handler_unblock_by_func(self.update_colourbutton)
+            ent.handler_unblock_by_func(self.entry_changed)
 
         
-    def update_entry(self, widget, arg):
+    def colorbutton_changed(self, widget, arg):
         colour = widget.get_color()
         self.colour[arg] = gdk_to_hex(colour)
-        self.colourentries[arg].handler_block_by_func(self.update_colourbutton)
+        self.colourentries[arg].handler_block_by_func(self.entry_changed)
         self.colourentries[arg].set_text(self.colour[arg])
-        self.colourentries[arg].handler_unblock_by_func(self.update_colourbutton)
+        self.colourentries[arg].handler_unblock_by_func(self.entry_changed)
         colour = get_default_colour(tuple(self.colour))
+        self.global_colour = colour
         ind = [x.lower() for x in colours].index(colour)
         self.update_images(list(range(1, number_styles+1)), *self.colour)
-        self.colours_combo.handler_block_by_func(self.update_combo)
+        self.colours_combo.handler_block_by_func(self.combo_changed)
         self.colours_combo.set_active(ind)
-        self.colours_combo.handler_unblock_by_func(self.update_combo)
+        self.colours_combo.handler_unblock_by_func(self.combo_changed)
         
 
-    def update_colourbutton(self, widget, arg):
+    def entry_changed(self, widget, arg):
         entry = widget.get_text()
         if len(entry) != 7:
             return
@@ -254,16 +275,17 @@ class NumixFoldersGUI(Gtk.Window):
         except:
             return
         self.colour[arg] = entry
-        self.colourbuttons[arg].handler_block_by_func(self.update_entry)
+        self.colourbuttons[arg].handler_block_by_func(self.colorbutton_changed)
         self.colourbuttons[arg].set_color(colour)
-        self.colourbuttons[arg].handler_unblock_by_func(self.update_entry)
+        self.colourbuttons[arg].handler_unblock_by_func(self.colorbutton_changed)
         
         colour = get_default_colour(tuple(self.colour))
+        self.global_colour = colour
         ind = [x.lower() for x in colours].index(colour)
         self.update_images(list(range(1, number_styles+1)), *self.colour)
-        self.colours_combo.handler_block_by_func(self.update_combo)
+        self.colours_combo.handler_block_by_func(self.combo_changed)
         self.colours_combo.set_active(ind)
-        self.colours_combo.handler_unblock_by_func(self.update_combo)
+        self.colours_combo.handler_unblock_by_func(self.combo_changed)
 
 
     def update_images(self, style, col1, col2, col3):
@@ -296,8 +318,8 @@ win.show_all()
 Gtk.main()
 
 try:
-    style = [win.radiobuttons[0].get_group()[::-1].index(r)+1 for r in win.radiobuttons[0].get_group() if r.get_active()][0]
-    colour = colours[win.colours_combo.get_active()].lower()
+    style = win.style
+    colour = win.global_colour
     if colour.startswith("style"): colour = "custom"
 except:
     sys.exit("Cancel")
