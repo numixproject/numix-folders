@@ -265,7 +265,7 @@ class NumixFoldersGUI(Gtk.Window):
 
     def entry_changed(self, widget, arg):
         entry = widget.get_text()
-        match = re.search(r'^#(?:[0-9a-fA-F]{3}){1,2}$', entry)
+        match = re.search(r'#[a-fA-F0-9]{6}$', entry)
         if not match:
             return
         try:
