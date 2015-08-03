@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from gi.repository import Gtk, Gdk
+from gi.repository import Gtk, Gdk, GdkPixbuf
 from shutil import copy
 import sys, re
 
@@ -100,9 +100,11 @@ class NumixFoldersGUI(Gtk.Window):
         
         #pixmaps
         self.image = []
+        self.svgs = []
         for i in range(number_styles):
+            with open("./styles/"+str(i+1)+"/Numix/48x48/places/custom-user-home.svg", "r") as svgfile:
+                self.svgs.append(svgfile.read())
             self.image.append(Gtk.Image())
-            self.image[i].set_from_file("./user-home_style%s.svg"%(i+1))
             self.image[i].show()
             fixed = Gtk.Fixed()
             fixed.put(self.image[i], 0, 0)
@@ -268,17 +270,14 @@ class NumixFoldersGUI(Gtk.Window):
     def update_images(self, style, col1, col2, col3):
         if not hasattr(style, '__contains__'): style = [style] #check if iterable
         for i in style:
-            filename = "./user-home_style"+str(i)+".svg"
-            copy("./styles/"+str(i)+"/Numix/48x48/places/custom-user-home.svg", filename)
-            with open(filename, "r") as content_file:
-                svg = content_file.read()
-            svg = svg.replace("replacecolour1", col1)
+            svg = self.svgs[i-1].replace("replacecolour1", col1)
             svg = svg.replace("replacecolour2", col2)
             svg = svg.replace("replacecolour3", col3)
-            f = open(filename,'w')
-            f.write(svg)
-            f.close()
-            self.image[int(i)-1].set_from_file(filename)
+            loader = GdkPixbuf.PixbufLoader()
+            loader.write(svg.encode())
+            loader.close()
+            pixbuf = loader.get_pixbuf()
+            self.image[int(i)-1].set_from_pixbuf(pixbuf)
     
 
     def on_close_clicked(self, button):
