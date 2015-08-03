@@ -203,14 +203,14 @@ class NumixFoldersGUI(Gtk.Window):
         if widget.get_active():
             self.style = arg+1
         if self.global_colour == "default":
-            colours = list(defaults["style %s"%(self.style)])
+            self.colour = list(defaults["style %s"%(self.style)])
             for j, but in enumerate(self.colourbuttons): 
                 but.handler_block_by_func(self.colorbutton_changed)
-                but.set_color(Gdk.color_parse(colours[j]))
+                but.set_color(Gdk.color_parse(self.colour[j]))
                 but.handler_unblock_by_func(self.colorbutton_changed)
             for j, ent in enumerate(self.colourentries): 
                 ent.handler_block_by_func(self.entry_changed)
-                ent.set_text(colours[j])
+                ent.set_text(self.colour[j])
                 ent.handler_unblock_by_func(self.entry_changed)
             
         
