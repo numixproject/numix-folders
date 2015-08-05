@@ -81,9 +81,8 @@ class NumixFoldersGUI(Gtk.Window):
         #boxes
         vboxmain = Gtk.VBox(spacing=20)
         hboxmain = Gtk.HBox(spacing=0)
-        hboxleft = Gtk.HBox()
-        vboxpics = Gtk.VBox(homogeneous=True)
-        vboxradio = Gtk.VBox(spacing=12, homogeneous=True)
+        vboxleft = Gtk.VBox()
+        hboxpics = []
         vboxright = Gtk.VBox(homogeneous=False)
         hboxcombo = Gtk.HBox()
         hboxcolour = [] #filled later
@@ -95,13 +94,14 @@ class NumixFoldersGUI(Gtk.Window):
         self.image = []
         self.svgs = []
         for i in range(number_styles):
+            hboxpics.append(Gtk.HBox())
             with open("./styles/"+str(i+1)+"/Numix/48x48/places/custom-user-home.svg", "r") as svgfile:
                 self.svgs.append(svgfile.read())
             self.image.append(Gtk.Image())
             self.image[i].show()
             fixed = Gtk.Fixed()
             fixed.put(self.image[i], 0, 0)
-            vboxpics.pack_start(fixed, True, True, 0)
+            hboxpics[i].pack_start(fixed, False, False, 15)
             
         
         #radiobuttons
@@ -112,7 +112,7 @@ class NumixFoldersGUI(Gtk.Window):
             else:
                 self.radiobuttons.append(Gtk.RadioButton(group=self.radiobuttons[0]))
                 self.radiobuttons[i].set_label("Style %s"%(i+1))
-            vboxradio.pack_start(self.radiobuttons[i], False, False, 0)
+            hboxpics[i].pack_start(self.radiobuttons[i], False, False, 0)
         self.radiobuttons[int(style)-1].set_active(True)
         
         
@@ -156,11 +156,11 @@ class NumixFoldersGUI(Gtk.Window):
         vboxmain.pack_start(hboxmain, False, False, 0)
         vboxmain.pack_end(hboxbuttons, True, True, 4)
         
-        hboxmain.pack_start(hboxleft, False, False, 0)
+        hboxmain.pack_start(vboxleft, False, False, 0)
         hboxmain.pack_start(vboxright, False, False, 25)
         
-        hboxleft.pack_start(vboxpics, True, True, 5)
-        hboxleft.pack_end(vboxradio, True, True, 5)
+        for hbox in hboxpics:
+            vboxleft.pack_start(hbox, True, True, 0)
         
         vboxright.pack_start(hboxcombo, False, False, 70)
         for hbox in hboxcolour:
