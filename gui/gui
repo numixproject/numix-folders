@@ -55,7 +55,7 @@ else:
 if colour == "custom":
     colour_list = []
     for i in range(number_colours):
-        colour_list.append(sys.argv[i+3] if len(sys.argv) > i+3 and check_hex(sys.argv[i+1]) else "#000000")
+        colour_list.append(sys.argv[i+3] if len(sys.argv) > i+3 and check_hex(sys.argv[i+3]) else "#000000")
 elif colour == "default":
     colour_list = defaults["style %s"%(style)]
 else:
@@ -282,7 +282,7 @@ class NumixFoldersGUI(Gtk.Window):
         if not hasattr(style, '__contains__'): style = [style] #check if iterable
         if not hasattr(colours, '__contains__'): colours = [colours]
         for i in style:
-                svg = self.svgs[i-1].replace("replacecolour1", col)
+            svg = self.svgs[i-1].replace("replacecolour1", colours[0])
             for k, col in enumerate(colours):
                 if k != 0:
                     svg = svg.replace("replacecolour%s"%(k+1), col)
