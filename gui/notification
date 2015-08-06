@@ -1,0 +1,8 @@
+#!/usr/bin/python3
+
+from gi.repository import Notify
+
+Notify.init("numix-folders")
+n = Notify.Notification.new("Numix-folders", "applying...", "gtk-info")
+n.show()
+
