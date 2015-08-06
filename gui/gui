@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from gi.repository import Gtk, Gdk, GdkPixbuf
+from gi.repository import Gtk, Gdk, GdkPixbuf, Pango
 import sys, re
 
 def get_default_colour(colour):
@@ -129,7 +129,7 @@ class NumixFoldersGUI(Gtk.Window):
         if colour and colour in [x.lower() for x in colours]: 
             ind = [x.lower() for x in colours].index(colour)
             self.colours_combo.set_active(ind)
-        hboxcombo.pack_start(self.colours_combo, True, True, 30)
+        hboxcombo.pack_start(self.colours_combo, False, False, 10)
         
         
         #colourchooser widgets
@@ -142,6 +142,7 @@ class NumixFoldersGUI(Gtk.Window):
             self.colourentries[i].set_text(self.colour[i])
             self.colourentries[i].set_max_width_chars(7)
             self.colourentries[i].set_max_length(7)
+            self.colourentries[i].modify_font(Pango.FontDescription('monospace'))
             hboxcolour.append(Gtk.HBox())
             hboxcolour[i].pack_start(self.colourbuttons[i], False, False, 10)
             hboxcolour[i].pack_start(self.colourentries[i], False, False, 0)
@@ -154,7 +155,7 @@ class NumixFoldersGUI(Gtk.Window):
         hboxbuttons.pack_end(buttonclose, False, False, 0)
         
         
-        #packing
+        #packing    
         vboxmain.pack_start(hboxmain, False, False, 0)
         vboxmain.pack_end(hboxbuttons, True, True, 4)
         
@@ -162,11 +163,11 @@ class NumixFoldersGUI(Gtk.Window):
         hboxmain.pack_start(vboxright, False, False, 25)
         
         for hbox in hboxpics:
-            vboxleft.pack_start(hbox, True, True, 0)
+            vboxleft.pack_start(hbox, True, True, 3)
         
-        vboxright.pack_start(hboxcombo, False, False, 70)
-        for hbox in hboxcolour:
-            vboxright.pack_start(hbox, False, False, 5)
+        for hbox in hboxcolour[::-1]:
+            vboxright.pack_end(hbox, False, False, 5)
+        vboxright.pack_end(hboxcombo, False, False, 20) 
         
         
         #connect signals
@@ -184,7 +185,7 @@ class NumixFoldersGUI(Gtk.Window):
     
         #a little bit of initializing
         self.combo_changed(self.colours_combo)
-        self.radio_toggled(self.radiobuttons[int(self.style)], int(self.style))
+        self.radio_toggled(self.radiobuttons[int(self.style)-1], int(self.style)-1)
         if colour == "custom": #that's necessary if the default colour is style # because that's nothing else than "custom"
             colour = get_default_colour(tuple(self.colour))
             ind = [x.lower() for x in colours].index(colour)
