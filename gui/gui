@@ -22,7 +22,7 @@ def check_hex(colour):
     else:
         return False
 
-style_fixed = {"1":(False, False, False), "2":(False, False, False), "3":(False, False, False), "4":(False, False, False), "5":(False,False,"#fff8e1"), "6":(False,False,False)} 
+style_fixed = {"1":(False, False, False), "2":(False, False, False), "3":(False, False, False), "4":(False, False, False), "5":(False,False,True), "6":(False,False,False)} 
 
 defaults = {"blue": ("#42a5f5", "#1976d2", "#2a74b9"), "brown": ("#8d6e63", "#5d4037", "#634b43"), "green": ("#66bb6a", "#388e3c", "#448647"),
          "grey": ("#bdbdbd", "#757575", "#7f7f7f"), "orange": ("#f57c00", "#e65100", "#ab5d0b"), "pink": ("#f06292", "#ec407a", "#c64077"),
@@ -213,7 +213,7 @@ class NumixFoldersGUI(Gtk.Window):
         elif not (self.global_colour.startswith("style") or self.global_colour == "custom"):
                 for j in range(number_colours):
                     if style_fixed[str(self.style)][j]:
-                        self.colour[j] = style_fixed[str(self.style)][j]
+                        self.colour[j] = defaults["style %s"%(self.style)][j]
                         self.colourentries[j].handler_block_by_func(self.entry_changed)
                         self.colourentries[j].set_text(self.colour[j])
                         self.colourentries[j].handler_unblock_by_func(self.entry_changed)
@@ -258,13 +258,13 @@ class NumixFoldersGUI(Gtk.Window):
             for i in range(1,number_styles+1):
                 for j in range(number_colours):
                     if style_fixed[str(i)][j]:
-                        col[j] = style_fixed[str(i)][j]
+                        col[j] = defaults["style %s"%(i)][j]
                     else:
                         col[j] = self.colour[j]
                 self.update_images(i, col)
             for j in range(number_colours):
                 if style_fixed[str(self.style)][j]:
-                    self.colour[j] = style_fixed[str(self.style)][j]
+                    self.colour[j] = defaults["style %s"%(self.style)][j]
         else:
             self.colour = list(defaults[colour])
             self.update_images(list(range(1, number_styles+1)), self.colour)
