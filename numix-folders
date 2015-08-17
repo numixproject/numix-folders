@@ -87,7 +87,7 @@ else
     gerror
 fi
 
-read -p "Which folder style do you want? " answer
+read -r -p "Which folder style do you want? " answer
 if [ -z "$answer" ]; then
     style="0"
 elif [ -d styles/"$answer" ]; then
@@ -99,7 +99,7 @@ else
     gerror
 fi
 
-read -p "Which folder colour do you want? " answer
+read -r -p "Which folder colour do you want? " answer
 answer="$(tr '[:upper:]' '[:lower:]' <<< "$answer")" #convert answer to lowercase
 if [ -z "$answer" ]; then
     colour="default"
@@ -157,21 +157,21 @@ elif [ "$answer" == "custom" ] || [[ $answer == "style"[1-6] ]]; then
     
     if [[ $answer == "custom" ]]; then
         if grep -q "replacecolour1" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
-            read -p "Choose primary colour in hex notation (default: $col1def): " colour1
+            read -r -p "Choose primary colour in hex notation (default: $col1def): " colour1
             if [ -z "$colour1" ]; then
                 colour1=$col1def
             fi
             checkhex $colour1
         fi
         if grep -q "replacecolour2" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
-            read -p "Choose secondary colour in hex notation (default: $col2def): " colour2
+            read -r -p "Choose secondary colour in hex notation (default: $col2def): " colour2
             if [ -z "$colour2" ]; then
                 colour2=$col2def
             fi
             checkhex $colour2
         fi
         if grep -q "replacecolour3" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
-            read -p "Choose symbol colour in hex notation (default: $col3def): " colour3
+            read -r -p "Choose symbol colour in hex notation (default: $col3def): " colour3
             if [ -z "$colour3" ]; then
                 colour3=$col3def
             fi
