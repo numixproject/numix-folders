@@ -67,7 +67,6 @@ else:
 class NumixFoldersGUI(Gtk.Window):
 
     def __init__(self, style, colour, colour_list):
-        self.quit = 1
         self.colour = colour_list
         self.global_colour = colour
         self.style = style
@@ -146,7 +145,7 @@ class NumixFoldersGUI(Gtk.Window):
         
         #buttons
         buttonclose = Gtk.Button("_Cancel", use_underline=True)
-        buttonok = Gtk.Button("_OK", use_underline=True)
+        buttonok = Gtk.Button("_Apply", use_underline=True)
         hboxbuttons.pack_end(buttonok, False, False, 5)
         hboxbuttons.pack_end(buttonclose, False, False, 0)
         
@@ -332,12 +331,17 @@ class NumixFoldersGUI(Gtk.Window):
 
 
     def on_close_clicked(self, button):
-        self.quit = 1
+        print("Cancel")
         Gtk.main_quit()
 
 
     def on_ok_clicked(self, button):
-        self.quit = 0
+        colour = self.global_colour
+        if colour.startswith("style"): colour = "custom"
+        print(self.style)
+        print(colour)
+        for i in range(number_colours):
+            print(self.colour[i].replace("#",""))
         Gtk.main_quit()
 
 
@@ -346,19 +350,5 @@ win.connect("delete-event", Gtk.main_quit)
 win.set_resizable(False)
 win.show_all()
 Gtk.main()
-
-try:
-    style = win.style
-    colour = win.global_colour
-    if colour.startswith("style"): colour = "custom"
-except:
-    sys.exit("Cancel")
-if not win.quit:
-    print(style)
-    print(colour)
-    for i in range(number_colours):
-        print(win.colour[i].replace("#",""))
-else:
-    sys.exit("Cancel")
 
 

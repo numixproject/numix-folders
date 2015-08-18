@@ -1,8 +1,15 @@
 #!/usr/bin/python3
 
-from gi.repository import Notify
+from gi.repository import Notify, Gtk
 
-Notify.init("numix-folders")
-n = Notify.Notification.new("Numix-folders", "applying...", "gtk-info")
-n.show()
+try:
+    Notify.init("numix-folders")
+    n = Notify.Notification.new("Numix-folders", "applying...", "gtk-info")
+    n.show()
+except:
+    message = "Applying..."
+    dialog = Gtk.MessageDialog(None, None,Gtk.MessageType.INFO, Gtk.ButtonsType.OK, message)
+    dialog.set_deletable(True)
+    dialog.run()
+    dialog.destroy()
 
