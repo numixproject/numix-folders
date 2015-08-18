@@ -16,11 +16,7 @@ def gdk_to_hex(gdk_colour):
     return "#" + "".join(["%02x" % (colour * 255) for colour in colours])
 
 def check_hex(colour):
-    match = re.search(r'#[a-fA-F0-9]{6}$', colour)
-    if match:
-        return True
-    else:
-        return False
+    return re.search(r'#[a-fA-F0-9]{6}$', colour)
 
 style_fixed = {"1":(False, False, False), "2":(False, False, False), "3":(False, False, False), "4":(False, False, False), "5":(False,False,True), "6":(False,False,False)} 
 
