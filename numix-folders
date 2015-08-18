@@ -112,9 +112,9 @@ if [ "$runmode" -eq 2 ]; then
         exit
     fi
     if [[ $UID -ne 0 ]]; then
-        ./gui/notification
+        ./gui/notification&
     else
-        sudo -H -u $cuser ./gui/notification
+        sudo -H -u $cuser ./gui/notification&
     fi
 
 else
