@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 
 from gi.repository import Notify, Gtk
+import threading, time
+
+def dialog_destroy(widget):
+    time.sleep(3)
+    widget.destroy()
 
 try:
     Notify.init("numix-folders")
@@ -8,8 +13,11 @@ try:
     n.show()
 except:
     message = "Applying..."
-    dialog = Gtk.MessageDialog(None, None,Gtk.MessageType.INFO, Gtk.ButtonsType.OK, message)
+    dialog = Gtk.MessageDialog(None, None,Gtk.MessageType.INFO, Gtk.ButtonsType.NONE, message)
     dialog.set_deletable(True)
+    t = threading.Thread(target=dialog_destroy, args=(dialog,))
+    t.start()
     dialog.run()
     dialog.destroy()
+    
 
