@@ -15,7 +15,7 @@ except:
     message = "Applying..."
     dialog = Gtk.MessageDialog(None, None,Gtk.MessageType.INFO, Gtk.ButtonsType.NONE, message)
     dialog.set_deletable(True)
-    GLib.timeout_add(10000, dialog_destroy, dialog)
+    GLib.timeout_add(3000, dialog_destroy, dialog)
     dialog.run()
     dialog.destroy()
 
