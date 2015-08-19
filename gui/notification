@@ -2,21 +2,28 @@
 
 from gi.repository import Notify, Gtk, GLib
 
+message = "Applying..."
 
 def dialog_destroy(widget):
     widget.destroy()
     return True
 
-try:
-    Notify.init("numix-folders")
-    n = Notify.Notification.new("Numix-folders", "applying...", "gtk-info")
-    n.show()
-except:
-    message = "Applying..."
-    dialog = Gtk.MessageDialog(None, None,Gtk.MessageType.INFO, Gtk.ButtonsType.NONE, message)
-    dialog.set_deletable(True)
-    GLib.timeout_add(3000, dialog_destroy, dialog)
-    dialog.run()
-    dialog.destroy()
+class NotificationDialog:
+    def __init__(self):
+        self.dialog = Gtk.MessageDialog(None, None,Gtk.MessageType.INFO, Gtk.ButtonsType.NONE, message)
+        label = Gtk.Entry()
+        self.dialog.set_focus(label)
+        GLib.timeout_add(3000, dialog_destroy, self.dialog)
+        self.dialog.run()
+        self.dialog.destroy()
+
+if __name__ == "__main__":
+    try:
+        Notify.init("numix-folders")
+        n = Notify.Notification.new("Numix-folders", message, "gtk-info")
+        n.show()
+    except:
+        dialog = NotificationDialog()
+        
 
 
