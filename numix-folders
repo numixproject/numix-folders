@@ -14,7 +14,6 @@
 function sucess() { sleep 3; exit 0; }
 function gerror() { sleep 5; exit 1; }
 
-
 if [ -z "$1" ]; then
     runmode=2
 else
@@ -89,7 +88,7 @@ if [ "$runmode" -eq 2 ]; then
     elif [ -d /usr/share/icons/Numix/ ]; then
         if [[ $UID -ne 0 ]]; then
             scriptname=$(readlink -f "$0")
-            exec gksudo $scriptname
+            exec gksudo "$scriptname"
         else
             dir=/usr/share/icons
         fi
@@ -97,24 +96,24 @@ if [ "$runmode" -eq 2 ]; then
         ./gui/error
         exit
     fi
-    style=`sed -n 1p $config_file`
-    colour=`sed -n 2p $config_file`
-    colour1=`sed -n 3p $config_file`
-    colour2=`sed -n 4p $config_file`
-    colour3=`sed -n 5p $config_file`
-    vars=`./gui/gui "$style" "$colour" "#$colour1" "#$colour2" "#$colour3"`
-    style=$(echo $vars | awk '{print $1}')
-    colour=$(echo $vars | awk '{print $2}')
-    colour1=$(echo $vars | awk '{print $3}')
-    colour2=$(echo $vars | awk '{print $4}')
-    colour3=$(echo $vars | awk '{print $5}')
-    if [[ "$style" -eq "Cancel" ]]; then 
+    style=$(sed -n 1p "$config_file")
+    colour=$(sed -n 2p "$config_file")
+    colour1=$(sed -n 3p "$config_file")
+    colour2=$(sed -n 4p "$config_file")
+    colour3=$(sed -n 5p "$config_file")
+    vars=$(./gui/gui "$style" "$colour" "#$colour1" "#$colour2" "#$colour3")
+    style=$(echo "$vars" | awk '{print $1}')
+    colour=$(echo "$vars" | awk '{print $2}')
+    colour1=$(echo "$vars" | awk '{print $3}')
+    colour2=$(echo "$vars" | awk '{print $4}')
+    colour3=$(echo "$vars" | awk '{print $5}')
+    if [[ "$style" = "Cancel" ]]; then
         exit
     fi
     if [[ $UID -ne 0 ]]; then
         ./gui/notification&
     else
-        sudo -H -u $cuser ./gui/notification&
+        sudo -H -u "$cuser" ./gui/notification&
     fi
 
 else
@@ -143,11 +142,11 @@ else
         case $runmode in
             1)
                 echo "Trying to use previously stored settings"
-                style=`sed -n 1p $config_file`
-                colour=`sed -n 2p $config_file`
-                colour1=`sed -n 3p $config_file`
-                colour2=`sed -n 4p $config_file`
-                colour3=`sed -n 5p $config_file`
+                style=$(sed -n 1p "$config_file")
+                colour=$(sed -n 2p "$config_file")
+                colour1=$(sed -n 3p "$config_file")
+                colour2=$(sed -n 4p "$config_file")
+                colour3=$(sed -n 5p "$config_file")
                 if [[ "$style" -gt 6 || "$style" -lt 1 ]] || [[ -z $colour ]]; then
                     exitloop=0
                     runmode=0
@@ -165,7 +164,7 @@ else
                 exitloop=1
                 ;;
             0)
-                read -p "Which folder style do you want? " answer
+                read -r -p "Which folder style do you want? " answer
                 if [ -z "$answer" ]; then
                     style="0"
                 elif [ -d styles/"$answer" ]; then
@@ -177,7 +176,7 @@ else
                     gerror
                 fi
 
-                read -p "Which folder colour do you want? " answer
+                read -r -p "Which folder colour do you want? " answer
                 answer="$(tr '[:upper:]' '[:lower:]' <<< "$answer")" #convert answer to lowercase
                 colour1="000000"
                 colour2="000000"
@@ -186,12 +185,12 @@ else
                     colour="default"
                 elif [ "$answer" == "custom" ] || [[ $answer == "style"[1-6] ]]; then
                     colour="custom"
-                    
+
                     styledef=$style
                     if [[ $answer == "style"[1-6] ]]; then
                         styledef=${answer#"style"}
                     fi
-                    case "$styledef" in 
+                    case "$styledef" in
                         "1")
                             col1def="c4905e"
                             col2def="b07f51"
@@ -232,24 +231,24 @@ else
                            gerror
                         fi
                     }
-                    
+
                     if [[ $answer == "custom" ]]; then
                         if grep -q "replacecolour1" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
-                            read -p "Choose primary colour in hex notation (default: $col1def): " colour1
+                            read -r -p "Choose primary colour in hex notation (default: $col1def): " colour1
                             if [ -z "$colour1" ]; then
                                 colour1=$col1def
                             fi
                             checkhex $colour1
                         fi
                         if grep -q "replacecolour2" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
-                            read -p "Choose secondary colour in hex notation (default: $col2def): " colour2
+                            read -r -p "Choose secondary colour in hex notation (default: $col2def): " colour2
                             if [ -z "$colour2" ]; then
                                 colour2=$col2def
                             fi
                             checkhex $colour2
                         fi
                         if grep -q "replacecolour3" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
-                            read -p "Choose symbol colour in hex notation (default: $col3def): " colour3
+                            read -r -p "Choose symbol colour in hex notation (default: $col3def): " colour3
                             if [ -z "$colour3" ]; then
                                 colour3=$col3def
                             fi
@@ -287,7 +286,7 @@ currentcolour=$(readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1)
 links=$(find -L ${dir}/Numix/*/{actions,places} -xtype l)
 
 for link in $links; do
-    if [[ $link == *folder_color* ]]; then 
+    if [[ $link == *folder_color* ]]; then
         continue
     fi
     newlink=$(readlink "${link}");
@@ -311,10 +310,12 @@ if [ -d "${dir}"/Numix-Square/ ]; then
 fi
 
 echo "Folder change complete!"
-echo "$style" > "$config_file"
-echo "$colour" >> "$config_file"
-echo "$colour1" >> "$config_file"
-echo "$colour2" >> "$config_file"
-echo "$colour3" >> "$config_file"
+{
+    echo "$style"
+    echo "$colour"
+    echo "$colour1"
+    echo "$colour2"
+    echo "$colour3"
+} > "$config_file"
 chown -R "$cuser" "$config_file"
 sucess
