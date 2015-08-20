@@ -4,18 +4,22 @@ from gi.repository import Notify, Gtk, GLib
 
 message = "Applying..."
 
+
 def dialog_destroy(widget):
     widget.destroy()
     return True
 
+
 class NotificationDialog:
     def __init__(self):
-        self.dialog = Gtk.MessageDialog(None, None,Gtk.MessageType.INFO, Gtk.ButtonsType.NONE, message)
+        self.dialog = Gtk.MessageDialog(None, None, Gtk.MessageType.INFO,
+                                        Gtk.ButtonsType.NONE, message)
         label = Gtk.Entry()
         self.dialog.set_focus(label)
         GLib.timeout_add(3000, dialog_destroy, self.dialog)
         self.dialog.run()
         self.dialog.destroy()
+
 
 if __name__ == "__main__":
     try:
@@ -24,6 +28,3 @@ if __name__ == "__main__":
         n.show()
     except:
         dialog = NotificationDialog()
-        
-
-

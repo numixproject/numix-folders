@@ -2,8 +2,10 @@
 
 from gi.repository import Gtk
 
-message = "You don't appear to have Numix installed!\nPlease install it and run this script again."
-dialog = Gtk.MessageDialog(None, None,Gtk.MessageType.ERROR, Gtk.ButtonsType.OK, message)
+message = ("You don't appear to have Numix installed!\n"
+           "Please install it and run this script again.")
+dialog = Gtk.MessageDialog(None, None, Gtk.MessageType.ERROR,
+                           Gtk.ButtonsType.OK, message)
 dialog.set_deletable(False)
 dialog.run()
 dialog.destroy()
