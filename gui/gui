@@ -96,6 +96,7 @@ class NumixFoldersGUI(Gtk.Window):
         self.style = style
 
         win = Gtk.Window.__init__(self, title="Numix folders GUI")
+        self.set_icon_name('numix-folders')
         self.set_border_width(20)
 
         # boxes
@@ -332,7 +333,7 @@ class NumixFoldersGUI(Gtk.Window):
             style = [style]  # check if iterable
         if not hasattr(colours, '__contains__'):
             colours = [colours]
-        for i in style:
+        for i in style: 
             svg = self.svgs[i-1].replace("replacecolour1", colours[0])
             for k, col in enumerate(colours):
                 if k != 0:
