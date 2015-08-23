@@ -102,11 +102,11 @@ if [ "$runmode" -eq 2 ]; then
     colour2=$(sed -n 4p "$config_file")
     colour3=$(sed -n 5p "$config_file")
     vars=$(./gui/gui "$style" "$colour" "#$colour1" "#$colour2" "#$colour3")
-    style=$(echo "$vars" | awk '{print $1}')
-    colour=$(echo "$vars" | awk '{print $2}')
-    colour1=$(echo "$vars" | awk '{print $3}')
-    colour2=$(echo "$vars" | awk '{print $4}')
-    colour3=$(echo "$vars" | awk '{print $5}')
+    style=$(echo $vars | awk '{print $1}')
+    colour=$(echo $vars | awk '{print $2}')
+    colour1=$(echo $vars | awk '{print $3}')
+    colour2=$(echo $vars | awk '{print $4}')
+    colour3=$(echo $vars | awk '{print $5}')
     if [[ "$style" = "Cancel" ]]; then
         exit
     fi
