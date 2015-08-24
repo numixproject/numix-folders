@@ -107,7 +107,7 @@ if [ "$runmode" -eq 2 ]; then
     colour1=$(echo $vars | awk '{print $3}')
     colour2=$(echo $vars | awk '{print $4}')
     colour3=$(echo $vars | awk '{print $5}')
-    if [[ "$style" = "Cancel" ]]; then
+    if [[ -z "$style" ]]; then
         exit
     fi
     if [[ $UID -ne 0 ]]; then

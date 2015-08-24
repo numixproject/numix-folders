@@ -192,7 +192,7 @@ class NumixFoldersGUI(Gtk.Window):
             rad.connect("toggled", self.radio_toggled, j)
         # colour 2 & 3 do not exist for style1
         self.radiobuttons[0].connect("toggled", self.set_radio_sensitive, 1, 2)
-        buttonclose.connect("clicked", self.on_close_clicked)
+        buttonclose.connect("clicked", Gtk.main_quit)
         buttonok.connect("clicked", self.on_ok_clicked)
 
         # a little bit of initializing
@@ -343,10 +343,6 @@ class NumixFoldersGUI(Gtk.Window):
             loader.close()
             pixbuf = loader.get_pixbuf()
             self.image[int(i)-1].set_from_pixbuf(pixbuf)
-
-    def on_close_clicked(self, button):
-        print("Cancel")
-        Gtk.main_quit()
 
     def on_ok_clicked(self, button):
         colour = self.global_colour
