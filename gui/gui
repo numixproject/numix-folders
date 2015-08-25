@@ -3,6 +3,7 @@
 from gi.repository import Gtk, Gdk, GdkPixbuf, Pango
 from re import search
 from sys import argv
+from os import path
 
 
 def get_default_colour(colour):
@@ -115,7 +116,7 @@ class NumixFoldersGUI(Gtk.Window):
         self.svgs = []
         for i in range(number_styles):
             hboxpics.append(Gtk.HBox())
-            with open("./styles/"+str(i+1)+"/Numix/48x48/places/custom-user-home.svg", "r") as svgfile:
+            with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(i+1)+"/Numix/48x48/places/custom-user-home.svg", "r") as svgfile:
                 self.svgs.append(svgfile.read())
             self.image.append(Gtk.Image())
             self.image[i].show()
