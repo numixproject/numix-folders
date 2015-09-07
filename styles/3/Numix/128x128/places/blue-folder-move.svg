@@ -5,7 +5,6 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="128px"
@@ -13,8 +12,8 @@
    viewBox="0 0 128 128"
    version="1.1"
    id="svg3064"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-move.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="blue-folder-move.svg">
   <metadata
      id="metadata3110">
     <rdf:RDF>
@@ -47,71 +46,7 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3064" />
   <defs
-     id="defs3066">
-    <filter
-       id="alpha"
-       filterUnits="objectBoundingBox"
-       x="0%"
-       y="0%"
-       width="100%"
-       height="100%">
-      <feColorMatrix
-         type="matrix"
-         in="SourceGraphic"
-         values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0"
-         id="feColorMatrix3069" />
-    </filter>
-    <image
-       id="image9"
-       width="128"
-       height="128"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABmJLR0QA/wD/AP+gvaeTAAAA3klEQVR4nO3SsQ2AMADAMKB/M/B3JZ5AVBD7ggzZNgAAAAAAAADgb/Yxxrk64kvmnNfqhicdqwNYywBxBogzQJwB4gwQZ4A4A8QZIM4AcQaIM0CcAeIMEGeAOAPEGSDOAHEGiDNAnAHiDBBngDgDxBkgzgBxBogzQJwB4gwQZ4A4A8QZIM4AcQaIM0CcAeIMEGeAOAPEGSDOAHEGiDNAnAHiDBBngDgDxBkgzgBxBogzQJwB4gwQZ4A4A8QZIM4AcQYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHjBDW3xBHiDAvXUAAAAAElFTkSuQmCC" />
-    <mask
-       id="mask0">
-      <g
-         filter="url(#alpha)"
-         id="g3073">
-        <use
-           xlink:href="#image9"
-           id="use3075" />
-      </g>
-    </mask>
-    <clipPath
-       id="clip1">
-      <rect
-         width="128"
-         height="128"
-         id="rect3078" />
-    </clipPath>
-    <g
-       id="surface11"
-       clip-path="url(#clip1)">
-      <path
-         style=" stroke:none;fill-rule:nonzero;fill:rgb(91.764706%,56.470588%,21.176471%);fill-opacity:1;"
-         d="M 4 20 L 72 20 L 72 48 L 4 48 Z M 4 20 "
-         id="path3081" />
-      <path
-         style=" stroke:none;fill-rule:nonzero;fill:rgb(91.764706%,56.470588%,21.176471%);fill-opacity:1;"
-         d="M 12.054688 20 C 12.054688 18 12.054688 16 15.679688 16 L 28.375 16 C 32 16 32 18 32 20 Z M 12.054688 20 "
-         id="path3083" />
-      <path
-         style=" stroke:none;fill-rule:nonzero;fill:rgb(58.431373%,59.607843%,62.352941%);fill-opacity:1;"
-         d="M 8 28 L 68 28 L 68 40 L 8 40 Z M 8 28 "
-         id="path3085" />
-      <path
-         style=" stroke:none;fill-rule:nonzero;fill:rgb(84.705882%,84.705882%,85.490196%);fill-opacity:1;"
-         d="M 16 24 L 64 24 L 64 60 L 16 60 Z M 16 24 "
-         id="path3087" />
-      <path
-         style=" stroke:none;fill-rule:nonzero;fill:rgb(97.647059%,97.647059%,97.647059%);fill-opacity:1;"
-         d="M 12 32 L 60 32 L 60 68 L 12 68 Z M 12 32 "
-         id="path3089" />
-      <path
-         style=" stroke:none;fill-rule:nonzero;fill:rgb(94.901961%,73.333333%,39.215686%);fill-opacity:1;"
-         d="M 0 36 L 76 36 L 70.570312 76 L 5.429688 76 Z M 0 36 "
-         id="path3091" />
-    </g>
-  </defs>
+     id="defs3066" />
   <g
      id="g4390"
      style="opacity:0.5">

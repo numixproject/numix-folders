@@ -7,90 +7,19 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="128"
    height="128"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="orange-folder-saved-search.svg"
+   inkscape:version="0.91 r"
+   sodipodi:docname="grey-folder-saved-search.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
   <defs
-     id="defs4">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient3809">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop3811" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop3813" />
-    </linearGradient>
-    <linearGradient
-       id="linearGradient3958"
-       inkscape:collect="always">
-      <stop
-         id="stop3960"
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
-      <stop
-         id="stop3962"
-         offset="1"
-         style="stop-color:#000000;stop-opacity:0;" />
-    </linearGradient>
-    <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,0.10447761,0,50.597015)"
-       r="33.5"
-       fy="56.5"
-       fx="32.5"
-       cy="56.5"
-       cx="32.5"
-       id="radialGradient3964"
-       xlink:href="#linearGradient3958"
-       inkscape:collect="always" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3809"
-       id="radialGradient3815"
-       cx="-9"
-       cy="93.5"
-       fx="-9"
-       fy="93.5"
-       r="15"
-       gradientTransform="matrix(1,0,0,0.36666667,0,59.216667)"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       id="linearGradient3958-1"
-       inkscape:collect="always">
-      <stop
-         id="stop3960-9"
-         offset="0"
-         style="stop-color:#000000;stop-opacity:1;" />
-      <stop
-         id="stop3962-9"
-         offset="1"
-         style="stop-color:#000000;stop-opacity:0;" />
-    </linearGradient>
-    <radialGradient
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,0.10447761,0,50.597015)"
-       r="33.5"
-       fy="56.5"
-       fx="32.5"
-       cy="56.5"
-       cx="32.5"
-       id="radialGradient3964-3"
-       xlink:href="#linearGradient3958-1"
-       inkscape:collect="always" />
-  </defs>
+     id="defs4" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"

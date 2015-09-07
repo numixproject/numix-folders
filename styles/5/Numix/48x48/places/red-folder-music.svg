@@ -14,8 +14,8 @@
    height="48"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-music.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="red-folder-music.svg">
   <defs
      id="defs4">
     <linearGradient
@@ -29,17 +29,6 @@
          offset="1"
          id="stop3890" />
     </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3886"
-       id="radialGradient3892"
-       cx="24"
-       cy="40.5"
-       fx="24"
-       fy="40.5"
-       r="24"
-       gradientTransform="matrix(1,0,0,0.14583333,0,34.59375)"
-       gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3886"

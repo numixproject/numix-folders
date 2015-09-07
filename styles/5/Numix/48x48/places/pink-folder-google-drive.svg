@@ -13,8 +13,8 @@
    height="48"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.5 r10040"
-   sodipodi:docname="folder-gdrive.svg">
+   inkscape:version="0.91 r"
+   sodipodi:docname="pink-folder-google-drive.svg">
   <metadata
      id="metadata20">
     <rdf:RDF>
@@ -28,78 +28,6 @@
   </metadata>
   <defs
      id="defs18">
-    <linearGradient
-       x2="0"
-       gradientUnits="userSpaceOnUse"
-       y2="268.33"
-       y1="279.096"
-       id="linearGradient3017"
-       xlink:href="#linearGradient4460"
-       gradientTransform="matrix(1.10525,0,0,1.10525,-134.27881,-295.76193)" />
-    <linearGradient
-       id="linearGradient4460">
-      <stop
-         id="stop3462"
-         style="stop-color:#1b1b1b"
-         offset="0" />
-      <stop
-         id="stop3464"
-         style="stop-color:#383838"
-         offset="1" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4460"
-       id="linearGradient3501"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(3.9162401,0,0,3.9162401,-553.078,-1047.9741)"
-       y1="279.096"
-       x2="0"
-       y2="268.33" />
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3844"
-       id="radialGradient3850"
-       cx="24.075672"
-       cy="41.38316"
-       fx="24.075672"
-       fy="41.38316"
-       r="21.075672"
-       gradientTransform="matrix(1,0,0,0.11307633,0,36.703704)"
-       gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       id="linearGradient3844">
-      <stop
-         style="stop-color:#000000;stop-opacity:0.39215687;"
-         offset="0"
-         id="stop3846" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0;"
-         offset="1"
-         id="stop3848" />
-    </linearGradient>
-    <radialGradient
-       r="21.075672"
-       fy="41.38316"
-       fx="24.075672"
-       cy="41.38316"
-       cx="24.075672"
-       gradientTransform="matrix(1,0,0,0.11307633,0,36.703704)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient3064"
-       xlink:href="#linearGradient3844"
-       inkscape:collect="always" />
-    <radialGradient
-       r="24"
-       fy="40.5"
-       fx="24"
-       cy="40.5"
-       cx="24"
-       gradientTransform="matrix(1.25,0,0,0.20833327,-6,1035.9247)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient3150"
-       xlink:href="#linearGradient3886"
-       inkscape:collect="always" />
     <linearGradient
        id="linearGradient3886">
       <stop
