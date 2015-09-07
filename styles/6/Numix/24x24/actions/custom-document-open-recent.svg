@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
-   sodipodi:docname="blue-document-open-recent.svg"
+   sodipodi:docname="custom-document-open-recent.svg"
    inkscape:export-filename="/media/Data/Main/Visuals/Icons/Numix/Desktop/repos/numix-wiki/Gjorgi/Numix-folders/48/New/folder-144.png"
    inkscape:export-xdpi="270"
    inkscape:export-ydpi="270">
@@ -33,17 +33,6 @@
          offset="1"
          id="stop3764" />
     </linearGradient>
-    <radialGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient3760"
-       id="radialGradient3766"
-       cx="11"
-       cy="19"
-       fx="11"
-       fy="19"
-       r="11"
-       gradientTransform="matrix(1,0,0,0.09090909,0,17.272727)"
-       gradientUnits="userSpaceOnUse" />
     <radialGradient
        inkscape:collect="always"
        xlink:href="#linearGradient3760"
