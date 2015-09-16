@@ -25,12 +25,12 @@ def check_hex(colour):
 
 
 style_fixed = {
-    "1": ((False, False, False),(True, False, False)),
-    "2": ((False, False, False),(True, True, True)),
-    "3": ((False, False, False),(True, True, True)),
-    "4": ((False, False, False),(True, True, True)),
-    "5": ((False, False, True),(True, True, True)),
-    "6": ((False, False, False),(True, True, True))
+    "1": ((False, False, False), (True, False, False)),
+    "2": ((False, False, False), (True, True, True)),
+    "3": ((False, False, False), (True, True, True)),
+    "4": ((False, False, False), (True, True, True)),
+    "5": ((False, False, True), (True, True, True)),
+    "6": ((False, False, False), (True, True, True))
 }
 
 
@@ -125,7 +125,7 @@ class NumixFoldersGUI(Gtk.Window):
         # comboboxentrystyle
         style_store = Gtk.ListStore(str)
         for sty in range(1, number_styles + 1):
-            style_store.append(["Style %s" %(sty)])
+            style_store.append(["Style %s" % (sty)])
         self.style_combo = Gtk.ComboBox.new_with_model(style_store)
         renderer_text = Gtk.CellRendererText()
         self.style_combo.pack_start(renderer_text, True)
@@ -239,7 +239,7 @@ class NumixFoldersGUI(Gtk.Window):
             ent.handler_block_by_func(self.entry_changed)
             ent.set_text(self.colour[j])
             ent.handler_unblock_by_func(self.entry_changed)
-    
+
     def combo_changed_style(self, widget):
         ind = widget.get_active()
         style = int(ind)+1
@@ -320,3 +320,4 @@ win.connect("delete-event", Gtk.main_quit)
 win.set_resizable(False)
 win.show_all()
 Gtk.main()
+
