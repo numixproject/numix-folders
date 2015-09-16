@@ -104,9 +104,11 @@ class NumixFoldersGUI(Gtk.Window):
         # boxes
         vboxall = Gtk.VBox(spacing=20)
         vboxmain = Gtk.VBox(spacing=0)
+        hboxpreview = Gtk.HBox(spacing=30)
         hboxcombo = Gtk.HBox()
         hboxentry = Gtk.HBox()
         hboxcolour = []  # filled later
+        vboxcolours = Gtk.VBox()
         hboxcolours = Gtk.HBox()
         hboxbuttons = Gtk.HBox()
         self.add(vboxall)
@@ -118,6 +120,7 @@ class NumixFoldersGUI(Gtk.Window):
         fixed = Gtk.Fixed()
         fixed.put(self.image, 0, 0)
         self.update_preview(style, colour_list)
+        hboxpreview.pack_start(fixed, False, False, 120)
 
         # comboboxentrystyle
         style_store = Gtk.ListStore(str)
@@ -129,7 +132,7 @@ class NumixFoldersGUI(Gtk.Window):
         self.style_combo.add_attribute(renderer_text, "text", 0)
         if int(style) in range(1, number_styles + 1):
             self.style_combo.set_active(int(style)-1)
-        hboxcombo.pack_start(self.style_combo, False, False, 10)
+        hboxcombo.pack_start(self.style_combo, False, False, 30)
 
         # comboboxentrycolour
         colours_store = Gtk.ListStore(str)
@@ -142,7 +145,7 @@ class NumixFoldersGUI(Gtk.Window):
         if colour and colour in [x.lower() for x in colours]:
             ind = [x.lower() for x in colours].index(colour)
             self.colours_combo.set_active(ind)
-        hboxcombo.pack_start(self.colours_combo, False, False, 10)
+        hboxcombo.pack_start(self.colours_combo, False, False, 30)
 
         # colourchooser widgets
         self.colourbuttons = []
@@ -157,6 +160,9 @@ class NumixFoldersGUI(Gtk.Window):
             hboxcolour.append(Gtk.HBox())
             hboxcolour[i].pack_start(self.colourbuttons[i], False, False, 10)
             hboxcolour[i].pack_start(self.colourentries[i], False, False, 0)
+        for hbox in hboxcolour[::-1]:
+            vboxcolours.pack_end(hbox, False, False, 5)
+        hboxcolours.pack_start(vboxcolours, False, False, 24)
 
         # buttons
         buttonclose = Gtk.Button("_Cancel", use_underline=True)
@@ -166,15 +172,10 @@ class NumixFoldersGUI(Gtk.Window):
 
         # packing
         vboxall.pack_start(vboxmain, False, False, 0)
-        vboxall.pack_end(hboxbuttons, True, True, 4)
-
-        vboxmain.pack_start(fixed, False, False, 15)
-        vboxmain.pack_start(hboxcombo, False, False, 10)
-
-        for hbox in hboxcolour[::-1]:
-            hboxcolours.pack_end(hbox, False, False, 5)
-            
-        vboxmain.pack_start(hboxcolours, False, False, 15)
+        vboxall.pack_end(hboxbuttons, True, True, 0)
+        vboxmain.pack_start(hboxpreview, True, True, 15)
+        vboxmain.pack_start(hboxcombo, True, False, 25)
+        vboxmain.pack_start(hboxcolours, False, False, 0)
 
         # connect signals
         self.colours_combo.connect("changed", self.combo_changed_colour)
@@ -183,14 +184,11 @@ class NumixFoldersGUI(Gtk.Window):
             but.connect("color_set", self.colourbutton_changed, j)
         for j, ent in enumerate(self.colourentries):
             ent.connect("changed", self.entry_changed, j)
-        # colour 2 & 3 do not exist for style1
         buttonclose.connect("clicked", Gtk.main_quit)
         buttonok.connect("clicked", self.on_ok_clicked)
-        
 
         # a little bit of initializing
         self.combo_changed_style(self.style_combo)
-        #self.radio_toggled(self.radiobuttons[int(self.style)-1], int(self.style)-1)
         # needed if default colour is style because that's nothing else than "custom"
         if colour == "custom":
             colour = get_default_colour(tuple(self.colour))
