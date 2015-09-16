@@ -120,7 +120,7 @@ class NumixFoldersGUI(Gtk.Window):
         fixed = Gtk.Fixed()
         fixed.put(self.image, 0, 0)
         self.update_preview(style, colour_list)
-        hboxpreview.pack_start(fixed, False, False, 120)
+        hboxpreview.pack_start(fixed, False, False, 100)
 
         # comboboxentrystyle
         style_store = Gtk.ListStore(str)
@@ -290,7 +290,7 @@ class NumixFoldersGUI(Gtk.Window):
         self.colours_combo.handler_unblock_by_func(self.combo_changed_colour)
 
     def update_preview(self, style, colours):
-        with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(self.style)+"/Numix/64x64/places/custom-user-home.svg", "r") as svgfile:
+        with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(self.style)+"/Numix/96x96/places/custom-user-home.svg", "r") as svgfile:
             self.svg = svgfile.read()
         if not hasattr(colours, '__contains__'):
             colours = [colours]
