@@ -1,3 +1,6 @@
+numix-folders.desktop	/usr/share/applications/
+gui/numix-folders.svg	/usr/share/icons/hicolor/scalable/apps/
 colours	/opt/numix-folders/
 styles	/opt/numix-folders/
+gui /opt/numix-folders/
 numix-folders	/opt/numix-folders/

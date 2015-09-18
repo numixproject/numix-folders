@@ -1,3 +1,9 @@
+numix-folders (1.1.0-0ubuntu0) wily; urgency=low
+
+  * Add GUI.
+
+ -- Paolo Rotolo <paolorotolo@ubuntu.com>  Fri, 18 Sep 2015 19:12:17 +0100
+
 numix-folders (1.0.2-0ubuntu0) vivid; urgency=low
 
   * Fixed typo in bash script.
