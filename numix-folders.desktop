@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=Numix Folders
+Exec=numix-folders
+Comment=Alternate folders for use with our base icon theme.
+Icon=numix-folders
+Categories=GNOME;GTK;
