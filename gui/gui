@@ -348,8 +348,6 @@ class NumixFoldersGUI(Gtk.Window):
                 self.style_store.append([pixbuf, "  Style %s" % int(i+1)])
             else:
                 self.style_store[int(i)][0] = pixbuf
-            
-                
 
     def on_ok_clicked(self, button):
         colour = self.global_colour
