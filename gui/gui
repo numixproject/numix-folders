@@ -130,7 +130,6 @@ class NumixFoldersGUI(Gtk.Window):
         hboxpreview.pack_start(fixed, False, False, 100)
 
         # comboboxentrystyle
-        self.preview_icons = []
         self.preview_svgs = []
         for i in range(number_styles):
             with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(i+1)+"/Numix/22x22/places/custom-user-home.svg", "r") as svgfile:
