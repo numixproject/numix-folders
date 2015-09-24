@@ -59,6 +59,12 @@ defaults = {
     "style 6": ("#ffa726", "#ef6c00", "#b17621")
 }
 
+colour_svg = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+<g transform="translate(0,-1030.3622)">
+<rect width="20" height="20" y="1030.36" style="fill:replacecolour;opacity:1;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
+</g>
+</svg>"""
+
 colours = ("Default", "Blue", "Brown", "Green", "Grey", "Orange",
            "Pink", "Purple", "Red", "Yellow", "Style 1", "Style 2",
            "Style 3", "Style 4", "Style 5", "Style 6", "Custom")
@@ -127,16 +133,25 @@ class NumixFoldersGUI(Gtk.Window):
         fixed = Gtk.Fixed()
         fixed.put(self.image, 0, 0)
         self.update_preview(style, colour_list)
-        hboxpreview.pack_start(fixed, False, False, 100)
+        hboxpreview.pack_start(fixed, False, False, 95)
 
         # comboboxentrystyle
         self.preview_svgs = []
+        style_store = Gtk.ListStore(GdkPixbuf.Pixbuf, str)
         for i in range(number_styles):
             with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(i+1)+"/Numix/22x22/places/custom-user-home.svg", "r") as svgfile:
-                self.preview_svgs.append(svgfile.read())
-        self.style_store = Gtk.ListStore(GdkPixbuf.Pixbuf, str)
-        self.update_small_preview()
-        self.style_combo = Gtk.ComboBox.new_with_model(self.style_store)
+                preview_svg = svgfile.read()
+            cols = defaults["style "+str(i+1)]
+            svg = preview_svg.replace("replacecolour1", cols[0])
+            for k, col in enumerate(cols):
+                if k != 0:
+                    svg = svg.replace("replacecolour%s" % (k+1), col)
+            loader = GdkPixbuf.PixbufLoader()
+            loader.write(svg.encode())
+            loader.close()
+            pixbuf = loader.get_pixbuf()
+            style_store.append([pixbuf, "  Style %s" % int(i+1)])
+        self.style_combo = Gtk.ComboBox.new_with_model(style_store)
         renderer_pix = Gtk.CellRendererPixbuf()
         self.style_combo.pack_start(renderer_pix, True)
         self.style_combo.add_attribute(renderer_pix, "pixbuf", 0)
@@ -145,20 +160,31 @@ class NumixFoldersGUI(Gtk.Window):
         self.style_combo.add_attribute(renderer_text, "text", 1)
         if int(style) in range(1, number_styles + 1):
             self.style_combo.set_active(int(style)-1)
-        hboxcombo.pack_start(self.style_combo, False, False, 30)
+        hboxcombo.pack_start(self.style_combo, False, False, 25)
 
         # comboboxentrycolour
-        colours_store = Gtk.ListStore(str)
+        colours_store = Gtk.ListStore(GdkPixbuf.Pixbuf, str)
         for col in colours:
-            colours_store.append([col])
+            if col.lower() in defaults:
+                svg = colour_svg.replace("replacecolour", defaults[col.lower()][0])
+                loader = GdkPixbuf.PixbufLoader()
+                loader.write(svg.encode())
+                loader.close()
+                pixbuf = loader.get_pixbuf()
+            else: 
+                pixbuf = None
+            colours_store.append([pixbuf, "  " + col])
         self.colours_combo = Gtk.ComboBox.new_with_model(colours_store)
+        renderer_pix = Gtk.CellRendererPixbuf()
+        self.colours_combo.pack_start(renderer_pix, True)
+        self.colours_combo.add_attribute(renderer_pix, "pixbuf", 0)
         renderer_text = Gtk.CellRendererText()
         self.colours_combo.pack_start(renderer_text, True)
-        self.colours_combo.add_attribute(renderer_text, "text", 0)
+        self.colours_combo.add_attribute(renderer_text, "text", 1)
         if colour and colour in [x.lower() for x in colours]:
             ind = [x.lower() for x in colours].index(colour)
             self.colours_combo.set_active(ind)
-        hboxcombo.pack_start(self.colours_combo, False, False, 30)
+        hboxcombo.pack_start(self.colours_combo, False, False, 0)
 
         # colourchooser widgets
         self.colourbuttons = []
@@ -175,7 +201,7 @@ class NumixFoldersGUI(Gtk.Window):
             hboxcolour[i].pack_start(self.colourentries[i], False, False, 0)
         for hbox in hboxcolour[::-1]:
             vboxcolours.pack_end(hbox, False, False, 5)
-        hboxcolours.pack_start(vboxcolours, False, False, 35)
+        hboxcolours.pack_start(vboxcolours, False, False, 25)
 
         # buttons
         buttonclose = Gtk.Button("_Cancel", use_underline=True)
@@ -207,7 +233,6 @@ class NumixFoldersGUI(Gtk.Window):
             colour = get_default_colour(tuple(self.colour))
             indcol = [x.lower() for x in colours].index(colour)
             self.update_preview(self.style, self.colour)
-            self.update_small_preview()
             self.colours_combo.handler_block_by_func(self.combo_changed_colour)
             self.colours_combo.set_active(indcol)
             self.colours_combo.handler_unblock_by_func(self.combo_changed_colour)
@@ -230,7 +255,6 @@ class NumixFoldersGUI(Gtk.Window):
         elif colour == "default":
             self.colour = list(defaults["style %s" % (self.style)])
             self.update_preview(self.style, defaults["style "+str(self.style)])
-            self.update_small_preview()
         elif not colour.startswith("style"):
             self.colour = list(defaults[colour])
             col = self.colour[:]
@@ -243,11 +267,9 @@ class NumixFoldersGUI(Gtk.Window):
                 if style_fixed[str(self.style)][0][j]:
                     self.colour[j] = defaults["style %s" % (self.style)][j]
             self.update_preview(self.style, self.colour)
-            self.update_small_preview()
         else:
             self.colour = list(defaults[colour])
             self.update_preview(self.style, self.colour)
-            self.update_small_preview()
         for j, but in enumerate(self.colourbuttons):
             but.handler_block_by_func(self.colourbutton_changed)
             but.set_color(Gdk.color_parse(self.colour[j]))
@@ -278,7 +300,6 @@ class NumixFoldersGUI(Gtk.Window):
             colour = "custom"
         ind = [x.lower() for x in colours].index(colour)
         self.update_preview(self.style, self.colour)
-        self.update_small_preview()
         self.colours_combo.handler_block_by_func(self.combo_changed_colour)
         self.colours_combo.set_active(ind)
         self.colours_combo.handler_unblock_by_func(self.combo_changed_colour)
@@ -303,7 +324,6 @@ class NumixFoldersGUI(Gtk.Window):
             colour = "custom"
         ind = [x.lower() for x in colours].index(colour)
         self.update_preview(self.style, self.colour)
-        self.update_small_preview()
         self.colours_combo.handler_block_by_func(self.combo_changed_colour)
         self.colours_combo.set_active(ind)
         self.colours_combo.handler_unblock_by_func(self.combo_changed_colour)
@@ -322,31 +342,6 @@ class NumixFoldersGUI(Gtk.Window):
         loader.close()
         pixbuf = loader.get_pixbuf()
         self.image.set_from_pixbuf(pixbuf)
-
-    def update_small_preview(self):
-        colours = self.colour
-        for i in range(number_styles):
-            if self.global_colour == "default":
-                colours = defaults["style "+str(i+1)]
-            elif self.global_colour == "custom" or self.global_colour.startswith("style"):
-                colours = self.colour
-            else:
-                colours = list(defaults[self.global_colour])
-                for j in range(number_colours):
-                    if style_fixed[str(i+1)][0][j]:
-                        colours[j] = defaults["style %s" % str(i+1)][j]
-            svg = self.preview_svgs[int(i)].replace("replacecolour1", colours[0])
-            for k, col in enumerate(colours):
-                if k != 0:
-                    svg = svg.replace("replacecolour%s" % (k+1), col)
-            loader = GdkPixbuf.PixbufLoader()
-            loader.write(svg.encode())
-            loader.close()
-            pixbuf = loader.get_pixbuf()
-            if len(self.style_store) <= i:
-                self.style_store.append([pixbuf, "  Style %s" % int(i+1)])
-            else:
-                self.style_store[int(i)][0] = pixbuf
 
     def on_ok_clicked(self, button):
         colour = self.global_colour
