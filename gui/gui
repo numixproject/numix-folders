@@ -157,12 +157,13 @@ class NumixFoldersGUI(Gtk.Window):
         colours_store = Gtk.ListStore(GdkPixbuf.Pixbuf, str)
         for col in colours:
             if col.lower() in defaults:
-                svg = colour_svg.replace("replacecolour", defaults[col.lower()][0])
+                svg = colour_svg.replace("replacecolour",
+                                         defaults[col.lower()][0])
                 loader = GdkPixbuf.PixbufLoader()
                 loader.write(svg.encode())
                 loader.close()
                 pixbuf = loader.get_pixbuf()
-            else: 
+            else:
                 pixbuf = None
             colours_store.append([pixbuf, "  " + col])
         self.colours_combo = Gtk.ComboBox.new_with_model(colours_store)
@@ -365,7 +366,6 @@ class NumixFoldersGUI(Gtk.Window):
             else:
                 self.style_store[int(i)][0] = pixbuf
 
-
     def on_ok_clicked(self, button):
         colour = self.global_colour
         if colour.startswith("style"):
@@ -382,4 +382,3 @@ win.connect("delete-event", Gtk.main_quit)
 win.set_resizable(False)
 win.show_all()
 Gtk.main()
-
