@@ -212,21 +212,21 @@ else
                     }
 
                     if [[ $answer == "custom" ]]; then
-                        if grep -q "replacecolour1" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
+                        if grep -q "replacecolour1" styles/"${style}"/Numix/48/places/custom-folder-video.svg; then
                             read -r -p "Choose primary colour in hex notation (default: $col1def): " colour1
                             if [ -z "$colour1" ]; then
                                 colour1=$col1def
                             fi
                             checkhex $colour1
                         fi
-                        if grep -q "replacecolour2" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
+                        if grep -q "replacecolour2" styles/"${style}"/Numix/48/places/custom-folder-video.svg; then
                             read -r -p "Choose secondary colour in hex notation (default: $col2def): " colour2
                             if [ -z "$colour2" ]; then
                                 colour2=$col2def
                             fi
                             checkhex $colour2
                         fi
-                        if grep -q "replacecolour3" styles/"${style}"/Numix/48x48/places/custom-folder-video.svg; then
+                        if grep -q "replacecolour3" styles/"${style}"/Numix/48/places/custom-folder-video.svg; then
                             read -r -p "Choose symbol colour in hex notation (default: $col3def): " colour3
                             if [ -z "$colour3" ]; then
                                 colour3=$col3def
@@ -284,7 +284,7 @@ if [ "$colour" == "custom" ]; then
         -exec sed -i --follow-symlinks "s/replacecolour3/#$colour3/g" {} \;
 fi
 
-currentcolour=$(readlink ${dir}/Numix/16x16/places/folder.svg | cut -d '-' -f 1)
+currentcolour=$(readlink ${dir}/Numix/16/places/folder.svg | cut -d '-' -f 1)
 links=$(find -L ${dir}/Numix/*/{actions,places} -xtype l)
 
 for link in $links; do
