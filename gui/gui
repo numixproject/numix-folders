@@ -128,7 +128,7 @@ class NumixFoldersGUI(Gtk.Window):
 
         # preview pixmap
         self.image = Gtk.Image()
-        with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(self.style)+"/Numix/64x64/places/custom-user-home.svg", "r") as svgfile:
+        with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(self.style)+"/Numix/96/places/custom-user-home.svg", "r") as svgfile:
             self.svg = svgfile.read()
         fixed = Gtk.Fixed()
         fixed.put(self.image, 0, 0)
@@ -138,7 +138,7 @@ class NumixFoldersGUI(Gtk.Window):
         # comboboxentrystyle
         self.preview_svgs = []
         for i in range(number_styles):
-            with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(i+1)+"/Numix/22x22/places/custom-user-home.svg", "r") as svgfile:
+            with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(i+1)+"/Numix/22/places/custom-user-home.svg", "r") as svgfile:
                 self.preview_svgs.append(svgfile.read())
         self.style_store = Gtk.ListStore(GdkPixbuf.Pixbuf, str)
         self.update_small_preview()
@@ -327,7 +327,7 @@ class NumixFoldersGUI(Gtk.Window):
         self.colours_combo.handler_unblock_by_func(self.combo_changed_colour)
 
     def update_preview(self, style, colours):
-        with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(style)+"/Numix/96x96/places/custom-user-home.svg", "r") as svgfile:
+        with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(style)+"/Numix/96/places/custom-user-home.svg", "r") as svgfile:
             self.svg = svgfile.read()
         if not hasattr(colours, '__contains__'):
             colours = [colours]
