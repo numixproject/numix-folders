@@ -8,12 +8,13 @@
 # If not, see <http://www.gnu.org/licenses/>.
 
 from gi import require_version
-require_version("Gtk", "3.0")
-require_version('Notify', '0.7')
 from gi.repository import Gtk, Gdk, GdkPixbuf, Pango
 from re import search
 from sys import argv
 from os import path
+
+require_version("Gtk", "3.0")
+require_version('Notify', '0.7')
 
 
 def get_default_colour(colour):
@@ -95,7 +96,10 @@ else:
 if colour == "custom":
     colour_list = []
     for i in range(number_colours):
-        colour_list.append(argv[i+3] if len(argv) > i+3 and check_hex(argv[i+3]) else "#000000")
+        if len(argv) > i+3 and check_hex(argv[i+3]):
+            colour_list.append(argv[i+3])
+        else:
+            colour_list.append("#000000")
 elif colour == "default":
     colour_list = defaults["style %s" % (style)]
 else:
@@ -131,7 +135,9 @@ class NumixFoldersGUI(Gtk.Window):
 
         # preview pixmap
         self.image = Gtk.Image()
-        with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(self.style)+"/Numix/96/places/custom-user-home.svg", "r") as svgfile:
+        svg_path = path.split(path.abspath(__file__))[0] + "/../styles/"
+        svg_path += str(self.style)+"/Numix/96/places/custom-user-home.svg"
+        with open(svg_path, "r") as svgfile:
             self.svg = svgfile.read()
         fixed = Gtk.Fixed()
         fixed.put(self.image, 0, 0)
@@ -141,7 +147,9 @@ class NumixFoldersGUI(Gtk.Window):
         # comboboxentrystyle
         self.preview_svgs = []
         for i in range(number_styles):
-            with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(i+1)+"/Numix/22/places/custom-user-home.svg", "r") as svgfile:
+            svg_path = path.split(path.abspath(__file__))[0] + "/../styles/"
+            svg_path += str(i + 1) + "/Numix/22/places/custom-user-home.svg"
+            with open(svg_path, "r") as svgfile:
                 self.preview_svgs.append(svgfile.read())
         self.style_store = Gtk.ListStore(GdkPixbuf.Pixbuf, str)
         self.update_small_preview()
@@ -223,7 +231,7 @@ class NumixFoldersGUI(Gtk.Window):
 
         # a little bit of initializing
         self.combo_changed_style(self.style_combo)
-        # needed if default colour is style because that's nothing else than "custom"
+        # for if default colour is style because thats nothing else than custom
         if colour == "custom":
             colour = get_default_colour(tuple(self.colour))
             indcol = [x.lower() for x in colours].index(colour)
@@ -330,7 +338,9 @@ class NumixFoldersGUI(Gtk.Window):
         self.colours_combo.handler_unblock_by_func(self.combo_changed_colour)
 
     def update_preview(self, style, colours):
-        with open(path.split(path.abspath(__file__))[0]+"/../styles/"+str(style)+"/Numix/96/places/custom-user-home.svg", "r") as svgfile:
+        svg_path = path.split(path.abspath(__file__))[0] + "/../styles/"
+        svg_path += str(style) + "/Numix/96/places/custom-user-home.svg"
+        with open(svg_path, "r") as svgfile:
             self.svg = svgfile.read()
         if not hasattr(colours, '__contains__'):
             colours = [colours]
@@ -356,7 +366,8 @@ class NumixFoldersGUI(Gtk.Window):
                 for j in range(number_colours):
                     if style_fixed[str(i+1)][0][j]:
                         colours[j] = defaults["style %s" % str(i+1)][j]
-            svg = self.preview_svgs[int(i)].replace("replacecolour1", colours[0])
+            svg = self.preview_svgs[int(i)].replace("replacecolour1",
+                                                    colours[0])
             for k, col in enumerate(colours):
                 if k != 0:
                     svg = svg.replace("replacecolour%s" % (k+1), col)
