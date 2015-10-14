@@ -21,7 +21,7 @@ class NotificationDialog:
     def __init__(self):
         win = Gtk.Window(type=Gtk.WindowType.TOPLEVEL)
         dialog = Gtk.MessageDialog(win, None, Gtk.MessageType.INFO,
-                                        Gtk.ButtonsType.NONE, message)
+                                   Gtk.ButtonsType.NONE, message)
         label = Gtk.Entry()
         dialog.set_focus(label)
         GLib.timeout_add(3000, dialog_destroy, dialog)
