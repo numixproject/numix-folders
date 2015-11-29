@@ -18,12 +18,12 @@ from gi.repository import Gtk, Gdk, GdkPixbuf, Pango
 
 
 def get_default_colour(colour):
+    default = "custom"
     for d in defaults:
         if colour == defaults[d]:
-            return d
-        else:
-            continue
-    return "custom"
+            default = d
+            break
+    return default
 
 
 def gdk_to_hex(gdk_colour):
