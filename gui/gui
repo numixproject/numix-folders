@@ -117,7 +117,7 @@ class NumixFoldersGUI(Gtk.Window):
         self.global_colour = colour
         self.style = style
 
-        win = Gtk.Window.__init__(self, title="Numix folders GUI")
+        win = Gtk.Window.__init__(self, title="Numix Folders GUI")
         self.set_icon_name('numix-folders')
         self.set_border_width(20)
         self.set_wmclass("numix-folders", "Numix Folders")
