@@ -4,6 +4,7 @@ Type=Application
 Terminal=false
 Name=Numix Folders
 Exec=numix-folders
+StartupWMClass=numix-folders
 Comment=Alternate folders for use with our base icon theme.
 Icon=numix-folders
 Categories=GNOME;GTK;
