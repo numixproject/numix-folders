@@ -120,6 +120,8 @@ class NumixFoldersGUI(Gtk.Window):
         win = Gtk.Window.__init__(self, title="Numix folders GUI")
         self.set_icon_name('numix-folders')
         self.set_border_width(20)
+        self.set_wmclass("numix-folders", "Numix Folders")
+
 
         # boxes
         vboxall = Gtk.VBox(spacing=20)
