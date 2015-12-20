@@ -118,6 +118,12 @@ class NumixFoldersGUI(Gtk.Application):
         Gtk.Application.__init__(self)
         GLib.set_application_name("Numix Folders")
         GLib.set_prgname('numix-folders')
+        cssProvider = Gtk.CssProvider()
+        cssProvider.get_default()
+        screen = Gdk.Screen.get_default()
+        styleContext = Gtk.StyleContext()
+        styleContext.add_provider_for_screen(screen, cssProvider,
+                                             Gtk.STYLE_PROVIDER_PRIORITY_USER)
         self.connect("activate", self.on_activate, style, colour, colour_list)
 
     def exit(self, *args):
@@ -155,7 +161,7 @@ class NumixFoldersGUI(Gtk.Application):
             self.svg = svgfile.read()
         fixed = Gtk.Fixed()
         fixed.put(self.image, 0, 0)
-        fixed.set_margin_left(20)
+        fixed.set_margin_left(25)
         self.update_preview(style, colour_list)
         hboxpreview.pack_start(fixed, False, False, 95)
 
@@ -202,7 +208,7 @@ class NumixFoldersGUI(Gtk.Application):
         if colour and colour in [x.lower() for x in colours]:
             ind = [x.lower() for x in colours].index(colour)
             self.colours_combo.set_active(ind)
-        self.colours_combo.set_margin_left(15)
+        self.colours_combo.set_margin_left(30)
         hboxcombo.pack_start(self.colours_combo, False, False, 0)
 
         # colourchooser widgets
@@ -219,31 +225,45 @@ class NumixFoldersGUI(Gtk.Application):
             self.colourentries[i].set_margin_left(3)
             self.colourentries[i].set_max_length(7)
             self.colourlabels[i].set_text(colour_labels[i])
+            self.colourlabels[i].set_margin_right(15)
             self.colourentries[i].set_max_width_chars(7)
             self.colourentries[i].set_width_chars(7)
             self.colourentries[i].set_margin_left(5)
             self.colourentries[i].modify_font(Pango.FontDescription('monospace'))
             hboxcolour.append(Gtk.HBox(spacing=5))
-            hboxcolour[i].pack_start(self.colourlabels[i], False, True, 0)
             hboxcolour[i].pack_end(self.colourentries[i], False, False, 0)
             hboxcolour[i].pack_end(self.colourbuttons[i], False, False, 0)
+            hboxcolour[i].pack_end(self.colourlabels[i], False, True, 0)
 
         for hbox in hboxcolour[::-1]:
             vboxcolours.pack_end(hbox, False, False, 5)
         hboxcolours.pack_start(vboxcolours, False, False, 23)
 
+        test = '''<interface>
+                   <object class="GtkButton" id="select-button">
+                    <property name="label" translatable="yes">_Apply</property>
+                    <property name="visible">True</property>
+                    <property name="use-underline">True</property>
+                        <style>
+                          <class name="suggested-action"/>
+                          <class name="text-button"/>
+                        </style>
+                  </object>
+               </interface>'''
+        builder = Gtk.Builder()
+        builder.add_from_string(test)
         # buttons
-
-        buttonok = Gtk.Button("_Apply", use_underline=True)
-        buttonok.set_margin_right(20)
+        hboxbuttons.set_margin_left(100)        
+        hboxbuttons.set_margin_right(20)
+        buttonok = builder.get_object("select-button")
         buttonclose = Gtk.Button("_Cancel", use_underline=True)
-        hboxbuttons.pack_end(buttonok, False, False, 5)
-        hboxbuttons.pack_end(buttonclose, False, False, 5)
+        hboxbuttons.pack_end(buttonok, True, True, 5)
+        hboxbuttons.pack_end(buttonclose, True, True, 5)
 
 
         # packing
         vboxall.pack_start(vboxmain, False, False, 0)
-        vboxall.pack_end(hboxbuttons, True, True, 0)
+        vboxall.pack_end(hboxbuttons, False, False, 0)
         vboxmain.pack_start(hboxpreview, True, True, 15)
         vboxmain.pack_start(hboxcombo, True, False, 25)
         vboxmain.pack_start(hboxcolours, False, False, 0)
