@@ -120,6 +120,7 @@ class NumixFoldersGUI(Gtk.Window):
         win = Gtk.Window.__init__(self, title="Numix folders GUI")
         self.set_icon_name('numix-folders')
         self.set_border_width(20)
+        self.set_position(Gtk.WindowPosition.CENTER)
 
         # boxes
         vboxall = Gtk.VBox(spacing=20)
@@ -195,13 +196,16 @@ class NumixFoldersGUI(Gtk.Window):
         for i in range(number_colours):
             self.colourbuttons.append(Gtk.ColorButton())
             self.colourbuttons[i].set_color(Gdk.color_parse(self.colour[i]))
+            self.colourbuttons[i].set_margin_left(35)
             self.colourentries.append(Gtk.Entry())
             self.colourentries[i].set_text(self.colour[i])
             self.colourentries[i].set_max_length(7)
+            self.colourentries[i].set_max_width_chars(7)
+            self.colourentries[i].set_width_chars(7)
             self.colourentries[i].modify_font(Pango.FontDescription('monospace'))
-            hboxcolour.append(Gtk.HBox())
+            hboxcolour.append(Gtk.HBox(spacing=10))
             hboxcolour[i].pack_start(self.colourbuttons[i], False, False, 10)
-            hboxcolour[i].pack_start(self.colourentries[i], False, False, 0)
+            hboxcolour[i].pack_end(self.colourentries[i], False, False, 0)
         for hbox in hboxcolour[::-1]:
             vboxcolours.pack_end(hbox, False, False, 5)
         hboxcolours.pack_start(vboxcolours, False, False, 23)
