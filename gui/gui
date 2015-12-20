@@ -161,7 +161,7 @@ class NumixFoldersGUI(Gtk.Application):
             self.svg = svgfile.read()
         fixed = Gtk.Fixed()
         fixed.put(self.image, 0, 0)
-        fixed.set_margin_left(25)
+        fixed.set_margin_left(20)
         self.update_preview(style, colour_list)
         hboxpreview.pack_start(fixed, False, False, 95)
 
