@@ -210,8 +210,6 @@ class NumixFoldersGUI(Gtk.Application):
         for i in range(number_colours):
             self.colourbuttons.append(Gtk.ColorButton())
             self.colourbuttons[i].set_color(Gdk.color_parse(self.colour[i]))
-            self.colourbuttons[i].set_margin_left(12)
-            self.colourbuttons[i].set_margin_right(12)
             self.colourlabels.append(Gtk.Label())
             self.colourentries.append(Gtk.Entry())
             self.colourentries[i].set_text(self.colour[i])
@@ -220,10 +218,10 @@ class NumixFoldersGUI(Gtk.Application):
             self.colourentries[i].set_max_width_chars(7)
             self.colourentries[i].set_width_chars(7)
             self.colourentries[i].modify_font(Pango.FontDescription('monospace'))
-            hboxcolour.append(Gtk.HBox())
+            hboxcolour.append(Gtk.HBox(spacing=12))
             hboxcolour[i].pack_end(self.colourentries[i], False, False, 0)
             hboxcolour[i].pack_end(self.colourbuttons[i], False, False, 0)
-            hboxcolour[i].pack_end(self.colourlabels[i], False, False, 0)
+            hboxcolour[i].pack_end(self.colourlabels[i], False, False, 8)
 
         for hbox in hboxcolour[::-1]:
             vboxcolours.pack_end(hbox, False, False, 5)
@@ -249,7 +247,7 @@ class NumixFoldersGUI(Gtk.Application):
         buttonclose = Gtk.Button("_Cancel", use_underline=True)
         hboxbuttons.pack_end(buttonok, True, True, 6)
         hboxbuttons.pack_end(buttonclose, True, True, 6)
-        hboxbuttons.set_margin_top(6)
+        hboxbuttons.set_margin_top(18)
 
         # packing
         vboxall.pack_start(vboxmain, False, False, 0)
