@@ -221,7 +221,7 @@ class NumixFoldersGUI(Gtk.Application):
             hboxcolour.append(Gtk.HBox(spacing=12))
             hboxcolour[i].pack_end(self.colourentries[i], False, False, 0)
             hboxcolour[i].pack_end(self.colourbuttons[i], False, False, 0)
-            hboxcolour[i].pack_end(self.colourlabels[i], False, False, 8)
+            hboxcolour[i].pack_end(self.colourlabels[i], False, False, 6)
 
         for hbox in hboxcolour[::-1]:
             vboxcolours.pack_end(hbox, False, False, 5)
