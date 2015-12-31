@@ -17,7 +17,7 @@ require_version('Notify', '0.7')
 from gi.repository import Gtk, Gdk, GdkPixbuf, Pango, GLib
 
 
-colour_labels = ["Primary", "Secondary", "Icon"]
+colour_labels = ["Primary", "Secondary", "Symbol"]
 
 def get_default_colour(colour):
     for d in defaults:
