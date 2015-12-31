@@ -14,7 +14,7 @@ from os import path
 from gi import require_version
 require_version("Gtk", "3.0")
 require_version('Notify', '0.7')
-from gi.repository import Gtk, Gdk, GdkPixbuf, Pango, GLib
+from gi.repository import Gtk, Gdk, GdkPixbuf, Pango, GLib, Gio
 
 
 colour_labels = ["Primary", "Secondary", "Symbol"]
@@ -115,7 +115,9 @@ else:
 class NumixFoldersGUI(Gtk.Application):
 
     def __init__(self, style, colour, colour_list):
-        Gtk.Application.__init__(self)
+        Gtk.Application.__init__(self,
+                                 application_id='org.gnome.numix-folders',
+                                 flags=Gio.ApplicationFlags.FLAGS_NONE)
         GLib.set_application_name("Numix Folders")
         GLib.set_prgname('numix-folders')
         self.connect("activate", self.on_activate, style, colour, colour_list)
