@@ -1,69 +1,10 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="96px"
-   height="96px"
-   viewBox="0 0 96 96"
-   version="1.1"
-   id="svg23599"
-   inkscape:version="0.91 r"
-   sodipodi:docname="default-add-folders-to-archive.svg">
-  <metadata
-     id="metadata23618">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs23616" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview23614" />
-  <g
-     id="surface1">
-    <path
-       style=" stroke:none;fill-rule:nonzero;fill:rgb(91.372549%,69.019608%,50.196078%);fill-opacity:1;"
-       d="M 10 36 C 8 36 6 38 6 40 L 6 42 L 4 42 C 2 42 -0.0117188 43.898438 0 46 L 0 88 C 0 90.242188 2.074219 92 4.375 92 L 71.625 92 C 74 92 76 90 76 88 L 76 52 C 76 50 74 48 72 48 L 68 48 L 68 40 C 68 38 66 36 64 36 Z M 10 36 "
-       id="path23602" />
-    <path
-       style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.321569;"
-       d="M 10 36 C 8 36 6 38 6 40 L 6 42 L 4 42 C 2 42 -0.0117188 43.898438 0 46 L 0 88 C 0 90.242188 2.074219 92 4.375 92 L 71.625 92 C 74 92 76 90 76 88 L 76 52 C 76 50 74 48 72 48 L 68 48 L 68 40 C 68 38 66 36 64 36 Z M 4 44 L 42 44 C 43.015625 44 44 44.988281 44 46 L 44 50 L 72 50 C 73.082031 50 74 50.945312 74 52 L 74 88 C 74 89.109375 73.097656 90 72 90 L 4 90 C 2.972656 90 2 89.109375 2 88 L 2 46 C 2 44.914062 2.957031 44 4 44 Z M 4 44 "
-       id="path23604" />
-    <path
-       style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.101961;"
-       d="M 10 36 C 8 36 6 38 6 40 L 6 42 L 4 42 C 2 42 -0.0117188 43.898438 0 46 L 0 88 C 0 90.242188 2.074219 92 4.375 92 L 71.625 92 C 72.21875 92 72.792969 91.84375 73.3125 91.625 C 74.617188 91.078125 75.640625 89.980469 75.9375 88.75 C 75.996094 88.503906 76 88.25 76 88 L 76 52 C 76 51.5 75.84375 50.96875 75.625 50.5 C 74.96875 49.09375 73.5 48 72 48 L 68 48 L 68 40 C 68 38 66 36 64 36 Z M 10 36 "
-       id="path23606" />
-    <path
-       style=" stroke:none;fill-rule:nonzero;fill:rgb(91.372549%,69.019608%,50.196078%);fill-opacity:1;"
-       d="M 30 4 C 28 4 26 6 26 8 L 26 10 L 24 10 C 22 10 19.988281 11.898438 20 14 L 20 56 C 20 58.242188 22.074219 60 24.375 60 L 91.625 60 C 94 60 96 58 96 56 L 96 20 C 96 18 94 16 92 16 L 88 16 L 88 8 C 88 6 86 4 84 4 Z M 30 4 "
-       id="path23608" />
-    <path
-       style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,0%,0%);fill-opacity:0.321569;"
-       d="M 30 4 C 28 4 26 6 26 8 L 26 10 L 24 10 C 22 10 19.988281 11.898438 20 14 L 20 56 C 20 58.242188 22.074219 60 24.375 60 L 91.625 60 C 94 60 96 58 96 56 L 96 20 C 96 18 94 16 92 16 L 88 16 L 88 8 C 88 6 86 4 84 4 Z M 24 12 L 62 12 C 63.015625 12 64 12.988281 64 14 L 64 18 L 92 18 C 93.082031 18 94 18.945312 94 20 L 94 56 C 94 57.109375 93.097656 58 92 58 L 24 58 C 22.972656 58 22 57.109375 22 56 L 22 14 C 22 12.914062 22.957031 12 24 12 Z M 24 12 "
-       id="path23610" />
-    <path
-       style=" stroke:none;fill-rule:nonzero;fill:rgb(52.156863%,60%,0%);fill-opacity:1;"
-       d="M 92 60 L 76 60 L 76 44 L 60 44 L 60 60 L 44 60 L 44 76 L 60 76 L 60 92 L 76 92 L 76 76 L 92 76 Z M 92 60 "
-       id="path23612" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+ <g>
+  <path d="m 10 36 c -2 0 -4 2 -4 4 l 0 2 l -2 0 c -2 0 -4.01 1.898 -4 4 l 0 42 c 0 2.242 2.074 4 4.375 4 l 67.25 0 c 2.375 0 4.375 -2 4.375 -4 l 0 -36 c 0 -2 -2 -4 -4 -4 l -4 0 l 0 -8 c 0 -2 -2 -4 -4 -4 m -54 0" style="fill:#e8b07f;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
+  <path d="m 10 36 c -2 0 -4 2 -4 4 l 0 2 l -2 0 c -2 0 -4.01 1.898 -4 4 l 0 42 c 0 2.242 2.074 4 4.375 4 l 67.25 0 c 2.375 0 4.375 -2 4.375 -4 l 0 -36 c 0 -2 -2 -4 -4 -4 l -4 0 l 0 -8 c 0 -2 -2 -4 -4 -4 m -60 8 l 38 0 c 1.016 0 2 0.988 2 2 l 0 4 l 28 0 c 1.082 0 2 0.945 2 2 l 0 36 c 0 1.109 -0.902 2 -2 2 l -68 0 c -1.027 0 -2 -0.891 -2 -2 l 0 -42 c 0 -1.086 0.957 -2 2 -2 m 0 0" style="fill:#000;fill-opacity:0.322;stroke:none;fill-rule:nonzero"/>
+  <path d="m 10 36 c -2 0 -4 2 -4 4 l 0 2 l -2 0 c -2 0 -4.01 1.898 -4 4 l 0 42 c 0 2.242 2.074 4 4.375 4 l 67.25 0 c 0.594 0 1.168 -0.156 1.688 -0.375 c 1.305 -0.547 2.328 -1.645 2.625 -2.875 c 0.059 -0.246 0.063 -0.5 0.063 -0.75 l 0 -36 c 0 -0.5 -0.156 -1.031 -0.375 -1.5 c -0.656 -1.406 -2.125 -2.5 -3.625 -2.5 l -4 0 l 0 -8 c 0 -2 -2 -4 -4 -4 m -54 0" style="fill:#000;fill-opacity:0.102;stroke:none;fill-rule:nonzero"/>
+  <path d="m 30 4 c -2 0 -4 2 -4 4 l 0 2 l -2 0 c -2 0 -4.01 1.898 -4 4 l 0 42 c 0 2.242 2.074 4 4.375 4 l 67.25 0 c 2.375 0 4.375 -2 4.375 -4 l 0 -36 c 0 -2 -2 -4 -4 -4 l -4 0 l 0 -8 c 0 -2 -2 -4 -4 -4 m -54 0" style="fill:#e8b07f;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
+  <path d="m 30 4 c -2 0 -4 2 -4 4 l 0 2 l -2 0 c -2 0 -4.01 1.898 -4 4 l 0 42 c 0 2.242 2.074 4 4.375 4 l 67.25 0 c 2.375 0 4.375 -2 4.375 -4 l 0 -36 c 0 -2 -2 -4 -4 -4 l -4 0 l 0 -8 c 0 -2 -2 -4 -4 -4 m -60 8 l 38 0 c 1.016 0 2 0.988 2 2 l 0 4 l 28 0 c 1.082 0 2 0.945 2 2 l 0 36 c 0 1.109 -0.902 2 -2 2 l -68 0 c -1.027 0 -2 -0.891 -2 -2 l 0 -42 c 0 -1.086 0.957 -2 2 -2 m 0 0" style="fill:#000;fill-opacity:0.322;stroke:none;fill-rule:nonzero"/>
+  <path d="m 92 60 l -16 0 l 0 -16 l -16 0 l 0 16 l -16 0 l 0 16 l 16 0 l 0 16 l 16 0 l 0 -16 l 16 0 m 0 -16" style="fill:#859900;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
+ </g>
 </svg>
