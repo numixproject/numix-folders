@@ -1,128 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="48"
-   height="48"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r"
-   sodipodi:docname="default-folder-saved-search.svg">
-  <defs
-     id="defs4">
-    <linearGradient
-       id="linearGradient3886">
-      <stop
-         style="stop-color:#000000;stop-opacity:1;"
-         offset="0"
-         id="stop3888" />
-      <stop
-         style="stop-color:#000000;stop-opacity:0.19607843;"
-         offset="1"
-         id="stop3890" />
-    </linearGradient>
-    <radialGradient
-       r="24"
-       fy="40.5"
-       fx="24"
-       cy="40.5"
-       cx="24"
-       gradientTransform="matrix(1.25,0,0,0.20833327,-6,1035.9247)"
-       gradientUnits="userSpaceOnUse"
-       id="radialGradient3063"
-       xlink:href="#linearGradient3886"
-       inkscape:collect="always" />
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="12.464725"
-     inkscape:cx="8.2963695"
-     inkscape:cy="14.644955"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     inkscape:window-width="1280"
-     inkscape:window-height="998"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1">
-    <inkscape:grid
-       type="xygrid"
-       id="grid2990"
-       empspacing="5"
-       visible="true"
-       enabled="true"
-       snapvisiblegridlinesonly="true" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Body"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-1004.3622)">
-    <path
-       inkscape:connector-curvature="0"
-       style="opacity:0.1;fill:url(#radialGradient3063);fill-opacity:1;stroke:none"
-       d="m 24,1039.3622 c -9.826549,0 -18.5279703,0.7831 -24,2 l 0,6 c 5.4720297,1.2169 14.173451,2 24,2 9.826549,0 18.52797,-0.7831 24,-2 l 0,-6 c -5.47203,-1.2169 -14.173451,-2 -24,-2 z"
-       id="path3868" />
-    <rect
-       style="fill:#f57c00;fill-opacity:1;stroke:none"
-       id="rect2987"
-       width="46"
-       height="32.000019"
-       x="1"
-       y="1014.3622"
-       rx="5"
-       ry="5" />
-    <path
-       style="opacity:0.2;fill:#ffffff;fill-opacity:1;stroke:none"
-       d="m 6,1014.3622 c -2.77,0 -5,2.23 -5,5 l 0,2 c 0,-2.77 2.23,-5 5,-5 l 36,0 c 2.77,0 5,2.23 5,5 l 0,-2 c 0,-2.77 -2.23,-5 -5,-5 l -36,0 z"
-       id="rect3797"
-       inkscape:connector-curvature="0" />
-    <path
-       style="fill:#ffb300;fill-opacity:1;stroke:none"
-       d="m 6,1022.3622 8,0 c 11,-1 9,-12 16,-12 l 12,0 c 2.77,0 5,2.23 5,5 l 0,26 c 0,2.77 -2.23,5 -5,5 l -36,0 c -2.77,0 -5,-2.23 -5,-5 l 0,-14 c 0,-3 2,-5 5,-5 z"
-       id="rect3776"
-       inkscape:connector-curvature="0"
-       sodipodi:nodetypes="cccsssssscc" />
-    <path
-       style="opacity:0.15;fill:#000000;fill-opacity:1;stroke:none"
-       d="m 1,1039.3622 0,2 c 0,2.77 2.23,5 5,5 l 36,0 c 2.77,0 5,-2.23 5,-5 l 0,-2 c 0,2.77 -2.23,5 -5,5 l -36,0 c -2.77,0 -5,-2.23 -5,-5 z"
-       id="path3786"
-       inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       style="line-height:normal;color:#000000;fill:#000000;fill-opacity:0.09803922"
-       d="m 18.579117,1028.7774 c -1.894506,-1.8952 -4.957741,-1.8833 -6.852252,0.014 -1.610933,1.6113 -1.852348,4.0641 -0.726222,5.9285 l -4.6735913,4.6752 c -0.436069,0.4361 -0.436069,1.1337 0,1.5699 l 0.07028,0.07 c 0.436071,0.4363 1.133507,0.4363 1.569575,0 l 4.6735923,-4.675 c 1.866445,1.1291 4.327691,0.8968 5.938622,-0.7147 1.894513,-1.8949 1.89451,-4.971 0,-6.866 z m -1.065903,1.0661 c 1.303052,1.3035 1.303039,3.4303 0,4.7335 -1.290854,1.2914 -3.379547,1.2908 -4.685302,0.024 l -0.03515,-0.035 c -0.01166,-0.014 -0.02373,-0.024 -0.03515,-0.036 -1.268437,-1.3058 -1.256293,-3.3833 0.03515,-4.6748 1.303038,-1.3036 3.417392,-1.3154 4.720442,-0.014 z"
-       id="path3837" />
-    <path
-       id="path4156"
-       d="m 18.579117,1027.7774 c -1.894506,-1.8952 -4.957741,-1.8833 -6.852252,0.014 -1.610933,1.6113 -1.852348,4.0641 -0.726222,5.9285 l -4.6735913,4.6752 c -0.436069,0.4361 -0.436069,1.1337 0,1.5699 l 0.07028,0.07 c 0.436071,0.4363 1.133507,0.4363 1.569575,0 l 4.6735923,-4.675 c 1.866445,1.1291 4.327691,0.8968 5.938622,-0.7147 1.894513,-1.8949 1.89451,-4.971 0,-6.866 z m -1.065903,1.0661 c 1.303052,1.3035 1.303039,3.4303 0,4.7335 -1.290854,1.2914 -3.379547,1.2908 -4.685302,0.024 l -0.03515,-0.035 c -0.01166,-0.014 -0.02373,-0.024 -0.03515,-0.036 -1.268437,-1.3058 -1.256293,-3.3833 0.03515,-4.6748 1.303038,-1.3036 3.417392,-1.3154 4.720442,-0.014 z"
-       style="line-height:normal;opacity:1;color:#000000;fill:#fff8e1;fill-opacity:1"
-       inkscape:connector-curvature="0" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+ <defs>
+  <radialGradient r="24" cy="40.5" cx="24" gradientTransform="matrix(1.25,0,0,0.20833327,-6,1035.9247)" gradientUnits="userSpaceOnUse" id="radialGradient3063">
+   <stop style="stop-color:#000;stop-opacity:1"/>
+   <stop offset="1" style="stop-color:#000;stop-opacity:0.196"/>
+  </radialGradient>
+ </defs>
+ <g transform="translate(0,-1004.3622)">
+  <path d="m 24 1039.36 c -9.827 0 -18.528 0.783 -24 2 l 0 6 c 5.472 1.217 14.173 2 24 2 9.827 0 18.528 -0.783 24 -2 l 0 -6 c -5.472 -1.217 -14.173 -2 -24 -2 z" style="fill:url(#radialGradient3063);opacity:0.1;fill-opacity:1;stroke:none"/>
+  <rect width="46" height="32" x="1" y="1014.36" rx="5" style="fill:#f57c00;fill-opacity:1;stroke:none"/>
+  <path d="m 6 1014.36 c -2.77 0 -5 2.23 -5 5 l 0 2 c 0 -2.77 2.23 -5 5 -5 l 36 0 c 2.77 0 5 2.23 5 5 l 0 -2 c 0 -2.77 -2.23 -5 -5 -5 l -36 0 z" style="fill:#fff;opacity:0.2;fill-opacity:1;stroke:none"/>
+  <path d="m 6 1022.36 8 0 c 11 -1 9 -12 16 -12 l 12 0 c 2.77 0 5 2.23 5 5 l 0 26 c 0 2.77 -2.23 5 -5 5 l -36 0 c -2.77 0 -5 -2.23 -5 -5 l 0 -14 c 0 -3 2 -5 5 -5 z" style="fill:#ffb300;fill-opacity:1;stroke:none"/>
+  <path d="m 1 1039.36 0 2 c 0 2.77 2.23 5 5 5 l 36 0 c 2.77 0 5 -2.23 5 -5 l 0 -2 c 0 2.77 -2.23 5 -5 5 l -36 0 c -2.77 0 -5 -2.23 -5 -5 z" style="fill:#000;opacity:0.15;fill-opacity:1;stroke:none"/>
+  <path d="m 18.579 1028.78 c -1.895 -1.895 -4.958 -1.883 -6.852 0.014 -1.611 1.611 -1.852 4.064 -0.726 5.928 l -4.674 4.675 c -0.436 0.436 -0.436 1.134 0 1.57 l 0.07 0.07 c 0.436 0.436 1.134 0.436 1.57 0 l 4.674 -4.675 c 1.866 1.129 4.328 0.897 5.939 -0.715 1.895 -1.895 1.895 -4.971 0 -6.866 z m -1.066 1.066 c 1.303 1.303 1.303 3.43 0 4.734 -1.291 1.291 -3.38 1.291 -4.685 0.024 l -0.035 -0.035 c -0.012 -0.014 -0.024 -0.024 -0.035 -0.036 -1.268 -1.306 -1.256 -3.383 0.035 -4.675 1.303 -1.304 3.417 -1.315 4.72 -0.014 z" style="fill:#000;fill-opacity:0.098;color:#000"/>
+  <path d="m 18.579 1027.78 c -1.895 -1.895 -4.958 -1.883 -6.852 0.014 -1.611 1.611 -1.852 4.064 -0.726 5.928 l -4.674 4.675 c -0.436 0.436 -0.436 1.134 0 1.57 l 0.07 0.07 c 0.436 0.436 1.134 0.436 1.57 0 l 4.674 -4.675 c 1.866 1.129 4.328 0.897 5.939 -0.715 1.895 -1.895 1.895 -4.971 0 -6.866 z m -1.066 1.066 c 1.303 1.303 1.303 3.43 0 4.734 -1.291 1.291 -3.38 1.291 -4.685 0.024 l -0.035 -0.035 c -0.012 -0.014 -0.024 -0.024 -0.035 -0.036 -1.268 -1.306 -1.256 -3.383 0.035 -4.675 1.303 -1.304 3.417 -1.315 4.72 -0.014 z" style="fill:#fff8e1;opacity:1;fill-opacity:1;color:#000"/>
+ </g>
 </svg>

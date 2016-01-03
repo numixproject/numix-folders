@@ -1,49 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="256px"
-   height="256px"
-   viewBox="0 0 256 256"
-   version="1.1"
-   id="svg51893"
-   inkscape:version="0.91 r"
-   sodipodi:docname="default-folder.svg">
-  <metadata
-     id="metadata51902">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs51900" />
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="640"
-     inkscape:window-height="480"
-     id="namedview51898" />
-  <g
-     id="surface1">
-    <path
-       style=" stroke:none;fill-rule:nonzero;fill:rgb(76.862745%,56.470588%,36.862745%);fill-opacity:1;"
-       d="M 24.25 40.003906 C 19.734375 40.445312 15.925781 44.714844 16 49.253906 L 16 206.75 C 15.945312 211.609375 20.394531 216.054688 25.25 216 L 230.75 216 C 235.609375 216.054688 240.054688 211.609375 240 206.75 L 240 65.253906 C 240.054688 60.394531 235.609375 55.945312 230.75 56.003906 L 152 56.003906 L 152 49.253906 C 152.054688 44.476562 147.773438 40.078125 143 40.003906 L 25.25 40.003906 C 24.917969 39.984375 24.585938 39.984375 24.25 40.003906 Z M 24.25 40.003906 "
-       id="path51896" />
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+ <g>
+  <path d="m 24.25 40 c -4.516 0.441 -8.324 4.711 -8.25 9.25 l 0 157.5 c -0.055 4.859 4.395 9.305 9.25 9.25 l 205.5 0 c 4.859 0.055 9.305 -4.391 9.25 -9.25 l 0 -141.5 c 0.055 -4.859 -4.391 -9.309 -9.25 -9.25 l -78.75 0 l 0 -6.75 c 0.055 -4.777 -4.227 -9.176 -9 -9.25 l -117.75 0 c -0.332 -0.02 -0.664 -0.02 -1 0 m 0 0" style="fill:#c38f5d;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
+ </g>
 </svg>
