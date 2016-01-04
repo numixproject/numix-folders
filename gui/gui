@@ -270,6 +270,7 @@ class NumixFoldersGUI(Gtk.Application):
 
         # a little bit of initializing
         self.combo_changed_style(self.style_combo)
+        
         # for if default colour is style because thats nothing else than custom
         if colour == "custom":
             colour = get_default_colour(tuple(self.colour))
@@ -418,7 +419,10 @@ class NumixFoldersGUI(Gtk.Application):
             loader.close()
             pixbuf = loader.get_pixbuf()
             if len(self.style_store) <= i:
-                self.style_store.append([pixbuf, "  Style %s" % int(i+1)])
+                if i != default_style-1:
+                    self.style_store.append([pixbuf, "  Style %s" % int(i+1)])
+                else:
+                    self.style_store.append([pixbuf, "  Style %s *" % int(i+1)])
             else:
                 self.style_store[int(i)][0] = pixbuf
 
