@@ -221,10 +221,11 @@ class NumixFoldersGUI(Gtk.Application):
                 self.colourentries[i].set_max_width_chars(7)
                 self.colourlabels.append(Gtk.Label())
                 self.colourlabels[i].set_text(colour_labels[i])
-                hboxcolour[i].pack_end(self.colourlabels[i], False, False, 6)
             self.colourentries[i].modify_font(Pango.FontDescription('monospace'))
             hboxcolour[i].pack_end(self.colourentries[i], False, False, 0)
             hboxcolour[i].pack_end(self.colourbuttons[i], False, False, 0)
+            if Gtk.get_major_version() >= 3 and Gtk.get_minor_version() >= 12:
+                hboxcolour[i].pack_end(self.colourlabels[i], False, False, 6)
 
         for hbox in hboxcolour[::-1]:
             vboxcolours.pack_end(hbox, False, False, 5)
