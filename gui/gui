@@ -216,8 +216,8 @@ class NumixFoldersGUI(Gtk.Application):
             self.colourentries.append(Gtk.Entry())
             self.colourentries[i].set_text(self.colour[i])
             self.colourentries[i].set_max_length(7)
-            self.colourentries[i].set_width_chars(7)
             if Gtk.get_major_version() >= 3 and Gtk.get_minor_version() >= 12:
+                self.colourentries[i].set_width_chars(7)
                 self.colourentries[i].set_max_width_chars(7)
                 self.colourlabels.append(Gtk.Label())
                 self.colourlabels[i].set_text(colour_labels[i])
