@@ -152,7 +152,7 @@ class NumixFoldersGUI(Gtk.Application):
         # preview pixmap
         self.image = Gtk.Image()
         svg_path = path.split(path.abspath(__file__))[0] + "/../styles/"
-        svg_path += str(self.style)+"/Numix/96/places/custom-user-home.svg"
+        svg_path += str(self.style)+"/Numix/48/places/custom-user-home.svg"
         with open(svg_path, "r") as svgfile:
             self.svg = svgfile.read()
         fixed = Gtk.Fixed()
@@ -384,7 +384,7 @@ class NumixFoldersGUI(Gtk.Application):
 
     def update_preview(self, style, colours):
         svg_path = path.split(path.abspath(__file__))[0] + "/../styles/"
-        svg_path += str(style) + "/Numix/96/places/custom-user-home.svg"
+        svg_path += str(style) + "/Numix/48/places/custom-user-home.svg"
         with open(svg_path, "r") as svgfile:
             self.svg = svgfile.read()
         if not hasattr(colours, '__contains__'):
@@ -395,6 +395,7 @@ class NumixFoldersGUI(Gtk.Application):
                 svg = svg.replace("replacecolour%s" % (k+1), col)
         loader = GdkPixbuf.PixbufLoader()
         loader.write(svg.encode())
+        loader.set_size(96,96)
         loader.close()
         pixbuf = loader.get_pixbuf()
         self.image.set_from_pixbuf(pixbuf)
