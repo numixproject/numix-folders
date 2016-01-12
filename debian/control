@@ -8,7 +8,7 @@ Standards-Version: 3.9.5
 
 Package: numix-folders
 Architecture: all
-Depends: ${misc:Depends}
+Depends: ${misc:Depends}, gksu
 Description: Numix Folders
  This program provides and installs alternate folders for use with our
  base icon theme.
