@@ -1,3 +1,9 @@
+numix-folders (1.1.1-0ubuntu0) wily; urgency=low
+
+  * Add gksu dependency.
+
+ -- Paolo Rotolo <paolorotolo@ubuntu.com>  Thu, 12 Jan 2016 21:30:18 +0100
+
 numix-folders (1.1.0-0ubuntu0) wily; urgency=low
 
   * Add GUI.
