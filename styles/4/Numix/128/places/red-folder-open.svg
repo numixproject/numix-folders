@@ -1,9 +1,0 @@
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
- <g transform="translate(0,-924.3622)">
-  <rect width="104" height="46" x="12" y="943.36" rx="5" style="fill:#d32f2f;fill-opacity:1;stroke:none"/>
-  <rect width="120" height="60" x="4" y="977.36" rx="8" style="fill:#ef5350;fill-opacity:1;stroke:none"/>
-  <path d="m 12 977.36 c -4.432 0 -8 3.568 -8 8 l 0 2 c 0 -4.432 3.568 -8 8 -8 l 104 0 c 4.432 0 8 3.568 8 8 l 0 -2 c 0 -4.432 -3.568 -8 -8 -8 l -104 0 z" style="fill:#fff;opacity:0.1;fill-opacity:1;stroke:none"/>
-  <path d="m 17 19 c -2.77 0 -5 2.23 -5 5 l 0 2 c 0 -2.77 2.23 -5 5 -5 l 94 0 c 2.77 0 5 2.23 5 5 l 0 -2 c 0 -2.77 -2.23 -5 -5 -5 l -94 0 z" transform="translate(0,924.3622)" style="fill:#000;opacity:0.05;fill-opacity:1;stroke:none"/>
- </g>
-</svg>
