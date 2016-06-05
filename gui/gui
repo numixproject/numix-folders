@@ -138,15 +138,14 @@ class NumixFoldersGUI(Gtk.Application):
         self.style = style
 
         # boxes
-        vboxall = Gtk.VBox()
-        vboxmain = Gtk.VBox()
-        hboxpreview = Gtk.HBox(spacing=30)
-        hboxcombo = Gtk.HBox()
-        hboxentry = Gtk.HBox()
+        vboxall = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        vboxmain = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        hboxpreview = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=30)
+        hboxcombo = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+        hboxentry = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
         hboxcolour = []  # filled later
-        vboxcolours = Gtk.VBox()
-        hboxcolours = Gtk.HBox()
-        hboxbuttons = Gtk.HBox()
+        vboxcolours = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        hboxcolours = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         self.win.add(vboxall)
 
         # preview pixmap
@@ -210,7 +209,7 @@ class NumixFoldersGUI(Gtk.Application):
         self.colourentries = []
         self.colourlabels = []
         for i in range(number_colours):
-            hboxcolour.append(Gtk.HBox(spacing=12))
+            hboxcolour.append(Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=12))
             self.colourbuttons.append(Gtk.ColorButton())
             self.colourbuttons[i].set_color(Gdk.color_parse(self.colour[i]))
             self.colourentries.append(Gtk.Entry())
@@ -240,6 +239,7 @@ class NumixFoldersGUI(Gtk.Application):
         # header bar
         if Gtk.get_major_version() >= 3 and Gtk.get_minor_version() >= 14:
             headerbar = Gtk.HeaderBar()
+            headerbar.props.title = "Numix Folders"
             left_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
             right_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
 
@@ -250,6 +250,7 @@ class NumixFoldersGUI(Gtk.Application):
             headerbar.pack_end(right_box)
             self.win.set_titlebar(headerbar)
         else:
+            hboxbuttons = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
             hboxbuttons.set_margin_left(80)
             hboxbuttons.set_margin_right(20)
 
