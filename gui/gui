@@ -138,15 +138,14 @@ class NumixFoldersGUI(Gtk.Application):
         self.style = style
 
         # boxes
-        vboxall = Gtk.VBox()
-        vboxmain = Gtk.VBox()
-        hboxpreview = Gtk.HBox(spacing=30)
-        hboxcombo = Gtk.HBox()
-        hboxentry = Gtk.HBox()
+        vboxall = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        vboxmain = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        hboxpreview = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=30)
+        hboxcombo = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+        hboxentry = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
         hboxcolour = []  # filled later
-        vboxcolours = Gtk.VBox()
-        hboxcolours = Gtk.HBox()
-        hboxbuttons = Gtk.HBox()
+        vboxcolours = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        hboxcolours = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         self.win.add(vboxall)
 
         # preview pixmap
@@ -178,7 +177,7 @@ class NumixFoldersGUI(Gtk.Application):
         self.style_combo.add_attribute(renderer_text, "text", 1)
         if int(style) in range(1, number_styles + 1):
             self.style_combo.set_active(int(style)-1)
-        hboxcombo.pack_start(self.style_combo, False, False, 12)
+        hboxcombo.pack_start(self.style_combo, True, False, 12)
 
         # comboboxentrycolour
         colours_store = Gtk.ListStore(GdkPixbuf.Pixbuf, str)
@@ -203,14 +202,14 @@ class NumixFoldersGUI(Gtk.Application):
         if colour and colour in [x.lower() for x in colours]:
             ind = [x.lower() for x in colours].index(colour)
             self.colours_combo.set_active(ind)
-        hboxcombo.pack_start(self.colours_combo, False, False, 12)
+        hboxcombo.pack_start(self.colours_combo, True, False, 12)
 
         # colourchooser widgets
         self.colourbuttons = []
         self.colourentries = []
         self.colourlabels = []
         for i in range(number_colours):
-            hboxcolour.append(Gtk.HBox(spacing=12))
+            hboxcolour.append(Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL, spacing=12))
             self.colourbuttons.append(Gtk.ColorButton())
             self.colourbuttons[i].set_color(Gdk.color_parse(self.colour[i]))
             self.colourentries.append(Gtk.Entry())
@@ -231,31 +230,38 @@ class NumixFoldersGUI(Gtk.Application):
             vboxcolours.pack_end(hbox, False, False, 5)
         hboxcolours.pack_start(vboxcolours, False, False, 30)
 
-        test = '''<interface>
-                   <object class="GtkButton" id="select-button">
-                    <property name="label" translatable="yes">_Apply</property>
-                    <property name="visible">True</property>
-                    <property name="use-underline">True</property>
-                        <style>
-                          <class name="suggested-action"/>
-                          <class name="text-button"/>
-                        </style>
-                  </object>
-               </interface>'''
-        builder = Gtk.Builder()
-        builder.add_from_string(test)
         # buttons
-        hboxbuttons.set_margin_left(80)
-        hboxbuttons.set_margin_right(20)
-        buttonok = builder.get_object("select-button")
+        buttonok = Gtk.Button("_Apply", use_underline=True)
+        buttonok.get_style_context().add_class("suggested-action")
         buttonclose = Gtk.Button("_Cancel", use_underline=True)
-        hboxbuttons.pack_end(buttonok, True, True, 6)
-        hboxbuttons.pack_end(buttonclose, True, True, 6)
-        hboxbuttons.set_margin_top(18)
+        buttonclose.get_style_context().add_class("destructive-action")
+
+        # header bar
+        if Gtk.get_major_version() >= 3 and Gtk.get_minor_version() >= 14:
+            headerbar = Gtk.HeaderBar()
+            headerbar.props.title = "Numix Folders"
+            left_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+            right_box = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+
+            left_box.add(buttonclose)
+            right_box.add(buttonok)
+
+            headerbar.pack_start(left_box)
+            headerbar.pack_end(right_box)
+            self.win.set_titlebar(headerbar)
+        else:
+            hboxbuttons = Gtk.Box(orientation=Gtk.Orientation.HORIZONTAL)
+            hboxbuttons.set_margin_left(80)
+            hboxbuttons.set_margin_right(20)
+
+            hboxbuttons.pack_end(buttonok, True, True, 6)
+            hboxbuttons.pack_end(buttonclose, True, True, 6)
+            hboxbuttons.set_margin_top(18)
+            vboxall.pack_end(hboxbuttons, False, False, 6)
+
 
         # packing
         vboxall.pack_start(vboxmain, False, False, 0)
-        vboxall.pack_end(hboxbuttons, False, False, 6)
         vboxmain.pack_start(hboxpreview, True, True, 15)
         vboxmain.pack_start(hboxcombo, False, False, 25)
         vboxmain.pack_start(hboxcolours, False, False, 0)
@@ -272,7 +278,7 @@ class NumixFoldersGUI(Gtk.Application):
 
         # a little bit of initializing
         self.combo_changed_style(self.style_combo)
-        
+
         # for if default colour is style because thats nothing else than custom
         if colour == "custom":
             colour = get_default_colour(tuple(self.colour))
