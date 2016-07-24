@@ -1,4 +1,4 @@
-<svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
  <rect x="1" y="5" width="17" height="7" style="fill:#512da8;fill-opacity:1;stroke:none"/>
  <path d="m 3.01 5 c 0 -0.5 0 -1 0.907 -1 l 3.174 0 c 0.907 0 0.907 0.5 0.907 1 z" style="fill:#512da8;fill-opacity:1;stroke:none"/>
  <path d="m 2 7 15 0 0 3 -15 0 z" style="fill:#95989f;fill-opacity:1;stroke:none"/>
