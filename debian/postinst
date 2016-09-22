@@ -1,3 +1,4 @@
 cd /usr/bin/
 sudo touch numix-folders
 echo '#!/bin/bash \ncd /opt/numix-folders && ./numix-folders "$1"' > numix-folders && chmod a+x numix-folders
+$(command -v numix-folders) -p >/dev/null 2>&1
