@@ -7,4 +7,4 @@ Exec=numix-folders
 StartupWMClass=numix-folders
 Comment=Alternate folders for use with our base icon theme.
 Icon=numix-folders
-Categories=GNOME;GTK;
+Categories=GNOME;GTK;Settings
