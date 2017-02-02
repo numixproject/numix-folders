@@ -75,7 +75,7 @@ fi
 
 cuser="${SUDO_USER:-$USER}"
 
-config_file=/home/"$cuser"/.config/numix-folders
+config_file="$(eval echo "~$cuser")/.config/numix-folders"
 if [ ! -f "$config_file" ];then
   touch "$config_file"
 fi
