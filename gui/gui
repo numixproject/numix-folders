@@ -20,12 +20,12 @@ from gi.repository import Gtk, Gdk, GdkPixbuf, Pango, GLib, Gio
 colour_labels = ["Primary", "Secondary", "Symbol"]
 
 def get_default_colour(colour):
+    default = "custom"
     for d in defaults:
         if colour == defaults[d]:
-            return d
-        else:
-            continue
-    return "custom"
+            default = d
+            break
+    return default
 
 
 def gdk_to_hex(gdk_colour):
