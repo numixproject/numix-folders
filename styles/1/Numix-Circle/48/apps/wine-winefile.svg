@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <linearGradient id="linearGradient4312" x1="25" x2="25" y1="47" y2="1" gradientTransform="rotate(-90,25.571,1.9941)" gradientUnits="userSpaceOnUse">
+  <linearGradient id="linearGradient4312" x1="-19.435" x2="26.565" y1="-23.577" y2="-23.577" gradientTransform="rotate(-90,25.571,1.9941)" gradientUnits="userSpaceOnUse">
    <stop stop-color="#b24432" offset="0"/>
    <stop stop-color="#c24936" offset="1"/>
   </linearGradient>
