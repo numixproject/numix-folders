@@ -1,0 +1,50 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the NumixFolders package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: NumixFolders\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-07-22 19:46+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: data/org.Numix.Folders.appdata.xml.in:5
+#: data/org.Numix.Folders.appdata.xml.in:6
+msgid "GNOME Authenticator"
+msgstr ""
+
+#: data/org.Numix.Folders.appdata.xml.in:7
+msgid "Alternate folders for use with our base icon theme"
+msgstr ""
+
+#: data/org.Numix.Folders.appdata.xml.in:11
+msgid ""
+"Simple application that generates 2 factor authentication code, created for "
+"Gnome"
+msgstr ""
+
+#: data/org.Numix.Folders.desktop.in:6 NumixFolders/widgets/headerbar.py:18
+#: NumixFolders/widgets/window.py:26
+msgid "Numix Folders"
+msgstr ""
+
+#: data/org.Numix.Folders.desktop.in:9
+msgid "Alternate folders for use with our base icon theme."
+msgstr ""
+
+#: data/org.Numix.Folders.desktop.in:10
+msgid "org.Numix.Folders"
+msgstr ""
+
+#: NumixFolders/widgets/headerbar.py:30 NumixFolders/widgets/window.py:77
+msgid "Apply"
+msgstr ""

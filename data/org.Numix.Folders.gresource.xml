@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gresources>
+  <gresource prefix="/org/Numix/Folders">
+    <file>colors.json</file>
+    <file>styles.json</file>
+  </gresource>
+</gresources>

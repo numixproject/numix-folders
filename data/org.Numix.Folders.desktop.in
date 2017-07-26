@@ -6,5 +6,5 @@ Name=Numix Folders
 Exec=numix-folders
 StartupWMClass=numix-folders
 Comment=Alternate folders for use with our base icon theme.
-Icon=numix-folders
+Icon=org.Numix.Folders
 Categories=GNOME;GTK;Settings

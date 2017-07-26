@@ -1,0 +1,4 @@
+data/org.Numix.Folders.appdata.xml.in
+data/org.Numix.Folders.desktop.in
+NumixFolders/widgets/headerbar.py
+NumixFolders/widgets/window.py

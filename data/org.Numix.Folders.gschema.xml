@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema path="/org/Numix/Folders/" id="org.Numix.Folders" gettext-domain="NumixFolders">
+    <key name="window-position" type="ai">
+      <default>[0,0]</default>
+      <summary>Default window postiton</summary>
+      <description>
+        Default window postiton
+      </description>
+    </key>
+    <key name="style" type="s">
+      <default>'style_1'</default>
+      <summary>Default style</summary>
+      <description></description>
+    </key>
+    <key name="colors" type="as">
+      <default>['#FFF', '#FFF', '#FFF']</default>
+      <summary>Default Primary, Secondary and Symbol colors.</summary>
+      <description></description>
+    </key>
+  </schema>
+</schemalist>

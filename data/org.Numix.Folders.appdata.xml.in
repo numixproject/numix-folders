@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop">
+  <id>org.Numix.Folders.desktop</id>
+  <translation type="gettext">NumixFolders</translation>
+  <name>Numix Folders</name>
+  <developer_name>Numix Project</developer_name>
+  <summary>Alternate folders for use with our base icon theme</summary>
+  <metadata_license>GPL-3.0+</metadata_license>
+  <project_license>GPL-3.0+</project_license>
+  <description>
+    <p>Simple application that generates 2 factor authentication code, created for Gnome</p>
+  </description>
+  <screenshots>
+    <screenshot type="default" width="350" height="500">https://raw.githubusercontent.com/bil-elmoussaoui/Gnome-Authenticator/master/screenshots/screenshot1.png</screenshot>
+    <screenshot width="350" height="500">https://raw.githubusercontent.com/bil-elmoussaoui/Gnome-Authenticator/master/screenshots/screenshot2.png</screenshot>
+    <screenshot width="350" height="500">https://raw.githubusercontent.com/bil-elmoussaoui/Gnome-Authenticator/master/screenshots/screenshot7.png</screenshot>
+  </screenshots>
+  <url type="homepage">https://github.com/numixproject/numix-folders</url>
+  <url type="bugtracker">https://github.com/numixproject/numix-folders/issues</url>
+  <updatecontact>bil.elmoussaoui@gmail.com</updatecontact>
+</component>
