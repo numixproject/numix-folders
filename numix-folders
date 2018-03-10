@@ -125,17 +125,18 @@ if [ "$runmode" -eq 2 ]; then
 
 else
     if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
-        dir=/home/"$cuser"/.local/share/icons
+        sdir=/home/"$cuser"/.local/share/icons
+        ddir=$sdir
     elif [ -d /home/"$cuser"/.icons/Numix ]; then
-        dir=/home/"$cuser"/.icons
+        sdir=/home/"$cuser"/.icons
+        ddir=$sdir
     elif [ -d /usr/share/icons/Numix/ ]; then
         if [[ $UID -ne 0 ]]; then
-            echo -e \
-                "You appear to have Numix installed globally.\n" \
-                "\rPlease run this script again as root."
-            gerror
+            sdir=/usr/share/icons
+            ddir=/home/"$cuser"/.icons
         else
-            dir=/usr/share/icons
+            sdir=/usr/share/icons
+            ddir=$sdir
         fi
     else
         echo -e \
