@@ -84,15 +84,18 @@ scriptpath=$(dirname "$(readlink -f "$0")")
 
 if [ "$runmode" -eq 2 ]; then
     if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
-        dir=/home/"$cuser"/.local/share/icons
+        sdir=/home/"$cuser"/.local/share/icons
+        ddir=$sdir
     elif [ -d /home/"$cuser"/.icons/Numix ]; then
-        dir=/home/"$cuser"/.icons
+        sdir=/home/"$cuser"/.icons
+        ddir=$sdir
     elif [ -d /usr/share/icons/Numix/ ]; then
         if [[ $UID -ne 0 ]]; then
-            scriptname=$(readlink -f "$0")
-            exec gksudo "$scriptname"
+            sdir=/usr/share/icons
+            ddir=/home/"$cuser"/.icons
         else
-            dir=/usr/share/icons
+            sdir=/usr/share/icons
+            ddir=$sdir
         fi
     else
         "$scriptpath"/gui/error
@@ -103,12 +106,14 @@ if [ "$runmode" -eq 2 ]; then
     colour1=$(sed -n 3p "$config_file")
     colour2=$(sed -n 4p "$config_file")
     colour3=$(sed -n 5p "$config_file")
-    vars=$("$scriptpath"/gui/gui "$style" "$colour" "#$colour1" "#$colour2" "#$colour3")
+    theme=$(sed -n 6p "$config_file")
+    vars=$("$scriptpath"/gui/gui "$style" "$colour" "#$colour1" "#$colour2" "#$colour3" "$theme")
     style=$(echo $vars | awk '{print $1}')
     colour=$(echo $vars | awk '{print $2}')
     colour1=$(echo $vars | awk '{print $3}')
     colour2=$(echo $vars | awk '{print $4}')
     colour3=$(echo $vars | awk '{print $5}')
+    theme=$(echo $vars | awk '{print $6}')
     if [[ -z "$style" ]]; then
         exit
     fi
@@ -255,6 +260,7 @@ else
                 colour1=$(sed -n 3p "$config_file")
                 colour2=$(sed -n 4p "$config_file")
                 colour3=$(sed -n 5p "$config_file")
+                theme=$(sed -n 6p "$config_file")
                 if [[ "$style" -gt 6 || "$style" -lt 1 ]] || [[ -z $colour ]]; then
                     exitloop=0
                     runmode=0
@@ -275,40 +281,91 @@ else
     done
 fi
 
-cp -rf "$scriptpath"/styles/"${style}"/Numix/* "${dir}"/Numix/
+if [[ "${sdir}" != "${ddir}" ]]; then
+    if [ -d "${ddir}"/Numix-Folders ]; then
+        rm -r "${ddir}"/Numix-Folders
+    fi
+    mkdir -p "${ddir}"/Numix-Folders
+    sed -e "s/INHERIT_NAME/${theme/-/ }/" \
+        -e "s/INHERIT_THEME/${theme}/" \
+        "$scriptpath"/skel/index.theme > "${ddir}"/Numix-Folders/index.theme
+    cp -rf "$scriptpath"/styles/"${style}"/Numix/* "${ddir}"/Numix-Folders
+else
+    cp -rf "$scriptpath"/styles/"${style}"/Numix/* "${ddir}"/Numix
+fi
 
 if [ "$colour" == "custom" ]; then
-    find ${dir}/Numix/*/{actions,places}/*custom* \
+    find ${ddir}/Numix-Folders/*/{actions,places}/*custom* \
         -exec sed -i --follow-symlinks "s/replacecolour1/#$colour1/g" {} \; \
         -exec sed -i --follow-symlinks "s/replacecolour2/#$colour2/g" {} \; \
         -exec sed -i --follow-symlinks "s/replacecolour3/#$colour3/g" {} \;
 fi
 
-currentcolour=$(readlink ${dir}/Numix/16/places/folder.svg | cut -d '-' -f 1)
-links=$(find -L ${dir}/Numix/*/{actions,places} -xtype l)
+currentcolour=$(readlink ${sdir}/Numix/16/places/folder.svg | cut -d '-' -f 1)
+links=$(find -L ${sdir}/Numix/*/{actions,places} -xtype l)
 
 for link in $links; do
     if [[ $link == *folder_color* ]]; then
         continue
     fi
     newlink=$(readlink "${link}");
+    subfolder=$(dirname "${link}");
+    subfolder=${subfolder#${sdir}/Numix/}
     if [[ $newlink == *"$currentcolour"* ]]; then
         newlink=${newlink/${currentcolour}/${colour}}
+        newlink="${ddir}"/Numix-Folders/"${subfolder}"/"${newlink}"
+        if [ ! -f "$newlink" ]; then
+            newlink=${newlink#${ddir}/Numix-Folders/${subfolder}/}
+            if [[ "$sdir" != "$ddir" ]]; then
+                newlink="${sdir}"/Numix/"${subfolder}"/"${newlink}"
+            fi
+        else
+            newlink=${newlink#${ddir}/Numix-Folders/${subfolder}/}
+        fi
+        link=${link/${sdir}/${ddir}}
+        link=${link/Numix/Numix-Folders}
+        if [ ! -d "$(dirname "${link}")" ]; then
+            mkdir -p "$(dirname "${link}")"
+        fi
         ln -sf "${newlink}" "${link}"
     fi
 done
 
-chown -R "$cuser" "${dir}"/Numix/
-gtk-update-icon-cache -f "${dir}"/Numix/
-if [ -d "${dir}"/Numix-Circle/ ]; then
-    cp -rH "$scriptpath"/styles/"${style}"/Numix-Circle/* "${dir}"/Numix-Circle/
-    chown -R "$cuser" "${dir}"/Numix-Circle/
-    gtk-update-icon-cache -f "${dir}"/Numix-Circle/
-fi
-if [ -d "${dir}"/Numix-Square/ ]; then
-    cp -rH "$scriptpath"/styles/"${style}"/Numix-Square/* "${dir}"/Numix-Square/
-    chown -R "$cuser" "${dir}"/Numix-Square/
-    gtk-update-icon-cache -f "${dir}"/Numix-Square/
+if [[ "${sdir}" == "${ddir}" ]]; then
+    chown -R "$cuser" "${ddir}"/Numix/
+    gtk-update-icon-cache -f "${ddir}"/Numix/
+    if [ -d "${sdir}"/Numix-Circle/ ]; then
+        cp -rH "$scriptpath"/styles/"${style}"/Numix-Circle/* "${ddir}"/Numix-Circle/
+        chown -R "$cuser" "${ddir}"/Numix-Circle/
+        gtk-update-icon-cache -f "${ddir}"/Numix-Circle/
+    fi
+    if [ -d "${sdir}"/Numix-Square/ ]; then
+        cp -rH "$scriptpath"/styles/"${style}"/Numix-Square/* "${ddir}"/Numix-Square/
+        chown -R "$cuser" "${ddir}"/Numix-Square/
+        gtk-update-icon-cache -f "${ddir}"/Numix-Square/
+    fi
+else
+    if [[ "${theme}" != Numix ]]; then
+        cp -rH "$scriptpath"/styles/"${style}"/"${theme}"/* "${ddir}"/Numix-Folders/
+    fi
+
+    baselinks=$(find -L "${ddir}"/Numix-Folders -xtype l)
+    for bl in $baselinks; do
+        cd "$(dirname "${bl}")" || continue
+        bl=${bl/${ddir}/${sdir}}
+        bl=${bl/Numix-Folders/Numix}
+        newlinks=$(find -L "${sdir}"/Numix -samefile "${bl}")
+        for nl in $newlinks; do
+            nl=$(basename "${nl}")
+            bl=$(basename "${bl}")
+            if [[ "${nl}" != "${bl}" ]]; then
+                ln -sf "${bl}" "${nl}"
+            fi
+        done
+    done
+
+    chown -R "$cuser" "${ddir}"/Numix-Folders/
+    gtk-update-icon-cache -f "${ddir}"/Numix-Folders/
 fi
 
 echo "Folder change complete!"
@@ -318,6 +375,7 @@ echo "Folder change complete!"
     echo "$colour1"
     echo "$colour2"
     echo "$colour3"
+    echo "$theme"
 } > "$config_file"
 chown -R "$cuser" "$config_file"
 sucess

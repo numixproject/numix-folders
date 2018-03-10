@@ -30,7 +30,7 @@ def get_default_colour(colour):
 
 def gdk_to_hex(gdk_colour):
     colours = gdk_colour.to_floats()
-    return "#" + "".join(["%02x" % (colour * 255) for colour in colours])
+    return "#" + "".join(["%02x" % int(colour * 255) for colour in colours])
 
 
 def check_hex(colour):
@@ -75,6 +75,8 @@ colours = ("Default", "Blue", "Brown", "Green", "Grey", "Orange",
            "Pink", "Purple", "Red", "Yellow", "Style 1", "Style 2",
            "Style 3", "Style 4", "Style 5", "Style 6", "Custom")
 
+themes = ("Numix", "Numix-Circle", "Numix-Square")
+
 number_styles = 6
 number_colours = 3
 default_style = 6
@@ -111,21 +113,25 @@ else:
         colour = "default"
         colour_list = defaults["style %s" % (style)]
 
+if len(argv) > 6:
+    theme = argv[6]
+else:
+    theme = "Numix"
 
 class NumixFoldersGUI(Gtk.Application):
 
-    def __init__(self, style, colour, colour_list):
+    def __init__(self, style, colour, colour_list, theme):
         Gtk.Application.__init__(self,
                                  application_id='org.gnome.numix-folders',
                                  flags=Gio.ApplicationFlags.FLAGS_NONE)
         GLib.set_application_name("Numix Folders")
         GLib.set_prgname('numix-folders')
-        self.connect("activate", self.on_activate, style, colour, colour_list)
+        self.connect("activate", self.on_activate, style, colour, colour_list, theme)
 
     def exit(self, *args):
         self.quit()
 
-    def on_activate(self, app, style, colour, colour_list):
+    def on_activate(self, app, style, colour, colour_list, theme):
         self.win = Gtk.ApplicationWindow(Gtk.WindowType.TOPLEVEL, application=app)
         self.win.set_title("Numix Folders")
         self.win.set_icon_name('numix-folders')
@@ -136,6 +142,7 @@ class NumixFoldersGUI(Gtk.Application):
         self.colour = colour_list
         self.global_colour = colour
         self.style = style
+        self.theme = theme
 
         # boxes
         vboxall = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
@@ -146,6 +153,7 @@ class NumixFoldersGUI(Gtk.Application):
         hboxcolour = []  # filled later
         vboxcolours = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         hboxcolours = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
+        hboxthemes = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
         self.win.add(vboxall)
 
         # preview pixmap
@@ -226,6 +234,18 @@ class NumixFoldersGUI(Gtk.Application):
             if Gtk.get_major_version() >= 3 and Gtk.get_minor_version() >= 12:
                 hboxcolour[i].pack_end(self.colourlabels[i], False, False, 6)
 
+        # comboboxentrytheme
+        themes_store = Gtk.ListStore(str)
+        for t in themes:
+            themes_store.append([t])
+        self.themes_combo = Gtk.ComboBox.new_with_model(themes_store)
+        renderer_text = Gtk.CellRendererText()
+        self.themes_combo.pack_start(renderer_text, True)
+        self.themes_combo.add_attribute(renderer_text, "text", 0)
+        ind = themes.index(self.theme)
+        self.themes_combo.set_active(ind)
+        hboxthemes.pack_start(self.themes_combo, False, False, 0)
+
         for hbox in hboxcolour[::-1]:
             vboxcolours.pack_end(hbox, False, False, 5)
         hboxcolours.pack_start(vboxcolours, False, False, 30)
@@ -265,6 +285,7 @@ class NumixFoldersGUI(Gtk.Application):
         vboxmain.pack_start(hboxpreview, True, True, 15)
         vboxmain.pack_start(hboxcombo, False, False, 25)
         vboxmain.pack_start(hboxcolours, False, False, 0)
+        vboxmain.pack_start(hboxthemes, False, False, 0)
 
         # connect signals
         self.colours_combo.connect("changed", self.combo_changed_colour)
@@ -273,6 +294,7 @@ class NumixFoldersGUI(Gtk.Application):
             but.connect("color_set", self.colourbutton_changed, j)
         for j, ent in enumerate(self.colourentries):
             ent.connect("changed", self.entry_changed, j)
+        self.themes_combo.connect("changed", self.combo_changed_theme)
         buttonok.connect("clicked", self.on_ok_clicked)
         buttonclose.connect("clicked", self.exit)
 
@@ -345,6 +367,11 @@ class NumixFoldersGUI(Gtk.Application):
         self.combo_changed_colour(self.colours_combo)
         if self.global_colour == "custom":
             self.update_preview(self.style, self.colour)
+
+    def combo_changed_theme(self, widget):
+        ind = widget.get_active()
+        theme = themes[ind]
+        self.theme = str(theme)
 
     def colourbutton_changed(self, widget, arg):
         colour = widget.get_color()
@@ -443,8 +470,9 @@ class NumixFoldersGUI(Gtk.Application):
         print(colour)
         for i in range(number_colours):
             print(self.colour[i].replace("#", ""))
+        print(self.theme)
         self.quit()
 
 
-win = NumixFoldersGUI(style, colour, colour_list)
+win = NumixFoldersGUI(style, colour, colour_list, theme)
 win.run(None)
