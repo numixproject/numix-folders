@@ -108,12 +108,12 @@ if [ "$runmode" -eq 2 ]; then
     colour3=$(sed -n 5p "$config_file")
     theme=$(sed -n 6p "$config_file")
     vars=$("$scriptpath"/gui/gui "$style" "$colour" "#$colour1" "#$colour2" "#$colour3" "$theme")
-    style=$(echo $vars | awk '{print $1}')
-    colour=$(echo $vars | awk '{print $2}')
-    colour1=$(echo $vars | awk '{print $3}')
-    colour2=$(echo $vars | awk '{print $4}')
-    colour3=$(echo $vars | awk '{print $5}')
-    theme=$(echo $vars | awk '{print $6}')
+    style=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $1}')
+    colour=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $2}')
+    colour1=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $3}')
+    colour2=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $4}')
+    colour3=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $5}')
+    theme=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $6}')
     if [[ -z "$style" ]]; then
         exit
     fi
@@ -282,6 +282,8 @@ else
     done
 fi
 
+echo -e "* Copying Numix Folders icons to ${ddir} ."
+
 if [[ "${sdir}" != "${ddir}" ]]; then
     if [ -d "${ddir}"/Numix-Folders ]; then
         rm -r "${ddir}"/Numix-Folders
@@ -302,6 +304,8 @@ if [ "$colour" == "custom" ]; then
         -exec sed -i --follow-symlinks "s/replacecolour3/#$colour3/g" {} \;
 fi
 
+echo -e "* Creating symlinks to selected Numix Folders icons in ${ddir} ."
+
 currentcolour=$(readlink ${sdir}/Numix/16/places/folder.svg | cut -d '-' -f 1)
 links=$(find -L ${sdir}/Numix/*/{actions,places} -xtype l)
 
@@ -314,23 +318,22 @@ for link in $links; do
     subfolder=${subfolder#${sdir}/Numix/}
     if [[ $newlink == *"$currentcolour"* ]]; then
         newlink=${newlink/${currentcolour}/${colour}}
-        newlink="${ddir}"/Numix-Folders/"${subfolder}"/"${newlink}"
-        if [ ! -f "$newlink" ]; then
-            newlink=${newlink#${ddir}/Numix-Folders/${subfolder}/}
-            if [[ "$sdir" != "$ddir" ]]; then
+        if [[ "$sdir" != "$ddir" ]]; then
+            # Check if the target icon is part of Numix Folders
+            # If it doesn't, target is the absolute path to the system-wide installation
+            if [ ! -f "${ddir}/Numix-Folders/${subfolder}/${newlink}" ]; then
                 newlink="${sdir}"/Numix/"${subfolder}"/"${newlink}"
             fi
-        else
-            newlink=${newlink#${ddir}/Numix-Folders/${subfolder}/}
-        fi
-        link=${link/${sdir}/${ddir}}
-        link=${link/Numix/Numix-Folders}
-        if [ ! -d "$(dirname "${link}")" ]; then
-            mkdir -p "$(dirname "${link}")"
+            link=${link/${sdir}\/Numix/${ddir}\/Numix-Folders}
+            if [ ! -d "$(dirname "${link}")" ]; then
+                mkdir -p "$(dirname "${link}")"
+            fi
         fi
         ln -sf "${newlink}" "${link}"
     fi
 done
+
+echo -e "* Copying extra Numix Circle/Square icons to ${ddir} ."
 
 if [[ "${sdir}" == "${ddir}" ]]; then
     chown -R "$cuser" "${ddir}"/Numix/
@@ -350,15 +353,19 @@ else
         cp -rH "$scriptpath"/styles/"${style}"/"${theme}"/* "${ddir}"/Numix-Folders/
     fi
 
+    echo -e "* Creating symlinks to new Numix Folders icons in ${ddir} ."
+
+    # Find links to icons in Numix-Folders theme
     baselinks=$(find -L "${ddir}"/Numix-Folders -xtype l)
     for bl in $baselinks; do
         cd "$(dirname "${bl}")" || continue
-        bl=${bl/${ddir}/${sdir}}
-        bl=${bl/Numix-Folders/Numix}
+        # Find links to the links with the same name in Numix theme
+        bl=${bl/${ddir}\/Numix-Folders/${sdir}\/Numix}
         newlinks=$(find -L "${sdir}"/Numix -samefile "${bl}")
+        bl=$(basename "${bl}")
+        # Re-create those links in the Numix-Folders theme
         for nl in $newlinks; do
             nl=$(basename "${nl}")
-            bl=$(basename "${bl}")
             if [[ "${nl}" != "${bl}" ]]; then
                 ln -sf "${bl}" "${nl}"
             fi
@@ -369,7 +376,7 @@ else
     gtk-update-icon-cache -f "${ddir}"/Numix-Folders/
 fi
 
-echo "Folder change complete!"
+echo "* Folder change complete!"
 {
     echo "$style"
     echo "$colour"
