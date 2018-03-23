@@ -76,7 +76,7 @@ colours = ("Default", "Blue", "Brown", "Green", "Grey", "Orange",
            "Pink", "Purple", "Red", "Yellow", "Style 1", "Style 2",
            "Style 3", "Style 4", "Style 5", "Style 6", "Custom")
 
-themes = ("Numix", "Numix-Circle", "Numix-Square")
+themes = ["Numix", "Numix-Circle", "Numix-Square"]
 
 number_styles = 6
 number_colours = 3
@@ -114,10 +114,10 @@ else:
         colour = "default"
         colour_list = defaults["style %s" % (style)]
 
-if len(argv) > 6:
+if len(argv) > 6 and argv[6] in themes:
     theme = argv[6]
 else:
-    theme = "Numix"
+    theme = themes[0]
 
 
 class NumixFoldersGUI(Gtk.Application):
@@ -143,10 +143,10 @@ class NumixFoldersGUI(Gtk.Application):
         self.win.set_resizable(False)
         self.win.set_wmclass("numix-folders", "Numix Folders")
         self.win.set_position(Gtk.WindowPosition.CENTER)
+        self.theme = theme
         self.colour = colour_list
         self.global_colour = colour
         self.style = style
-        self.theme = theme
 
         # boxes
         vboxall = Gtk.Box(orientation=Gtk.Orientation.VERTICAL)
