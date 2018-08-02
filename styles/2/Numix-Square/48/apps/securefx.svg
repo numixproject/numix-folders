@@ -1,183 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 48 48"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="securefx.svg">
-  <metadata
-     id="metadata76">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1260"
-     inkscape:window-height="962"
-     id="namedview74"
-     showgrid="false"
-     inkscape:zoom="4.9166667"
-     inkscape:cx="2.7314252"
-     inkscape:cy="-2.4631568"
-     inkscape:window-x="10"
-     inkscape:window-y="52"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="svg2">
-    <inkscape:grid
-       type="xygrid"
-       id="grid4234" />
-  </sodipodi:namedview>
-  <defs
-     id="defs4">
-    <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4174">
-      <stop
-         style="stop-color:#77a4ff;stop-opacity:1;"
-         offset="0"
-         id="stop4176" />
-      <stop
-         style="stop-color:#8bb1ff;stop-opacity:1"
-         offset="1"
-         id="stop4178" />
-    </linearGradient>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4174"
-       id="linearGradient4344"
-       x1="-47"
-       y1="24"
-       x2="-1"
-       y2="24"
-       gradientUnits="userSpaceOnUse" />
-  </defs>
-  <g
-     id="g11">
-    <path
-       inkscape:connector-curvature="0"
-       d="m 1,43 0,0.25 c 0,2.216 1.784,4 4,4 l 38,0 c 2.216,0 4,-1.784 4,-4 L 47,43 c 0,2.216 -1.784,4 -4,4 L 5,47 C 2.784,47 1,45.216 1,43 Z m 0,0.5 0,0.5 c 0,2.216 1.784,4 4,4 l 38,0 c 2.216,0 4,-1.784 4,-4 l 0,-0.5 c 0,2.216 -1.784,4 -4,4 l -38,0 c -2.216,0 -4,-1.784 -4,-4 z"
-       style="opacity:0.02000002"
-       id="path13" />
-    <path
-       inkscape:connector-curvature="0"
-       d="m 1,43.25 0,0.25 c 0,2.216 1.784,4 4,4 l 38,0 c 2.216,0 4,-1.784 4,-4 l 0,-0.25 c 0,2.216 -1.784,4 -4,4 l -38,0 c -2.216,0 -4,-1.784 -4,-4 z"
-       style="opacity:0.05"
-       id="path15" />
-    <path
-       inkscape:connector-curvature="0"
-       d="m 1,43 0,0.25 c 0,2.216 1.784,4 4,4 l 38,0 c 2.216,0 4,-1.784 4,-4 L 47,43 c 0,2.216 -1.784,4 -4,4 L 5,47 C 2.784,47 1,45.216 1,43 Z"
-       style="opacity:0.1"
-       id="path17" />
-  </g>
-  <rect
-     transform="matrix(0,-1,1,0,0,0)"
-     rx="4"
-     y="1"
-     x="-47"
-     height="46"
-     width="46"
-     style="fill:url(#linearGradient4344);fill-opacity:1.0"
-     id="rect19" />
-  <g
-     id="g21">
-    <g
-       transform="translate(0,-1004.3622)"
-       id="g23">
-      <path
-         inkscape:connector-curvature="0"
-         d="m 1,1043.36 0,4 c 0,2.216 1.784,4 4,4 l 38,0 c 2.216,0 4,-1.784 4,-4 l 0,-4 c 0,2.216 -1.784,4 -4,4 l -38,0 c -2.216,0 -4,-1.784 -4,-4 z"
-         style="opacity:0.1"
-         id="path25" />
-    </g>
-  </g>
-  <path
-     inkscape:connector-curvature="0"
-     d="m 14.751018,14 c -0.391,0 -0.75,0.422 -0.75,0.875 l 0,1.125 -1.094,0 -0.094,0 c -0.441,0.043 -0.816,0.419 -0.813,0.844 l 0,16.281 c 0,0.453 0.434,0.875 0.906,0.875 l 22.19,0 c 0.469,0 0.906,-0.422 0.906,-0.875 l 0,-14.219 c 0,-0.449 -0.438,-0.906 -0.906,-0.906 l -1.094,0 0,-3.125 c 0,-0.454 -0.355,-0.875 -0.75,-0.875 l -18.5,0 z"
-     style="opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
-     id="path80" />
-  <path
-     inkscape:connector-curvature="0"
-     d="m 14.001018,19 0,-5.132 c 0,-0.453 0.359,-0.868 0.75,-0.868 l 18.5,0 c 0.395,0 0.75,0.413 0.75,0.868 l 0,5.132 m -20,0"
-     style="fill:#b29c9c;fill-opacity:1;fill-rule:nonzero;stroke:none"
-     id="path82" />
-  <path
-     inkscape:connector-curvature="0"
-     d="m 12.814018,15 c -0.441,0.043 -0.816,0.434 -0.813,0.859 l 0,16.278 c 0,0.453 0.43,0.863 0.902,0.863 l 22.2,0 c 0.469,0 0.898,-0.41 0.898,-0.863 l 0,-14.243 c 0,-0.449 -0.43,-0.894 -0.898,-0.894 l -9.102,0 0,-1.125 c 0,-0.449 -0.457,-0.875 -0.925,-0.875 l -12.176,0 c -0.027,0 -0.059,0 -0.09,0"
-     style="fill:#ecedf1;fill-opacity:1;fill-rule:nonzero;stroke:none"
-     id="path84" />
-  <g
-     transform="translate(3.0003615,3)"
-     style="opacity:0.1;fill:#000000"
-     id="g56">
-    <path
-       d="m 28,18 a 5,5 0 0 0 -5,5 5,5 0 0 0 5,5 5,5 0 0 0 5,-5 5,5 0 0 0 -5,-5 z m 0,1 A 3.5,3.5 0 0 1 31.5,22.5 3.5,3.5 0 0 1 28,26 3.5,3.5 0 0 1 24.5,22.5 3.5,3.5 0 0 1 28,19"
-       style="fill-opacity:1"
-       id="path58"
-       inkscape:connector-curvature="0" />
-    <rect
-       width="14"
-       height="10"
-       x="21"
-       y="23"
-       rx="1.1670001"
-       style="fill-opacity:1"
-       id="rect60" />
-  </g>
-  <g
-     transform="translate(3,2)"
-     id="g62">
-    <path
-       d="m 28,18 a 5,5 0 0 0 -5,5 5,5 0 0 0 5,5 5,5 0 0 0 5,-5 5,5 0 0 0 -5,-5 z m 0,1 A 3.5,3.5 0 0 1 31.5,22.5 3.5,3.5 0 0 1 28,26 3.5,3.5 0 0 1 24.5,22.5 3.5,3.5 0 0 1 28,19"
-       style="fill:#b3b3b3;fill-opacity:1"
-       id="path64"
-       inkscape:connector-curvature="0" />
-    <rect
-       rx="1.1670001"
-       y="23"
-       x="21"
-       height="10"
-       width="14"
-       style="fill:#b3b3b3;fill-opacity:1"
-       id="rect66" />
-    <circle
-       r="4"
-       cy="28"
-       cx="28"
-       style="fill:#808080;fill-opacity:1"
-       id="circle68" />
-    <rect
-       y="28"
-       x="27"
-       height="3"
-       width="2"
-       style="fill:#333333;fill-opacity:1"
-       id="rect70" />
-    <circle
-       r="2"
-       cy="27"
-       cx="28"
-       style="fill:#333333;fill-opacity:1"
-       id="circle72" />
-  </g>
+<svg version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <linearGradient id="linearGradient4344" x1="-47" x2="-1" y1="24" y2="24" gradientUnits="userSpaceOnUse">
+   <stop style="stop-color:#77a4ff" offset="0"/>
+   <stop style="stop-color:#8bb1ff" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m1 43v0.25c0 2.216 1.784 4 4 4h38c2.216 0 4-1.784 4-4v-0.25c0 2.216-1.784 4-4 4h-38c-2.216 0-4-1.784-4-4zm0 0.5v0.5c0 2.216 1.784 4 4 4h38c2.216 0 4-1.784 4-4v-0.5c0 2.216-1.784 4-4 4h-38c-2.216 0-4-1.784-4-4z" style="opacity:.02"/>
+ <path d="m1 43.25v0.25c0 2.216 1.784 4 4 4h38c2.216 0 4-1.784 4-4v-0.25c0 2.216-1.784 4-4 4h-38c-2.216 0-4-1.784-4-4z" style="opacity:.05"/>
+ <path d="m1 43v0.25c0 2.216 1.784 4 4 4h38c2.216 0 4-1.784 4-4v-0.25c0 2.216-1.784 4-4 4h-38c-2.216 0-4-1.784-4-4z" style="opacity:.1"/>
+ <rect transform="rotate(-90)" x="-47" y="1" width="46" height="46" rx="4" style="fill:url(#linearGradient4344)"/>
+ <g transform="translate(0 -1004.4)">
+  <path d="m1 1043.4v4c0 2.216 1.784 4 4 4h38c2.216 0 4-1.784 4-4v-4c0 2.216-1.784 4-4 4h-38c-2.216 0-4-1.784-4-4z" style="opacity:.1"/>
+ </g>
+ <path d="m12 32v1.125c0 0.453 0.43425 0.875 0.90625 0.875h11.094v0.83203c0 0.64652 0.52145 1.168 1.168 1.168h11.666c0.64652 0 1.166-0.52145 1.166-1.168v-2.832z" style="opacity:.1"/>
+ <path d="m14.752 13c-0.391 0-0.75 0.41419-0.75 0.86719v5.1328h20v-5.1328c0-0.455-0.355-0.86719-0.75-0.86719h-18.5z" style="fill:#b29c9c"/>
+ <path d="m12.814 15c-0.441 0.043-0.816 0.434-0.813 0.859v16.278c0 0.453 0.43 0.863 0.902 0.863h22.2c0.469 0 0.898-0.41 0.898-0.863v-14.243c0-0.449-0.43-0.894-0.898-0.894h-9.102v-1.125c0-0.449-0.457-0.875-0.925-0.875h-12.176-0.09" style="fill:#ecedf1"/>
+ <g transform="translate(3.0004 3)" style="opacity:.1">
+  <path d="m28 18a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5 5 5 0 0 0-5-5zm0 1a3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5 3.5 3.5 0 0 1-3.5-3.5 3.5 3.5 0 0 1 3.5-3.5"/>
+ </g>
+ <path d="m31 20a5 5 0 0 0-5 5 5 5 0 0 0 5 5 5 5 0 0 0 5-5 5 5 0 0 0-5-5zm0 1a3.5 3.5 0 0 1 3.5 3.5 3.5 3.5 0 0 1-3.5 3.5 3.5 3.5 0 0 1-3.5-3.5 3.5 3.5 0 0 1 3.5-3.5" style="fill:#b3b3b3"/>
+ <rect x="24" y="25" width="14" height="10" rx="1.167" style="fill:#b3b3b3"/>
+ <circle cx="31" cy="30" r="4" style="fill:#808080"/>
+ <rect x="30" y="30" width="2" height="3" style="fill:#333"/>
+ <circle cx="31" cy="29" r="2" style="fill:#333"/>
 </svg>
