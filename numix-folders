@@ -320,7 +320,7 @@ for link in $links; do
         newlink=${newlink/${currentcolour}/${colour}}
         if [[ "$sdir" != "$ddir" ]]; then
             # Check if the target icon is part of Numix Folders
-            # If it doesn't, target is the absolute path to the system-wide installation
+            # If it isn't, target is the absolute path to the system-wide installation
             if [ ! -f "${ddir}/Numix-Folders/${subfolder}/${newlink}" ]; then
                 newlink="${sdir}"/Numix/"${subfolder}"/"${newlink}"
             fi
@@ -362,10 +362,10 @@ else
         # Find links to the links with the same name in Numix theme
         bl=${bl/${ddir}\/Numix-Folders/${sdir}\/Numix}
         newlinks=$(find -L "${sdir}"/Numix -samefile "${bl}")
-        bl=$(basename "${bl}")
+        bl="${bl##*/}"
         # Re-create those links in the Numix-Folders theme
         for nl in $newlinks; do
-            nl=$(basename "${nl}")
+            nl="${nl##*/}"
             if [[ "${nl}" != "${bl}" ]]; then
                 ln -sf "${bl}" "${nl}"
             fi
