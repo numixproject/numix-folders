@@ -92,7 +92,7 @@ if [ "$runmode" -eq 2 ]; then
     elif [ -d /usr/share/icons/Numix/ ]; then
         if [[ $UID -ne 0 ]]; then
             sdir=/usr/share/icons
-            ddir=/home/"$cuser"/.icons
+            ddir=/home/"$cuser"/.local/share/icons
         else
             sdir=/usr/share/icons
             ddir=$sdir
@@ -133,7 +133,7 @@ else
     elif [ -d /usr/share/icons/Numix/ ]; then
         if [[ $UID -ne 0 ]]; then
             sdir=/usr/share/icons
-            ddir=/home/"$cuser"/.icons
+            ddir=/home/"$cuser"/.local/share/icons
         else
             sdir=/usr/share/icons
             ddir=$sdir
