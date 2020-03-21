@@ -136,7 +136,7 @@ class NumixFoldersGUI(Gtk.Application):
 
     def on_activate(self, app, style, colour, colour_list, theme):
         self.win = Gtk.ApplicationWindow(
-            Gtk.WindowType.TOPLEVEL, application=app)
+            type=Gtk.WindowType.TOPLEVEL, application=app)
         self.win.set_title("Numix Folders")
         self.win.set_icon_name('numix-folders')
         self.win.set_border_width(18)
@@ -258,9 +258,9 @@ class NumixFoldersGUI(Gtk.Application):
         hboxcolours.pack_start(vboxcolours, False, False, 30)
 
         # buttons
-        buttonok = Gtk.Button("_Apply", use_underline=True)
+        buttonok = Gtk.Button(label="_Apply", use_underline=True)
         buttonok.get_style_context().add_class("suggested-action")
-        buttonclose = Gtk.Button("_Cancel", use_underline=True)
+        buttonclose = Gtk.Button(label="_Cancel", use_underline=True)
         buttonclose.get_style_context().add_class("destructive-action")
 
         # header bar
