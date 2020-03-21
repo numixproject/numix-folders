@@ -389,6 +389,8 @@ if [[ "${sdir}" != "${ddir}" ]]; then
         ld="${ld##*/}"
         ln -sf "${rd}" "${ld}"
     done
+    rm -r 96
+    ln -sf 48 96
 fi
 
 echo "* Folder change complete!"
