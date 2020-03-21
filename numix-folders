@@ -307,7 +307,11 @@ fi
 echo -e "* Creating symlinks to selected Numix Folders icons in ${ddir} ."
 
 currentcolour=$(readlink ${sdir}/Numix/16/places/folder.svg | cut -d '-' -f 1)
-links=$(find -L ${sdir}/Numix/*/{actions,places} -xtype l)
+realdirs=$(find ${sdir}/Numix -mindepth 1 -maxdepth 1 -type d)
+for rd in $realdirs; do
+    links+=$(find -L ${rd}/actions -xtype l)
+    links+=$(find -L ${rd}/places -xtype l)
+done
 
 for link in $links; do
     if [[ $link == *folder_color* ]]; then
@@ -374,6 +378,17 @@ else
 
     chown -R "$cuser" "${ddir}"/Numix-Folders/
     gtk-update-icon-cache -f "${ddir}"/Numix-Folders/
+fi
+
+if [[ "${sdir}" != "${ddir}" ]]; then
+    cd "${ddir}"/Numix-Folders
+    linkdirs=$(find ${sdir}/Numix -mindepth 1 -maxdepth 1 -type l)
+    for ld in $linkdirs; do
+        rd=$(readlink "${ld}")
+        rd="${rd##*/}"
+        ld="${ld##*/}"
+        ln -sf "${rd}" "${ld}"
+    done
 fi
 
 echo "* Folder change complete!"
