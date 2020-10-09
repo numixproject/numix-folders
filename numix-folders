@@ -90,7 +90,7 @@ if [ "$runmode" -eq 2 ]; then
     elif [ -d /usr/share/icons/Numix/ ]; then
         if [[ $UID -ne 0 ]]; then
             scriptname=$(readlink -f "$0")
-            pkexec "$scriptname"
+            exec gksudo "$scriptname"
         else
             dir=/usr/share/icons
         fi
@@ -321,4 +321,3 @@ echo "Folder change complete!"
 } > "$config_file"
 chown -R "$cuser" "$config_file"
 sucess
-
