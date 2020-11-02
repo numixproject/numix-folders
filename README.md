@@ -29,3 +29,11 @@ This program provides and installs alternate folders for use with our [base icon
 | **yellow**  | ![ffca28](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/yellow/ffca28.png) `#ffca28` | ![ffb300](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/yellow/ffb300.png) `#ffb300` | ![c79a18](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/yellow/c79a18.png) `#c79a18` |
 | **custom**  | - | - | - |
 
+# macOS
+A python script is also provided that will convert all icons to '.icn' format.
+A .icn image can be used to replace folder or application icons on macOS.
+
+This script is "make_icns.py" it is a python3 script. The script requires 
+[Cairo](https://cairographics.org/) to be installed for python3, and
+[libicns](https://icns.sourceforge.io/) to be installed system wide for the
+png2icns command.
