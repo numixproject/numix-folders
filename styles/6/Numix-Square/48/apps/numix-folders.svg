@@ -17,15 +17,15 @@
   </g>
  </g>
  <g transform="matrix(3.543307,0,0,3.543307,-3.7369091e-8,1)" style="fill:#000;opacity:0.1;fill-opacity:1">
-  <path d="m 14 16 c -0.5 0 -1 0.498 -1 0.998 l -0.002 0 c 0 5.669 0 11.337 0 17.01 l 23.998 0 0 -14.932 c 0 -0.531 -0.5 -1.066 -1 -1.066 l -0.996 0 c -2.987 -0.016 -6 -0.008 -9 -0.008 l -1 -1.998 z" transform="matrix(0.28222223,0,0,0.28222223,-0.28222223,-0.56444449)" style="fill:#000;stroke:none"/>
+  <path d="m 14 16 c -0.5 0 -1 0.498 -1 0.998 l -0.002 0 c 0 5.669 0 11.337 0 17.01 l 23.998 0 0 -14.932 c 0 -0.531 -0.5 -1.066 -1 -1.066 l -0.996 0 c -2.987 -0.016 -6 -0.008 -9 -0.008 l -1 -1.998 z" transform="matrix(0.28222223,0,0,0.28222223,-0.28222223,-0.56444449)" style="fill:#000"/>
  </g>
- <path d="m 21 13.996 0 4 l 3 0 1 -2 2 0 0 -0.004 -2 0 -1 -2 -3 0 z" style="fill:#cdc22c;opacity:1;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
- <path d="m 13 13.996 c -0.5 0 -1 0.5 -1 1 l 0 3 l 4 0 0 -4 -3 0 z" style="fill:#617fa1;opacity:1;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
- <path d="m 16 13.996 0 4 l 5 0 0 -4 -5 0 z" style="fill:#5a945c;opacity:1;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
- <rect width="11" height="4" x="14" y="16.996" style="fill:#fffdf0;fill-opacity:1;stroke:none"/>
- <path d="m 12 18 0 14 4 0 0 -14 -4 0 z" style="fill:#9ab9dd;opacity:1;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
- <path d="m 16 18 0 14 5 0 0 -14 -5 0 z" style="fill:#9add9c;opacity:1;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
- <path d="m 27 16 0 16 5 0 0 -16 -5 0 z" style="fill:#edb968;opacity:1;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
- <path d="m 32,16 0,16 4,0 0,-14.933594 C 36,16.532407 35.5,16 35,16 l -3,0 z" style="fill:#ed8e68;opacity:1;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
- <path d="m 25 16 -1 2 -3 0 0 14 6 0 0 -16 -2 0 z" style="fill:#f3f284;opacity:1;fill-opacity:1;stroke:none;fill-rule:nonzero"/>
+ <path d="m 21 13.996 0 4 l 3 0 1 -2 2 0 0 -0.004 -2 0 -1 -2 -3 0 z" style="fill:#cdc22c"/>
+ <path d="m 13 13.996 c -0.5 0 -1 0.5 -1 1 l 0 3 l 4 0 0 -4 -3 0 z" style="fill:#617fa1"/>
+ <path d="m 16 13.996 0 4 l 5 0 0 -4 -5 0 z" style="fill:#5a945c"/>
+ <rect width="11" height="4" x="14" y="16.996" style="fill:#fffdf0"/>
+ <path d="m 12 18 0 14 4 0 0 -14 -4 0 z" style="fill:#9ab9dd"/>
+ <path d="m 16 18 0 14 5 0 0 -14 -5 0 z" style="fill:#9add9c"/>
+ <path d="m 27 16 0 16 5 0 0 -16 -5 0 z" style="fill:#edb968"/>
+ <path d="m 32,16 0,16 4,0 0,-14.933594 C 36,16.532407 35.5,16 35,16 l -3,0 z" style="fill:#ed8e68"/>
+ <path d="m 25 16 -1 2 -3 0 0 14 6 0 0 -16 -2 0 z" style="fill:#f3f284"/>
 </svg>
