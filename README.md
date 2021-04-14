@@ -1,5 +1,3 @@
-**WARNING: this script is only compatible with the Base theme from 19th June 2015 onward (specifically commit [b85bdf20f6](https://github.com/numixproject/numix-icon-theme/commit/b85bdf20f674725db33a773d6b8ced7cb4d0ff7f)). Using it with any earlier version WILL break your theme.**
-
 # Folders
 This program provides and installs alternate folders for use with our [base icon theme](https://github.com/numixproject/numix-icon-theme). To use the script simply download this repo, move into the repos directory and then run the script. All work here is licensed under the GNU GPLv3+
 
@@ -29,3 +27,5 @@ This program provides and installs alternate folders for use with our [base icon
 | **yellow**  | ![ffca28](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/yellow/ffca28.png) `#ffca28` | ![ffb300](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/yellow/ffb300.png) `#ffb300` | ![c79a18](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/yellow/c79a18.png) `#c79a18` |
 | **custom**  | - | - | - |
 
+## macOS
+While this program is only supported on Linux, there's a [macOS script](https://github.com/numixproject/numix-folders/wiki/macOS-Usage) by @BKrajancic which might be of interest.
