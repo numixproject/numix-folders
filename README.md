@@ -29,3 +29,7 @@ This program provides and installs alternate folders for use with our [base icon
 
 ## macOS
 While this program is only supported on Linux, there's a [macOS script](https://github.com/numixproject/numix-folders/wiki/macOS-Usage) by @BKrajancic which might be of interest.
+
+## Non-GUI usage
+To use the interactive command-line interface of numix-folders (instead of the GUI which might not work) run ``./numix-folders -t`` inside the directory where the ``numix-folders``script file is installed.
+If you do not specify values for folder style and colour and just hit enter, default values are used.
