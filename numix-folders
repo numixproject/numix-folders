@@ -20,46 +20,46 @@ else
     case "$1" in
         -c|--colours)
             echo -e \
-                "This is a list of currently supported folder\n" \
-                "\rcolours that can be used to replace the default.\n\n" \
-                "\rdefault  - reverts any previous colour change\n" \
-                "\rblue     - 42a5f5\n" \
-                "\rbrown    - 8d6e63\n" \
-                "\rgreen    - 66bb6a\n" \
-                "\rgrey     - bdbdbd\n" \
-                "\rorange   - f57c00\n" \
-                "\rpink     - f06292\n" \
-                "\rpurple   - 7e57c2\n" \
-                "\rred      - ef5350\n" \
-                "\ryellow   - ffca28\n" \
-                "\rstyle{#} - use colours from default style #\n" \
-                "\rcustom   - choose your own colours"
+                "This is a list of currently supported folder\\n" \
+                "\\rcolours that can be used to replace the default.\\n\\n" \
+                "\\rdefault  - reverts any previous colour change\\n" \
+                "\\rblue     - 42a5f5\\n" \
+                "\\rbrown    - 8d6e63\\n" \
+                "\\rgreen    - 66bb6a\\n" \
+                "\\rgrey     - bdbdbd\\n" \
+                "\\rorange   - f57c00\\n" \
+                "\\rpink     - f06292\\n" \
+                "\\rpurple   - 7e57c2\\n" \
+                "\\rred      - ef5350\\n" \
+                "\\ryellow   - ffca28\\n" \
+                "\\rstyle{#} - use colours from default style #\\n" \
+                "\\rcustom   - choose your own colours"
             sucess ;;
         -s|--styles)
             echo -e \
-                "This is a list of currently supported folder\n" \
-                "\rstyles that can be used to replace the default.\n\n" \
-                "\r0 - default folder theme (uninstall)\n" \
-                "\r1 - the original folder design\n" \
-                "\r2 - plain design which matches our Legacy themes\n" \
-                "\r3 - tilted design which never made it to production\n" \
-                "\r4 - one that launched with the redesign of Circle\n" \
-                "\r5 - curvy design which never made it to production\n" \
-                "\r6 - the current new design that landed in 2015"
+                "This is a list of currently supported folder\\n" \
+                "\\rstyles that can be used to replace the default.\\n\\n" \
+                "\\r0 - default folder theme (uninstall)\\n" \
+                "\\r1 - the original folder design\\n" \
+                "\\r2 - plain design which matches our Legacy themes\\n" \
+                "\\r3 - tilted design which never made it to production\\n" \
+                "\\r4 - one that launched with the redesign of Circle\\n" \
+                "\\r5 - curvy design which never made it to production\\n" \
+                "\\r6 - the current new design that landed in 2015"
             sucess ;;
         -h|--help)
             echo -e \
-                "A script for changing the Numix base folder\n" \
-                "\rstyle and colour.\n\n" \
-                "\rRunning as root makes the change globally,\n" \
-                "\rotherwise it is only made locally. Run as\n" \
-                "\rappropriate to your Numix installation.\n\n" \
-                "\rUsage: numix-folders [OPTION]\n" \
-                "\r  -c, --colours \t List of available colours.\n" \
-                "\r  -s, --styles \t\t List of available styles.\n" \
-                "\r  -h, --help \t\t Displays this help menu.\n"\
-                "\r  -p, --prev \t\t Use previous settings.\n"\
-                "\r  -t, --cli \t\t Use script in terminal"
+                "A script for changing the Numix base folder\\n" \
+                "\\rstyle and colour.\\n\\n" \
+                "\\rRunning as root makes the change globally,\\n" \
+                "\\rotherwise it is only made locally. Run as\\n" \
+                "\\rappropriate to your Numix installation.\\n\\n" \
+                "\\rUsage: numix-folders [OPTION]\\n" \
+                "\\r  -c, --colours \\t List of available colours.\\n" \
+                "\\r  -s, --styles \\t\\t List of available styles.\\n" \
+                "\\r  -h, --help \\t\\t Displays this help menu.\\n"\
+                "\\r  -p, --prev \\t\\t Use previous settings.\\n"\
+                "\\r  -t, --cli \\t\\t Use script in terminal"
             sucess ;;
         -p|--prev)
                 runmode=1;;
@@ -67,8 +67,8 @@ else
                 runmode=0;;
         *)
             echo -e \
-                "numix-folders: invalid option -- '$1'\n" \
-                "\rTry 'numix-folders --help' for more information."
+                "numix-folders: invalid option -- '$1'\\n" \
+                "\\rTry 'numix-folders --help' for more information."
             gerror ;;
     esac
 fi
@@ -84,15 +84,18 @@ scriptpath=$(dirname "$(readlink -f "$0")")
 
 if [ "$runmode" -eq 2 ]; then
     if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
-        dir=/home/"$cuser"/.local/share/icons
+        sdir=/home/"$cuser"/.local/share/icons
+        ddir=$sdir
     elif [ -d /home/"$cuser"/.icons/Numix ]; then
-        dir=/home/"$cuser"/.icons
+        sdir=/home/"$cuser"/.icons
+        ddir=$sdir
     elif [ -d /usr/share/icons/Numix/ ]; then
         if [[ $UID -ne 0 ]]; then
-            scriptname=$(readlink -f "$0")
-            pkexec "$scriptname"
+            sdir=/usr/share/icons
+            ddir=/home/"$cuser"/.local/share/icons
         else
-            dir=/usr/share/icons
+            sdir=/usr/share/icons
+            ddir=$sdir
         fi
     else
         "$scriptpath"/gui/error
@@ -103,12 +106,14 @@ if [ "$runmode" -eq 2 ]; then
     colour1=$(sed -n 3p "$config_file")
     colour2=$(sed -n 4p "$config_file")
     colour3=$(sed -n 5p "$config_file")
-    vars=$("$scriptpath"/gui/gui "$style" "$colour" "#$colour1" "#$colour2" "#$colour3")
-    style=$(echo $vars | awk '{print $1}')
-    colour=$(echo $vars | awk '{print $2}')
-    colour1=$(echo $vars | awk '{print $3}')
-    colour2=$(echo $vars | awk '{print $4}')
-    colour3=$(echo $vars | awk '{print $5}')
+    theme=$(sed -n 6p "$config_file")
+    vars=$("$scriptpath"/gui/gui "$style" "$colour" "#$colour1" "#$colour2" "#$colour3" "$theme")
+    style=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $1}')
+    colour=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $2}')
+    colour1=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $3}')
+    colour2=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $4}')
+    colour3=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $5}')
+    theme=$(echo "$vars" | awk 'BEGIN{ RS = "" ; FS = "\n" }{print $6}')
     if [[ -z "$style" ]]; then
         exit
     fi
@@ -120,22 +125,23 @@ if [ "$runmode" -eq 2 ]; then
 
 else
     if [ -d /home/"$cuser"/.local/share/icons/Numix/ ]; then
-        dir=/home/"$cuser"/.local/share/icons
+        sdir=/home/"$cuser"/.local/share/icons
+        ddir=$sdir
     elif [ -d /home/"$cuser"/.icons/Numix ]; then
-        dir=/home/"$cuser"/.icons
+        sdir=/home/"$cuser"/.icons
+        ddir=$sdir
     elif [ -d /usr/share/icons/Numix/ ]; then
         if [[ $UID -ne 0 ]]; then
-            echo -e \
-                "You appear to have Numix installed globally.\n" \
-                "\rPlease run this script again as root."
-            gerror
+            sdir=/usr/share/icons
+            ddir=/home/"$cuser"/.local/share/icons
         else
-            dir=/usr/share/icons
+            sdir=/usr/share/icons
+            ddir=$sdir
         fi
     else
         echo -e \
-            "You don't appear to have Numix installed! Please\n" \
-            "\rinstall it and run this script again."
+            "You don't appear to have Numix installed! Please\\n" \
+            "\\rinstall it and run this script again."
         gerror
     fi
 
@@ -150,8 +156,8 @@ else
                     style="$answer"
                 else
                     echo -e \
-                        "Oops! You've chosen an invalid style number.\n" \
-                        "\rRun 'numix-folders --styles' for an option list."
+                        "Oops! You've chosen an invalid style number.\\n" \
+                        "\\rRun 'numix-folders --styles' for an option list."
                     gerror
                 fi
 
@@ -205,8 +211,8 @@ else
                     function checkhex() {
                         if ! [[ $1 =~ ^[0-9A-Fa-f]{6}$ ]]; then
                            echo -e \
-                               "Oops! The colour: $1 is an invalid hex value.\n" \
-                               "\rBe sure to use valid hex values with six digits (e.g. 000000)."
+                               "Oops! The colour: $1 is an invalid hex value.\\n" \
+                               "\\rBe sure to use valid hex values with six digits (e.g. 000000)."
                            gerror
                         fi
                     }
@@ -242,8 +248,8 @@ else
                     colour="$answer"
                 else
                     echo -e \
-                        "Oops! You've chosen an invalid colour.\n" \
-                        "\rRun 'numix-folders --colours' for an option list."
+                        "Oops! You've chosen an invalid colour.\\n" \
+                        "\\rRun 'numix-folders --colours' for an option list."
                     gerror
                 fi
                 exitloop=1
@@ -255,6 +261,7 @@ else
                 colour1=$(sed -n 3p "$config_file")
                 colour2=$(sed -n 4p "$config_file")
                 colour3=$(sed -n 5p "$config_file")
+                theme=$(sed -n 6p "$config_file")
                 if [[ "$style" -gt 6 || "$style" -lt 1 ]] || [[ -z $colour ]]; then
                     exitloop=0
                     runmode=0
@@ -275,50 +282,125 @@ else
     done
 fi
 
-cp -rf "$scriptpath"/styles/"${style}"/Numix/* "${dir}"/Numix/
+echo -e "* Copying Numix Folders icons to ${ddir} ."
+
+if [[ "${sdir}" != "${ddir}" ]]; then
+    if [ -d "${ddir}"/Numix-Folders ]; then
+        rm -r "${ddir}"/Numix-Folders
+    fi
+    mkdir -p "${ddir}"/Numix-Folders
+    sed -e "s/INHERIT_NAME/${theme/-/ }/" \
+        -e "s/INHERIT_THEME/${theme}/" \
+        "$scriptpath"/skel/index.theme > "${ddir}"/Numix-Folders/index.theme
+    cp -rf "$scriptpath"/styles/"${style}"/Numix/* "${ddir}"/Numix-Folders
+else
+    cp -rf "$scriptpath"/styles/"${style}"/Numix/* "${ddir}"/Numix
+fi
 
 if [ "$colour" == "custom" ]; then
-    find ${dir}/Numix/*/{actions,places}/*custom* \
+    find ${ddir}/Numix-Folders/*/{actions,places}/*custom* \
         -exec sed -i --follow-symlinks "s/replacecolour1/#$colour1/g" {} \; \
         -exec sed -i --follow-symlinks "s/replacecolour2/#$colour2/g" {} \; \
         -exec sed -i --follow-symlinks "s/replacecolour3/#$colour3/g" {} \;
 fi
 
-currentcolour=$(readlink ${dir}/Numix/16/places/folder.svg | cut -d '-' -f 1)
-links=$(find -L ${dir}/Numix/*/{actions,places} -xtype l)
+echo -e "* Creating symlinks to selected Numix Folders icons in ${ddir} ."
+
+currentcolour=$(readlink ${sdir}/Numix/16/places/folder.svg | cut -d '-' -f 1)
+realdirs=$(find ${sdir}/Numix -mindepth 1 -maxdepth 1 -type d)
+for rd in $realdirs; do
+    links+=$(find -L ${rd}/actions -xtype l)
+    links+=$(find -L ${rd}/places -xtype l)
+done
 
 for link in $links; do
     if [[ $link == *folder_color* ]]; then
         continue
     fi
-    newlink=$(readlink "${link}");
+    newlink=$(readlink "${link}")
+    subfolder=$(dirname "${link}")
+    subfolder=${subfolder#${sdir}/Numix/}
     if [[ $newlink == *"$currentcolour"* ]]; then
         newlink=${newlink/${currentcolour}/${colour}}
+        if [[ "$sdir" != "$ddir" ]]; then
+            # Check if the target icon is part of Numix Folders
+            # If it isn't, target is the absolute path to the system-wide installation
+            if [ ! -f "${ddir}/Numix-Folders/${subfolder}/${newlink}" ]; then
+                newlink="${sdir}"/Numix/"${subfolder}"/"${newlink}"
+            fi
+            link=${link/${sdir}\/Numix/${ddir}\/Numix-Folders}
+            if [ ! -d "$(dirname "${link}")" ]; then
+                mkdir -p "$(dirname "${link}")"
+            fi
+        fi
         ln -sf "${newlink}" "${link}"
     fi
 done
 
-chown -R "$cuser" "${dir}"/Numix/
-gtk-update-icon-cache -f "${dir}"/Numix/
-if [ -d "${dir}"/Numix-Circle/ ]; then
-    cp -rH "$scriptpath"/styles/"${style}"/Numix-Circle/* "${dir}"/Numix-Circle/
-    chown -R "$cuser" "${dir}"/Numix-Circle/
-    gtk-update-icon-cache -f "${dir}"/Numix-Circle/
-fi
-if [ -d "${dir}"/Numix-Square/ ]; then
-    cp -rH "$scriptpath"/styles/"${style}"/Numix-Square/* "${dir}"/Numix-Square/
-    chown -R "$cuser" "${dir}"/Numix-Square/
-    gtk-update-icon-cache -f "${dir}"/Numix-Square/
+echo -e "* Copying extra Numix Circle/Square icons to ${ddir} ."
+
+if [[ "${sdir}" == "${ddir}" ]]; then
+    chown -R "$cuser" "${ddir}"/Numix/
+    gtk-update-icon-cache -f "${ddir}"/Numix/
+    if [ -d "${sdir}"/Numix-Circle/ ]; then
+        cp -rH "$scriptpath"/styles/"${style}"/Numix-Circle/* "${ddir}"/Numix-Circle/
+        chown -R "$cuser" "${ddir}"/Numix-Circle/
+        gtk-update-icon-cache -f "${ddir}"/Numix-Circle/
+    fi
+    if [ -d "${sdir}"/Numix-Square/ ]; then
+        cp -rH "$scriptpath"/styles/"${style}"/Numix-Square/* "${ddir}"/Numix-Square/
+        chown -R "$cuser" "${ddir}"/Numix-Square/
+        gtk-update-icon-cache -f "${ddir}"/Numix-Square/
+    fi
+else
+    if [[ "${theme}" != Numix ]]; then
+        cp -rH "$scriptpath"/styles/"${style}"/"${theme}"/* "${ddir}"/Numix-Folders/
+    fi
+
+    echo -e "* Creating symlinks to new Numix Folders icons in ${ddir} ."
+
+    # Find links to icons in Numix-Folders theme
+    baselinks=$(find -L "${ddir}"/Numix-Folders -xtype l)
+    for bl in $baselinks; do
+        cd "$(dirname "${bl}")" || continue
+        # Find links to the links with the same name in Numix theme
+        bl=${bl/${ddir}\/Numix-Folders/${sdir}\/Numix}
+        newlinks=$(find -L "${sdir}"/Numix -samefile "${bl}")
+        bl="${bl##*/}"
+        # Re-create those links in the Numix-Folders theme
+        for nl in $newlinks; do
+            nl="${nl##*/}"
+            if [[ "${nl}" != "${bl}" ]]; then
+                ln -sf "${bl}" "${nl}"
+            fi
+        done
+    done
+
+    chown -R "$cuser" "${ddir}"/Numix-Folders/
+    gtk-update-icon-cache -f "${ddir}"/Numix-Folders/
 fi
 
-echo "Folder change complete!"
+if [[ "${sdir}" != "${ddir}" ]]; then
+    cd "${ddir}"/Numix-Folders
+    linkdirs=$(find ${sdir}/Numix -mindepth 1 -maxdepth 1 -type l)
+    for ld in $linkdirs; do
+        rd=$(readlink "${ld}")
+        rd="${rd##*/}"
+        ld="${ld##*/}"
+        ln -sf "${rd}" "${ld}"
+    done
+    rm -r 96
+    ln -sf 48 96
+fi
+
+echo "* Folder change complete!"
 {
     echo "$style"
     echo "$colour"
     echo "$colour1"
     echo "$colour2"
     echo "$colour3"
+    echo "$theme"
 } > "$config_file"
 chown -R "$cuser" "$config_file"
 sucess
-
