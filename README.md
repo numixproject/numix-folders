@@ -32,4 +32,7 @@ While this program is only supported on Linux, there's a [macOS script](https://
 
 ## Non-GUI usage
 To use the interactive command-line interface of numix-folders (instead of the GUI which might not work) run ``./numix-folders -t`` inside the directory where the ``numix-folders``script file is installed.
+
 If you do not specify values for folder style and colour and just hit enter, default values are used.
+
+Run ``./numix-folders --help`` to see available CLI options
