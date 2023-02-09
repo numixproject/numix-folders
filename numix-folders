@@ -2,7 +2,7 @@
 
 # Script for changing Numix base folder style
 
-# Copyright (C) 2014
+# Copyright (C) 2014-2023 Numix Project contributors
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License (version 3+) as
 # published by the Free Software Foundation. You should have received
@@ -32,7 +32,7 @@ else
                 "\rpurple   - 7e57c2\n" \
                 "\rred      - ef5350\n" \
                 "\ryellow   - ffca28\n" \
-                "\rstyle{#} - use colours from default style #\n" \
+                "\rstyle# - use colours from default style #\n" \
                 "\rcustom   - choose your own colours"
             sucess ;;
         -s|--styles)
