@@ -9,8 +9,8 @@ This program provides and installs alternate folders for use with our [base icon
 | **2** | ![2](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/2/preview.png) | [link](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/2/screenshot.png) | Plain design which matches our Legacy theme |
 | **3** | ![3](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/3/preview.png) | [link](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/3/screenshot.png) | Tilted design which never made it to production |
 | **4** | ![4](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/4/preview.png) | [link](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/4/screenshot.png) | One that launched with the redesign of Circle |
-| **5** | ![5](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/5/preview.png) | [link](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/5/screenshot.png) | Curvy design which never made it to production |
-| **6** | ![6](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/6/preview.png) | [link](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/6/screenshot.png) | The current new design that landed in 2015 |
+| **5** | ![5](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/5/preview.png) | [link](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/5/screenshot.png) | Curvy design which became default in 2023 |
+| **6** | ![6](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/6/preview.png) | [link](https://raw.githubusercontent.com/numixproject/numix-folders/master/styles/6/screenshot.png) | The design which was used from 2015 to 2023 |
 
 ## Colours
 | Colour | Primary | Secondary | Symbol |
@@ -25,7 +25,7 @@ This program provides and installs alternate folders for use with our [base icon
 | **purple**  | ![7e57c2](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/purple/7e57c2.png) `#7e57c2` | ![512da8](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/purple/512da8.png) `#512da8` | ![54398d](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/purple/54398d.png) `#54398d` |
 | **red**     | ![ef5350](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/red/ef5350.png) `#ef5350`    | ![d32f2f](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/red/d32f2f.png) `#d32f2f`    | ![ab3634](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/red/ab3634.png) `#ab3634`    |
 | **yellow**  | ![ffca28](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/yellow/ffca28.png) `#ffca28` | ![ffb300](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/yellow/ffb300.png) `#ffb300` | ![c79a18](https://raw.githubusercontent.com/numixproject/numix-folders/master/colours/yellow/c79a18.png) `#c79a18` |
-| **style#**  | colours from folder sytle no. **#** (cf table above) | 
+| **style#**  | colours from folder sytle no. **#** (cf pictures in table above) | 
 | **custom**  | - | - | - |
 
 ## macOS

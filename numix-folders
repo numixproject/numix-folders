@@ -44,8 +44,8 @@ else
                 "\r2 - plain design which matches our Legacy themes\n" \
                 "\r3 - tilted design which never made it to production\n" \
                 "\r4 - one that launched with the redesign of Circle\n" \
-                "\r5 - curvy design which never made it to production\n" \
-                "\r6 - the current new design that landed in 2015"
+                "\r5 - curvy design which became default in 2023\n" \
+                "\r6 - design used from 2015 to 2023"
             sucess ;;
         -h|--help)
             echo -e \
