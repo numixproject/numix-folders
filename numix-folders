@@ -238,7 +238,7 @@ else
                         colour2=$col2def
                         colour3=$col3def
                     fi
-                elif [ -d colours/"$answer" ]; then
+                elif [ -d ${scriptpath}/colours/"$answer" ]; then
                     colour="$answer"
                 else
                     echo -e \
